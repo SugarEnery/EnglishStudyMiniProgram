@@ -1,0 +1,2240 @@
+{
+  "day": 2,
+  "date": "2026-10-15",
+  "words": [
+    "confuse",
+    "prescribe",
+    "cover",
+    "reduction",
+    "trillion",
+    "intervention",
+    "improve",
+    "upstairs",
+    "passion",
+    "depart",
+    "simply",
+    "clinical",
+    "whatever",
+    "full",
+    "sensitive",
+    "versus",
+    "steadily",
+    "response",
+    "instead of",
+    "either",
+    "your",
+    "allegedly",
+    "alone",
+    "test",
+    "suitable",
+    "bury",
+    "liable",
+    "unlike",
+    "advertise",
+    "intelligence"
+  ],
+  "content": {
+    "targets": {
+      "confuse": {
+        "ipa": "/kənˈfjuːz/",
+        "meaning": "使困惑；混淆"
+      },
+      "prescribe": {
+        "ipa": "/prɪˈskraɪb/",
+        "meaning": "开处方；规定"
+      },
+      "cover": {
+        "ipa": "/ˈkʌvə/",
+        "meaning": "覆盖；包括"
+      },
+      "reduction": {
+        "ipa": "/rɪˈdʌkʃən/",
+        "meaning": "减少；降低"
+      },
+      "trillion": {
+        "ipa": "/ˈtrɪljən/",
+        "meaning": "万亿"
+      },
+      "intervention": {
+        "ipa": "/ˌɪntəˈvenʃən/",
+        "meaning": "干预；介入"
+      },
+      "improve": {
+        "ipa": "/ɪmˈpruːv/",
+        "meaning": "改善；提高"
+      },
+      "upstairs": {
+        "ipa": "/ˌʌpˈsteəz/",
+        "meaning": "在楼上；楼上的"
+      },
+      "passion": {
+        "ipa": "/ˈpæʃən/",
+        "meaning": "热爱；激情"
+      },
+      "depart": {
+        "ipa": "/dɪˈpɑːt/",
+        "meaning": "离开；出发"
+      },
+      "simply": {
+        "ipa": "/ˈsɪmpli/",
+        "meaning": "仅仅；简单地"
+      },
+      "clinical": {
+        "ipa": "/ˈklɪnɪkəl/",
+        "meaning": "临床的"
+      },
+      "whatever": {
+        "ipa": "/wɒtˈevə/",
+        "meaning": "无论什么；任何事物"
+      },
+      "full": {
+        "ipa": "/fʊl/",
+        "meaning": "满的；完整的"
+      },
+      "sensitive": {
+        "ipa": "/ˈsensətɪv/",
+        "meaning": "敏感的；体贴的"
+      },
+      "versus": {
+        "ipa": "/ˈvɜːsəs/",
+        "meaning": "与……相比；对"
+      },
+      "steadily": {
+        "ipa": "/ˈstedɪli/",
+        "meaning": "稳定地；持续地"
+      },
+      "response": {
+        "ipa": "/rɪˈspɒns/",
+        "meaning": "回应；反应"
+      },
+      "instead of": {
+        "ipa": "/ɪnˈsted əv/",
+        "meaning": "代替；而不是"
+      },
+      "either": {
+        "ipa": "/ˈaɪðə/",
+        "meaning": "两者中的任何一个；也（用于否定句）"
+      },
+      "your": {
+        "ipa": "/jɔː/",
+        "meaning": "你的；你们的"
+      },
+      "allegedly": {
+        "ipa": "/əˈledʒɪdli/",
+        "meaning": "据称；据说"
+      },
+      "alone": {
+        "ipa": "/əˈləʊn/",
+        "meaning": "独自；单独的"
+      },
+      "test": {
+        "ipa": "/test/",
+        "meaning": "测试；检验"
+      },
+      "suitable": {
+        "ipa": "/ˈsuːtəbl/",
+        "meaning": "合适的"
+      },
+      "bury": {
+        "ipa": "/ˈberi/",
+        "meaning": "埋；掩埋"
+      },
+      "liable": {
+        "ipa": "/ˈlaɪəbl/",
+        "meaning": "负有法律责任的；可能受……影响"
+      },
+      "unlike": {
+        "ipa": "/ʌnˈlaɪk/",
+        "meaning": "不像；与……不同"
+      },
+      "advertise": {
+        "ipa": "/ˈædvətaɪz/",
+        "meaning": "做广告；宣传"
+      },
+      "intelligence": {
+        "ipa": "/ɪnˈtelɪdʒəns/",
+        "meaning": "智力；情报"
+      }
+    },
+    "dictionary": {
+      "this": "这；这个",
+      "afternoon": "下午",
+      "i": "我",
+      "arrive": "到达",
+      "at": "在（地点或时刻）；处于（某阶段）",
+      "the": "这；那（定冠词）",
+      "airport": "机场",
+      "with": "有；和……一起",
+      "a": "一；一个",
+      "friend": "朋友",
+      "we": "我们",
+      "look": "看",
+      "screen": "屏幕",
+      "above": "在……上方",
+      "desk": "柜台；桌子",
+      "and": "和；并且",
+      "ask": "询问",
+      "about": "关于；大约",
+      "our": "我们的",
+      "flight": "航班",
+      "answer": "答案；回答",
+      "is": "是；处于（be 的第三人称单数）",
+      "good": "好的",
+      "have": "有",
+      "time": "时间",
+      "for": "为了；给；用于",
+      "tea": "茶",
+      "my": "我的",
+      "checks": "核对",
+      "address": "地址",
+      "of": "……的",
+      "hotel": "酒店",
+      "again": "再一次",
+      "across": "穿过；在……对面",
+      "room": "房间",
+      "an": "一个；一位",
+      "actor": "演员",
+      "actress": "女演员",
+      "are": "是；处于（be 的复数形式）",
+      "talking": "交谈",
+      "to": "到；向；用于连接动词不定式",
+      "children": "孩子们",
+      "saw": "看了；看见了（see 的过去式）",
+      "their": "他们的",
+      "amazing": "令人惊叹的",
+      "film": "电影",
+      "week": "星期；周",
+      "ago": "……以前",
+      "they": "他们；它们",
+      "also": "也",
+      "give": "给予",
+      "advice": "建议",
+      "young": "年轻的",
+      "fan": "影迷；粉丝",
+      "always": "总是",
+      "be": "是；成为",
+      "kind": "友善的",
+      "after": "在……之后",
+      "photo": "照片；合影",
+      "all": "全部；所有",
+      "smile": "微笑",
+      "agree": "同意",
+      "that": "那；也用于引出句子说明想法或事实",
+      "lovely": "美好的",
+      "start": "开始；开端",
+      "trip": "旅行",
+      "drama": "戏剧",
+      "group": "团队；小组",
+      "meets": "见面；聚会",
+      "every": "每一个",
+      "one": "一个；一位",
+      "age": "年龄",
+      "but": "但是",
+      "playing": "扮演；玩耍",
+      "his": "他的",
+      "mother": "母亲",
+      "adult": "成年人；成年的",
+      "today": "今天",
+      "first": "第一；最初",
+      "activity": "活动",
+      "short": "短的",
+      "scene": "戏剧中的一场；场景",
+      "lost": "丢失的",
+      "bag": "包",
+      "there": "那里；there is 表示有",
+      "plenty": "大量；充足",
+      "action": "行动；影片中的动作",
+      "run": "跑",
+      "stage": "舞台",
+      "search": "寻找",
+      "under": "在……下面",
+      "chairs": "椅子（复数）",
+      "am": "是；处于（与 I 连用的 be）",
+      "afraid": "害怕的",
+      "forgetting": "忘记",
+      "words": "词语；台词",
+      "teacher": "老师",
+      "never": "从不",
+      "angry": "生气的",
+      "when": "当……时",
+      "make": "做；造成",
+      "mistakes": "错误（复数）",
+      "she": "她",
+      "gives": "给予（第三人称单数）",
+      "us": "我们（宾格）",
+      "another": "另一个；再一个",
+      "chance": "机会",
+      "says": "说（第三人称单数）",
+      "take": "进行某个动作；take a breath 表示吸一口气",
+      "breath": "呼吸；吸入的一口气",
+      "try": "尝试",
+      "help": "帮助",
+      "each": "每个",
+      "other": "其他的；each other 表示彼此",
+      "show": "演出",
+      "feel": "感觉",
+      "small": "小的",
+      "animal": "动物",
+      "waits": "等待",
+      "by": "在……旁边",
+      "door": "门",
+      "shelter": "收容所；庇护所",
+      "dog": "狗",
+      "loud": "响亮的",
+      "sounds": "声音（复数）",
+      "so": "所以",
+      "keep": "保持",
+      "voices": "嗓音（复数）",
+      "low": "低的；小声的",
+      "must": "必须",
+      "stay": "停留；保持",
+      "child": "孩子",
+      "during": "在……期间",
+      "do": "做；用于构成疑问句或否定句",
+      "not": "不",
+      "know": "知道",
+      "it": "它",
+      "loves": "喜爱",
+      "gentle": "温和的",
+      "games": "游戏（复数）",
+      "fresh": "新鲜的",
+      "air": "空气；空中",
+      "opened": "开办了；打开了",
+      "two": "二",
+      "years": "年（复数）",
+      "worker": "工作人员",
+      "let": "让",
+      "come": "来",
+      "you": "你；你们",
+      "learn": "学习；了解到",
+      "may": "可能",
+      "need": "需要",
+      "space": "空间",
+      "sit": "坐",
+      "on": "在……上；关于",
+      "grass": "草；草地",
+      "soon": "很快",
+      "brings": "带来",
+      "ball": "球",
+      "ready": "准备好的",
+      "game": "游戏",
+      "rain": "雨",
+      "falls": "落下",
+      "outside": "在外面",
+      "kitchen": "厨房",
+      "warm": "温热的",
+      "open": "打开；开着的",
+      "window": "窗户",
+      "some": "一些",
+      "put": "放",
+      "large": "大的",
+      "pot": "锅",
+      "cooker": "炉灶",
+      "sister": "姐妹",
+      "asks": "问",
+      "can": "可以；能够",
+      "add": "添加",
+      "carrots": "胡萝卜（复数）",
+      "yes": "是；可以",
+      "puts": "放（第三人称单数）",
+      "in": "在……里面",
+      "beans": "豆子（复数）",
+      "wash": "清洗",
+      "vegetables": "蔬菜（复数）",
+      "before": "在……之前",
+      "cooking": "烹饪",
+      "shelf": "搁板",
+      "holds": "放着；容纳",
+      "bowls": "碗（复数）",
+      "twenty": "二十",
+      "minutes": "分钟（复数）",
+      "taste": "品尝",
+      "soup": "汤",
+      "little": "少量的；a little 表示一点",
+      "salt": "盐",
+      "needs": "需要（第三人称单数）",
+      "nothing": "没有什么东西",
+      "else": "其他的",
+      "carry": "拿；端；搬",
+      "table": "桌子",
+      "where": "在……的地方",
+      "friends": "朋友们",
+      "waiting": "等待",
+      "simple": "简单的",
+      "food": "食物",
+      "share": "分享",
+      "visit": "拜访；去某处",
+      "library": "图书馆",
+      "near": "在……附近",
+      "write": "写",
+      "name": "名字",
+      "form": "表格",
+      "librarian": "图书管理员",
+      "what": "什么；所……的事物",
+      "want": "想要",
+      "read": "阅读（此处为原形）",
+      "choose": "选择",
+      "book": "书",
+      "life": "生活；生命",
+      "its": "它的",
+      "cover": "覆盖；包括",
+      "shows": "展示；呈现",
+      "bird": "鸟",
+      "flying": "飞翔",
+      "sea": "海",
+      "has": "有（第三人称单数）",
+      "page": "页",
+      "notes": "笔记",
+      "cannot": "不能",
+      "ideas": "想法（复数）",
+      "notebook": "笔记本",
+      "instead": "代替；而是",
+      "question": "问题",
+      "no": "没有",
+      "clear": "清楚的",
+      "finds": "找到",
+      "plan": "计划",
+      "next": "下一个的；接下来的",
+      "month": "月",
+      "neighbours": "邻居（复数）",
+      "talked": "谈论了",
+      "cleaning": "清理",
+      "park": "公园",
+      "turn": "转变；转动",
+      "into": "进入；变为",
+      "walk": "走",
+      "collect": "收集；捡拾",
+      "litter": "乱丢的垃圾",
+      "helps": "帮助",
+      "people": "人们",
+      "join": "参加",
+      "safe": "安全的",
+      "place": "地方",
+      "play": "玩耍；表演",
+      "sees": "看见",
+      "path": "小路；路线",
+      "stops": "停止；停下来",
+      "only": "仅仅",
+      "cat": "猫",
+      "he": "他",
+      "father": "父亲",
+      "him": "他（宾格）",
+      "still": "静止的；不动的",
+      "pass": "经过",
+      "nobody": "没有人",
+      "gets": "变得；得到",
+      "work": "工作",
+      "slow": "缓慢的",
+      "stop": "停止；停下来",
+      "confuse": "使困惑；混淆",
+      "prescribe": "开处方；规定",
+      "reduction": "减少；降低",
+      "trillion": "万亿",
+      "intervention": "干预；介入",
+      "improve": "改善；提高",
+      "upstairs": "在楼上；楼上的",
+      "passion": "热爱；激情",
+      "depart": "离开；出发",
+      "simply": "仅仅；简单地",
+      "clinical": "临床的",
+      "whatever": "无论什么；任何事物",
+      "full": "满的；完整的",
+      "sensitive": "敏感的；体贴的",
+      "versus": "与……相比；对",
+      "steadily": "稳定地；持续地",
+      "response": "回应；反应",
+      "instead of": "代替；而不是",
+      "either": "两者中的任何一个；也（用于否定句）",
+      "your": "你的；你们的",
+      "allegedly": "据称；据说",
+      "alone": "独自；单独的",
+      "test": "测试；检验",
+      "suitable": "合适的",
+      "bury": "埋；掩埋",
+      "liable": "负有法律责任的；可能受……影响",
+      "unlike": "不像；与……不同",
+      "advertise": "做广告；宣传",
+      "intelligence": "智力；情报",
+      "clinic": "诊所",
+      "doctor": "医生",
+      "rest": "休息",
+      "early": "早期的；早地",
+      "health": "健康",
+      "pain": "疼痛",
+      "whose": "其；谁的",
+      "travel": "旅行",
+      "jokes": "开玩笑；笑话（复数）",
+      "cost": "花费；成本",
+      "dollars": "美元（复数）",
+      "guide": "指南；指导",
+      "quick": "迅速的",
+      "new": "新的",
+      "will": "将；会",
+      "everyone": "每个人",
+      "patient": "病人",
+      "result": "结果",
+      "report": "报告",
+      "compares": "比较",
+      "choice": "选择",
+      "facts": "事实（复数）",
+      "matter": "重要；事情",
+      "while": "当……时；而",
+      "moves": "移动；推进",
+      "use": "使用",
+      "whether": "是否",
+      "online": "在线的；在线地",
+      "service": "服务",
+      "company": "公司",
+      "tried": "尝试了",
+      "bad": "坏的",
+      "news": "新闻；消息",
+      "product": "产品",
+      "sold": "出售了",
+      "harm": "伤害",
+      "responsible": "负责的",
+      "family": "家庭",
+      "pet": "宠物",
+      "quiet": "安静的",
+      "if": "如果",
+      "signs": "标牌（复数）",
+      "careful": "谨慎的",
+      "without": "没有；不带",
+      "any": "任何的",
+      "does": "做（第三人称单数）",
+      "reads": "阅读（第三人称单数）",
+      "because": "因为",
+      "bring": "带来",
+      "clean": "干净的；清洁",
+      "smiles": "微笑（第三人称单数）",
+      "joke": "笑话；开玩笑",
+      "listens": "倾听（第三人称单数）",
+      "uses": "使用（第三人称单数）",
+      "as": "随着；作为",
+      "improves": "改善（第三人称单数）",
+      "team": "团队",
+      "accept": "接受",
+      "check": "检查",
+      "making": "制作；作出",
+      "say": "说",
+      "old": "旧的；年老的",
+      "animals": "动物（复数）"
+    },
+    "lessons": [
+      {
+        "id": "oxford-2-1",
+        "title": "A Calm Morning at the Clinic",
+        "subtitle": "健康建议与出行",
+        "paragraphs": [
+          {
+            "en": "At a small clinic, clear advice does not confuse an adult. A doctor may prescribe rest, and early intervention can improve health with a reduction in pain.",
+            "zh": "在一家小诊所里，清楚的建议不会使成年人困惑（confuse）。医生可能会开出（prescribe）休息的处方，而早期干预（intervention）可以改善（improve）健康并减轻（reduction）疼痛。",
+            "patterns": [
+              {
+                "expression": "clear advice",
+              "meaning": "搭配：clear advice，形容词 + 不可数名词，表示“清楚易懂的建议”。"
+              },
+              {
+                "expression": "early intervention",
+              "meaning": "搭配：early intervention，形容词 + 名词，表示“早期干预”。"
+              },
+              {
+                "expression": "a reduction in pain",
+              "meaning": "搭配：a reduction in + 名词，介词 in 后接名词，表示“……的减少”；此处指疼痛减轻。"
+              }
+            ]
+          },
+          {
+            "en": "My friend waits upstairs and reads a book whose cover shows the sea. She has a passion for travel, so before we depart, she jokes that our trip may cost a trillion dollars.",
+            "zh": "我的朋友在楼上（upstairs）等候，并读着一本封面（cover）画着大海的书。她热爱（passion）旅行，所以在我们出发（depart）前，她开玩笑说这趟旅程可能要花一万亿（trillion）美元。",
+            "patterns": [
+              {
+                "expression": "waits upstairs",
+              "meaning": "搭配：wait upstairs，动词 + 地点副词，表示“在楼上等候”。"
+              },
+              {
+                "expression": "has a passion for",
+              "meaning": "搭配：have a passion for + 名词/动名词，介词 for 后接名词或动名词，表示“热爱……”。"
+              },
+              {
+                "expression": "before we depart",
+              "meaning": "句式：before + 主语 + 谓语，用时间状语从句表示“在……之前”；此处意为“在我们出发之前”。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "confuse",
+            "prompt": "Which verb means to make someone unable to think clearly?",
+            "options": [
+              "confuse",
+              "improve",
+              "depart",
+              "cover"
+            ],
+            "answer": 0,
+            "explanation": "confuse 表示“使困惑或混淆”。题干描述让人无法清楚思考，因此选择 confuse；其余选项分别表示改善、出发和覆盖。"
+          },
+          {
+            "word": "prescribe",
+            "prompt": "Which verb describes a doctor officially ordering medicine or treatment?",
+            "options": [
+              "cover",
+              "prescribe",
+              "advertise",
+              "bury"
+            ],
+            "answer": 1,
+            "explanation": "prescribe 指医生“开药或开出治疗方案”。题干强调医生正式安排药物或治疗，所以选择 prescribe。"
+          },
+          {
+            "word": "cover",
+            "prompt": "Which word can mean the outer front part of a book?",
+            "options": [
+              "response",
+              "passion",
+              "cover",
+              "reduction"
+            ],
+            "answer": 2,
+            "explanation": "cover 作名词可指书的“封面”。response 是回应，passion 是热爱，reduction 是减少。"
+          },
+          {
+            "word": "reduction",
+            "prompt": "Which noun means a decrease in size, amount, or price?",
+            "options": [
+              "intervention",
+              "intelligence",
+              "passion",
+              "reduction"
+            ],
+            "answer": 3,
+            "explanation": "reduction 表示数量、规模或价格的“减少、降低”，与题干中的 decrease 对应。"
+          },
+          {
+            "word": "trillion",
+            "prompt": "Which number is equal to one thousand billion?",
+            "options": [
+              "trillion",
+              "million",
+              "hundred",
+              "thousand"
+            ],
+            "answer": 0,
+            "explanation": "trillion 是“一万亿”，在英美现代计数法中等于 one thousand billion。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-2",
+        "title": "Planning a Community Event",
+        "subtitle": "社区活动与周密出行",
+        "paragraphs": [
+          {
+            "en": "The guide must not confuse people. It can prescribe simple action, because quick intervention may improve the park and bring a reduction in litter.",
+            "zh": "这份指南不能使人们困惑（confuse）。它可以规定（prescribe）简单的行动，因为及时干预（intervention）可能改善（improve）公园，并减少（reduction）垃圾。",
+            "patterns": [
+              {
+                "expression": "simple action",
+              "meaning": "搭配：simple action，形容词 + 名词，表示“简单易行的行动”。"
+              },
+              {
+                "expression": "quick intervention",
+              "meaning": "搭配：quick intervention，形容词 + 名词，表示“及时、迅速的干预”。"
+              },
+              {
+                "expression": "bring a reduction in",
+              "meaning": "搭配：bring a reduction in + 名词，介词 in 后接名词，表示“使……减少”。"
+              }
+            ]
+          },
+          {
+            "en": "Upstairs, an actor with a passion for clean air puts a new cover on the plan. Before the group can depart, he says a trillion people will join, and everyone smiles at the joke.",
+            "zh": "在楼上（upstairs），一位热爱（passion）清新空气的演员给计划换上了新封面（cover）。在小组出发（depart）之前，他说会有一万亿（trillion）人参加，大家都被这个笑话逗笑了。",
+            "patterns": [
+              {
+                "expression": "clean air",
+              "meaning": "搭配：clean air，形容词 + 不可数名词，表示“清洁、清新的空气”。"
+              },
+              {
+                "expression": "puts a new cover on",
+              "meaning": "搭配：put a new cover on + 名词，介词 on 后接被覆盖的对象，表示“给……换上新封面”。"
+              },
+              {
+                "expression": "the group can depart",
+              "meaning": "句式：主语 + can + 动词原形，情态动词 can 后接动词原形；此处表示“小组可以出发”。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "intervention",
+            "prompt": "Which noun means action taken to improve or change a difficult situation?",
+            "options": [
+              "response",
+              "intervention",
+              "cover",
+              "test"
+            ],
+            "answer": 1,
+            "explanation": "intervention 指为了改变或改善困难情况而采取的“干预、介入”。"
+          },
+          {
+            "word": "improve",
+            "prompt": "Which verb means to become better or make something better?",
+            "options": [
+              "confuse",
+              "depart",
+              "improve",
+              "advertise"
+            ],
+            "answer": 2,
+            "explanation": "improve 表示“改善、提高”或变得更好，正好对应 become better。"
+          },
+          {
+            "word": "upstairs",
+            "prompt": "Which word means on or towards a higher floor?",
+            "options": [
+              "alone",
+              "steadily",
+              "simply",
+              "upstairs"
+            ],
+            "answer": 3,
+            "explanation": "upstairs 表示“在楼上”或“向楼上”，说明位置或移动方向在更高楼层。"
+          },
+          {
+            "word": "passion",
+            "prompt": "Which noun describes a very strong interest or love for something?",
+            "options": [
+              "passion",
+              "reduction",
+              "response",
+              "cover"
+            ],
+            "answer": 0,
+            "explanation": "passion 表示对某事强烈的“热爱或激情”，比普通的 interest 更强。"
+          },
+          {
+            "word": "depart",
+            "prompt": "Which verb means to leave a place, especially for a journey?",
+            "options": [
+              "improve",
+              "depart",
+              "prescribe",
+              "test"
+            ],
+            "answer": 1,
+            "explanation": "depart 表示“离开、出发”，常用于旅行或交通场景。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-3",
+        "title": "Understanding a Health Report",
+        "subtitle": "健康报告与审慎判断",
+        "paragraphs": [
+          {
+            "en": "A clinical test is not simply a game. A sensitive doctor listens to each response and uses clear facts instead of a quick answer.",
+          "zh": "临床（clinical）测试（test）并不只（simply）是一场游戏。体贴的（sensitive）医生会倾听每一个反应（response），并使用清楚的事实，而不是（instead of）仓促的答案。",
+            "patterns": [
+              {
+                "expression": "a clinical test",
+              "meaning": "搭配：a clinical test，形容词 + 名词，表示“临床测试”。"
+              },
+              {
+                "expression": "listens to each response",
+              "meaning": "搭配：listen to + 名词，介词 to 后接倾听对象；此处表示“倾听每一个反应”。"
+              },
+              {
+                "expression": "instead of a quick answer",
+              "meaning": "搭配：instead of + 名词/动名词，介词 of 后接名词或动名词，表示“而不是……”；此处指不用仓促的答案。"
+              }
+            ]
+          },
+          {
+            "en": "Whatever the result, the patient gets the full report. The doctor compares rest versus activity, and the patient can choose either plan as health improves steadily.",
+          "zh": "无论（whatever）结果如何，病人都会拿到完整的（full）报告。医生比较休息与（versus）活动，病人可以选择任一（either）方案，因为健康状况正稳定地（steadily）改善（improve）。",
+            "patterns": [
+              {
+                "expression": "whatever the result",
+              "meaning": "句式：whatever + 名词，构成让步状语，表示“无论……是什么”；此处意为“无论结果如何”。"
+              },
+              {
+                "expression": "the full report",
+              "meaning": "搭配：the full report，形容词 full 修饰名词，表示“完整的报告”。"
+              },
+              {
+                "expression": "improves steadily",
+              "meaning": "搭配：improve steadily，动词 + 方式副词，表示“稳定地、持续地改善”。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "simply",
+            "prompt": "Which adverb can mean just or merely?",
+            "options": [
+              "steadily",
+              "allegedly",
+              "simply",
+              "upstairs"
+            ],
+            "answer": 2,
+            "explanation": "simply 在此表示“仅仅、只是”，与 just 或 merely 同义。"
+          },
+          {
+            "word": "clinical",
+            "prompt": "Which adjective relates to examining or treating patients?",
+            "options": [
+              "sensitive",
+              "suitable",
+              "full",
+              "clinical"
+            ],
+            "answer": 3,
+            "explanation": "clinical 表示“临床的”，与病人的检查、诊断或治疗有关。"
+          },
+          {
+            "word": "whatever",
+            "prompt": "Which word means anything or no matter what?",
+            "options": [
+              "whatever",
+              "either",
+              "unlike",
+              "your"
+            ],
+            "answer": 0,
+            "explanation": "whatever 可表示“任何事物”，也可引导“无论什么”的让步含义。"
+          },
+          {
+            "word": "full",
+            "prompt": "Which adjective means containing as much as possible?",
+            "options": [
+              "alone",
+              "full",
+              "sensitive",
+              "suitable"
+            ],
+            "answer": 1,
+            "explanation": "full 表示“满的”，即已经装到能够容纳的最大程度。"
+          },
+          {
+            "word": "sensitive",
+            "prompt": "Which adjective describes someone easily affected or aware of other people’s feelings?",
+            "options": [
+              "clinical",
+              "liable",
+              "sensitive",
+              "suitable"
+            ],
+            "answer": 2,
+            "explanation": "sensitive 可表示“敏感的”，也表示能体察他人感受的“体贴的”。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-4",
+        "title": "A Fair Office Decision",
+        "subtitle": "办公决策与理性比较",
+        "paragraphs": [
+          {
+            "en": "The team does not simply accept the first response. The question is sensitive, so they check a full report instead of making a quick choice.",
+            "zh": "团队不会仅仅（simply）接受第一个回应（response）。这个问题很敏感（sensitive），所以他们会查看完整的（full）报告，而不是（instead of）仓促做决定。",
+            "patterns": [
+              {
+                "expression": "accept the first response",
+              "meaning": "搭配：accept a response，动词 accept 后接名词作宾语，表示“接受回应”；此处指接受第一个回应。"
+              },
+              {
+                "expression": "the question is sensitive",
+              "meaning": "句式：主语 + be + 形容词，用系表结构描述状态；此处表示“这个问题很敏感”。"
+              },
+              {
+                "expression": "instead of making",
+              "meaning": "搭配：instead of + 动名词，介词 of 后接动名词；instead of making 表示“而不是做……”。"
+              }
+            ]
+          },
+          {
+            "en": "Whatever people say, clinical facts matter. The group compares cost versus time, while work moves steadily, and either answer may be suitable.",
+          "zh": "无论（whatever）人们怎么说，临床（clinical）事实很重要。小组比较成本与（versus）时间，同时工作稳定地（steadily）推进，而任一（either）答案都可能合适（suitable）。",
+            "patterns": [
+              {
+                "expression": "clinical facts",
+              "meaning": "搭配：clinical facts，形容词 + 复数名词，表示“临床事实或临床证据”。"
+              },
+              {
+                "expression": "cost versus time",
+              "meaning": "搭配：A versus B，用 versus 连接两个比较对象，表示“A与B的比较”；此处是成本与时间的比较。"
+              },
+              {
+                "expression": "work moves steadily",
+              "meaning": "搭配：move steadily，动词 + 方式副词，表示“稳定地推进”；此处主语是 work。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "versus",
+            "prompt": "Which word is used to compare one thing against another?",
+            "options": [
+              "either",
+              "whatever",
+              "unlike",
+              "versus"
+            ],
+            "answer": 3,
+            "explanation": "versus 用于把一方与另一方进行比较或对照，常写作 A versus B。"
+          },
+          {
+            "word": "steadily",
+            "prompt": "Which adverb means gradually and at a regular rate?",
+            "options": [
+              "steadily",
+              "simply",
+              "allegedly",
+              "alone"
+            ],
+            "answer": 0,
+            "explanation": "steadily 表示“稳定地、持续地”，强调按规律且没有突然变化。"
+          },
+          {
+            "word": "response",
+            "prompt": "Which noun means an answer or reaction to something?",
+            "options": [
+              "test",
+              "response",
+              "passion",
+              "cover"
+            ],
+            "answer": 1,
+            "explanation": "response 表示对问题、事件或刺激作出的“回应、反应”。"
+          },
+          {
+            "word": "instead of",
+            "prompt": "Which phrase means in place of someone or something?",
+            "options": [
+              "because of",
+              "next to",
+              "instead of",
+              "up to"
+            ],
+            "answer": 2,
+            "explanation": "instead of 表示“代替、而不是”，说明用一个人或事物取代另一个。"
+          },
+          {
+            "word": "either",
+            "prompt": "Which word refers to one or the other of two choices?",
+            "options": [
+              "whatever",
+              "your",
+              "versus",
+              "either"
+            ],
+            "answer": 3,
+            "explanation": "either 指两者中的任意一个，题干明确限定为 two choices。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-5",
+        "title": "A Responsible Online Business",
+        "subtitle": "网络经营与客户信任",
+        "paragraphs": [
+          {
+            "en": "Your intelligence can help you test whether an online service is suitable. Do not share your address when you are alone.",
+            "zh": "你的（your）判断力（intelligence）可以帮助你测试（test）一项在线服务是否合适（suitable）。独自一人（alone）时，不要分享你的地址。",
+            "patterns": [
+              {
+                "expression": "help you test whether",
+              "meaning": "句式：help + 人 + 动词原形 + whether 从句，help 后接宾语和动词原形，whether 引导宾语从句，表示“帮助某人检验是否……”。"
+              },
+              {
+                "expression": "an online service",
+              "meaning": "搭配：an online service，形容词 + 名词，表示“一项在线服务”。"
+              },
+              {
+                "expression": "when you are alone",
+              "meaning": "句式：when + 主语 + be + 形容词，用时间状语从句表示“当……时”；此处意为“当你独自一人时”。"
+              }
+            ]
+          },
+          {
+            "en": "A company allegedly tried to bury bad news and advertise a product unlike the one it sold. It may be liable for the harm.",
+            "zh": "据称（allegedly）一家公司试图掩盖（bury）坏消息，并宣传（advertise）一种与（unlike）其实际销售产品不同的产品。它可能要为造成的伤害承担责任（liable）。",
+            "patterns": [
+              {
+                "expression": "bury bad news",
+              "meaning": "搭配：bury bad news，动词 + 名词作宾语，字面为“埋掉坏消息”，常用于表示“掩盖坏消息”。"
+              },
+              {
+                "expression": "advertise a product",
+              "meaning": "搭配：advertise a product，动词 + 名词作宾语，表示“为产品做广告、宣传产品”。"
+              },
+              {
+                "expression": "be liable for",
+              "meaning": "搭配：be liable for + 名词/动名词，介词 for 后接名词或动名词，表示“对……负有法律责任”。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "your",
+            "prompt": "Which determiner shows that something belongs to the person being spoken to?",
+            "options": [
+              "your",
+              "their",
+              "our",
+              "my"
+            ],
+            "answer": 0,
+            "explanation": "your 表示“你的或你们的”，所指物属于正在被说话的人。"
+          },
+          {
+            "word": "allegedly",
+            "prompt": "Which adverb shows that something is claimed but not yet proved?",
+            "options": [
+              "simply",
+              "allegedly",
+              "steadily",
+              "always"
+            ],
+            "answer": 1,
+            "explanation": "allegedly 表示“据称”，提醒读者该说法尚未被证实。"
+          },
+          {
+            "word": "alone",
+            "prompt": "Which word means without any other person?",
+            "options": [
+              "full",
+              "upstairs",
+              "alone",
+              "either"
+            ],
+            "answer": 2,
+            "explanation": "alone 表示“独自”，也就是没有其他人在一起。"
+          },
+          {
+            "word": "test",
+            "prompt": "Which word means an examination used to check knowledge, ability, or quality?",
+            "options": [
+              "cover",
+              "response",
+              "passion",
+              "test"
+            ],
+            "answer": 3,
+            "explanation": "test 指用于检查知识、能力、质量或状况的“测试、检验”。"
+          },
+          {
+            "word": "suitable",
+            "prompt": "Which adjective means right or appropriate for a particular purpose?",
+            "options": [
+              "suitable",
+              "sensitive",
+              "clinical",
+              "liable"
+            ],
+            "answer": 0,
+            "explanation": "suitable 表示“合适的、适宜的”，强调符合某个具体目的或需要。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-6",
+        "title": "Choosing a Family Pet",
+        "subtitle": "家庭宠物与审慎选择",
+        "paragraphs": [
+          {
+            "en": "Use your intelligence to test each shelter before you choose. A quiet adult animal may be suitable if it can stay alone for a short time.",
+            "zh": "在选择前，运用你的（your）判断力（intelligence）测试（test）每一家收容所。一只安静的成年动物可能很合适（suitable），如果它能短时间独处（alone）。",
+            "patterns": [
+              {
+                "expression": "before you choose",
+              "meaning": "句式：before + 主语 + 谓语，用时间状语从句表示“在……之前”；此处意为“在你选择之前”。"
+              },
+              {
+                "expression": "a quiet adult animal",
+              "meaning": "搭配：a quiet adult animal，多个形容词置于名词前，表示“一只安静的成年动物”。"
+              },
+              {
+                "expression": "for a short time",
+              "meaning": "搭配：for + 一段时间，介词 for 后接时长，表示动作持续多久；此处意为“短时间”。"
+              }
+            ]
+          },
+          {
+            "en": "A worker allegedly saw people bury old signs. Unlike a careful shelter, they advertise animals without clear facts, so they may be liable for any harm.",
+            "zh": "据称（allegedly）一名工作人员看到有人掩埋（bury）旧标牌。与（unlike）谨慎负责的收容所不同，他们在没有清楚事实的情况下宣传（advertise）动物，因此可能对任何伤害承担责任（liable）。",
+            "patterns": [
+              {
+                "expression": "a careful shelter",
+              "meaning": "搭配：a careful shelter，形容词 + 名词，表示“一家谨慎负责的收容所”。"
+              },
+              {
+                "expression": "without clear facts",
+              "meaning": "搭配：without + 名词/动名词，介词 without 后接名词或动名词，表示“没有……”；此处指没有清楚事实。"
+              },
+              {
+                "expression": "liable for any harm",
+              "meaning": "搭配：liable for + 名词，介词 for 后接责任对象，表示“对……负有责任”；此处指对任何伤害负责。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "bury",
+            "prompt": "Which verb means to put something in the ground and cover it?",
+            "options": [
+              "advertise",
+              "bury",
+              "depart",
+              "prescribe"
+            ],
+            "answer": 1,
+            "explanation": "bury 表示把东西放入地下并盖住，即“埋、掩埋”。"
+          },
+          {
+            "word": "liable",
+            "prompt": "Which adjective can mean legally responsible for something?",
+            "options": [
+              "alone",
+              "full",
+              "liable",
+              "sensitive"
+            ],
+            "answer": 2,
+            "explanation": "liable 在法律语境中表示“负有责任的”，常见搭配是 be liable for。"
+          },
+          {
+            "word": "unlike",
+            "prompt": "Which preposition means different from a particular person or thing?",
+            "options": [
+              "versus",
+              "either",
+              "whatever",
+              "unlike"
+            ],
+            "answer": 3,
+            "explanation": "unlike 表示“不像、与……不同”，用于指出两者之间的差异。"
+          },
+          {
+            "word": "advertise",
+            "prompt": "Which verb means to tell the public about a product or service?",
+            "options": [
+              "advertise",
+              "improve",
+              "confuse",
+              "cover"
+            ],
+            "answer": 0,
+            "explanation": "advertise 表示通过媒体等方式向公众“宣传、做广告”。"
+          },
+          {
+            "word": "intelligence",
+            "prompt": "Which noun means the ability to learn, understand, and think well?",
+            "options": [
+              "intervention",
+              "intelligence",
+              "reduction",
+              "response"
+            ],
+            "answer": 1,
+            "explanation": "intelligence 表示学习、理解和良好思考的能力，即“智力”。"
+          }
+        ]
+      }
+    ]
+  },
+  "pronunciations": {
+    "this": {
+      "ipa": "/ðɪs/"
+    },
+    "afternoon": {
+      "ipa": "/ˌɑːftəˈnuːn/"
+    },
+    "i": {
+      "ipa": "/aɪ/"
+    },
+    "arrive": {
+      "ipa": "/əˈraɪv/"
+    },
+    "at": {
+      "ipa": "/æt/"
+    },
+    "the": {
+      "ipa": "/ðə/"
+    },
+    "airport": {
+      "ipa": "/ˈeəpɔːt/"
+    },
+    "with": {
+      "ipa": "/wɪð/"
+    },
+    "a": {
+      "ipa": "/ə; eɪ/"
+    },
+    "friend": {
+      "ipa": "/frend/"
+    },
+    "we": {
+      "ipa": "/wiː/"
+    },
+    "look": {
+      "ipa": "/lʊk/"
+    },
+    "screen": {
+      "ipa": "/skriːn/"
+    },
+    "above": {
+      "ipa": "/əˈbʌv/"
+    },
+    "desk": {
+      "ipa": "/desk/"
+    },
+    "and": {
+      "ipa": "/ænd/"
+    },
+    "ask": {
+      "ipa": "/ɑːsk/"
+    },
+    "about": {
+      "ipa": "/əˈbaʊt/"
+    },
+    "our": {
+      "ipa": "/aʊə/"
+    },
+    "flight": {
+      "ipa": "/flaɪt/"
+    },
+    "answer": {
+      "ipa": "/ˈɑːnsə/"
+    },
+    "is": {
+      "ipa": "/ɪz/"
+    },
+    "good": {
+      "ipa": "/ɡʊd/"
+    },
+    "have": {
+      "ipa": "/hæv/"
+    },
+    "time": {
+      "ipa": "/taɪm/"
+    },
+    "for": {
+      "ipa": "/fɔː/"
+    },
+    "tea": {
+      "ipa": "/tiː/"
+    },
+    "my": {
+      "ipa": "/maɪ/"
+    },
+    "checks": {
+      "ipa": "/tʃeks/"
+    },
+    "address": {
+      "ipa": "/əˈdres/"
+    },
+    "of": {
+      "ipa": "/ɒv/"
+    },
+    "hotel": {
+      "ipa": "/həʊˈtel/"
+    },
+    "again": {
+      "ipa": "/əˈɡen/"
+    },
+    "across": {
+      "ipa": "/əˈkrɒs/"
+    },
+    "room": {
+      "ipa": "/ruːm/"
+    },
+    "an": {
+      "ipa": "/æn/"
+    },
+    "actor": {
+      "ipa": "/ˈæktə/"
+    },
+    "actress": {
+      "ipa": "/ˈæktrəs/"
+    },
+    "are": {
+      "ipa": "/ɑː/"
+    },
+    "talking": {
+      "ipa": "/ˈtɔːkɪŋ/"
+    },
+    "to": {
+      "ipa": "/tuː/"
+    },
+    "children": {
+      "ipa": "/ˈtʃɪldrən/"
+    },
+    "saw": {
+      "ipa": "/sɔː/"
+    },
+    "their": {
+      "ipa": "/ðeə/"
+    },
+    "amazing": {
+      "ipa": "/əˈmeɪzɪŋ/"
+    },
+    "film": {
+      "ipa": "/fɪlm/"
+    },
+    "week": {
+      "ipa": "/wiːk/"
+    },
+    "ago": {
+      "ipa": "/əˈɡəʊ/"
+    },
+    "they": {
+      "ipa": "/ðeɪ/"
+    },
+    "also": {
+      "ipa": "/ˈɔːlsəʊ/"
+    },
+    "give": {
+      "ipa": "/ɡɪv/"
+    },
+    "advice": {
+      "ipa": "/ədˈvaɪs/"
+    },
+    "young": {
+      "ipa": "/jʌŋ/"
+    },
+    "fan": {
+      "ipa": "/fæn/"
+    },
+    "always": {
+      "ipa": "/ˈɔːlweɪz/"
+    },
+    "be": {
+      "ipa": "/biː/"
+    },
+    "kind": {
+      "ipa": "/kaɪnd/"
+    },
+    "after": {
+      "ipa": "/ˈɑːftə/"
+    },
+    "photo": {
+      "ipa": "/ˈfəʊtəʊ/"
+    },
+    "all": {
+      "ipa": "/ɔːl/"
+    },
+    "smile": {
+      "ipa": "/smaɪl/"
+    },
+    "agree": {
+      "ipa": "/əˈɡriː/"
+    },
+    "that": {
+      "ipa": "/ðæt/"
+    },
+    "lovely": {
+      "ipa": "/ˈlʌvli/"
+    },
+    "start": {
+      "ipa": "/stɑːt/"
+    },
+    "trip": {
+      "ipa": "/trɪp/"
+    },
+    "drama": {
+      "ipa": "/ˈdrɑːmə/"
+    },
+    "group": {
+      "ipa": "/ɡruːp/"
+    },
+    "meets": {
+      "ipa": "/miːts/"
+    },
+    "every": {
+      "ipa": "/ˈevri/"
+    },
+    "one": {
+      "ipa": "/wʌn/"
+    },
+    "age": {
+      "ipa": "/eɪdʒ/"
+    },
+    "but": {
+      "ipa": "/bʌt/"
+    },
+    "playing": {
+      "ipa": "/ˈpleɪɪŋ/"
+    },
+    "his": {
+      "ipa": "/hɪz/"
+    },
+    "mother": {
+      "ipa": "/ˈmʌðə/"
+    },
+    "adult": {
+      "ipa": "/ˈædʌlt/"
+    },
+    "today": {
+      "ipa": "/təˈdeɪ/"
+    },
+    "first": {
+      "ipa": "/fɜːst/"
+    },
+    "activity": {
+      "ipa": "/ækˈtɪvəti/"
+    },
+    "short": {
+      "ipa": "/ʃɔːt/"
+    },
+    "scene": {
+      "ipa": "/siːn/"
+    },
+    "lost": {
+      "ipa": "/lɒst/"
+    },
+    "bag": {
+      "ipa": "/bæɡ/"
+    },
+    "there": {
+      "ipa": "/ðeə/"
+    },
+    "plenty": {
+      "ipa": "/ˈplenti/"
+    },
+    "action": {
+      "ipa": "/ˈækʃən/"
+    },
+    "run": {
+      "ipa": "/rʌn/"
+    },
+    "stage": {
+      "ipa": "/steɪdʒ/"
+    },
+    "search": {
+      "ipa": "/sɜːtʃ/"
+    },
+    "under": {
+      "ipa": "/ˈʌndə/"
+    },
+    "chairs": {
+      "ipa": "/tʃeəz/"
+    },
+    "am": {
+      "ipa": "/æm/"
+    },
+    "afraid": {
+      "ipa": "/əˈfreɪd/"
+    },
+    "forgetting": {
+      "ipa": "/fəˈɡetɪŋ/"
+    },
+    "words": {
+      "ipa": "/wɜːdz/"
+    },
+    "teacher": {
+      "ipa": "/ˈtiːtʃə/"
+    },
+    "never": {
+      "ipa": "/ˈnevə/"
+    },
+    "angry": {
+      "ipa": "/ˈæŋɡri/"
+    },
+    "when": {
+      "ipa": "/wen/"
+    },
+    "make": {
+      "ipa": "/meɪk/"
+    },
+    "mistakes": {
+      "ipa": "/mɪˈsteɪks/"
+    },
+    "she": {
+      "ipa": "/ʃiː/"
+    },
+    "gives": {
+      "ipa": "/ɡɪvz/"
+    },
+    "us": {
+      "ipa": "/ʌs/"
+    },
+    "another": {
+      "ipa": "/əˈnʌðə/"
+    },
+    "chance": {
+      "ipa": "/tʃɑːns/"
+    },
+    "says": {
+      "ipa": "/sez/"
+    },
+    "take": {
+      "ipa": "/teɪk/"
+    },
+    "breath": {
+      "ipa": "/breθ/"
+    },
+    "try": {
+      "ipa": "/traɪ/"
+    },
+    "help": {
+      "ipa": "/help/"
+    },
+    "each": {
+      "ipa": "/iːtʃ/"
+    },
+    "other": {
+      "ipa": "/ˈʌðə/"
+    },
+    "show": {
+      "ipa": "/ʃəʊ/"
+    },
+    "feel": {
+      "ipa": "/fiːl/"
+    },
+    "small": {
+      "ipa": "/smɔːl/"
+    },
+    "animal": {
+      "ipa": "/ˈænɪməl/"
+    },
+    "waits": {
+      "ipa": "/weɪts/"
+    },
+    "by": {
+      "ipa": "/baɪ/"
+    },
+    "door": {
+      "ipa": "/dɔː/"
+    },
+    "shelter": {
+      "ipa": "/ˈʃeltə/"
+    },
+    "dog": {
+      "ipa": "/dɒɡ/"
+    },
+    "loud": {
+      "ipa": "/laʊd/"
+    },
+    "sounds": {
+      "ipa": "/saʊndz/"
+    },
+    "so": {
+      "ipa": "/səʊ/"
+    },
+    "keep": {
+      "ipa": "/kiːp/"
+    },
+    "voices": {
+      "ipa": "/ˈvɔɪsɪz/"
+    },
+    "low": {
+      "ipa": "/ləʊ/"
+    },
+    "must": {
+      "ipa": "/mʌst/"
+    },
+    "stay": {
+      "ipa": "/steɪ/"
+    },
+    "child": {
+      "ipa": "/tʃaɪld/"
+    },
+    "during": {
+      "ipa": "/ˈdjʊərɪŋ/"
+    },
+    "do": {
+      "ipa": "/duː/"
+    },
+    "not": {
+      "ipa": "/nɒt/"
+    },
+    "know": {
+      "ipa": "/nəʊ/"
+    },
+    "it": {
+      "ipa": "/ɪt/"
+    },
+    "loves": {
+      "ipa": "/lʌvz/"
+    },
+    "gentle": {
+      "ipa": "/ˈdʒentl/"
+    },
+    "games": {
+      "ipa": "/ɡeɪmz/"
+    },
+    "fresh": {
+      "ipa": "/freʃ/"
+    },
+    "air": {
+      "ipa": "/eə/"
+    },
+    "opened": {
+      "ipa": "/ˈəʊpənd/"
+    },
+    "two": {
+      "ipa": "/tuː/"
+    },
+    "years": {
+      "ipa": "/jɪəz/"
+    },
+    "worker": {
+      "ipa": "/ˈwɜːkə/"
+    },
+    "let": {
+      "ipa": "/let/"
+    },
+    "come": {
+      "ipa": "/kʌm/"
+    },
+    "you": {
+      "ipa": "/juː/"
+    },
+    "learn": {
+      "ipa": "/lɜːn/"
+    },
+    "may": {
+      "ipa": "/meɪ/"
+    },
+    "need": {
+      "ipa": "/niːd/"
+    },
+    "space": {
+      "ipa": "/speɪs/"
+    },
+    "sit": {
+      "ipa": "/sɪt/"
+    },
+    "on": {
+      "ipa": "/ɒn/"
+    },
+    "grass": {
+      "ipa": "/ɡrɑːs/"
+    },
+    "soon": {
+      "ipa": "/suːn/"
+    },
+    "brings": {
+      "ipa": "/brɪŋz/"
+    },
+    "ball": {
+      "ipa": "/bɔːl/"
+    },
+    "ready": {
+      "ipa": "/ˈredi/"
+    },
+    "game": {
+      "ipa": "/ɡeɪm/"
+    },
+    "rain": {
+      "ipa": "/reɪn/"
+    },
+    "falls": {
+      "ipa": "/fɔːlz/"
+    },
+    "outside": {
+      "ipa": "/ˌaʊtˈsaɪd/"
+    },
+    "kitchen": {
+      "ipa": "/ˈkɪtʃɪn/"
+    },
+    "warm": {
+      "ipa": "/wɔːm/"
+    },
+    "open": {
+      "ipa": "/ˈəʊpən/"
+    },
+    "window": {
+      "ipa": "/ˈwɪndəʊ/"
+    },
+    "some": {
+      "ipa": "/sʌm/"
+    },
+    "put": {
+      "ipa": "/pʊt/"
+    },
+    "large": {
+      "ipa": "/lɑːdʒ/"
+    },
+    "pot": {
+      "ipa": "/pɒt/"
+    },
+    "cooker": {
+      "ipa": "/ˈkʊkə/"
+    },
+    "sister": {
+      "ipa": "/ˈsɪstə/"
+    },
+    "asks": {
+      "ipa": "/ɑːsks/"
+    },
+    "can": {
+      "ipa": "/kæn/"
+    },
+    "add": {
+      "ipa": "/æd/"
+    },
+    "carrots": {
+      "ipa": "/ˈkærəts/"
+    },
+    "yes": {
+      "ipa": "/jes/"
+    },
+    "puts": {
+      "ipa": "/pʊts/"
+    },
+    "in": {
+      "ipa": "/ɪn/"
+    },
+    "beans": {
+      "ipa": "/biːnz/"
+    },
+    "wash": {
+      "ipa": "/wɒʃ/"
+    },
+    "vegetables": {
+      "ipa": "/ˈvedʒtəblz/"
+    },
+    "before": {
+      "ipa": "/bɪˈfɔː/"
+    },
+    "cooking": {
+      "ipa": "/ˈkʊkɪŋ/"
+    },
+    "shelf": {
+      "ipa": "/ʃelf/"
+    },
+    "holds": {
+      "ipa": "/həʊldz/"
+    },
+    "bowls": {
+      "ipa": "/bəʊlz/"
+    },
+    "twenty": {
+      "ipa": "/ˈtwenti/"
+    },
+    "minutes": {
+      "ipa": "/ˈmɪnɪts/"
+    },
+    "taste": {
+      "ipa": "/teɪst/"
+    },
+    "soup": {
+      "ipa": "/suːp/"
+    },
+    "little": {
+      "ipa": "/ˈlɪtl/"
+    },
+    "salt": {
+      "ipa": "/sɔːlt/"
+    },
+    "needs": {
+      "ipa": "/niːdz/"
+    },
+    "nothing": {
+      "ipa": "/ˈnʌθɪŋ/"
+    },
+    "else": {
+      "ipa": "/els/"
+    },
+    "carry": {
+      "ipa": "/ˈkæri/"
+    },
+    "table": {
+      "ipa": "/ˈteɪbl/"
+    },
+    "where": {
+      "ipa": "/weə/"
+    },
+    "friends": {
+      "ipa": "/frendz/"
+    },
+    "waiting": {
+      "ipa": "/ˈweɪtɪŋ/"
+    },
+    "simple": {
+      "ipa": "/ˈsɪmpl/"
+    },
+    "food": {
+      "ipa": "/fuːd/"
+    },
+    "share": {
+      "ipa": "/ʃeə/"
+    },
+    "visit": {
+      "ipa": "/ˈvɪzɪt/"
+    },
+    "library": {
+      "ipa": "/ˈlaɪbrəri/"
+    },
+    "near": {
+      "ipa": "/nɪə/"
+    },
+    "write": {
+      "ipa": "/raɪt/"
+    },
+    "name": {
+      "ipa": "/neɪm/"
+    },
+    "form": {
+      "ipa": "/fɔːm/"
+    },
+    "librarian": {
+      "ipa": "/laɪˈbreəriən/"
+    },
+    "what": {
+      "ipa": "/wɒt/"
+    },
+    "want": {
+      "ipa": "/wɒnt/"
+    },
+    "read": {
+      "ipa": "/riːd/"
+    },
+    "choose": {
+      "ipa": "/tʃuːz/"
+    },
+    "book": {
+      "ipa": "/bʊk/"
+    },
+    "life": {
+      "ipa": "/laɪf/"
+    },
+    "its": {
+      "ipa": "/ɪts/"
+    },
+    "cover": {
+      "ipa": "/ˈkʌvə/"
+    },
+    "shows": {
+      "ipa": "/ʃəʊz/"
+    },
+    "bird": {
+      "ipa": "/bɜːd/"
+    },
+    "flying": {
+      "ipa": "/ˈflaɪɪŋ/"
+    },
+    "sea": {
+      "ipa": "/siː/"
+    },
+    "has": {
+      "ipa": "/hæz/"
+    },
+    "page": {
+      "ipa": "/peɪdʒ/"
+    },
+    "notes": {
+      "ipa": "/nəʊts/"
+    },
+    "cannot": {
+      "ipa": "/ˈkænɒt/"
+    },
+    "ideas": {
+      "ipa": "/aɪˈdɪəz/"
+    },
+    "notebook": {
+      "ipa": "/ˈnəʊtbʊk/"
+    },
+    "instead": {
+      "ipa": "/ɪnˈsted/"
+    },
+    "question": {
+      "ipa": "/ˈkwestʃən/"
+    },
+    "no": {
+      "ipa": "/nəʊ/"
+    },
+    "clear": {
+      "ipa": "/klɪə/"
+    },
+    "finds": {
+      "ipa": "/faɪndz/"
+    },
+    "plan": {
+      "ipa": "/plæn/"
+    },
+    "next": {
+      "ipa": "/nekst/"
+    },
+    "month": {
+      "ipa": "/mʌnθ/"
+    },
+    "neighbours": {
+      "ipa": "/ˈneɪbəz/"
+    },
+    "talked": {
+      "ipa": "/tɔːkt/"
+    },
+    "cleaning": {
+      "ipa": "/ˈkliːnɪŋ/"
+    },
+    "park": {
+      "ipa": "/pɑːk/"
+    },
+    "turn": {
+      "ipa": "/tɜːn/"
+    },
+    "into": {
+      "ipa": "/ˈɪntə/"
+    },
+    "walk": {
+      "ipa": "/wɔːk/"
+    },
+    "collect": {
+      "ipa": "/kəˈlekt/"
+    },
+    "litter": {
+      "ipa": "/ˈlɪtə/"
+    },
+    "helps": {
+      "ipa": "/helps/"
+    },
+    "people": {
+      "ipa": "/ˈpiːpl/"
+    },
+    "join": {
+      "ipa": "/dʒɔɪn/"
+    },
+    "safe": {
+      "ipa": "/seɪf/"
+    },
+    "place": {
+      "ipa": "/pleɪs/"
+    },
+    "play": {
+      "ipa": "/pleɪ/"
+    },
+    "sees": {
+      "ipa": "/siːz/"
+    },
+    "path": {
+      "ipa": "/pɑːθ/"
+    },
+    "stops": {
+      "ipa": "/stɒps/"
+    },
+    "only": {
+      "ipa": "/ˈəʊnli/"
+    },
+    "cat": {
+      "ipa": "/kæt/"
+    },
+    "he": {
+      "ipa": "/hiː/"
+    },
+    "father": {
+      "ipa": "/ˈfɑːðə/"
+    },
+    "him": {
+      "ipa": "/hɪm/"
+    },
+    "still": {
+      "ipa": "/stɪl/"
+    },
+    "pass": {
+      "ipa": "/pɑːs/"
+    },
+    "nobody": {
+      "ipa": "/ˈnəʊbədi/"
+    },
+    "gets": {
+      "ipa": "/ɡets/"
+    },
+    "work": {
+      "ipa": "/wɜːk/"
+    },
+    "slow": {
+      "ipa": "/sləʊ/"
+    },
+    "stop": {
+      "ipa": "/stɒp/"
+    },
+    "confuse": {
+      "ipa": "/kənˈfjuːz/"
+    },
+    "prescribe": {
+      "ipa": "/prɪˈskraɪb/"
+    },
+    "reduction": {
+      "ipa": "/rɪˈdʌkʃən/"
+    },
+    "trillion": {
+      "ipa": "/ˈtrɪljən/"
+    },
+    "intervention": {
+      "ipa": "/ˌɪntəˈvenʃən/"
+    },
+    "improve": {
+      "ipa": "/ɪmˈpruːv/"
+    },
+    "upstairs": {
+      "ipa": "/ˌʌpˈsteəz/"
+    },
+    "passion": {
+      "ipa": "/ˈpæʃən/"
+    },
+    "depart": {
+      "ipa": "/dɪˈpɑːt/"
+    },
+    "simply": {
+      "ipa": "/ˈsɪmpli/"
+    },
+    "clinical": {
+      "ipa": "/ˈklɪnɪkəl/"
+    },
+    "whatever": {
+      "ipa": "/wɒtˈevə/"
+    },
+    "full": {
+      "ipa": "/fʊl/"
+    },
+    "sensitive": {
+      "ipa": "/ˈsensətɪv/"
+    },
+    "versus": {
+      "ipa": "/ˈvɜːsəs/"
+    },
+    "steadily": {
+      "ipa": "/ˈstedɪli/"
+    },
+    "response": {
+      "ipa": "/rɪˈspɒns/"
+    },
+    "instead of": {
+      "ipa": "/ɪnˈsted əv/"
+    },
+    "either": {
+      "ipa": "/ˈaɪðə/"
+    },
+    "your": {
+      "ipa": "/jɔː/"
+    },
+    "allegedly": {
+      "ipa": "/əˈledʒɪdli/"
+    },
+    "alone": {
+      "ipa": "/əˈləʊn/"
+    },
+    "test": {
+      "ipa": "/test/"
+    },
+    "suitable": {
+      "ipa": "/ˈsuːtəbl/"
+    },
+    "bury": {
+      "ipa": "/ˈberi/"
+    },
+    "liable": {
+      "ipa": "/ˈlaɪəbl/"
+    },
+    "unlike": {
+      "ipa": "/ʌnˈlaɪk/"
+    },
+    "advertise": {
+      "ipa": "/ˈædvətaɪz/"
+    },
+    "intelligence": {
+      "ipa": "/ɪnˈtelɪdʒəns/"
+    },
+    "clinic": {
+      "ipa": "/ˈklɪnɪk/"
+    },
+    "doctor": {
+      "ipa": "/ˈdɒktə/"
+    },
+    "rest": {
+      "ipa": "/rest/"
+    },
+    "early": {
+      "ipa": "/ˈɜːli/"
+    },
+    "health": {
+      "ipa": "/helθ/"
+    },
+    "pain": {
+      "ipa": "/peɪn/"
+    },
+    "whose": {
+      "ipa": "/huːz/"
+    },
+    "travel": {
+      "ipa": "/ˈtrævl/"
+    },
+    "jokes": {
+      "ipa": "/dʒəʊks/"
+    },
+    "cost": {
+      "ipa": "/kɒst/"
+    },
+    "dollars": {
+      "ipa": "/ˈdɒləz/"
+    },
+    "guide": {
+      "ipa": "/ɡaɪd/"
+    },
+    "quick": {
+      "ipa": "/kwɪk/"
+    },
+    "new": {
+      "ipa": "/njuː/"
+    },
+    "will": {
+      "ipa": "/wɪl/"
+    },
+    "everyone": {
+      "ipa": "/ˈevriwʌn/"
+    },
+    "patient": {
+      "ipa": "/ˈpeɪʃənt/"
+    },
+    "result": {
+      "ipa": "/rɪˈzʌlt/"
+    },
+    "report": {
+      "ipa": "/rɪˈpɔːt/"
+    },
+    "compares": {
+      "ipa": "/kəmˈpeəz/"
+    },
+    "choice": {
+      "ipa": "/tʃɔɪs/"
+    },
+    "facts": {
+      "ipa": "/fækts/"
+    },
+    "matter": {
+      "ipa": "/ˈmætə/"
+    },
+    "while": {
+      "ipa": "/waɪl/"
+    },
+    "moves": {
+      "ipa": "/muːvz/"
+    },
+    "use": {
+      "ipa": "/juːz/"
+    },
+    "whether": {
+      "ipa": "/ˈweðə/"
+    },
+    "online": {
+      "ipa": "/ˌɒnˈlaɪn/"
+    },
+    "service": {
+      "ipa": "/ˈsɜːvɪs/"
+    },
+    "company": {
+      "ipa": "/ˈkʌmpəni/"
+    },
+    "tried": {
+      "ipa": "/traɪd/"
+    },
+    "bad": {
+      "ipa": "/bæd/"
+    },
+    "news": {
+      "ipa": "/njuːz/"
+    },
+    "product": {
+      "ipa": "/ˈprɒdʌkt/"
+    },
+    "sold": {
+      "ipa": "/səʊld/"
+    },
+    "harm": {
+      "ipa": "/hɑːm/"
+    },
+    "responsible": {
+      "ipa": "/rɪˈspɒnsəbl/"
+    },
+    "family": {
+      "ipa": "/ˈfæməli/"
+    },
+    "pet": {
+      "ipa": "/pet/"
+    },
+    "quiet": {
+      "ipa": "/ˈkwaɪət/"
+    },
+    "if": {
+      "ipa": "/ɪf/"
+    },
+    "signs": {
+      "ipa": "/saɪnz/"
+    },
+    "careful": {
+      "ipa": "/ˈkeəfl/"
+    },
+    "without": {
+      "ipa": "/wɪˈðaʊt/"
+    },
+    "any": {
+      "ipa": "/ˈeni/"
+    },
+    "does": {
+      "ipa": "/dʌz/"
+    },
+    "reads": {
+      "ipa": "/riːdz/"
+    },
+    "because": {
+      "ipa": "/bɪˈkɒz/"
+    },
+    "bring": {
+      "ipa": "/brɪŋ/"
+    },
+    "clean": {
+      "ipa": "/kliːn/"
+    },
+    "smiles": {
+      "ipa": "/smaɪlz/"
+    },
+    "joke": {
+      "ipa": "/dʒəʊk/"
+    },
+    "listens": {
+      "ipa": "/ˈlɪsənz/"
+    },
+    "uses": {
+      "ipa": "/ˈjuːzɪz/"
+    },
+    "as": {
+      "ipa": "/æz/"
+    },
+    "improves": {
+      "ipa": "/ɪmˈpruːvz/"
+    },
+    "team": {
+      "ipa": "/tiːm/"
+    },
+    "accept": {
+      "ipa": "/əkˈsept/"
+    },
+    "check": {
+      "ipa": "/tʃek/"
+    },
+    "making": {
+      "ipa": "/ˈmeɪkɪŋ/"
+    },
+    "say": {
+      "ipa": "/seɪ/"
+    },
+    "old": {
+      "ipa": "/əʊld/"
+    },
+    "animals": {
+      "ipa": "/ˈænɪməlz/"
+    }
+  }
+}

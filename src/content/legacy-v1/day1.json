@@ -1,0 +1,1872 @@
+{
+  "day": 1,
+  "date": "2026-10-14",
+  "words": [
+    "a",
+    "about",
+    "above",
+    "across",
+    "action",
+    "activity",
+    "actor",
+    "actress",
+    "add",
+    "address",
+    "adult",
+    "advice",
+    "afraid",
+    "after",
+    "afternoon",
+    "again",
+    "age",
+    "ago",
+    "agree",
+    "air",
+    "airport",
+    "all",
+    "also",
+    "always",
+    "amazing",
+    "and",
+    "angry",
+    "animal",
+    "another",
+    "answer"
+  ],
+  "content": {
+    "targets": {
+      "a": {
+        "ipa": "/ə; eɪ/",
+        "meaning": "一；一个"
+      },
+      "about": {
+        "ipa": "/əˈbaʊt/",
+        "meaning": "关于；大约"
+      },
+      "above": {
+        "ipa": "/əˈbʌv/",
+        "meaning": "在……上方"
+      },
+      "across": {
+        "ipa": "/əˈkrɒs/",
+        "meaning": "穿过；在……对面"
+      },
+      "action": {
+        "ipa": "/ˈækʃən/",
+        "meaning": "行动；影片中的动作"
+      },
+      "activity": {
+        "ipa": "/ækˈtɪvəti/",
+        "meaning": "活动"
+      },
+      "actor": {
+        "ipa": "/ˈæktə/",
+        "meaning": "演员"
+      },
+      "actress": {
+        "ipa": "/ˈæktrəs/",
+        "meaning": "女演员"
+      },
+      "add": {
+        "ipa": "/æd/",
+        "meaning": "添加"
+      },
+      "address": {
+        "ipa": "/əˈdres/",
+        "meaning": "地址"
+      },
+      "adult": {
+        "ipa": "/ˈædʌlt/",
+        "meaning": "成年人；成年的"
+      },
+      "advice": {
+        "ipa": "/ədˈvaɪs/",
+        "meaning": "建议"
+      },
+      "afraid": {
+        "ipa": "/əˈfreɪd/",
+        "meaning": "害怕的"
+      },
+      "after": {
+        "ipa": "/ˈɑːftə/",
+        "meaning": "在……之后"
+      },
+      "afternoon": {
+        "ipa": "/ˌɑːftəˈnuːn/",
+        "meaning": "下午"
+      },
+      "again": {
+        "ipa": "/əˈɡen/",
+        "meaning": "再一次"
+      },
+      "age": {
+        "ipa": "/eɪdʒ/",
+        "meaning": "年龄"
+      },
+      "ago": {
+        "ipa": "/əˈɡəʊ/",
+        "meaning": "……以前"
+      },
+      "agree": {
+        "ipa": "/əˈɡriː/",
+        "meaning": "同意"
+      },
+      "air": {
+        "ipa": "/eə/",
+        "meaning": "空气"
+      },
+      "airport": {
+        "ipa": "/ˈeəpɔːt/",
+        "meaning": "机场"
+      },
+      "all": {
+        "ipa": "/ɔːl/",
+        "meaning": "全部；所有"
+      },
+      "also": {
+        "ipa": "/ˈɔːlsəʊ/",
+        "meaning": "也"
+      },
+      "always": {
+        "ipa": "/ˈɔːlweɪz/",
+        "meaning": "总是"
+      },
+      "amazing": {
+        "ipa": "/əˈmeɪzɪŋ/",
+        "meaning": "令人惊叹的"
+      },
+      "and": {
+        "ipa": "/ænd/",
+        "meaning": "和；并且"
+      },
+      "angry": {
+        "ipa": "/ˈæŋɡri/",
+        "meaning": "生气的"
+      },
+      "animal": {
+        "ipa": "/ˈænɪməl/",
+        "meaning": "动物"
+      },
+      "another": {
+        "ipa": "/əˈnʌðə/",
+        "meaning": "另一个；再一个"
+      },
+      "answer": {
+        "ipa": "/ˈɑːnsə/",
+        "meaning": "答案；回答"
+      }
+    },
+    "dictionary": {
+      "this": "这；这个",
+      "afternoon": "下午",
+      "i": "我",
+      "arrive": "到达",
+      "at": "在（地点或时刻）；处于（某阶段）",
+      "the": "这；那（定冠词）",
+      "airport": "机场",
+      "with": "有；和……一起",
+      "a": "一；一个",
+      "friend": "朋友",
+      "we": "我们",
+      "look": "看",
+      "screen": "屏幕",
+      "above": "在……上方",
+      "desk": "柜台；桌子",
+      "and": "和；并且",
+      "ask": "询问",
+      "about": "关于；大约",
+      "our": "我们的",
+      "flight": "航班",
+      "answer": "答案；回答",
+      "is": "是；处于（be 的第三人称单数）",
+      "good": "好的",
+      "have": "有",
+      "time": "时间",
+      "for": "为了；给；用于",
+      "tea": "茶",
+      "my": "我的",
+      "checks": "核对",
+      "address": "地址",
+      "of": "……的",
+      "hotel": "酒店",
+      "again": "再一次",
+      "across": "穿过；在……对面",
+      "room": "房间",
+      "an": "一个；一位",
+      "actor": "演员",
+      "actress": "女演员",
+      "are": "是；处于（be 的复数形式）",
+      "talking": "交谈",
+      "to": "到；向；用于连接动词不定式",
+      "children": "孩子们",
+      "saw": "看了；看见了（see 的过去式）",
+      "their": "他们的",
+      "amazing": "令人惊叹的",
+      "film": "电影",
+      "week": "星期；周",
+      "ago": "……以前",
+      "they": "他们；它们",
+      "also": "也",
+      "give": "给予",
+      "advice": "建议",
+      "young": "年轻的",
+      "fan": "影迷；粉丝",
+      "always": "总是",
+      "be": "是；成为",
+      "kind": "友善的",
+      "after": "在……之后",
+      "photo": "照片；合影",
+      "all": "全部；所有",
+      "smile": "微笑",
+      "agree": "同意",
+      "that": "那；也用于引出句子说明想法或事实",
+      "lovely": "美好的",
+      "start": "开始；开端",
+      "trip": "旅行",
+      "drama": "戏剧",
+      "group": "团队；小组",
+      "meets": "见面；聚会",
+      "every": "每一个",
+      "one": "一个；一位",
+      "age": "年龄",
+      "but": "但是",
+      "playing": "扮演；玩耍",
+      "his": "他的",
+      "mother": "母亲",
+      "adult": "成年人；成年的",
+      "today": "今天",
+      "first": "第一；最初",
+      "activity": "活动",
+      "short": "短的",
+      "scene": "戏剧中的一场；场景",
+      "lost": "丢失的",
+      "bag": "包",
+      "there": "那里；there is 表示有",
+      "plenty": "大量；充足",
+      "action": "行动；影片中的动作",
+      "run": "跑",
+      "stage": "舞台",
+      "search": "寻找",
+      "under": "在……下面",
+      "chairs": "椅子（复数）",
+      "am": "是；处于（与 I 连用的 be）",
+      "afraid": "害怕的",
+      "forgetting": "忘记",
+      "words": "词语；台词",
+      "teacher": "老师",
+      "never": "从不",
+      "angry": "生气的",
+      "when": "当……时",
+      "make": "做；造成",
+      "mistakes": "错误（复数）",
+      "she": "她",
+      "gives": "给予（第三人称单数）",
+      "us": "我们（宾格）",
+      "another": "另一个；再一个",
+      "chance": "机会",
+      "says": "说（第三人称单数）",
+      "take": "进行某个动作；take a breath 表示吸一口气",
+      "breath": "呼吸；吸入的一口气",
+      "try": "尝试",
+      "help": "帮助",
+      "each": "每个",
+      "other": "其他的；each other 表示彼此",
+      "show": "演出",
+      "feel": "感觉",
+      "small": "小的",
+      "animal": "动物",
+      "waits": "等待",
+      "by": "在……旁边",
+      "door": "门",
+      "shelter": "收容所；庇护所",
+      "dog": "狗",
+      "loud": "响亮的",
+      "sounds": "声音（复数）",
+      "so": "所以",
+      "keep": "保持",
+      "voices": "嗓音（复数）",
+      "low": "低的；小声的",
+      "must": "必须",
+      "stay": "停留；保持",
+      "child": "孩子",
+      "during": "在……期间",
+      "do": "做；用于构成疑问句或否定句",
+      "not": "不",
+      "know": "知道",
+      "it": "它",
+      "loves": "喜爱",
+      "gentle": "温和的",
+      "games": "游戏（复数）",
+      "fresh": "新鲜的",
+      "air": "空气；空中",
+      "opened": "开办了；打开了",
+      "two": "二",
+      "years": "年（复数）",
+      "worker": "工作人员",
+      "let": "让",
+      "come": "来",
+      "you": "你；你们",
+      "learn": "学习；了解到",
+      "may": "可能",
+      "need": "需要",
+      "space": "空间",
+      "sit": "坐",
+      "on": "在……上；关于",
+      "grass": "草；草地",
+      "soon": "很快",
+      "brings": "带来",
+      "ball": "球",
+      "ready": "准备好的",
+      "game": "游戏",
+      "rain": "雨",
+      "falls": "落下",
+      "outside": "在外面",
+      "kitchen": "厨房",
+      "warm": "温热的",
+      "open": "打开；开着的",
+      "window": "窗户",
+      "some": "一些",
+      "put": "放",
+      "large": "大的",
+      "pot": "锅",
+      "cooker": "炉灶",
+      "sister": "姐妹",
+      "asks": "问",
+      "can": "可以；能够",
+      "add": "添加",
+      "carrots": "胡萝卜（复数）",
+      "yes": "是；可以",
+      "puts": "放（第三人称单数）",
+      "in": "在……里面",
+      "beans": "豆子（复数）",
+      "wash": "清洗",
+      "vegetables": "蔬菜（复数）",
+      "before": "在……之前",
+      "cooking": "烹饪",
+      "shelf": "搁板",
+      "holds": "放着；容纳",
+      "bowls": "碗（复数）",
+      "twenty": "二十",
+      "minutes": "分钟（复数）",
+      "taste": "品尝",
+      "soup": "汤",
+      "little": "少量的；a little 表示一点",
+      "salt": "盐",
+      "needs": "需要（第三人称单数）",
+      "nothing": "没有什么东西",
+      "else": "其他的",
+      "carry": "拿；端；搬",
+      "table": "桌子",
+      "where": "在……的地方",
+      "friends": "朋友们",
+      "waiting": "等待",
+      "simple": "简单的",
+      "food": "食物",
+      "share": "分享",
+      "visit": "拜访；去某处",
+      "library": "图书馆",
+      "near": "在……附近",
+      "write": "写",
+      "name": "名字",
+      "form": "表格",
+      "librarian": "图书管理员",
+      "what": "什么；所……的事物",
+      "want": "想要",
+      "read": "阅读（此处为原形）",
+      "choose": "选择",
+      "book": "书",
+      "life": "生活；生命",
+      "its": "它的",
+      "cover": "书的封面",
+      "shows": "展示；呈现",
+      "bird": "鸟",
+      "flying": "飞翔",
+      "sea": "海",
+      "has": "有（第三人称单数）",
+      "page": "页",
+      "notes": "笔记",
+      "cannot": "不能",
+      "ideas": "想法（复数）",
+      "notebook": "笔记本",
+      "instead": "代替；而是",
+      "question": "问题",
+      "no": "没有",
+      "clear": "清楚的",
+      "finds": "找到",
+      "plan": "计划",
+      "next": "下一个的；接下来的",
+      "month": "月",
+      "neighbours": "邻居（复数）",
+      "talked": "谈论了",
+      "cleaning": "清理",
+      "park": "公园",
+      "turn": "转变；转动",
+      "into": "进入；变为",
+      "walk": "走",
+      "collect": "收集；捡拾",
+      "litter": "乱丢的垃圾",
+      "helps": "帮助",
+      "people": "人们",
+      "join": "参加",
+      "safe": "安全的",
+      "place": "地方",
+      "play": "玩耍；表演",
+      "sees": "看见",
+      "path": "小路；路线",
+      "stops": "停止；停下来",
+      "only": "仅仅",
+      "cat": "猫",
+      "he": "他",
+      "father": "父亲",
+      "him": "他（宾格）",
+      "still": "静止的；不动的",
+      "pass": "经过",
+      "nobody": "没有人",
+      "gets": "变得；得到",
+      "work": "工作",
+      "slow": "缓慢的",
+      "stop": "停止；停下来"
+    },
+    "lessons": [
+      {
+        "id": "oxford-1-1",
+        "title": "A surprising airport visit",
+        "subtitle": "旅行与偶遇",
+        "paragraphs": [
+          {
+            "en": "This afternoon, I arrive at the airport with a friend. We look at the screen above the desk and ask about our flight. The answer is good: we have time for tea. My friend checks the address of our hotel again.",
+            "zh": "今天下午（afternoon），我和一位（a）朋友来到机场（airport）。我们看着柜台上方（above）的屏幕，并且（and）询问关于（about）航班的情况。答复（answer）不错：我们还有时间喝茶。朋友再次（again）核对酒店的地址（address）。",
+            "patterns": [
+              {
+                "expression": "arrive at the airport",
+                "meaning": "到达机场；arrive at 后接具体地点"
+              },
+              {
+                "expression": "have time for tea",
+                "meaning": "有时间喝茶；have time for 后接名词"
+              },
+              {
+                "expression": "ask about our flight",
+                "meaning": "询问航班情况"
+              }
+            ]
+          },
+          {
+            "en": "Across the room, an actor and an actress are talking to children. I saw their amazing film a week ago. They also give advice to a young fan: always be kind. After a photo, all the children smile, and we agree that this is a lovely start to our trip.",
+            "zh": "在房间对面（across），一名演员（actor）和（and）一名女演员（actress）正与孩子们交谈。我在一（a）周以前（ago）看过他们那部令人惊叹的（amazing）电影。他们也（also）给年轻影迷提建议（advice）：总是（always）要友善。合影之后（after），所有（all）孩子都笑了，我们一致认为（agree），这趟旅程有了美好的开端。",
+            "patterns": [
+              {
+                "expression": "give advice to a young fan",
+                "meaning": "给一位年轻影迷提建议；advice 为不可数名词"
+              },
+              {
+                "expression": "a week ago",
+                "meaning": "一周前；时间长度 + ago 表示距今多久以前"
+              },
+              {
+                "expression": "agree that this is a lovely start",
+                "meaning": "一致认为这是美好的开端；agree that 后接完整句子"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "actor",
+            "prompt": "In \"an actor\", what does \"actor\" mean?",
+            "options": [
+              "a person who checks flight tickets",
+              "a person who cares for animals",
+              "a person who performs in plays or films",
+              "a person who cooks meals"
+            ],
+            "answer": 2,
+            "explanation": "actor 指在戏剧或电影里表演的人。短文随后提到他们的电影，帮助你判断这是演员，而不是机场工作人员。actor 可以指任何性别的演员。"
+          },
+          {
+            "word": "actress",
+            "prompt": "In \"an actress\", what does \"actress\" mean?",
+            "options": [
+              "a woman who writes addresses",
+              "a woman who flies planes",
+              "a woman who grows vegetables",
+              "a woman who performs in plays or films"
+            ],
+            "answer": 3,
+            "explanation": "actress 专指女演员。它与短文中的 film 和 actor 属于同一主题，不能理解为女飞行员或园丁。"
+          },
+          {
+            "word": "airport",
+            "prompt": "In \"at the airport\", what does \"airport\" mean?",
+            "options": [
+              "a place where planes arrive and leave",
+              "a place where books are borrowed",
+              "a place where films are made",
+              "a place where meals are cooked"
+            ],
+            "answer": 0,
+            "explanation": "airport 是飞机起降、旅客乘坐航班的地方。短文的 flight 和 screen 提供了机场情境的线索。"
+          },
+          {
+            "word": "address",
+            "prompt": "In \"the address of our hotel\", what does \"address\" mean?",
+            "options": [
+              "the cost of a meal",
+              "details of where someone lives or stays",
+              "the time a flight leaves",
+              "the name of an animal"
+            ],
+            "answer": 1,
+            "explanation": "address 在这里是名词“地址”，告诉我们酒店在哪里。航班时间和费用都不能用来说明酒店的具体位置。"
+          },
+          {
+            "word": "ago",
+            "prompt": "In \"a week ago\", what does \"ago\" mean?",
+            "options": [
+              "from now on",
+              "before now",
+              "at the present moment",
+              "once more"
+            ],
+            "answer": 1,
+            "explanation": "ago 与表示时间长度的词组一起使用，表示距现在多久以前。a week ago 是“一周前”，不是“一周后”。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-2",
+        "title": "A small stage, a big moment",
+        "subtitle": "戏剧与勇气",
+        "paragraphs": [
+          {
+            "en": "Our drama group meets every afternoon. One actor is my age, but the actress playing his mother is an adult. Today, our first activity is a short scene about a lost bag. There is plenty of action: we run across the stage and search under chairs.",
+            "zh": "我们剧团每天下午（afternoon）见面。一名演员（actor）和我年龄（age）相同，但扮演他母亲的女演员（actress）是一名成年人（adult）。今天的第一个活动（activity）是一（a）段关于（about）丢包的短戏。戏里有很多动作（action）：我们跑过（across）舞台，并且（and）到椅子下面寻找。",
+            "patterns": [
+              {
+                "expression": "my age",
+                "meaning": "与我同龄；be my age 表示年龄与我相同"
+              },
+              {
+                "expression": "plenty of action",
+                "meaning": "很多动作；plenty of 可接不可数名词"
+              },
+              {
+                "expression": "search under chairs",
+                "meaning": "在椅子下面寻找"
+              }
+            ]
+          },
+          {
+            "en": "I am afraid of forgetting my words. Our teacher is never angry when we make mistakes. She gives us another chance and says, \"Take a breath and try again.\" We all agree to help each other. After the show, I feel amazing.",
+            "zh": "我害怕（afraid）忘词。我们犯错时，老师从不生气（angry）。她再给我们一次（another）机会，并且（and）说：“吸一（a）口气，再次（again）尝试。”我们所有人（all）都同意（agree）互相帮助。演出之后（after），我感觉棒极了（amazing）。",
+            "patterns": [
+              {
+                "expression": "afraid of forgetting my words",
+                "meaning": "害怕忘词；be afraid of 后接名词或动词 -ing 形式"
+              },
+              {
+                "expression": "make mistakes",
+                "meaning": "犯错"
+              },
+              {
+                "expression": "agree to help each other",
+                "meaning": "同意互相帮助；agree to 后接动词原形"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "activity",
+            "prompt": "In \"our first activity\", what does \"activity\" mean?",
+            "options": [
+              "a number showing age",
+              "something people do",
+              "a person in a film",
+              "the air outside"
+            ],
+            "answer": 1,
+            "explanation": "activity 指安排大家做的一项活动。这里具体是排演一段丢包的短戏；它不是人的年龄或身份。"
+          },
+          {
+            "word": "afraid",
+            "prompt": "In \"afraid of forgetting my words\", what does \"afraid\" mean?",
+            "options": [
+              "feeling fear",
+              "feeling hunger",
+              "feeling pride",
+              "feeling boredom"
+            ],
+            "answer": 0,
+            "explanation": "afraid 表示害怕、担心。人物担心忘掉台词，所以它不是“饥饿”或“自豪”；afraid of 后可接动词 -ing 形式。"
+          },
+          {
+            "word": "angry",
+            "prompt": "In \"never angry\", what does \"angry\" mean?",
+            "options": [
+              "feeling very sleepy",
+              "feeling completely calm",
+              "feeling strong displeasure",
+              "feeling very curious"
+            ],
+            "answer": 2,
+            "explanation": "angry 表示生气、不高兴。never angry 说明老师不会因学生犯错而生气；angry 本身并不表示“平静”。"
+          },
+          {
+            "word": "again",
+            "prompt": "In \"try again\", what does \"again\" mean?",
+            "options": [
+              "for the first time",
+              "at no time",
+              "at the same place",
+              "one more time"
+            ],
+            "answer": 3,
+            "explanation": "again 表示“再一次”。老师让学生犯错后重试，说明同一动作重复发生，而不是第一次尝试。"
+          },
+          {
+            "word": "all",
+            "prompt": "In \"We all agree\", what does \"all\" mean?",
+            "options": [
+              "only the first person",
+              "every person or thing in a group",
+              "none of the people",
+              "one person chosen at random"
+            ],
+            "answer": 1,
+            "explanation": "all 在这里涵盖整个小组的每一个人，表示“我们所有人”。它不是只指第一个人或某个随机的人。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-3",
+        "title": "A home for a quiet dog",
+        "subtitle": "动物与照顾",
+        "paragraphs": [
+          {
+            "en": "A small animal waits by the door of the shelter. The dog is afraid of loud sounds, so we keep our voices low. An adult must stay with each child during this activity. We do not know the age of the dog, but it loves gentle games and fresh air.",
+            "zh": "一（a）只小动物（animal）在收容所门边等着。这只狗害怕（afraid）响亮的声音，因此我们轻声说话。在这项活动（activity）中，每个孩子都必须由一名成年人（adult）陪着。我们不知道狗的年龄（age），但它喜欢温和的游戏和（and）新鲜空气（air）。",
+            "patterns": [
+              {
+                "expression": "afraid of loud sounds",
+                "meaning": "害怕响亮的声音"
+              },
+              {
+                "expression": "keep our voices low",
+                "meaning": "保持低声说话；keep + 宾语 + 形容词表示让某物保持某种状态"
+              },
+              {
+                "expression": "stay with each child",
+                "meaning": "陪在每个孩子身边"
+              }
+            ]
+          },
+          {
+            "en": "The shelter opened two years ago. A worker gives us advice: always let the dog come to you first. I also learn that an angry animal may need space. We sit on the grass, and soon the dog brings us a ball. It is ready for another game.",
+            "zh": "收容所在两年以前（ago）开办。一（a）位工作人员给我们建议（advice）：总是（always）先让狗主动走向你。我也（also）了解到，生气的（angry）动物（animal）可能需要空间。我们坐在草地上，接着（and）狗很快就给我们衔来一只球。它准备好再玩一场（another）游戏了。",
+            "patterns": [
+              {
+                "expression": "let the dog come to you",
+                "meaning": "让狗走向你；let + 宾语 + 动词原形"
+              },
+              {
+                "expression": "It is ready for another game",
+                "meaning": "准备好再玩一场游戏；正文中 It is ready for 使用这一结构"
+              },
+              {
+                "expression": "gives us advice",
+                "meaning": "给我们提建议；正文使用第三人称单数 gives"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "adult",
+            "prompt": "In \"An adult must stay with each child\", what does \"adult\" mean?",
+            "options": [
+              "a very young child",
+              "a small pet",
+              "a fully grown person",
+              "a group of friends"
+            ],
+            "answer": 2,
+            "explanation": "adult 与 child 相对，指已经长大的人，即成年人。这里要求每个孩子都有成年人陪同。"
+          },
+          {
+            "word": "age",
+            "prompt": "In \"the age of the dog\", what does \"age\" mean?",
+            "options": [
+              "how old someone is",
+              "how tall someone is",
+              "where someone lives",
+              "what someone eats"
+            ],
+            "answer": 0,
+            "explanation": "age 表示年龄，也就是这只狗活了多久。它不表示身高、住址或吃的食物。"
+          },
+          {
+            "word": "animal",
+            "prompt": "In \"A small animal\", what does \"animal\" mean?",
+            "options": [
+              "a piece of furniture",
+              "a kind of weather",
+              "a way of travelling",
+              "a living creature such as a dog"
+            ],
+            "answer": 3,
+            "explanation": "animal 指动物，比如随后提到的狗。家具、天气和旅行方式都不属于这一类。"
+          },
+          {
+            "word": "advice",
+            "prompt": "In \"gives us advice\", what does \"advice\" mean?",
+            "options": [
+              "a list of home addresses",
+              "anger at a mistake",
+              "the sound of a plane",
+              "suggestions about what to do"
+            ],
+            "answer": 3,
+            "explanation": "advice 是“关于该怎么做的建议”。工作人员建议先让狗走向人，这正是在指导一种做法。advice 通常不可数，不说 an advice。"
+          },
+          {
+            "word": "always",
+            "prompt": "In \"always let the dog come to you first\", what does \"always\" mean?",
+            "options": [
+              "only one time",
+              "almost never",
+              "at some future time",
+              "every time"
+            ],
+            "answer": 3,
+            "explanation": "always 表示每次都这样做。工作人员把“先让狗走向你”作为一贯应遵守的做法，而不是只做一次。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-4",
+        "title": "Soup for a rainy day",
+        "subtitle": "做饭与分享",
+        "paragraphs": [
+          {
+            "en": "Rain falls outside, but the kitchen is warm. I open a window for some air and put a large pot on the cooker. My sister asks, \"Can I add the carrots?\" My answer is yes. She also puts in some beans. We always wash vegetables before cooking.",
+            "zh": "外面下着雨，厨房里却很暖和。我打开一（a）扇窗透透空气（air），并且（and）把一口大锅放到炉子上。妹妹问：“我可以加入（add）胡萝卜吗？”我的回答（answer）是可以。她也（also）放进了一些豆子。我们总是（always）在烹饪前清洗蔬菜。",
+            "patterns": [
+              {
+                "expression": "put a large pot on the cooker",
+                "meaning": "把一口大锅放在炉子上；put + 物品 + 地点"
+              },
+              {
+                "expression": "puts in some beans",
+                "meaning": "放入一些豆子；正文 puts in 是 put in 的第三人称单数形式"
+              },
+              {
+                "expression": "before cooking",
+                "meaning": "在烹饪之前；before 后接动词 -ing 形式"
+              }
+            ]
+          },
+          {
+            "en": "A shelf above the cooker holds our bowls. After twenty minutes, we taste the soup and add a little salt. We agree that it needs nothing else. We carry it to the table, where all our friends are waiting. Simple food can be amazing when you share it.",
+            "zh": "炉子上方（above）的一（a）块搁板上放着我们的碗。二十分钟之后（after），我们尝了汤，并且（and）加（add）了一点盐。我们一致认为（agree）不用再加别的了。我们把汤端上桌，所有（all）朋友都在等着。一起分享时，简单的食物也能令人惊叹（amazing）。",
+            "patterns": [
+              {
+                "expression": "a little salt",
+                "meaning": "一点盐；a little 修饰不可数名词"
+              },
+              {
+                "expression": "agree that it needs nothing else",
+                "meaning": "一致认为它不需要别的东西；nothing else 表示没有其他东西"
+              },
+              {
+                "expression": "carry it to the table",
+                "meaning": "把它端到桌上；carry + 物品 + to + 地点"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "add",
+            "prompt": "In \"add the carrots\", what does \"add\" mean?",
+            "options": [
+              "put something with what is already there",
+              "take everything away",
+              "close something tightly",
+              "look at something silently"
+            ],
+            "answer": 0,
+            "explanation": "add 表示在已有的东西里再放入一些东西。妹妹准备把胡萝卜放进锅里，后文还有 add a little salt，即“加一点盐”。"
+          },
+          {
+            "word": "above",
+            "prompt": "In \"above the cooker\", what does \"above\" mean?",
+            "options": [
+              "inside the middle of",
+              "at the same age as",
+              "at a higher level than",
+              "on the other side of"
+            ],
+            "answer": 2,
+            "explanation": "above 表示位置较高，即“在炉灶上方”。它并不表示在炉灶内部或与炉灶处于同一高度。"
+          },
+          {
+            "word": "agree",
+            "prompt": "In \"We agree that it needs nothing else\", what does \"agree\" mean?",
+            "options": [
+              "become very angry",
+              "ask a new question",
+              "have the same opinion",
+              "move to a different place"
+            ],
+            "answer": 2,
+            "explanation": "agree 表示意见一致。大家都认为汤不需要再加别的东西，因此是持相同看法，而不是争吵或发问。"
+          },
+          {
+            "word": "after",
+            "prompt": "In \"After twenty minutes\", what does \"after\" mean?",
+            "options": [
+              "earlier than something",
+              "later than something",
+              "higher than something",
+              "opposite something"
+            ],
+            "answer": 1,
+            "explanation": "after 表示“在……之后”。这里先让汤煮一段时间，再品尝；before 才表示在……之前。"
+          },
+          {
+            "word": "amazing",
+            "prompt": "In \"Simple food can be amazing\", what does \"amazing\" mean?",
+            "options": [
+              "very surprising or wonderful",
+              "very ordinary and dull",
+              "hard to see in the dark",
+              "easy to forget"
+            ],
+            "answer": 0,
+            "explanation": "amazing 表示令人赞叹、很棒。这里赞美与朋友分享的食物；它不表示平淡无趣或容易遗忘。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-5",
+        "title": "Finding the right book",
+        "subtitle": "图书馆与探索",
+        "paragraphs": [
+          {
+            "en": "I visit a library near the airport. At the desk, I write my name and address on a form. The librarian asks what I want to read about. I choose a book about life in the air. Its cover shows a bird flying above the sea.",
+            "zh": "我来到机场（airport）附近的一（a）座图书馆。在柜台，我在表格上写下名字和（and）地址（address）。图书管理员问我想读关于（about）什么的书。我选了一本介绍空中（air）生活的书。封面上有一只鸟在海面上方（above）飞翔。",
+            "patterns": [
+              {
+                "expression": "write my name and address on a form",
+                "meaning": "在表格上填写姓名和地址"
+              },
+              {
+                "expression": "what I want to read about",
+                "meaning": "我想阅读的主题；what 引导宾语从句，about 保留在句尾"
+              },
+              {
+                "expression": "a bird flying above the sea",
+                "meaning": "一只正在海面上方飞翔的鸟；flying 短语修饰 bird"
+              }
+            ]
+          },
+          {
+            "en": "The book has a page for notes. I cannot write in a library book, so I add my ideas to a notebook instead. One question has no clear answer, and I ask for help. The librarian finds another book. I plan to come again next week.",
+            "zh": "书中有一（a）页留作笔记。我不能在图书馆的书上写字，所以改为把想法添加（add）到自己的笔记本里。有个问题没有明确答案（answer），于是（and）我请求帮助。图书管理员找到另一本（another）书。我计划下周再次（again）来这里。",
+            "patterns": [
+              {
+                "expression": "add my ideas to a notebook",
+                "meaning": "把想法添加到笔记本里；add A to B 表示把 A 加入 B"
+              },
+              {
+                "expression": "ask for help",
+                "meaning": "请求帮助"
+              },
+              {
+                "expression": "plan to come again",
+                "meaning": "计划再次前来；plan to 后接动词原形"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "a",
+            "prompt": "In \"a library\", what does \"a\" mean?",
+            "options": [
+              "one, not a particular one",
+              "every one",
+              "no person",
+              "the same one"
+            ],
+            "answer": 0,
+            "explanation": "a 放在单数可数名词 library 前，表示“一座图书馆”，并未特指某一座。它不表示“每一座”或“同一座”。"
+          },
+          {
+            "word": "about",
+            "prompt": "In \"read about\", what does \"about\" mean?",
+            "options": [
+              "far away from",
+              "on the subject of",
+              "without any help",
+              "at exactly midnight"
+            ],
+            "answer": 1,
+            "explanation": "read about 表示“阅读关于……的内容”。about 在这里引出阅读的主题，而不是距离或具体时间。"
+          },
+          {
+            "word": "answer",
+            "prompt": "In \"no clear answer\", what does \"answer\" mean?",
+            "options": [
+              "a request for information",
+              "a reply to a question",
+              "a warning about danger",
+              "a plan for next week"
+            ],
+            "answer": 1,
+            "explanation": "answer 指问题的答案或回应。question 是提出的问题，answer 则是回应它的内容；这里说书中没有明确答案。"
+          },
+          {
+            "word": "another",
+            "prompt": "In \"another book\", what does \"another\" mean?",
+            "options": [
+              "one more or a different one",
+              "the only one available",
+              "no more of them",
+              "all of them together"
+            ],
+            "answer": 0,
+            "explanation": "another 表示另一本、不同的一本。第一本书不能回答问题，管理员又找来一本；这不是指所有书。"
+          },
+          {
+            "word": "air",
+            "prompt": "In \"life in the air\", what does \"air\" mean?",
+            "options": [
+              "the water we drink",
+              "the ground we walk on",
+              "the light we see",
+              "the mixture of gases we breathe"
+            ],
+            "answer": 3,
+            "explanation": "air 指我们呼吸的气体；in the air 表示“在空中”。鸟在海面上方飞翔，所以这里的 air 不是海水或地面。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-6",
+        "title": "Turning a plan into action",
+        "subtitle": "社区与行动",
+        "paragraphs": [
+          {
+            "en": "A month ago, our neighbours talked about cleaning the park. This afternoon, we turn that plan into action. We walk across the grass and collect litter. Every adult helps a child, and people of every age join in. We all want a safe place to play.",
+            "zh": "一（a）个月以前（ago），邻居们讨论了关于（about）清理公园的事情。今天下午（afternoon），我们把计划变成行动（action）。我们穿过（across）草地，并且（and）捡拾垃圾。每位成年人（adult）都帮助一个孩子，各个年龄（age）的人都参与进来。我们所有人（all）都想有一个安全的玩耍场所。",
+            "patterns": [
+              {
+                "expression": "turn that plan into action",
+                "meaning": "把那个计划付诸行动；turn A into B 表示把 A 变成 B"
+              },
+              {
+                "expression": "people of every age",
+                "meaning": "各个年龄的人"
+              },
+              {
+                "expression": "join in",
+                "meaning": "参与活动"
+              }
+            ]
+          },
+          {
+            "en": "A child sees an animal near the path and stops. It is only a cat, but he is afraid. His father gives him simple advice: stay still and let it pass. Nobody gets angry when the work is slow. There is always time to be kind, and we also stop for tea.",
+            "zh": "一（a）个孩子看到小路旁有一只动物（animal），便（and）停下来。那只是一只猫，但他很害怕（afraid）。父亲给他简单的建议（advice）：站着别动，让它过去。工作进展慢时，没有人生气（angry）。我们总是（always）有时间善待他人，也（also）会停下来喝茶。",
+            "patterns": [
+              {
+                "expression": "stay still",
+                "meaning": "保持不动；stay + 形容词"
+              },
+              {
+                "expression": "let it pass",
+                "meaning": "让它过去；let + 宾语 + 动词原形"
+              },
+              {
+                "expression": "stop for tea",
+                "meaning": "停下手头的事去喝茶"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "action",
+            "prompt": "In \"turn that plan into action\", what does \"action\" mean?",
+            "options": [
+              "doing something to achieve a result",
+              "thinking without doing anything",
+              "a place to wait",
+              "a written address"
+            ],
+            "answer": 0,
+            "explanation": "turn a plan into action 意为“把计划付诸行动”。邻居们开始实际清理公园，所以 action 指实际行动，而非只在脑中思考。"
+          },
+          {
+            "word": "afternoon",
+            "prompt": "In \"This afternoon\", what does \"afternoon\" mean?",
+            "options": [
+              "the time before sunrise",
+              "the middle of the night",
+              "the time between noon and evening",
+              "the whole weekend"
+            ],
+            "answer": 2,
+            "explanation": "afternoon 指中午到傍晚之间的时间。This afternoon 表示今天下午，不是清晨或整周末。"
+          },
+          {
+            "word": "also",
+            "prompt": "In \"we also stop for tea\", what does \"also\" mean?",
+            "options": [
+              "instead of that",
+              "despite that",
+              "in addition",
+              "only once"
+            ],
+            "answer": 2,
+            "explanation": "also 表示“也；此外”。除了清理公园，大家还停下来喝茶；它表示增加一件事，不表示用喝茶取代清理。"
+          },
+          {
+            "word": "across",
+            "prompt": "In \"walk across the grass\", what does \"across\" mean?",
+            "options": [
+              "without moving at all",
+              "at a later time",
+              "for a second time",
+              "from one side to the other"
+            ],
+            "answer": 3,
+            "explanation": "across 表示从草地的一边走向另一边，强调横穿某个区域。这个词描述空间中的移动，不表示时间先后。"
+          },
+          {
+            "word": "and",
+            "prompt": "In \"walk across the grass and collect litter\", what does \"and\" mean?",
+            "options": [
+              "used to show a different choice",
+              "used to join words or ideas",
+              "used to ask for a reason",
+              "used to show an opposite idea"
+            ],
+            "answer": 1,
+            "explanation": "and 把“穿过草地”和“捡垃圾”两个动作连接起来，表示两件事都做。它不表示二选一或转折。"
+          }
+        ]
+      }
+    ]
+  },
+  "pronunciations": {
+    "this": {
+      "ipa": "/ðɪs/"
+    },
+    "afternoon": {
+      "ipa": "/ˌɑːftəˈnuːn/"
+    },
+    "i": {
+      "ipa": "/aɪ/"
+    },
+    "arrive": {
+      "ipa": "/əˈraɪv/"
+    },
+    "at": {
+      "ipa": "/æt/"
+    },
+    "the": {
+      "ipa": "/ðə/"
+    },
+    "airport": {
+      "ipa": "/ˈeəpɔːt/"
+    },
+    "with": {
+      "ipa": "/wɪð/"
+    },
+    "a": {
+      "ipa": "/ə; eɪ/"
+    },
+    "friend": {
+      "ipa": "/frend/"
+    },
+    "we": {
+      "ipa": "/wiː/"
+    },
+    "look": {
+      "ipa": "/lʊk/"
+    },
+    "screen": {
+      "ipa": "/skriːn/"
+    },
+    "above": {
+      "ipa": "/əˈbʌv/"
+    },
+    "desk": {
+      "ipa": "/desk/"
+    },
+    "and": {
+      "ipa": "/ænd/"
+    },
+    "ask": {
+      "ipa": "/ɑːsk/"
+    },
+    "about": {
+      "ipa": "/əˈbaʊt/"
+    },
+    "our": {
+      "ipa": "/aʊə/"
+    },
+    "flight": {
+      "ipa": "/flaɪt/"
+    },
+    "answer": {
+      "ipa": "/ˈɑːnsə/"
+    },
+    "is": {
+      "ipa": "/ɪz/"
+    },
+    "good": {
+      "ipa": "/ɡʊd/"
+    },
+    "have": {
+      "ipa": "/hæv/"
+    },
+    "time": {
+      "ipa": "/taɪm/"
+    },
+    "for": {
+      "ipa": "/fɔː/"
+    },
+    "tea": {
+      "ipa": "/tiː/"
+    },
+    "my": {
+      "ipa": "/maɪ/"
+    },
+    "checks": {
+      "ipa": "/tʃeks/"
+    },
+    "address": {
+      "ipa": "/əˈdres/"
+    },
+    "of": {
+      "ipa": "/ɒv/"
+    },
+    "hotel": {
+      "ipa": "/həʊˈtel/"
+    },
+    "again": {
+      "ipa": "/əˈɡen/"
+    },
+    "across": {
+      "ipa": "/əˈkrɒs/"
+    },
+    "room": {
+      "ipa": "/ruːm/"
+    },
+    "an": {
+      "ipa": "/æn/"
+    },
+    "actor": {
+      "ipa": "/ˈæktə/"
+    },
+    "actress": {
+      "ipa": "/ˈæktrəs/"
+    },
+    "are": {
+      "ipa": "/ɑː/"
+    },
+    "talking": {
+      "ipa": "/ˈtɔːkɪŋ/"
+    },
+    "to": {
+      "ipa": "/tuː/"
+    },
+    "children": {
+      "ipa": "/ˈtʃɪldrən/"
+    },
+    "saw": {
+      "ipa": "/sɔː/"
+    },
+    "their": {
+      "ipa": "/ðeə/"
+    },
+    "amazing": {
+      "ipa": "/əˈmeɪzɪŋ/"
+    },
+    "film": {
+      "ipa": "/fɪlm/"
+    },
+    "week": {
+      "ipa": "/wiːk/"
+    },
+    "ago": {
+      "ipa": "/əˈɡəʊ/"
+    },
+    "they": {
+      "ipa": "/ðeɪ/"
+    },
+    "also": {
+      "ipa": "/ˈɔːlsəʊ/"
+    },
+    "give": {
+      "ipa": "/ɡɪv/"
+    },
+    "advice": {
+      "ipa": "/ədˈvaɪs/"
+    },
+    "young": {
+      "ipa": "/jʌŋ/"
+    },
+    "fan": {
+      "ipa": "/fæn/"
+    },
+    "always": {
+      "ipa": "/ˈɔːlweɪz/"
+    },
+    "be": {
+      "ipa": "/biː/"
+    },
+    "kind": {
+      "ipa": "/kaɪnd/"
+    },
+    "after": {
+      "ipa": "/ˈɑːftə/"
+    },
+    "photo": {
+      "ipa": "/ˈfəʊtəʊ/"
+    },
+    "all": {
+      "ipa": "/ɔːl/"
+    },
+    "smile": {
+      "ipa": "/smaɪl/"
+    },
+    "agree": {
+      "ipa": "/əˈɡriː/"
+    },
+    "that": {
+      "ipa": "/ðæt/"
+    },
+    "lovely": {
+      "ipa": "/ˈlʌvli/"
+    },
+    "start": {
+      "ipa": "/stɑːt/"
+    },
+    "trip": {
+      "ipa": "/trɪp/"
+    },
+    "drama": {
+      "ipa": "/ˈdrɑːmə/"
+    },
+    "group": {
+      "ipa": "/ɡruːp/"
+    },
+    "meets": {
+      "ipa": "/miːts/"
+    },
+    "every": {
+      "ipa": "/ˈevri/"
+    },
+    "one": {
+      "ipa": "/wʌn/"
+    },
+    "age": {
+      "ipa": "/eɪdʒ/"
+    },
+    "but": {
+      "ipa": "/bʌt/"
+    },
+    "playing": {
+      "ipa": "/ˈpleɪɪŋ/"
+    },
+    "his": {
+      "ipa": "/hɪz/"
+    },
+    "mother": {
+      "ipa": "/ˈmʌðə/"
+    },
+    "adult": {
+      "ipa": "/ˈædʌlt/"
+    },
+    "today": {
+      "ipa": "/təˈdeɪ/"
+    },
+    "first": {
+      "ipa": "/fɜːst/"
+    },
+    "activity": {
+      "ipa": "/ækˈtɪvəti/"
+    },
+    "short": {
+      "ipa": "/ʃɔːt/"
+    },
+    "scene": {
+      "ipa": "/siːn/"
+    },
+    "lost": {
+      "ipa": "/lɒst/"
+    },
+    "bag": {
+      "ipa": "/bæɡ/"
+    },
+    "there": {
+      "ipa": "/ðeə/"
+    },
+    "plenty": {
+      "ipa": "/ˈplenti/"
+    },
+    "action": {
+      "ipa": "/ˈækʃən/"
+    },
+    "run": {
+      "ipa": "/rʌn/"
+    },
+    "stage": {
+      "ipa": "/steɪdʒ/"
+    },
+    "search": {
+      "ipa": "/sɜːtʃ/"
+    },
+    "under": {
+      "ipa": "/ˈʌndə/"
+    },
+    "chairs": {
+      "ipa": "/tʃeəz/"
+    },
+    "am": {
+      "ipa": "/æm/"
+    },
+    "afraid": {
+      "ipa": "/əˈfreɪd/"
+    },
+    "forgetting": {
+      "ipa": "/fəˈɡetɪŋ/"
+    },
+    "words": {
+      "ipa": "/wɜːdz/"
+    },
+    "teacher": {
+      "ipa": "/ˈtiːtʃə/"
+    },
+    "never": {
+      "ipa": "/ˈnevə/"
+    },
+    "angry": {
+      "ipa": "/ˈæŋɡri/"
+    },
+    "when": {
+      "ipa": "/wen/"
+    },
+    "make": {
+      "ipa": "/meɪk/"
+    },
+    "mistakes": {
+      "ipa": "/mɪˈsteɪks/"
+    },
+    "she": {
+      "ipa": "/ʃiː/"
+    },
+    "gives": {
+      "ipa": "/ɡɪvz/"
+    },
+    "us": {
+      "ipa": "/ʌs/"
+    },
+    "another": {
+      "ipa": "/əˈnʌðə/"
+    },
+    "chance": {
+      "ipa": "/tʃɑːns/"
+    },
+    "says": {
+      "ipa": "/sez/"
+    },
+    "take": {
+      "ipa": "/teɪk/"
+    },
+    "breath": {
+      "ipa": "/breθ/"
+    },
+    "try": {
+      "ipa": "/traɪ/"
+    },
+    "help": {
+      "ipa": "/help/"
+    },
+    "each": {
+      "ipa": "/iːtʃ/"
+    },
+    "other": {
+      "ipa": "/ˈʌðə/"
+    },
+    "show": {
+      "ipa": "/ʃəʊ/"
+    },
+    "feel": {
+      "ipa": "/fiːl/"
+    },
+    "small": {
+      "ipa": "/smɔːl/"
+    },
+    "animal": {
+      "ipa": "/ˈænɪməl/"
+    },
+    "waits": {
+      "ipa": "/weɪts/"
+    },
+    "by": {
+      "ipa": "/baɪ/"
+    },
+    "door": {
+      "ipa": "/dɔː/"
+    },
+    "shelter": {
+      "ipa": "/ˈʃeltə/"
+    },
+    "dog": {
+      "ipa": "/dɒɡ/"
+    },
+    "loud": {
+      "ipa": "/laʊd/"
+    },
+    "sounds": {
+      "ipa": "/saʊndz/"
+    },
+    "so": {
+      "ipa": "/səʊ/"
+    },
+    "keep": {
+      "ipa": "/kiːp/"
+    },
+    "voices": {
+      "ipa": "/ˈvɔɪsɪz/"
+    },
+    "low": {
+      "ipa": "/ləʊ/"
+    },
+    "must": {
+      "ipa": "/mʌst/"
+    },
+    "stay": {
+      "ipa": "/steɪ/"
+    },
+    "child": {
+      "ipa": "/tʃaɪld/"
+    },
+    "during": {
+      "ipa": "/ˈdjʊərɪŋ/"
+    },
+    "do": {
+      "ipa": "/duː/"
+    },
+    "not": {
+      "ipa": "/nɒt/"
+    },
+    "know": {
+      "ipa": "/nəʊ/"
+    },
+    "it": {
+      "ipa": "/ɪt/"
+    },
+    "loves": {
+      "ipa": "/lʌvz/"
+    },
+    "gentle": {
+      "ipa": "/ˈdʒentl/"
+    },
+    "games": {
+      "ipa": "/ɡeɪmz/"
+    },
+    "fresh": {
+      "ipa": "/freʃ/"
+    },
+    "air": {
+      "ipa": "/eə/"
+    },
+    "opened": {
+      "ipa": "/ˈəʊpənd/"
+    },
+    "two": {
+      "ipa": "/tuː/"
+    },
+    "years": {
+      "ipa": "/jɪəz/"
+    },
+    "worker": {
+      "ipa": "/ˈwɜːkə/"
+    },
+    "let": {
+      "ipa": "/let/"
+    },
+    "come": {
+      "ipa": "/kʌm/"
+    },
+    "you": {
+      "ipa": "/juː/"
+    },
+    "learn": {
+      "ipa": "/lɜːn/"
+    },
+    "may": {
+      "ipa": "/meɪ/"
+    },
+    "need": {
+      "ipa": "/niːd/"
+    },
+    "space": {
+      "ipa": "/speɪs/"
+    },
+    "sit": {
+      "ipa": "/sɪt/"
+    },
+    "on": {
+      "ipa": "/ɒn/"
+    },
+    "grass": {
+      "ipa": "/ɡrɑːs/"
+    },
+    "soon": {
+      "ipa": "/suːn/"
+    },
+    "brings": {
+      "ipa": "/brɪŋz/"
+    },
+    "ball": {
+      "ipa": "/bɔːl/"
+    },
+    "ready": {
+      "ipa": "/ˈredi/"
+    },
+    "game": {
+      "ipa": "/ɡeɪm/"
+    },
+    "rain": {
+      "ipa": "/reɪn/"
+    },
+    "falls": {
+      "ipa": "/fɔːlz/"
+    },
+    "outside": {
+      "ipa": "/ˌaʊtˈsaɪd/"
+    },
+    "kitchen": {
+      "ipa": "/ˈkɪtʃɪn/"
+    },
+    "warm": {
+      "ipa": "/wɔːm/"
+    },
+    "open": {
+      "ipa": "/ˈəʊpən/"
+    },
+    "window": {
+      "ipa": "/ˈwɪndəʊ/"
+    },
+    "some": {
+      "ipa": "/sʌm/"
+    },
+    "put": {
+      "ipa": "/pʊt/"
+    },
+    "large": {
+      "ipa": "/lɑːdʒ/"
+    },
+    "pot": {
+      "ipa": "/pɒt/"
+    },
+    "cooker": {
+      "ipa": "/ˈkʊkə/"
+    },
+    "sister": {
+      "ipa": "/ˈsɪstə/"
+    },
+    "asks": {
+      "ipa": "/ɑːsks/"
+    },
+    "can": {
+      "ipa": "/kæn/"
+    },
+    "add": {
+      "ipa": "/æd/"
+    },
+    "carrots": {
+      "ipa": "/ˈkærəts/"
+    },
+    "yes": {
+      "ipa": "/jes/"
+    },
+    "puts": {
+      "ipa": "/pʊts/"
+    },
+    "in": {
+      "ipa": "/ɪn/"
+    },
+    "beans": {
+      "ipa": "/biːnz/"
+    },
+    "wash": {
+      "ipa": "/wɒʃ/"
+    },
+    "vegetables": {
+      "ipa": "/ˈvedʒtəblz/"
+    },
+    "before": {
+      "ipa": "/bɪˈfɔː/"
+    },
+    "cooking": {
+      "ipa": "/ˈkʊkɪŋ/"
+    },
+    "shelf": {
+      "ipa": "/ʃelf/"
+    },
+    "holds": {
+      "ipa": "/həʊldz/"
+    },
+    "bowls": {
+      "ipa": "/bəʊlz/"
+    },
+    "twenty": {
+      "ipa": "/ˈtwenti/"
+    },
+    "minutes": {
+      "ipa": "/ˈmɪnɪts/"
+    },
+    "taste": {
+      "ipa": "/teɪst/"
+    },
+    "soup": {
+      "ipa": "/suːp/"
+    },
+    "little": {
+      "ipa": "/ˈlɪtl/"
+    },
+    "salt": {
+      "ipa": "/sɔːlt/"
+    },
+    "needs": {
+      "ipa": "/niːdz/"
+    },
+    "nothing": {
+      "ipa": "/ˈnʌθɪŋ/"
+    },
+    "else": {
+      "ipa": "/els/"
+    },
+    "carry": {
+      "ipa": "/ˈkæri/"
+    },
+    "table": {
+      "ipa": "/ˈteɪbl/"
+    },
+    "where": {
+      "ipa": "/weə/"
+    },
+    "friends": {
+      "ipa": "/frendz/"
+    },
+    "waiting": {
+      "ipa": "/ˈweɪtɪŋ/"
+    },
+    "simple": {
+      "ipa": "/ˈsɪmpl/"
+    },
+    "food": {
+      "ipa": "/fuːd/"
+    },
+    "share": {
+      "ipa": "/ʃeə/"
+    },
+    "visit": {
+      "ipa": "/ˈvɪzɪt/"
+    },
+    "library": {
+      "ipa": "/ˈlaɪbrəri/"
+    },
+    "near": {
+      "ipa": "/nɪə/"
+    },
+    "write": {
+      "ipa": "/raɪt/"
+    },
+    "name": {
+      "ipa": "/neɪm/"
+    },
+    "form": {
+      "ipa": "/fɔːm/"
+    },
+    "librarian": {
+      "ipa": "/laɪˈbreəriən/"
+    },
+    "what": {
+      "ipa": "/wɒt/"
+    },
+    "want": {
+      "ipa": "/wɒnt/"
+    },
+    "read": {
+      "ipa": "/riːd/"
+    },
+    "choose": {
+      "ipa": "/tʃuːz/"
+    },
+    "book": {
+      "ipa": "/bʊk/"
+    },
+    "life": {
+      "ipa": "/laɪf/"
+    },
+    "its": {
+      "ipa": "/ɪts/"
+    },
+    "cover": {
+      "ipa": "/ˈkʌvə/"
+    },
+    "shows": {
+      "ipa": "/ʃəʊz/"
+    },
+    "bird": {
+      "ipa": "/bɜːd/"
+    },
+    "flying": {
+      "ipa": "/ˈflaɪɪŋ/"
+    },
+    "sea": {
+      "ipa": "/siː/"
+    },
+    "has": {
+      "ipa": "/hæz/"
+    },
+    "page": {
+      "ipa": "/peɪdʒ/"
+    },
+    "notes": {
+      "ipa": "/nəʊts/"
+    },
+    "cannot": {
+      "ipa": "/ˈkænɒt/"
+    },
+    "ideas": {
+      "ipa": "/aɪˈdɪəz/"
+    },
+    "notebook": {
+      "ipa": "/ˈnəʊtbʊk/"
+    },
+    "instead": {
+      "ipa": "/ɪnˈsted/"
+    },
+    "question": {
+      "ipa": "/ˈkwestʃən/"
+    },
+    "no": {
+      "ipa": "/nəʊ/"
+    },
+    "clear": {
+      "ipa": "/klɪə/"
+    },
+    "finds": {
+      "ipa": "/faɪndz/"
+    },
+    "plan": {
+      "ipa": "/plæn/"
+    },
+    "next": {
+      "ipa": "/nekst/"
+    },
+    "month": {
+      "ipa": "/mʌnθ/"
+    },
+    "neighbours": {
+      "ipa": "/ˈneɪbəz/"
+    },
+    "talked": {
+      "ipa": "/tɔːkt/"
+    },
+    "cleaning": {
+      "ipa": "/ˈkliːnɪŋ/"
+    },
+    "park": {
+      "ipa": "/pɑːk/"
+    },
+    "turn": {
+      "ipa": "/tɜːn/"
+    },
+    "into": {
+      "ipa": "/ˈɪntə/"
+    },
+    "walk": {
+      "ipa": "/wɔːk/"
+    },
+    "collect": {
+      "ipa": "/kəˈlekt/"
+    },
+    "litter": {
+      "ipa": "/ˈlɪtə/"
+    },
+    "helps": {
+      "ipa": "/helps/"
+    },
+    "people": {
+      "ipa": "/ˈpiːpl/"
+    },
+    "join": {
+      "ipa": "/dʒɔɪn/"
+    },
+    "safe": {
+      "ipa": "/seɪf/"
+    },
+    "place": {
+      "ipa": "/pleɪs/"
+    },
+    "play": {
+      "ipa": "/pleɪ/"
+    },
+    "sees": {
+      "ipa": "/siːz/"
+    },
+    "path": {
+      "ipa": "/pɑːθ/"
+    },
+    "stops": {
+      "ipa": "/stɒps/"
+    },
+    "only": {
+      "ipa": "/ˈəʊnli/"
+    },
+    "cat": {
+      "ipa": "/kæt/"
+    },
+    "he": {
+      "ipa": "/hiː/"
+    },
+    "father": {
+      "ipa": "/ˈfɑːðə/"
+    },
+    "him": {
+      "ipa": "/hɪm/"
+    },
+    "still": {
+      "ipa": "/stɪl/"
+    },
+    "pass": {
+      "ipa": "/pɑːs/"
+    },
+    "nobody": {
+      "ipa": "/ˈnəʊbədi/"
+    },
+    "gets": {
+      "ipa": "/ɡets/"
+    },
+    "work": {
+      "ipa": "/wɜːk/"
+    },
+    "slow": {
+      "ipa": "/sləʊ/"
+    },
+    "stop": {
+      "ipa": "/stɒp/"
+    }
+  }
+}

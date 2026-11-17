@@ -1,0 +1,2362 @@
+{
+  "day": 3,
+  "date": "2026-10-16",
+  "words": [
+    "ear",
+    "listing",
+    "ninety",
+    "cult",
+    "detain",
+    "operate",
+    "tender",
+    "singing",
+    "adventure",
+    "additional",
+    "eleven",
+    "tragedy",
+    "survivor",
+    "teaching",
+    "shed",
+    "travel",
+    "bottle",
+    "gang",
+    "justice",
+    "steam",
+    "hidden",
+    "thoroughly",
+    "flash",
+    "host",
+    "t-shirt",
+    "traditional",
+    "buck",
+    "engineering",
+    "north",
+    "empower"
+  ],
+  "content": {
+    "targets": {
+      "ear": {
+        "ipa": "/ɪə/",
+        "meaning": "耳朵",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "耳朵；听觉；（谷物的）穗"
+          }
+        ]
+      },
+      "listing": {
+        "ipa": "/ˈlɪstɪŋ/",
+        "meaning": "节目单；列表条目",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "列表；清单中的条目；节目表；房产信息"
+          },
+          {
+            "pos": "动词",
+            "meaning": "列出；把……列入（list的现在分词）"
+          }
+        ]
+      },
+      "ninety": {
+        "ipa": "/ˈnaɪnti/",
+        "meaning": "九十",
+        "senses": [
+          {
+            "pos": "数词",
+            "meaning": "九十"
+          }
+        ]
+      },
+      "cult": {
+        "ipa": "/kʌlt/",
+        "meaning": "小众狂热追捧的；小众崇拜",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "小众狂热崇拜；受到狂热追捧的人或事物；具有极端信仰的团体"
+          },
+          {
+            "pos": "形容词",
+            "meaning": "受小众群体狂热追捧的"
+          }
+        ]
+      },
+      "detain": {
+        "ipa": "/dɪˈteɪn/",
+        "meaning": "耽搁；拘留",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "拘留；扣留；耽搁（某人）"
+          }
+        ]
+      },
+      "operate": {
+        "ipa": "/ˈɒpəreɪt/",
+        "meaning": "操作；运转",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "操作；运转；经营；（给病人）动手术"
+          }
+        ]
+      },
+      "tender": {
+        "ipa": "/ˈtendə/",
+        "meaning": "温柔的；嫩的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "温柔的；嫩的；触痛的"
+          },
+          {
+            "pos": "名词",
+            "meaning": "投标；小艇"
+          },
+          {
+            "pos": "动词",
+            "meaning": "正式提出或提交；投标"
+          }
+        ]
+      },
+      "singing": {
+        "ipa": "/ˈsɪŋɪŋ/",
+        "meaning": "歌唱",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "歌唱；唱歌"
+          },
+          {
+            "pos": "动词",
+            "meaning": "唱歌（sing的现在分词）"
+          }
+        ]
+      },
+      "adventure": {
+        "ipa": "/ədˈventʃə/",
+        "meaning": "冒险经历",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "冒险；令人兴奋的经历"
+          },
+          {
+            "pos": "动词",
+            "meaning": "冒险；大胆前往（较少用）"
+          }
+        ]
+      },
+      "additional": {
+        "ipa": "/əˈdɪʃənəl/",
+        "meaning": "额外的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "额外的；附加的"
+          }
+        ]
+      },
+      "eleven": {
+        "ipa": "/ɪˈlevən/",
+        "meaning": "十一",
+        "senses": [
+          {
+            "pos": "数词",
+            "meaning": "十一"
+          },
+          {
+            "pos": "名词",
+            "meaning": "（板球、足球等运动的）十一人队"
+          }
+        ]
+      },
+      "tragedy": {
+        "ipa": "/ˈtrædʒədi/",
+        "meaning": "悲剧；不幸事件",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "悲剧；悲剧作品；重大不幸事件"
+          }
+        ]
+      },
+      "survivor": {
+        "ipa": "/səˈvaɪvə/",
+        "meaning": "幸存者",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "幸存者；经历困境后仍坚持的人"
+          }
+        ]
+      },
+      "teaching": {
+        "ipa": "/ˈtiːtʃɪŋ/",
+        "meaning": "教学",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "教学；教导；学说或教义（常用复数）"
+          },
+          {
+            "pos": "动词",
+            "meaning": "教；传授（teach的现在分词）"
+          }
+        ]
+      },
+      "shed": {
+        "ipa": "/ʃed/",
+        "meaning": "棚屋",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "棚屋；工具房"
+          },
+          {
+            "pos": "动词",
+            "meaning": "脱落；摆脱；使流出（眼泪等）；散发（光）"
+          }
+        ]
+      },
+      "travel": {
+        "ipa": "/ˈtrævl/",
+        "meaning": "旅行",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "旅行；行进；传播"
+          },
+          {
+            "pos": "名词",
+            "meaning": "旅行；出行"
+          }
+        ]
+      },
+      "bottle": {
+        "ipa": "/ˈbɒtl/",
+        "meaning": "瓶子",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "瓶子；一瓶的量"
+          },
+          {
+            "pos": "动词",
+            "meaning": "把……装瓶；（bottle up）压抑（情绪）"
+          }
+        ]
+      },
+      "gang": {
+        "ipa": "/ɡæŋ/",
+        "meaning": "一帮人；一伙人",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "一帮朋友；一组工人；帮派；团伙"
+          },
+          {
+            "pos": "动词",
+            "meaning": "结成一伙；（gang up）联合起来对付"
+          }
+        ]
+      },
+      "justice": {
+        "ipa": "/ˈdʒʌstɪs/",
+        "meaning": "公平；公正",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "公平；公正；司法；法官（某些法庭的头衔）"
+          }
+        ]
+      },
+      "steam": {
+        "ipa": "/stiːm/",
+        "meaning": "蒸汽",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "蒸汽；水汽；精力"
+          },
+          {
+            "pos": "动词",
+            "meaning": "冒蒸汽；用蒸汽烹调或处理；（船、火车）行驶"
+          }
+        ]
+      },
+      "hidden": {
+        "ipa": "/ˈhɪdn/",
+        "meaning": "隐藏的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "隐藏的；不易察觉的"
+          },
+          {
+            "pos": "动词",
+            "meaning": "藏；隐藏（hide的过去分词）"
+          }
+        ]
+      },
+      "thoroughly": {
+        "ipa": "/ˈθʌrəli/",
+        "meaning": "彻底地；仔细地",
+        "senses": [
+          {
+            "pos": "副词",
+            "meaning": "彻底地；仔细地；完全地"
+          }
+        ]
+      },
+      "flash": {
+        "ipa": "/flæʃ/",
+        "meaning": "闪光；闪光灯",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "闪光；闪光灯；闪现"
+          },
+          {
+            "pos": "动词",
+            "meaning": "闪光；闪现；快速出示"
+          }
+        ]
+      },
+      "host": {
+        "ipa": "/həʊst/",
+        "meaning": "主持人",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "主人；主持人；主办方；寄主；（a host of）大量"
+          },
+          {
+            "pos": "动词",
+            "meaning": "主持；主办；作为主机提供服务"
+          }
+        ]
+      },
+      "t-shirt": {
+        "ipa": "/ˈtiː ʃɜːt/",
+        "meaning": "T恤衫",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "T恤衫"
+          }
+        ]
+      },
+      "traditional": {
+        "ipa": "/trəˈdɪʃənəl/",
+        "meaning": "传统的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "传统的；惯例的"
+          }
+        ]
+      },
+      "buck": {
+        "ipa": "/bʌk/",
+        "meaning": "雄鹿；一美元（口语）",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "雄鹿；（口语）一美元；某些雄性动物"
+          },
+          {
+            "pos": "动词",
+            "meaning": "尥蹶子；反抗；抵制"
+          }
+        ]
+      },
+      "engineering": {
+        "ipa": "/ˌendʒɪˈnɪərɪŋ/",
+        "meaning": "工程学",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "工程学；工程技术；工程设计"
+          },
+          {
+            "pos": "动词",
+            "meaning": "设计建造；精心策划（engineer的现在分词）"
+          }
+        ]
+      },
+      "north": {
+        "ipa": "/nɔːθ/",
+        "meaning": "北方；向北",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "北；北方"
+          },
+          {
+            "pos": "形容词",
+            "meaning": "北方的；朝北的"
+          },
+          {
+            "pos": "副词",
+            "meaning": "向北；在北方"
+          }
+        ]
+      },
+      "empower": {
+        "ipa": "/ɪmˈpaʊə/",
+        "meaning": "使有能力；赋予自主权",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "使有能力；赋予自主权；授权"
+          }
+        ]
+      }
+    },
+    "dictionary": {
+      "a": "一；一个",
+      "about": "关于；大约",
+      "across": "穿过；在……对面",
+      "additional": "额外的",
+      "adult": "成年人；成年的",
+      "adventure": "冒险经历",
+      "after": "在……之后",
+      "although": "虽然；尽管",
+      "american": "美国的",
+      "an": "一个；一位",
+      "and": "和；并且",
+      "announces": "宣布；公布（第三人称单数）",
+      "appears": "出现（第三人称单数）",
+      "arrive": "到达",
+      "artist's": "艺术家的",
+      "as": "随着；作为",
+      "asks": "问",
+      "at": "在（地点或时刻）；处于（某阶段）",
+      "attracts": "吸引（第三人称单数）",
+      "audiences": "观众群体（复数）",
+      "becomes": "变成（第三人称单数）",
+      "before": "在……之前",
+      "began": "开始（begin的过去式）",
+      "begins": "开始（第三人称单数）",
+      "behind": "在……后面",
+      "bell": "钟；铃",
+      "beside": "在……旁边",
+      "beyond": "在……的另一边",
+      "boards": "木板（复数）",
+      "bottle": "瓶子",
+      "break": "休息",
+      "brings": "带来",
+      "buck": "雄鹿；一美元（口语）",
+      "build": "组装；建造",
+      "by": "通过；凭借（此处by后接动名词表示方法）",
+      "cameras": "相机（复数）",
+      "can": "可以；能够",
+      "careful": "仔细的；周密的",
+      "carefully": "仔细地；认真地",
+      "carry": "拿；端；搬",
+      "carrying": "搬运；携带（carry的动名词）",
+      "characters": "人物；角色（复数）",
+      "charge": "费用",
+      "choosing": "选择（choose的动名词）",
+      "cloud": "一团（蒸汽或烟雾）",
+      "coat": "外套",
+      "combines": "结合（第三人称单数）",
+      "comfort": "安慰",
+      "community": "社区",
+      "complete": "完整的",
+      "cook": "烹饪",
+      "cover": "覆盖；包括",
+      "create": "制造；创造",
+      "crew": "乘务人员；工作组",
+      "crosses": "穿过（第三人称单数）",
+      "cult": "小众狂热追捧的；小众崇拜",
+      "day": "一天；日子",
+      "decide": "决定",
+      "deserves": "应得；值得（第三人称单数）",
+      "design": "设计；图案",
+      "desk": "桌子；（lighting desk）灯光控制台",
+      "detain": "耽搁；拘留",
+      "devoted": "忠实的；投入的",
+      "difficult": "困难的",
+      "discuss": "讨论",
+      "divide": "分配；划分",
+      "do": "做；用于构成疑问句或否定句",
+      "during": "在……期间",
+      "each": "每个",
+      "ear": "耳朵",
+      "effect": "效果",
+      "eleven": "十一",
+      "empower": "使有能力；赋予自主权",
+      "ending": "结局",
+      "engine": "发动机；机车",
+      "engineering": "工程学",
+      "enter": "进入",
+      "event": "活动",
+      "everyone": "每个人",
+      "examine": "检查",
+      "explains": "解释（第三人称单数）",
+      "fairly": "公平地",
+      "families": "家庭（复数）",
+      "family": "家庭",
+      "fence": "围栏",
+      "film": "电影",
+      "finish": "完成",
+      "fire": "火；火灾",
+      "flash": "闪光；闪光灯",
+      "flood": "洪水",
+      "following": "追随者群体（名词）",
+      "food": "食物",
+      "for": "为了；给；用于",
+      "forget": "忘记",
+      "former": "从前的",
+      "from": "从；免受；表示来源",
+      "gang": "一帮人；一伙人",
+      "garden": "花园",
+      "giving": "给予（give的动名词）",
+      "goes": "用于；去（第三人称单数）",
+      "group": "团队；小组",
+      "guessing": "猜测（guess的动名词）",
+      "guests": "客人（复数）",
+      "has": "有（第三人称单数）",
+      "hear": "听见",
+      "helping": "帮助（help的动名词）",
+      "helps": "帮助",
+      "her": "她；她的",
+      "hidden": "隐藏的",
+      "hill": "小山",
+      "history": "历史",
+      "holds": "拿着；容纳（第三人称单数）",
+      "hopeful": "充满希望的",
+      "hopes": "希望（第三人称单数）",
+      "host": "主持人；主人",
+      "how": "如何",
+      "however": "不过；然而",
+      "i": "我",
+      "in": "在……里面",
+      "instead": "代替；而是",
+      "into": "进入；变为",
+      "introduces": "介绍（第三人称单数）",
+      "invites": "邀请（第三人称单数）",
+      "is": "是；处于（be 的第三人称单数）",
+      "it": "它",
+      "its": "它的",
+      "journey": "旅程",
+      "just": "仅仅；只是",
+      "justice": "公平；公正",
+      "kitchen": "厨房",
+      "lamp": "灯",
+      "last": "上一个的；最后的",
+      "lasts": "持续（第三人称单数）",
+      "later": "后来",
+      "learn": "学习；了解到",
+      "learner": "学习者",
+      "learners": "学习者（复数）",
+      "learning": "学习（learn的动名词）",
+      "leave": "离开",
+      "leaves": "离开（leave的第三人称单数）",
+      "lets": "让（第三人称单数）",
+      "library": "图书馆",
+      "light": "轻的；光线",
+      "lighting": "灯光；照明",
+      "line": "线路",
+      "listening": "倾听（listen的动名词）",
+      "listing": "节目单；列表条目",
+      "live": "居住；生活（动词）",
+      "local": "本地的",
+      "long": "漫长的",
+      "look": "看",
+      "loose": "松动的",
+      "loss": "失去；丧亲之痛",
+      "loud": "响亮的",
+      "lunch": "午餐",
+      "machine": "机器",
+      "make": "做；造成",
+      "making": "制作；作出",
+      "me": "我（宾格）",
+      "meals": "餐；用餐（复数）",
+      "means": "意味着（第三人称单数）",
+      "minute": "分钟",
+      "minutes": "分钟（复数）",
+      "mist": "雾；雾气",
+      "mistakes": "误认（mistake的第三人称单数）",
+      "models": "模型（复数）",
+      "money": "钱",
+      "more": "更多；更……",
+      "move": "移动",
+      "museum": "博物馆；科学馆",
+      "music": "音乐",
+      "musical": "音乐剧（名词）",
+      "my": "我的",
+      "near": "在……附近",
+      "neighbours": "邻居（复数）",
+      "new": "新的",
+      "night": "夜晚",
+      "ninety": "九十",
+      "no": "没有",
+      "nobody": "没有人",
+      "north": "北方；向北",
+      "not": "不",
+      "observations": "观察结果（复数）",
+      "of": "……的",
+      "off": "关掉；离开（turn off中为关闭）",
+      "offering": "提供（offer的动名词）",
+      "offers": "提供（第三人称单数）",
+      "old": "旧的；年老的",
+      "on": "在……上；关于",
+      "once": "曾经",
+      "operate": "操作；运转",
+      "our": "我们的",
+      "outing": "短途出游",
+      "part": "零件；部分",
+      "parts": "零件；部分（复数）",
+      "people": "人们",
+      "performance": "演出",
+      "piece": "零件；一块",
+      "place": "地方",
+      "plain": "朴素的",
+      "promises": "承诺（第三人称单数）",
+      "railway": "铁路",
+      "rarely": "很少地",
+      "rather": "（rather than）而不是",
+      "real": "真实的",
+      "remaining": "剩下的",
+      "repair": "修理；修缮",
+      "revealing": "透露（reveal的动名词）",
+      "ride": "乘车；一段乘坐的行程",
+      "rings": "鸣响（第三人称单数）",
+      "roof": "屋顶",
+      "safe": "安全的",
+      "safely": "安全地",
+      "sale": "销售；售出",
+      "say": "说",
+      "scene": "戏剧中的一场；场景",
+      "scenes": "场景；（behind the scenes）幕后",
+      "school": "学校",
+      "sells": "出售（第三人称单数）",
+      "sends": "发送；送出（第三人称单数）",
+      "separate": "分开的；单独的（形容词）",
+      "share": "分享",
+      "sharing": "分享；一起参与（share的动名词）",
+      "she": "她",
+      "shed": "棚屋",
+      "shirt": "衬衫（此处为t-shirt的组成部分）",
+      "shopping": "购物",
+      "show": "显示；表明",
+      "shown": "上映；展示（show的过去分词）",
+      "shows": "展示；呈现",
+      "shy": "害羞的",
+      "signal": "信号",
+      "simple": "简单的",
+      "singer": "歌手",
+      "singing": "歌唱",
+      "skills": "技能（复数）",
+      "small": "小的",
+      "smoke": "烟",
+      "so": "所以",
+      "song": "歌曲",
+      "stage": "舞台",
+      "starts": "开始（第三人称单数）",
+      "station": "车站",
+      "steam": "蒸汽",
+      "still": "仍然；还（副词）",
+      "storm": "风暴",
+      "story": "故事",
+      "such": "如此的",
+      "sudden": "突然的",
+      "survivor": "幸存者",
+      "t": "字母T（此处为t-shirt的组成部分）",
+      "t-shirt": "T恤衫",
+      "takes": "进行；发生（takes place中的第三人称单数）",
+      "talks": "谈论（第三人称单数）",
+      "tasks": "任务（复数）",
+      "teacher": "老师",
+      "teaching": "教学",
+      "teamwork": "团队合作",
+      "technicians": "技术人员（复数）",
+      "television": "电视",
+      "tells": "讲述；告诉（第三人称单数）",
+      "tender": "温柔的；嫩的",
+      "than": "比（引出比较对象）",
+      "thank": "感谢",
+      "that": "那个；引导关系从句或宾语从句",
+      "the": "这；那（定冠词）",
+      "theatre": "剧院",
+      "their": "他们的",
+      "them": "他们；她们；它们（宾格）",
+      "then": "然后",
+      "there": "那里；there is 表示有",
+      "they": "他们；它们",
+      "think": "认为",
+      "this": "这；这个",
+      "thoroughly": "彻底地；仔细地",
+      "time": "时间",
+      "to": "到；向；用于连接动词不定式",
+      "today": "今天",
+      "together": "一起；共同",
+      "tonight's": "今晚的",
+      "too": "太；过于",
+      "tools": "工具（复数）",
+      "tour": "参观；游览",
+      "towards": "朝向；用于支付……",
+      "town": "镇；城镇",
+      "tracks": "轨道（复数）",
+      "traditional": "传统的",
+      "tragedy": "悲剧；不幸事件",
+      "train": "火车",
+      "travel": "旅行",
+      "trip": "旅行",
+      "trust": "相信；信任",
+      "turn": "转动；（turn off）关闭",
+      "tutor": "导师；辅导老师",
+      "two": "二",
+      "until": "直到……为止",
+      "us": "我们（宾格）",
+      "valley": "山谷",
+      "vegetables": "蔬菜（复数）",
+      "visit": "拜访；去某处",
+      "volunteer": "志愿者",
+      "volunteers": "志愿者（复数）",
+      "wall": "墙",
+      "wants": "想要（第三人称单数）",
+      "wash": "清洗",
+      "watch": "观看",
+      "water": "水",
+      "we": "我们",
+      "wears": "穿着（第三人称单数）",
+      "well": "好；（as well as）也；以及",
+      "what": "什么；所……的事物",
+      "wheel": "轮子",
+      "wheels": "轮子（复数）",
+      "where": "在……的地方",
+      "which": "哪个；哪一个",
+      "while": "当……时；而",
+      "whistle": "汽笛；哨声",
+      "who": "谁；指人的关系代词",
+      "whose": "其……的；谁的（此处引导关系从句）",
+      "why": "为什么",
+      "will": "将；会",
+      "with": "有；和……一起",
+      "without": "没有；不带",
+      "wooded": "长着树木的",
+      "words": "话语；词语（复数）",
+      "work": "工作",
+      "worked": "工作过（work的过去式）",
+      "wrong": "有问题的；错误的",
+      "yard": "院子",
+      "year's": "一年的；年份的所有格",
+      "young": "年轻的"
+    },
+    "lessons": [
+      {
+        "id": "oxford-3-301",
+        "title": "North by Steam Train",
+        "subtitle": "蒸汽铁路 · 沿着山谷进行一次短途旅行",
+        "paragraphs": [
+          {
+            "en": "We travel north on a traditional steam train. The journey lasts ninety minutes and starts at eleven. I carry a bottle of water and a light coat. At the station, a volunteer shows us how the crew operate the old engine safely.",
+            "zh": "我们乘坐一列传统的（traditional）蒸汽（steam）火车，向北（north）旅行（travel）。旅程持续九十（ninety）分钟，十一（eleven）点出发。我带着一瓶（bottle）水和一件薄外套。在车站，一位志愿者向我们展示乘务人员如何安全地操作（operate）老式机车。",
+            "patterns": [
+              {
+                "expression": "a bottle of water",
+                "meaning": "搭配：a bottle of加不可数饮料名词，表示以一瓶为单位的量。"
+              },
+              {
+                "expression": "shows us how the crew operate",
+                "meaning": "句式：show somebody how引导的从句，表示向某人展示如何做某事。"
+              }
+            ]
+          },
+          {
+            "en": "The whistle is loud, so I cover each ear before we leave. There is no additional charge for the small railway museum. We visit it after the ride and learn why the line crosses the valley. What began as a simple outing becomes an adventure into local history.",
+            "zh": "汽笛很响，所以出发前我捂住每只耳朵（ear）。参观铁路小博物馆不收额外的（additional）费用。乘车结束后，我们去参观，了解铁路为何穿过山谷。原本简单的出游，变成了一次探索本地历史的冒险经历（adventure）。",
+            "patterns": [
+              {
+                "expression": "no additional charge for",
+                "meaning": "搭配：no additional charge for加名词或动名词，表示某事不另收费。"
+              },
+              {
+                "expression": "learn why",
+                "meaning": "句式：learn后接why引导的宾语从句，表示了解某事发生的原因。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "ear",
+            "type": "reason",
+            "prompt": "Why does the narrator cover each ear?",
+            "options": [
+              "The museum is very dark.",
+              "The train whistle is loud.",
+              "The bottle has fallen over.",
+              "The journey is too short."
+            ],
+            "answer": 1,
+            "explanation": "捂耳朵是为了应对响亮的汽笛，与博物馆光线、瓶子或旅程长短无关。"
+          },
+          {
+            "word": "ninety",
+            "type": "context",
+            "prompt": "How long is the train journey?",
+            "options": [
+              "Eleven minutes.",
+              "Half an hour.",
+              "An hour and a half.",
+              "Three hours."
+            ],
+            "answer": 2,
+            "explanation": "ninety minutes是九十分钟，也就是一个半小时，其他时长与原文不符。"
+          },
+          {
+            "word": "operate",
+            "type": "context",
+            "prompt": "What does the crew do with the engine?",
+            "options": [
+              "Control and run it.",
+              "Sell it to a museum.",
+              "Paint pictures of it.",
+              "Keep it permanently closed."
+            ],
+            "answer": 0,
+            "explanation": "operate在这里指操作、运行机车，不是出售、画图或永久停用。"
+          },
+          {
+            "word": "additional",
+            "type": "paraphrase",
+            "prompt": "Which sentence describes the museum charge?",
+            "options": [
+              "The museum costs more than the train ride.",
+              "Visitors must buy another train ticket.",
+              "Only volunteers can enter for free.",
+              "Visitors do not pay an extra fee."
+            ],
+            "answer": 3,
+            "explanation": "no additional charge表示没有额外费用，不是比车票贵、重买车票或仅志愿者免费。"
+          },
+          {
+            "word": "eleven",
+            "type": "outcome",
+            "prompt": "If the train leaves at eleven in the morning and visitors arrive at noon, what has already happened?",
+            "options": [
+              "The train has not been prepared yet.",
+              "The eleven o'clock departure has passed.",
+              "The museum has moved to another town.",
+              "The ninety-minute journey has lasted a week."
+            ],
+            "answer": 1,
+            "explanation": "列车十一点出发，正午十二点到站时该出发时间已经过去；原文没有其他选项的事件。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-302",
+        "title": "A Film and a Conversation",
+        "subtitle": "社区电影夜 · 用故事谈论音乐与成长",
+        "paragraphs": [
+          {
+            "en": "A listing on the library wall announces a local film night. The film has a cult following, although it is rarely shown on television. It tells of a music teacher whose careful teaching helps a shy singer. A tender scene shows the two sharing a song after a family tragedy.",
+            "zh": "图书馆墙上的一条节目公告（listing）通知大家，本地将举办电影夜。这部电影有一群狂热追随者（cult），尽管电视上很少播放。影片讲述一位音乐教师通过细心教学（teaching）帮助一位害羞歌手的故事。一个温柔的（tender）场景里，两人在一场家庭悲剧（tragedy）之后一同唱歌。",
+            "patterns": [
+              {
+                "expression": "has a cult following",
+                "meaning": "搭配：have a cult following表示拥有一小群非常忠实而狂热的追随者。"
+              },
+              {
+                "expression": "helps a shy singer",
+                "meaning": "句式：help加人作宾语，表示帮助某人；此处shy修饰歌手。"
+              }
+            ]
+          },
+          {
+            "en": "Our host wears a plain t-shirt and introduces the film without revealing its hidden ending. Before the singing begins, she asks us to turn off the flash on our cameras. Later we discuss how music offers comfort without making the characters forget their loss.",
+            "zh": "我们的主持人（host）穿着一件朴素的T恤衫（t-shirt），在介绍影片时没有透露隐藏的（hidden）结局。歌唱（singing）开始前，她请我们关掉相机的闪光灯（flash）。随后，我们讨论音乐如何给人物安慰，却不让他们忘记失去亲人的痛苦。",
+            "patterns": [
+              {
+                "expression": "asks us to turn off",
+                "meaning": "句式：ask somebody to do something表示请某人做某事，to后用动词原形。"
+              },
+              {
+                "expression": "without making the characters forget",
+                "meaning": "句式：without后接动名词；make somebody do表示使某人做某事。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "listing",
+            "type": "context",
+            "prompt": "Where do people find the announcement?",
+            "options": [
+              "Inside a train engine.",
+              "On a library wall.",
+              "In a closed camera case.",
+              "Under a restaurant table."
+            ],
+            "answer": 1,
+            "explanation": "listing在这里是墙上的活动公告，第一句明确交代地点，其他地点没有出现。"
+          },
+          {
+            "word": "cult",
+            "type": "inference",
+            "prompt": "What does the film's cult following suggest?",
+            "options": [
+              "Everyone watches it on television daily.",
+              "It is a guide to building a library.",
+              "A particular group of viewers is very devoted to it.",
+              "Nobody has ever watched it before."
+            ],
+            "answer": 2,
+            "explanation": "cult following表示一群特别忠实的追随者，不等于全民每日收看，也不是从未有人看过。"
+          },
+          {
+            "word": "tender",
+            "type": "context",
+            "prompt": "How is the scene of the shared song presented?",
+            "options": [
+              "As a gentle and caring moment.",
+              "As a lesson in cooking meat.",
+              "As an argument about tickets.",
+              "As a loud competition between enemies."
+            ],
+            "answer": 0,
+            "explanation": "tender在人物场景中是温柔、关切的，不是肉质软嫩，也不是争吵或敌对竞争。"
+          },
+          {
+            "word": "teaching",
+            "type": "reason",
+            "prompt": "How does the teacher support the shy singer?",
+            "options": [
+              "By revealing the ending before the film starts.",
+              "By making the singer buy a camera.",
+              "By refusing to sing any songs.",
+              "By teaching carefully and sharing music."
+            ],
+            "answer": 3,
+            "explanation": "细心教学与共同唱歌构成对害羞歌手的支持；其他选项或为放映活动行为，或与故事不符。"
+          },
+          {
+            "word": "tragedy",
+            "type": "inference",
+            "prompt": "Why might the shared song be meaningful to the characters?",
+            "options": [
+              "It makes their earlier loss disappear completely.",
+              "It offers comfort after a painful family event.",
+              "It wins them a large television contract.",
+              "It proves they never felt sadness."
+            ],
+            "answer": 1,
+            "explanation": "家庭悲剧后共同唱歌带来安慰，末段强调并非忘记损失；合同或从未悲伤均无依据。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-303",
+        "title": "Building Again Together",
+        "subtitle": "社区修理日 · 在协作中找回信心",
+        "paragraphs": [
+          {
+            "en": "A survivor of last year's storm invites our gang of volunteers to repair her garden shed. She once worked in engineering and wants to empower young people by giving them real tasks. We examine the roof thoroughly before choosing new boards. Everyone helps decide how to divide the work fairly.",
+            "zh": "去年风暴的一位幸存者（survivor）请我们这帮（gang）志愿者修理她花园里的棚屋（shed）。她以前从事工程技术（engineering）工作，希望通过让年轻人承担真实任务，赋予他们自主能力（empower）。选用新木板前，我们仔细地（thoroughly）检查屋顶。每个人都参与决定如何公平分工。",
+            "patterns": [
+              {
+                "expression": "invites our gang of volunteers to repair",
+                "meaning": "句式：invite somebody to do something表示邀请某人做某事。"
+              },
+              {
+                "expression": "by giving them real tasks",
+                "meaning": "句式：by后接动名词表示方法；give somebody something表示给某人某物。"
+              }
+            ]
+          },
+          {
+            "en": "For me, the day is an adventure in learning skills rather than just carrying tools. During our break, a buck appears on the wooded hill beyond the fence. Our host talks about justice: everyone deserves a safe place to live. We finish on time so we do not detain her after a long day.",
+            "zh": "对我而言，这一天是一次学习技能的冒险经历（adventure），而不仅仅是搬工具。休息时，一只雄鹿（buck）出现在围栏外长着树木的小山上。主人（host）谈起公平（justice）：每个人都应当有一个安全的住处。我们按时完成工作，免得在漫长的一天之后继续耽搁（detain）她的时间。",
+            "patterns": [
+              {
+                "expression": "deserves a safe place to live",
+                "meaning": "句式：a place to do something用不定式修饰place，表示可做某事的地方。"
+              },
+              {
+                "expression": "finish on time",
+                "meaning": "搭配：on time表示按约定时间准时；finish on time表示按时完成。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "survivor",
+            "type": "context",
+            "prompt": "What do we know about the owner of the shed?",
+            "options": [
+              "She has never experienced bad weather.",
+              "She sells every house in the town.",
+              "She lived through the storm last year.",
+              "She refuses all help from others."
+            ],
+            "answer": 2,
+            "explanation": "survivor说明她经历那场风暴后幸存，其他经历或行为未被说明。"
+          },
+          {
+            "word": "shed",
+            "type": "context",
+            "prompt": "What are the volunteers repairing?",
+            "options": [
+              "A railway carriage.",
+              "A small garden building.",
+              "A television studio.",
+              "A public swimming pool."
+            ],
+            "answer": 1,
+            "explanation": "garden shed是花园里的小型工具房或棚屋，其他建筑类型与原文不符。"
+          },
+          {
+            "word": "gang",
+            "type": "context",
+            "prompt": "Who does our gang refer to in this passage?",
+            "options": [
+              "A group of people helping with repairs.",
+              "A group of deer behind the fence.",
+              "People stealing tools at night.",
+              "The passengers on a train."
+            ],
+            "answer": 0,
+            "explanation": "本段明确our gang of volunteers，gang在此为一帮志愿者，并不指犯罪团伙。"
+          },
+          {
+            "word": "justice",
+            "type": "inference",
+            "prompt": "Which idea best matches the host's view of justice?",
+            "options": [
+              "Only experts should have safe homes.",
+              "Fast workers should make every decision.",
+              "A large garden matters more than safety.",
+              "A safe home should be available to everyone."
+            ],
+            "answer": 3,
+            "explanation": "她说everyone deserves a safe place to live，强调人人应获得基本安全与公平。"
+          },
+          {
+            "word": "engineering",
+            "type": "inference",
+            "prompt": "Why can the shed owner offer useful guidance during the repairs?",
+            "options": [
+              "She has experience in engineering.",
+              "She owns the largest camera in town.",
+              "She has never seen a roof.",
+              "She refuses to give anyone tasks."
+            ],
+            "answer": 0,
+            "explanation": "她以前从事工程技术工作，因而有相关经验；其他选项未出现或与原文相反。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-304",
+        "title": "A School beside the Railway",
+        "subtitle": "学校参访 · 从旧工坊认识工程知识",
+        "paragraphs": [
+          {
+            "en": "Eleven adult learners travel north to a small school beside an old railway. A traditional signal bell rings as they enter the yard. The teaching takes place in a former railway shed, where simple models show how wheels and tracks work together. Each learner brings a bottle of water for the visit.",
+            "zh": "十一（eleven）位成人学习者向北（north）旅行（travel），来到旧铁路旁的一所小学校。他们进入院子时，一口传统的（traditional）信号钟响起。教学（teaching）在一间以前的铁路棚屋（shed）里进行，简单的模型展示车轮与轨道怎样配合工作。每位学习者都带了一瓶（bottle）水来参访。",
+            "patterns": [
+              {
+                "expression": "takes place",
+                "meaning": "搭配：take place表示发生或举行；该短语不用被动语态。"
+              },
+              {
+                "expression": "show how wheels and tracks work together",
+                "meaning": "句式：show后接how引导的宾语从句，说明事物如何共同运作。"
+              }
+            ]
+          },
+          {
+            "en": "The tutor hopes to empower people who think engineering is too difficult for them. She lets us build a small wheel from separate parts, then holds it near my ear so I can hear a loose piece move. We learn to trust careful observations instead of guessing which part is wrong.",
+            "zh": "导师希望使那些认为工程学（engineering）太难的人有能力自主学习（empower）。她让我们用零件组装一个小轮子，然后把它放到我的耳朵（ear）附近，让我听到一个松动零件的移动声。我们学着相信仔细观察，而不是猜测哪个零件出了问题。",
+            "patterns": [
+              {
+                "expression": "lets us build",
+                "meaning": "句式：let somebody do something表示让某人做某事，do前不加to。"
+              },
+              {
+                "expression": "instead of guessing",
+                "meaning": "搭配：instead of后接名词或动名词，表示不用某种做法而采用另一种。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "traditional",
+            "type": "context",
+            "prompt": "What does traditional suggest about the signal bell?",
+            "options": [
+              "It has just been invented for a phone.",
+              "It has no use near a railway.",
+              "It is part of an older, established practice.",
+              "It is hidden in a bottle."
+            ],
+            "answer": 2,
+            "explanation": "traditional指延续下来的传统，旧铁路信号钟属于既有做法，而不是手机新发明或瓶中物品。"
+          },
+          {
+            "word": "travel",
+            "type": "reason",
+            "prompt": "Why do the adults make the journey?",
+            "options": [
+              "To take water to a shop.",
+              "To sell the signal bell.",
+              "To learn about how railway parts work.",
+              "To close the school permanently."
+            ],
+            "answer": 2,
+            "explanation": "他们来参访学习轮轨及基础工程知识，其他行为不是这次行程目的。"
+          },
+          {
+            "word": "bottle",
+            "type": "context",
+            "prompt": "What does each learner bring to drink?",
+            "options": [
+              "Water in a bottle.",
+              "Oil in a can.",
+              "Tea in a broken bowl.",
+              "Steam in a bag."
+            ],
+            "answer": 0,
+            "explanation": "a bottle of water明确是一瓶水，其他容器和饮品未出现。"
+          },
+          {
+            "word": "empower",
+            "type": "outcome",
+            "prompt": "What does the tutor hope the practical task will achieve?",
+            "options": [
+              "Make learners afraid to touch models.",
+              "Prove that only experts can learn.",
+              "Stop learners from making observations.",
+              "Help learners gain confidence and ability."
+            ],
+            "answer": 3,
+            "explanation": "empower在这里是让学习者通过实践获得能力与信心，不是制造恐惧或阻止观察。"
+          },
+          {
+            "word": "north",
+            "type": "context",
+            "prompt": "In which direction do the learners travel?",
+            "options": [
+              "Towards the south.",
+              "Towards the north.",
+              "Towards the west.",
+              "Towards the east."
+            ],
+            "answer": 1,
+            "explanation": "原文travel north说明向北行进，其他方向都不是文中方向。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-305",
+        "title": "Behind the Stage",
+        "subtitle": "剧场开放日 · 认识舞台效果与技术协作",
+        "paragraphs": [
+          {
+            "en": "The theatre listing promises a ninety-minute tour before tonight's show. Our host explains why a cult musical still attracts such devoted audiences. Its story combines a family tragedy with hopeful singing. Today, however, we look behind the scenes rather than watch the complete performance.",
+            "zh": "剧院节目单（listing）上说，今晚演出前有一次九十（ninety）分钟的参观。我们的主持人（host）解释，一部受到小众狂热追捧的（cult）音乐剧为什么仍能吸引如此忠实的观众。故事把一场家庭悲剧（tragedy）与充满希望的歌唱（singing）结合起来。不过，今天我们看的是幕后，而不是完整演出。",
+            "patterns": [
+              {
+                "expression": "look behind the scenes",
+                "meaning": "搭配：behind the scenes表示在幕后，常指观众通常看不到的工作。"
+              },
+              {
+                "expression": "rather than watch",
+                "meaning": "句式：rather than连接并列动词，表示选择前一种活动而不做后一种。"
+              }
+            ]
+          },
+          {
+            "en": "We learn how technicians operate the lighting desk. A hidden lamp can create a sudden flash, while a machine sends a cloud of steam across the stage. The host explains each effect before it starts, so nobody mistakes the mist for smoke from a real fire.",
+            "zh": "我们学习技术人员如何操作（operate）灯光控制台。一盏隐藏的（hidden）灯能制造突然的闪光（flash），同时一台机器把一团蒸汽（steam）送过舞台。主持人（host）在每种效果开始前都作解释，这样就不会有人把雾气误认为真的起火冒烟。",
+            "patterns": [
+              {
+                "expression": "learn how technicians operate",
+                "meaning": "句式：learn后接how引导的宾语从句，说明学会或了解如何操作。"
+              },
+              {
+                "expression": "mistakes the mist for smoke",
+                "meaning": "搭配：mistake A for B表示把A误认为B，for后接误认的对象。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "hidden",
+            "type": "context",
+            "prompt": "What does hidden tell us about the lamp?",
+            "options": [
+              "It cannot produce any light.",
+              "It is not normally visible to the audience.",
+              "It is outside the theatre building.",
+              "It belongs to a different musical."
+            ],
+            "answer": 1,
+            "explanation": "hidden在这里指灯被藏在不显眼的位置，不等于不能发光或在馆外。"
+          },
+          {
+            "word": "flash",
+            "type": "reason",
+            "prompt": "Why does the host explain the effects before they begin?",
+            "options": [
+              "To make visitors leave immediately.",
+              "To stop all lights from working.",
+              "To help visitors understand the effects without confusing them with danger.",
+              "To reveal every actor's home address."
+            ],
+            "answer": 2,
+            "explanation": "提前解释闪光和蒸汽等效果可避免把雾误认成真实火灾，不是停灯或赶人。"
+          },
+          {
+            "word": "host",
+            "type": "reference",
+            "prompt": "Who explains both the musical and the stage effects?",
+            "options": [
+              "The person guiding the theatre visit.",
+              "A passenger on a train.",
+              "An actor who never enters the room.",
+              "The owner of a garden shed."
+            ],
+            "answer": 0,
+            "explanation": "host在两段里都指负责带领参观、讲解的人，其他人物不是本次讲解者。"
+          },
+          {
+            "word": "singing",
+            "type": "context",
+            "prompt": "What role does singing play in the musical?",
+            "options": [
+              "It replaces every part of the tour.",
+              "It proves the story contains no sadness.",
+              "It tells visitors how to operate the lights.",
+              "It provides a hopeful element alongside the sad family story."
+            ],
+            "answer": 3,
+            "explanation": "音乐剧把家庭悲剧与充满希望的歌唱结合，歌唱并不取代参观或证明故事没有悲伤。"
+          },
+          {
+            "word": "steam",
+            "type": "context",
+            "prompt": "What might visitors wrongly think when they see the steam effect?",
+            "options": [
+              "That a real fire is producing smoke.",
+              "That the musical has no stage.",
+              "That a train is arriving outside.",
+              "That the guide has left the building."
+            ],
+            "answer": 0,
+            "explanation": "原文说提前解释是为免把舞台雾气误认为真实火灾的烟；其他判断没有依据。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-306",
+        "title": "One Shirt, One More Meal",
+        "subtitle": "社区义卖 · 用一顿饭和一件衣服筹集援助",
+        "paragraphs": [
+          {
+            "en": "At a community lunch in an American town, our gang of neighbours sells a t-shirt with a local artist's design. A buck from each sale goes towards meals for families after a flood. A survivor tells us that justice means listening to people as well as offering money. Her words make the event more than a shopping trip.",
+            "zh": "在美国一个小镇的社区午餐会上，我们这帮（gang）邻居出售印有本地艺术家设计的T恤衫（t-shirt）。每售出一件，就拿出一美元（buck）为洪水过后的家庭提供餐食。一位幸存者（survivor）告诉我们，公平（justice）既意味着提供钱，也意味着倾听人们的声音。她的话让这场活动超越了一次购物。",
+            "patterns": [
+              {
+                "expression": "goes towards meals",
+                "meaning": "搭配：go towards加名词或动名词，表示某笔钱用于支付某事的一部分费用。"
+              },
+              {
+                "expression": "as well as offering money",
+                "meaning": "句式：as well as连接并列成分；与listening并列时这里也用动名词。"
+              }
+            ]
+          },
+          {
+            "en": "In the kitchen, we wash the vegetables thoroughly and cook them until tender. Additional guests arrive, so we share the remaining food carefully. For a new volunteer, this is an adventure in teamwork. Before the last group leaves, I say that I will not detain them long and thank everyone for helping.",
+            "zh": "在厨房里，我们把蔬菜彻底地（thoroughly）洗干净，煮到软嫩（tender）。额外的（additional）客人到了，于是我们仔细分配剩下的食物。对一名新志愿者来说，这是一次团队合作的冒险经历（adventure）。最后一组人离开前，我说不会耽搁（detain）大家太久，并感谢每个人的帮助。",
+            "patterns": [
+              {
+                "expression": "cook them until tender",
+                "meaning": "句式：until tender是省略主语和be动词的时间从句，表示煮至软嫩。"
+              },
+              {
+                "expression": "thank everyone for helping",
+                "meaning": "搭配：thank somebody for doing something表示感谢某人做某事，for后接动名词。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "detain",
+            "type": "context",
+            "prompt": "What does the speaker mean by I will not detain them long?",
+            "options": [
+              "I will ask the police to arrest them.",
+              "I will keep them waiting for several hours.",
+              "I will not delay their departure for long.",
+              "I will send them to a different town."
+            ],
+            "answer": 2,
+            "explanation": "detain在这个礼貌告别语境里是耽搁时间，不是拘捕，也没有说长时间等候或送往别处。"
+          },
+          {
+            "word": "thoroughly",
+            "type": "reason",
+            "prompt": "Why are the vegetables washed thoroughly?",
+            "options": [
+              "So that they can be sold as shirts.",
+              "To clean them carefully before cooking.",
+              "To turn them into money.",
+              "To keep every guest outside."
+            ],
+            "answer": 1,
+            "explanation": "thoroughly说明清洗仔细彻底，目的是烹饪前清洁食物，其他选项不合情境。"
+          },
+          {
+            "word": "t-shirt",
+            "type": "outcome",
+            "prompt": "What does buying a shirt contribute to?",
+            "options": [
+              "Meals for families affected by the flood.",
+              "A new train engine.",
+              "A television competition prize.",
+              "A private trip for the artist."
+            ],
+            "answer": 0,
+            "explanation": "每卖一件T恤有一美元用于灾后家庭餐食，其他用途没有写出。"
+          },
+          {
+            "word": "buck",
+            "type": "context",
+            "prompt": "How much from each shirt sale supports the meals?",
+            "options": [
+              "Ninety pounds.",
+              "Eleven tickets.",
+              "A hundred euros.",
+              "One dollar."
+            ],
+            "answer": 3,
+            "explanation": "美国小镇语境中a buck是口语的一美元，不是雄鹿，也不是其他钱数。"
+          },
+          {
+            "word": "adventure",
+            "type": "inference",
+            "prompt": "Why might the lunch feel like an adventure for the new volunteer?",
+            "options": [
+              "It requires travelling across an ocean.",
+              "It is a new and challenging experience of working with others.",
+              "It guarantees a large personal profit.",
+              "It involves refusing all extra guests."
+            ],
+            "answer": 1,
+            "explanation": "这里adventure指令人兴奋且有挑战的新体验，重点是团队协作，而非跨洋、个人盈利或拒客。"
+          }
+        ]
+      }
+    ]
+  },
+  "pronunciations": {
+    "a": {
+      "ipa": "/ə; eɪ/"
+    },
+    "about": {
+      "ipa": "/əˈbaʊt/"
+    },
+    "across": {
+      "ipa": "/əˈkrɒs/"
+    },
+    "additional": {
+      "ipa": "/əˈdɪʃənəl/"
+    },
+    "adult": {
+      "ipa": "/ˈædʌlt/"
+    },
+    "adventure": {
+      "ipa": "/ədˈventʃə/"
+    },
+    "after": {
+      "ipa": "/ˈɑːftə/"
+    },
+    "although": {
+      "ipa": "/ɔːlˈðəʊ/"
+    },
+    "american": {
+      "ipa": "/əˈmerɪkən/"
+    },
+    "an": {
+      "ipa": "/æn/"
+    },
+    "and": {
+      "ipa": "/ænd/"
+    },
+    "announces": {
+      "ipa": "/əˈnaʊnsɪz/"
+    },
+    "appears": {
+      "ipa": "/əˈpɪəz/"
+    },
+    "arrive": {
+      "ipa": "/əˈraɪv/"
+    },
+    "artist's": {
+      "ipa": "/ˈɑːtɪsts/"
+    },
+    "as": {
+      "ipa": "/æz/"
+    },
+    "asks": {
+      "ipa": "/ɑːsks/"
+    },
+    "at": {
+      "ipa": "/æt/"
+    },
+    "attracts": {
+      "ipa": "/əˈtrækts/"
+    },
+    "audiences": {
+      "ipa": "/ˈɔːdiənsɪz/"
+    },
+    "becomes": {
+      "ipa": "/bɪˈkʌmz/"
+    },
+    "before": {
+      "ipa": "/bɪˈfɔː/"
+    },
+    "began": {
+      "ipa": "/bɪˈɡæn/"
+    },
+    "begins": {
+      "ipa": "/bɪˈɡɪnz/"
+    },
+    "behind": {
+      "ipa": "/bɪˈhaɪnd/"
+    },
+    "bell": {
+      "ipa": "/bel/"
+    },
+    "beside": {
+      "ipa": "/bɪˈsaɪd/"
+    },
+    "beyond": {
+      "ipa": "/bɪˈjɒnd/"
+    },
+    "boards": {
+      "ipa": "/bɔːdz/"
+    },
+    "bottle": {
+      "ipa": "/ˈbɒtl/"
+    },
+    "break": {
+      "ipa": "/breɪk/"
+    },
+    "brings": {
+      "ipa": "/brɪŋz/"
+    },
+    "buck": {
+      "ipa": "/bʌk/"
+    },
+    "build": {
+      "ipa": "/bɪld/"
+    },
+    "by": {
+      "ipa": "/baɪ/"
+    },
+    "cameras": {
+      "ipa": "/ˈkæmərəz/"
+    },
+    "can": {
+      "ipa": "/kæn/"
+    },
+    "careful": {
+      "ipa": "/ˈkeəfl/"
+    },
+    "carefully": {
+      "ipa": "/ˈkeəfəli/"
+    },
+    "carry": {
+      "ipa": "/ˈkæri/"
+    },
+    "carrying": {
+      "ipa": "/ˈkæriɪŋ/"
+    },
+    "characters": {
+      "ipa": "/ˈkærəktəz/"
+    },
+    "charge": {
+      "ipa": "/tʃɑːdʒ/"
+    },
+    "choosing": {
+      "ipa": "/ˈtʃuːzɪŋ/"
+    },
+    "cloud": {
+      "ipa": "/klaʊd/"
+    },
+    "coat": {
+      "ipa": "/kəʊt/"
+    },
+    "combines": {
+      "ipa": "/kəmˈbaɪnz/"
+    },
+    "comfort": {
+      "ipa": "/ˈkʌmfət/"
+    },
+    "community": {
+      "ipa": "/kəˈmjuːnəti/"
+    },
+    "complete": {
+      "ipa": "/kəmˈpliːt/"
+    },
+    "cook": {
+      "ipa": "/kʊk/"
+    },
+    "cover": {
+      "ipa": "/ˈkʌvə/"
+    },
+    "create": {
+      "ipa": "/kriˈeɪt/"
+    },
+    "crew": {
+      "ipa": "/kruː/"
+    },
+    "crosses": {
+      "ipa": "/ˈkrɒsɪz/"
+    },
+    "cult": {
+      "ipa": "/kʌlt/"
+    },
+    "day": {
+      "ipa": "/deɪ/"
+    },
+    "decide": {
+      "ipa": "/dɪˈsaɪd/"
+    },
+    "deserves": {
+      "ipa": "/dɪˈzɜːvz/"
+    },
+    "design": {
+      "ipa": "/dɪˈzaɪn/"
+    },
+    "desk": {
+      "ipa": "/desk/"
+    },
+    "detain": {
+      "ipa": "/dɪˈteɪn/"
+    },
+    "devoted": {
+      "ipa": "/dɪˈvəʊtɪd/"
+    },
+    "difficult": {
+      "ipa": "/ˈdɪfɪkəlt/"
+    },
+    "discuss": {
+      "ipa": "/dɪˈskʌs/"
+    },
+    "divide": {
+      "ipa": "/dɪˈvaɪd/"
+    },
+    "do": {
+      "ipa": "/duː/"
+    },
+    "during": {
+      "ipa": "/ˈdjʊərɪŋ/"
+    },
+    "each": {
+      "ipa": "/iːtʃ/"
+    },
+    "ear": {
+      "ipa": "/ɪə/"
+    },
+    "effect": {
+      "ipa": "/ɪˈfekt/"
+    },
+    "eleven": {
+      "ipa": "/ɪˈlevən/"
+    },
+    "empower": {
+      "ipa": "/ɪmˈpaʊə/"
+    },
+    "ending": {
+      "ipa": "/ˈendɪŋ/"
+    },
+    "engine": {
+      "ipa": "/ˈendʒɪn/"
+    },
+    "engineering": {
+      "ipa": "/ˌendʒɪˈnɪərɪŋ/"
+    },
+    "enter": {
+      "ipa": "/ˈentə/"
+    },
+    "event": {
+      "ipa": "/ɪˈvent/"
+    },
+    "everyone": {
+      "ipa": "/ˈevriwʌn/"
+    },
+    "examine": {
+      "ipa": "/ɪɡˈzæmɪn/"
+    },
+    "explains": {
+      "ipa": "/ɪkˈspleɪnz/"
+    },
+    "fairly": {
+      "ipa": "/ˈfeəli/"
+    },
+    "families": {
+      "ipa": "/ˈfæməliz/"
+    },
+    "family": {
+      "ipa": "/ˈfæməli/"
+    },
+    "fence": {
+      "ipa": "/fens/"
+    },
+    "film": {
+      "ipa": "/fɪlm/"
+    },
+    "finish": {
+      "ipa": "/ˈfɪnɪʃ/"
+    },
+    "fire": {
+      "ipa": "/ˈfaɪə/"
+    },
+    "flash": {
+      "ipa": "/flæʃ/"
+    },
+    "flood": {
+      "ipa": "/flʌd/"
+    },
+    "following": {
+      "ipa": "/ˈfɒləʊɪŋ/"
+    },
+    "food": {
+      "ipa": "/fuːd/"
+    },
+    "for": {
+      "ipa": "/fɔː/"
+    },
+    "forget": {
+      "ipa": "/fəˈɡet/"
+    },
+    "former": {
+      "ipa": "/ˈfɔːmə/"
+    },
+    "from": {
+      "ipa": "/frəm/"
+    },
+    "gang": {
+      "ipa": "/ɡæŋ/"
+    },
+    "garden": {
+      "ipa": "/ˈɡɑːdn/"
+    },
+    "giving": {
+      "ipa": "/ˈɡɪvɪŋ/"
+    },
+    "goes": {
+      "ipa": "/ɡəʊz/"
+    },
+    "group": {
+      "ipa": "/ɡruːp/"
+    },
+    "guessing": {
+      "ipa": "/ˈɡesɪŋ/"
+    },
+    "guests": {
+      "ipa": "/ɡests/"
+    },
+    "has": {
+      "ipa": "/hæz/"
+    },
+    "hear": {
+      "ipa": "/hɪə/"
+    },
+    "helping": {
+      "ipa": "/ˈhelpɪŋ/"
+    },
+    "helps": {
+      "ipa": "/helps/"
+    },
+    "her": {
+      "ipa": "/hə/"
+    },
+    "hidden": {
+      "ipa": "/ˈhɪdn/"
+    },
+    "hill": {
+      "ipa": "/hɪl/"
+    },
+    "history": {
+      "ipa": "/ˈhɪstri/"
+    },
+    "holds": {
+      "ipa": "/həʊldz/"
+    },
+    "hopeful": {
+      "ipa": "/ˈhəʊpfl/"
+    },
+    "hopes": {
+      "ipa": "/həʊps/"
+    },
+    "host": {
+      "ipa": "/həʊst/"
+    },
+    "how": {
+      "ipa": "/haʊ/"
+    },
+    "however": {
+      "ipa": "/haʊˈevə/"
+    },
+    "i": {
+      "ipa": "/aɪ/"
+    },
+    "in": {
+      "ipa": "/ɪn/"
+    },
+    "instead": {
+      "ipa": "/ɪnˈsted/"
+    },
+    "into": {
+      "ipa": "/ˈɪntə/"
+    },
+    "introduces": {
+      "ipa": "/ˌɪntrəˈdjuːsɪz/"
+    },
+    "invites": {
+      "ipa": "/ɪnˈvaɪts/"
+    },
+    "is": {
+      "ipa": "/ɪz/"
+    },
+    "it": {
+      "ipa": "/ɪt/"
+    },
+    "its": {
+      "ipa": "/ɪts/"
+    },
+    "journey": {
+      "ipa": "/ˈdʒɜːni/"
+    },
+    "just": {
+      "ipa": "/dʒʌst/"
+    },
+    "justice": {
+      "ipa": "/ˈdʒʌstɪs/"
+    },
+    "kitchen": {
+      "ipa": "/ˈkɪtʃɪn/"
+    },
+    "lamp": {
+      "ipa": "/læmp/"
+    },
+    "last": {
+      "ipa": "/lɑːst/"
+    },
+    "lasts": {
+      "ipa": "/lɑːsts/"
+    },
+    "later": {
+      "ipa": "/ˈleɪtə/"
+    },
+    "learn": {
+      "ipa": "/lɜːn/"
+    },
+    "learner": {
+      "ipa": "/ˈlɜːnə/"
+    },
+    "learners": {
+      "ipa": "/ˈlɜːnəz/"
+    },
+    "learning": {
+      "ipa": "/ˈlɜːnɪŋ/"
+    },
+    "leave": {
+      "ipa": "/liːv/"
+    },
+    "leaves": {
+      "ipa": "/liːvz/"
+    },
+    "lets": {
+      "ipa": "/lets/"
+    },
+    "library": {
+      "ipa": "/ˈlaɪbrəri/"
+    },
+    "light": {
+      "ipa": "/laɪt/"
+    },
+    "lighting": {
+      "ipa": "/ˈlaɪtɪŋ/"
+    },
+    "line": {
+      "ipa": "/laɪn/"
+    },
+    "listening": {
+      "ipa": "/ˈlɪsənɪŋ/"
+    },
+    "listing": {
+      "ipa": "/ˈlɪstɪŋ/"
+    },
+    "live": {
+      "ipa": "/lɪv/"
+    },
+    "local": {
+      "ipa": "/ˈləʊkəl/"
+    },
+    "long": {
+      "ipa": "/lɒŋ/"
+    },
+    "look": {
+      "ipa": "/lʊk/"
+    },
+    "loose": {
+      "ipa": "/luːs/"
+    },
+    "loss": {
+      "ipa": "/lɒs/"
+    },
+    "loud": {
+      "ipa": "/laʊd/"
+    },
+    "lunch": {
+      "ipa": "/lʌntʃ/"
+    },
+    "machine": {
+      "ipa": "/məˈʃiːn/"
+    },
+    "make": {
+      "ipa": "/meɪk/"
+    },
+    "making": {
+      "ipa": "/ˈmeɪkɪŋ/"
+    },
+    "me": {
+      "ipa": "/miː/"
+    },
+    "meals": {
+      "ipa": "/miːlz/"
+    },
+    "means": {
+      "ipa": "/miːnz/"
+    },
+    "minute": {
+      "ipa": "/ˈmɪnɪt/"
+    },
+    "minutes": {
+      "ipa": "/ˈmɪnɪts/"
+    },
+    "mist": {
+      "ipa": "/mɪst/"
+    },
+    "mistakes": {
+      "ipa": "/mɪˈsteɪks/"
+    },
+    "models": {
+      "ipa": "/ˈmɒdlz/"
+    },
+    "money": {
+      "ipa": "/ˈmʌni/"
+    },
+    "more": {
+      "ipa": "/mɔː/"
+    },
+    "move": {
+      "ipa": "/muːv/"
+    },
+    "museum": {
+      "ipa": "/mjuˈziːəm/"
+    },
+    "music": {
+      "ipa": "/ˈmjuːzɪk/"
+    },
+    "musical": {
+      "ipa": "/ˈmjuːzɪkəl/"
+    },
+    "my": {
+      "ipa": "/maɪ/"
+    },
+    "near": {
+      "ipa": "/nɪə/"
+    },
+    "neighbours": {
+      "ipa": "/ˈneɪbəz/"
+    },
+    "new": {
+      "ipa": "/njuː/"
+    },
+    "night": {
+      "ipa": "/naɪt/"
+    },
+    "ninety": {
+      "ipa": "/ˈnaɪnti/"
+    },
+    "no": {
+      "ipa": "/nəʊ/"
+    },
+    "nobody": {
+      "ipa": "/ˈnəʊbədi/"
+    },
+    "north": {
+      "ipa": "/nɔːθ/"
+    },
+    "not": {
+      "ipa": "/nɒt/"
+    },
+    "observations": {
+      "ipa": "/ˌɒbzəˈveɪʃənz/"
+    },
+    "of": {
+      "ipa": "/ɒv/"
+    },
+    "off": {
+      "ipa": "/ɒf/"
+    },
+    "offering": {
+      "ipa": "/ˈɒfərɪŋ/"
+    },
+    "offers": {
+      "ipa": "/ˈɒfəz/"
+    },
+    "old": {
+      "ipa": "/əʊld/"
+    },
+    "on": {
+      "ipa": "/ɒn/"
+    },
+    "once": {
+      "ipa": "/wʌns/"
+    },
+    "operate": {
+      "ipa": "/ˈɒpəreɪt/"
+    },
+    "our": {
+      "ipa": "/aʊə/"
+    },
+    "outing": {
+      "ipa": "/ˈaʊtɪŋ/"
+    },
+    "part": {
+      "ipa": "/pɑːt/"
+    },
+    "parts": {
+      "ipa": "/pɑːts/"
+    },
+    "people": {
+      "ipa": "/ˈpiːpl/"
+    },
+    "performance": {
+      "ipa": "/pəˈfɔːməns/"
+    },
+    "piece": {
+      "ipa": "/piːs/"
+    },
+    "place": {
+      "ipa": "/pleɪs/"
+    },
+    "plain": {
+      "ipa": "/pleɪn/"
+    },
+    "promises": {
+      "ipa": "/ˈprɒmɪsɪz/"
+    },
+    "railway": {
+      "ipa": "/ˈreɪlweɪ/"
+    },
+    "rarely": {
+      "ipa": "/ˈreəli/"
+    },
+    "rather": {
+      "ipa": "/ˈrɑːðə/"
+    },
+    "real": {
+      "ipa": "/rɪəl/"
+    },
+    "remaining": {
+      "ipa": "/rɪˈmeɪnɪŋ/"
+    },
+    "repair": {
+      "ipa": "/rɪˈpeə/"
+    },
+    "revealing": {
+      "ipa": "/rɪˈviːlɪŋ/"
+    },
+    "ride": {
+      "ipa": "/raɪd/"
+    },
+    "rings": {
+      "ipa": "/rɪŋz/"
+    },
+    "roof": {
+      "ipa": "/ruːf/"
+    },
+    "safe": {
+      "ipa": "/seɪf/"
+    },
+    "safely": {
+      "ipa": "/ˈseɪfli/"
+    },
+    "sale": {
+      "ipa": "/seɪl/"
+    },
+    "say": {
+      "ipa": "/seɪ/"
+    },
+    "scene": {
+      "ipa": "/siːn/"
+    },
+    "scenes": {
+      "ipa": "/siːnz/"
+    },
+    "school": {
+      "ipa": "/skuːl/"
+    },
+    "sells": {
+      "ipa": "/selz/"
+    },
+    "sends": {
+      "ipa": "/sendz/"
+    },
+    "separate": {
+      "ipa": "/ˈseprət/"
+    },
+    "share": {
+      "ipa": "/ʃeə/"
+    },
+    "sharing": {
+      "ipa": "/ˈʃeərɪŋ/"
+    },
+    "she": {
+      "ipa": "/ʃiː/"
+    },
+    "shed": {
+      "ipa": "/ʃed/"
+    },
+    "shirt": {
+      "ipa": "/ʃɜːt/"
+    },
+    "shopping": {
+      "ipa": "/ˈʃɒpɪŋ/"
+    },
+    "show": {
+      "ipa": "/ʃəʊ/"
+    },
+    "shown": {
+      "ipa": "/ʃəʊn/"
+    },
+    "shows": {
+      "ipa": "/ʃəʊz/"
+    },
+    "shy": {
+      "ipa": "/ʃaɪ/"
+    },
+    "signal": {
+      "ipa": "/ˈsɪɡnəl/"
+    },
+    "simple": {
+      "ipa": "/ˈsɪmpl/"
+    },
+    "singer": {
+      "ipa": "/ˈsɪŋə/"
+    },
+    "singing": {
+      "ipa": "/ˈsɪŋɪŋ/"
+    },
+    "skills": {
+      "ipa": "/skɪlz/"
+    },
+    "small": {
+      "ipa": "/smɔːl/"
+    },
+    "smoke": {
+      "ipa": "/sməʊk/"
+    },
+    "so": {
+      "ipa": "/səʊ/"
+    },
+    "song": {
+      "ipa": "/sɒŋ/"
+    },
+    "stage": {
+      "ipa": "/steɪdʒ/"
+    },
+    "starts": {
+      "ipa": "/stɑːts/"
+    },
+    "station": {
+      "ipa": "/ˈsteɪʃən/"
+    },
+    "steam": {
+      "ipa": "/stiːm/"
+    },
+    "still": {
+      "ipa": "/stɪl/"
+    },
+    "storm": {
+      "ipa": "/stɔːm/"
+    },
+    "story": {
+      "ipa": "/ˈstɔːri/"
+    },
+    "such": {
+      "ipa": "/sʌtʃ/"
+    },
+    "sudden": {
+      "ipa": "/ˈsʌdən/"
+    },
+    "survivor": {
+      "ipa": "/səˈvaɪvə/"
+    },
+    "t": {
+      "ipa": "/tiː/"
+    },
+    "t-shirt": {
+      "ipa": "/ˈtiː ʃɜːt/"
+    },
+    "takes": {
+      "ipa": "/teɪks/"
+    },
+    "talks": {
+      "ipa": "/tɔːks/"
+    },
+    "tasks": {
+      "ipa": "/tɑːsks/"
+    },
+    "teacher": {
+      "ipa": "/ˈtiːtʃə/"
+    },
+    "teaching": {
+      "ipa": "/ˈtiːtʃɪŋ/"
+    },
+    "teamwork": {
+      "ipa": "/ˈtiːmwɜːk/"
+    },
+    "technicians": {
+      "ipa": "/tekˈnɪʃənz/"
+    },
+    "television": {
+      "ipa": "/ˈtelɪvɪʒən/"
+    },
+    "tells": {
+      "ipa": "/telz/"
+    },
+    "tender": {
+      "ipa": "/ˈtendə/"
+    },
+    "than": {
+      "ipa": "/ðən/"
+    },
+    "thank": {
+      "ipa": "/θæŋk/"
+    },
+    "that": {
+      "ipa": "/ðæt/"
+    },
+    "the": {
+      "ipa": "/ðə/"
+    },
+    "theatre": {
+      "ipa": "/ˈθɪətə/"
+    },
+    "their": {
+      "ipa": "/ðeə/"
+    },
+    "them": {
+      "ipa": "/ðəm/"
+    },
+    "then": {
+      "ipa": "/ðen/"
+    },
+    "there": {
+      "ipa": "/ðeə/"
+    },
+    "they": {
+      "ipa": "/ðeɪ/"
+    },
+    "think": {
+      "ipa": "/θɪŋk/"
+    },
+    "this": {
+      "ipa": "/ðɪs/"
+    },
+    "thoroughly": {
+      "ipa": "/ˈθʌrəli/"
+    },
+    "time": {
+      "ipa": "/taɪm/"
+    },
+    "to": {
+      "ipa": "/tuː/"
+    },
+    "today": {
+      "ipa": "/təˈdeɪ/"
+    },
+    "together": {
+      "ipa": "/təˈɡeðə/"
+    },
+    "tonight's": {
+      "ipa": "/təˈnaɪts/"
+    },
+    "too": {
+      "ipa": "/tuː/"
+    },
+    "tools": {
+      "ipa": "/tuːlz/"
+    },
+    "tour": {
+      "ipa": "/tʊə/"
+    },
+    "towards": {
+      "ipa": "/təˈwɔːdz/"
+    },
+    "town": {
+      "ipa": "/taʊn/"
+    },
+    "tracks": {
+      "ipa": "/træks/"
+    },
+    "traditional": {
+      "ipa": "/trəˈdɪʃənəl/"
+    },
+    "tragedy": {
+      "ipa": "/ˈtrædʒədi/"
+    },
+    "train": {
+      "ipa": "/treɪn/"
+    },
+    "travel": {
+      "ipa": "/ˈtrævl/"
+    },
+    "trip": {
+      "ipa": "/trɪp/"
+    },
+    "trust": {
+      "ipa": "/trʌst/"
+    },
+    "turn": {
+      "ipa": "/tɜːn/"
+    },
+    "tutor": {
+      "ipa": "/ˈtjuːtə/"
+    },
+    "two": {
+      "ipa": "/tuː/"
+    },
+    "until": {
+      "ipa": "/ənˈtɪl/"
+    },
+    "us": {
+      "ipa": "/ʌs/"
+    },
+    "valley": {
+      "ipa": "/ˈvæli/"
+    },
+    "vegetables": {
+      "ipa": "/ˈvedʒtəblz/"
+    },
+    "visit": {
+      "ipa": "/ˈvɪzɪt/"
+    },
+    "volunteer": {
+      "ipa": "/ˌvɒlənˈtɪə/"
+    },
+    "volunteers": {
+      "ipa": "/ˌvɒlənˈtɪəz/"
+    },
+    "wall": {
+      "ipa": "/wɔːl/"
+    },
+    "wants": {
+      "ipa": "/wɒnts/"
+    },
+    "wash": {
+      "ipa": "/wɒʃ/"
+    },
+    "watch": {
+      "ipa": "/wɒtʃ/"
+    },
+    "water": {
+      "ipa": "/ˈwɔːtə/"
+    },
+    "we": {
+      "ipa": "/wiː/"
+    },
+    "wears": {
+      "ipa": "/weəz/"
+    },
+    "well": {
+      "ipa": "/wel/"
+    },
+    "what": {
+      "ipa": "/wɒt/"
+    },
+    "wheel": {
+      "ipa": "/wiːl/"
+    },
+    "wheels": {
+      "ipa": "/wiːlz/"
+    },
+    "where": {
+      "ipa": "/weə/"
+    },
+    "which": {
+      "ipa": "/wɪtʃ/"
+    },
+    "while": {
+      "ipa": "/waɪl/"
+    },
+    "whistle": {
+      "ipa": "/ˈwɪsl/"
+    },
+    "who": {
+      "ipa": "/huː/"
+    },
+    "whose": {
+      "ipa": "/huːz/"
+    },
+    "why": {
+      "ipa": "/waɪ/"
+    },
+    "will": {
+      "ipa": "/wɪl/"
+    },
+    "with": {
+      "ipa": "/wɪð/"
+    },
+    "without": {
+      "ipa": "/wɪˈðaʊt/"
+    },
+    "wooded": {
+      "ipa": "/ˈwʊdɪd/"
+    },
+    "words": {
+      "ipa": "/wɜːdz/"
+    },
+    "work": {
+      "ipa": "/wɜːk/"
+    },
+    "worked": {
+      "ipa": "/wɜːkt/"
+    },
+    "wrong": {
+      "ipa": "/rɒŋ/"
+    },
+    "yard": {
+      "ipa": "/jɑːd/"
+    },
+    "year's": {
+      "ipa": "/jɪəz/"
+    },
+    "young": {
+      "ipa": "/jʌŋ/"
+    }
+  }
+}

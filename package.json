@@ -1,0 +1,62 @@
+{
+  "name": "wordscape-weapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:weapp": "taro build --type weapp --watch",
+    "build:weapp": "taro build --type weapp",
+    "typecheck": "tsc --noEmit",
+    "server": "node --env-file-if-exists=.env --import tsx server/index.ts",
+    "test": "node --import tsx --test tests/*.test.ts tests/*.test.mjs server/*.test.ts cloudfunctions/study/test/*.test.ts",
+    "sync:content": "node scripts/sync-content.mjs",
+    "audio:manifest": "node scripts/audio-manifest.mjs",
+    "check:content": "node --import tsx scripts/verify-content.ts",
+    "prebuild:weapp": "npm run check:content && npm run check:audio",
+    "audio:generate": "node scripts/generate-audio.mjs",
+    "audio:verify": "node scripts/verify-audio.mjs",
+    "check:audio": "node scripts/audio-manifest.mjs --strict && node scripts/verify-audio.mjs --integrity",
+    "audio:generate:missing": "node scripts/generate-audio.mjs --missing",
+    "build:cloud": "node scripts/build-cloud.mjs",
+    "prebuild:cloud": "npm run check:content",
+    "test:cloud:pack": "node --test tests/cloud-build.test.mjs"
+  },
+  "dependencies": {
+    "@tarojs/components": "4.3.0",
+    "@tarojs/helper": "4.3.0",
+    "@tarojs/plugin-framework-react": "4.3.0",
+    "@tarojs/plugin-platform-weapp": "4.3.0",
+    "@tarojs/react": "4.3.0",
+    "@tarojs/runtime": "4.3.0",
+    "@tarojs/shared": "4.3.0",
+    "@tarojs/taro": "4.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sharp": "0.35.5",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-react": "^7.29.7",
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "@tarojs/cli": "4.3.0",
+    "@tarojs/webpack5-runner": "4.3.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "babel-preset-taro": "4.3.0",
+    "esbuild": "0.25.12",
+    "postcss": "^8.5.31",
+    "react-refresh": "^0.14.2",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "webpack": "5.91.0",
+    "wx-server-sdk": "4.0.2"
+  },
+  "type": "module",
+  "overrides": {
+    "swiper": "12.1.2",
+    "esbuild@<=0.24.2": "0.25.12"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

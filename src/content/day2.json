@@ -1,0 +1,3490 @@
+{
+  "day": 2,
+  "date": "2026-10-15",
+  "words": [
+    "concession",
+    "incidence",
+    "disaster",
+    "sheer",
+    "brand",
+    "physics",
+    "endorse",
+    "prime",
+    "law",
+    "steal",
+    "clothing",
+    "surge",
+    "warming",
+    "base",
+    "cease",
+    "order",
+    "heritage",
+    "straightforward",
+    "demonstration",
+    "conviction",
+    "interaction",
+    "flee",
+    "revolutionary",
+    "spine",
+    "coal",
+    "battle",
+    "designate",
+    "repair",
+    "court",
+    "grace"
+  ],
+  "content": {
+    "targets": {
+      "concession": {
+        "ipa": "/kənˈseʃn/",
+        "meaning": "n. 让步；价格优惠",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "为达成协议作出的让步；给予的优惠"
+          }
+        ]
+      },
+      "incidence": {
+        "ipa": "/ˈɪnsɪdəns/",
+        "meaning": "n. 发生率",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "疾病或事件的发生率"
+          }
+        ]
+      },
+      "disaster": {
+        "ipa": "/dɪˈzɑːstə/",
+        "meaning": "n. 灾难；惨败",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "造成严重损失的灾难；彻底失败的事"
+          }
+        ]
+      },
+      "sheer": {
+        "ipa": "/ʃɪə/",
+        "meaning": "adj. 纯粹的；陡峭的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "十足的；纯粹的；近乎垂直的"
+          }
+        ]
+      },
+      "brand": {
+        "ipa": "/brænd/",
+        "meaning": "n. 品牌；v. 给……加上标签",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "商品的品牌"
+          },
+          {
+            "pos": "动词",
+            "meaning": "给某人或某事贴上通常不好的标签"
+          }
+        ]
+      },
+      "physics": {
+        "ipa": "/ˈfɪzɪks/",
+        "meaning": "n. 物理学",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "研究物质、能量及其相互作用的科学"
+          }
+        ]
+      },
+      "endorse": {
+        "ipa": "/ɪnˈdɔːs/",
+        "meaning": "v. 公开支持；代言",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "公开表示支持；为产品作推荐或代言"
+          }
+        ]
+      },
+      "prime": {
+        "ipa": "/praɪm/",
+        "meaning": "adj. 主要的；优质的；n. 盛年",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "首要的；最优质的"
+          },
+          {
+            "pos": "名词",
+            "meaning": "人生或事业的最佳时期"
+          }
+        ]
+      },
+      "law": {
+        "ipa": "/lɔː/",
+        "meaning": "n. 法律；规律",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "国家制定的法律；自然规律"
+          }
+        ]
+      },
+      "steal": {
+        "ipa": "/stiːl/",
+        "meaning": "v. 偷窃；偷偷移动",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "未经许可拿走他人的东西；悄悄移动"
+          }
+        ]
+      },
+      "clothing": {
+        "ipa": "/ˈkləʊðɪŋ/",
+        "meaning": "n. 衣物（总称）",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "衣服的总称，不可数名词"
+          }
+        ]
+      },
+      "surge": {
+        "ipa": "/sɜːdʒ/",
+        "meaning": "n. 激增；v. 急剧上升",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "突然的大幅增加或涌动"
+          },
+          {
+            "pos": "动词",
+            "meaning": "突然增加；向前涌动"
+          }
+        ]
+      },
+      "warming": {
+        "ipa": "/ˈwɔːmɪŋ/",
+        "meaning": "n. 变暖；adj. 暖身的",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "气温或温度升高的过程"
+          },
+          {
+            "pos": "形容词",
+            "meaning": "使身体感到温暖的"
+          }
+        ]
+      },
+      "base": {
+        "ipa": "/beɪs/",
+        "meaning": "n. 基地；基础；v. 以……为基础",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "开展活动的基地；底部或基础"
+          },
+          {
+            "pos": "动词",
+            "meaning": "以某事为依据；设立基地"
+          }
+        ]
+      },
+      "cease": {
+        "ipa": "/siːs/",
+        "meaning": "v. 停止",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "停止做某事；不再发生"
+          }
+        ]
+      },
+      "order": {
+        "ipa": "/ˈɔːdə/",
+        "meaning": "n. 顺序；命令；订单；v. 命令；订购",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "排列顺序；指令；订购要求"
+          },
+          {
+            "pos": "动词",
+            "meaning": "命令某人做事；订购商品"
+          }
+        ]
+      },
+      "heritage": {
+        "ipa": "/ˈherɪtɪdʒ/",
+        "meaning": "n. 遗产；传统",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "社会传承的历史建筑、文化和传统"
+          }
+        ]
+      },
+      "straightforward": {
+        "ipa": "/ˌstreɪtˈfɔːwəd/",
+        "meaning": "adj. 简明的；直接坦率的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "容易理解或处理的；坦率直接的"
+          }
+        ]
+      },
+      "demonstration": {
+        "ipa": "/ˌdemənˈstreɪʃn/",
+        "meaning": "n. 演示；示威",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "展示某物怎样工作的演示；公开表达诉求的集会"
+          }
+        ]
+      },
+      "conviction": {
+        "ipa": "/kənˈvɪkʃn/",
+        "meaning": "n. 坚定信念；定罪",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "坚定的信念；法院认定有罪的裁决"
+          }
+        ]
+      },
+      "interaction": {
+        "ipa": "/ˌɪntərˈækʃn/",
+        "meaning": "n. 互动；相互作用",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "人与人之间的交流；事物之间的相互影响"
+          }
+        ]
+      },
+      "flee": {
+        "ipa": "/fliː/",
+        "meaning": "v. 逃离",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "为躲避危险而迅速离开"
+          }
+        ]
+      },
+      "revolutionary": {
+        "ipa": "/ˌrevəˈluːʃənəri/",
+        "meaning": "adj. 革命性的；n. 革命者",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "带来根本变革的；与革命有关的"
+          },
+          {
+            "pos": "名词",
+            "meaning": "参加或支持革命的人"
+          }
+        ]
+      },
+      "spine": {
+        "ipa": "/spaɪn/",
+        "meaning": "n. 脊柱；书脊",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "支撑身体的脊柱；连接书页的书脊"
+          }
+        ]
+      },
+      "coal": {
+        "ipa": "/kəʊl/",
+        "meaning": "n. 煤",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "可燃烧以产生热量的黑色矿物"
+          }
+        ]
+      },
+      "battle": {
+        "ipa": "/ˈbætl/",
+        "meaning": "n. 战斗；斗争；v. 奋力抗争",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "战斗；为实现目标进行的艰苦斗争"
+          },
+          {
+            "pos": "动词",
+            "meaning": "与困难或对手奋力抗争"
+          }
+        ]
+      },
+      "designate": {
+        "ipa": "/ˈdezɪɡneɪt/",
+        "meaning": "v. 指定；划定",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "正式指定某人承担工作；将某地划作特定用途"
+          }
+        ]
+      },
+      "repair": {
+        "ipa": "/rɪˈpeə/",
+        "meaning": "v. 修理；n. 修复",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "使损坏的物品恢复可用状态"
+          },
+          {
+            "pos": "名词",
+            "meaning": "修理或修复的工作"
+          }
+        ]
+      },
+      "court": {
+        "ipa": "/kɔːt/",
+        "meaning": "n. 法院；球场；宫廷；v. 争取",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "法院；进行球类运动的场地；王室及其成员"
+          },
+          {
+            "pos": "动词",
+            "meaning": "设法获得支持或招致某种结果"
+          }
+        ]
+      },
+      "grace": {
+        "ipa": "/ɡreɪs/",
+        "meaning": "n. 优雅；宽厚；宽限",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "动作的优雅；待人的体谅与宽厚；给予的宽限时间"
+          }
+        ]
+      }
+    },
+    "dictionary": {
+      "this": "这；这个",
+      "afternoon": "下午",
+      "i": "我",
+      "arrive": "到达",
+      "at": "在（地点或时刻）；处于（某阶段）",
+      "the": "这；那（定冠词）",
+      "airport": "机场",
+      "with": "以……方式；和……一起；具有",
+      "a": "一；一个",
+      "friend": "朋友",
+      "we": "我们",
+      "look": "看",
+      "screen": "屏幕",
+      "above": "在……上方",
+      "desk": "柜台；桌子",
+      "and": "和；并且",
+      "ask": "询问",
+      "about": "关于；大约",
+      "our": "我们的",
+      "flight": "航班",
+      "answer": "答案；回答",
+      "is": "是；处于（be 的第三人称单数）",
+      "good": "好的",
+      "have": "有",
+      "time": "时间",
+      "for": "为了；给；用于",
+      "tea": "茶",
+      "my": "我的",
+      "checks": "核对",
+      "address": "地址",
+      "of": "……的",
+      "hotel": "酒店",
+      "again": "再一次",
+      "across": "在多次试验或多个对象之中；横跨",
+      "room": "房间",
+      "an": "一个；一位",
+      "actor": "演员",
+      "actress": "女演员",
+      "are": "是；处于（be 的复数形式）",
+      "talking": "交谈",
+      "to": "到；向；用于连接动词不定式",
+      "children": "孩子们",
+      "saw": "看了；看见了（see 的过去式）",
+      "their": "他们的",
+      "amazing": "令人惊叹的",
+      "film": "电影",
+      "week": "星期；周",
+      "ago": "……以前",
+      "they": "他们；它们",
+      "also": "也",
+      "give": "给予",
+      "advice": "建议",
+      "young": "年轻的",
+      "fan": "影迷；粉丝",
+      "always": "总是",
+      "be": "是；成为",
+      "kind": "友善的",
+      "after": "在……之后",
+      "photo": "照片；合影",
+      "all": "全部；所有",
+      "smile": "微笑",
+      "agree": "同意",
+      "that": "那；也用于引出句子说明想法或事实",
+      "lovely": "美好的",
+      "start": "开始；开端",
+      "trip": "旅行",
+      "drama": "戏剧",
+      "group": "团队；小组",
+      "meets": "见面；聚会",
+      "every": "每一个",
+      "one": "一个；一位",
+      "age": "年龄",
+      "but": "但是",
+      "playing": "进行运动；比赛（现在分词）",
+      "his": "他的",
+      "mother": "母亲",
+      "adult": "成年人；成年的",
+      "today": "今天",
+      "first": "第一；最初",
+      "activity": "活动",
+      "short": "短的",
+      "scene": "戏剧中的一场；场景",
+      "lost": "丢失的",
+      "bag": "包",
+      "there": "那里；there is 表示有",
+      "plenty": "大量；充足",
+      "action": "行动；影片中的动作",
+      "run": "跑",
+      "stage": "舞台",
+      "search": "寻找",
+      "under": "在……下面",
+      "chairs": "椅子（复数）",
+      "am": "是；处于（与 I 连用的 be）",
+      "afraid": "害怕的",
+      "forgetting": "忘记",
+      "words": "词语；台词",
+      "teacher": "老师",
+      "never": "从不",
+      "angry": "生气的",
+      "when": "当……时",
+      "make": "做；造成",
+      "mistakes": "错误（复数）",
+      "she": "她",
+      "gives": "给予（第三人称单数）",
+      "us": "我们（宾格）",
+      "another": "另一个；再一个",
+      "chance": "机会",
+      "says": "说（第三人称单数）",
+      "take": "进行某个动作；take a breath 表示吸一口气",
+      "breath": "呼吸；吸入的一口气",
+      "try": "尝试",
+      "help": "帮助",
+      "each": "每个",
+      "other": "其他的；each other 表示彼此",
+      "show": "演出",
+      "feel": "感觉",
+      "small": "小的",
+      "animal": "动物",
+      "waits": "等待",
+      "by": "按；通过；用；在……旁边",
+      "door": "门",
+      "shelter": "收容所；庇护所",
+      "dog": "狗",
+      "loud": "响亮的",
+      "sounds": "声音（复数）",
+      "so": "所以",
+      "keep": "保持",
+      "voices": "嗓音（复数）",
+      "low": "低的；小声的",
+      "must": "必须",
+      "stay": "停留；保持",
+      "child": "孩子",
+      "during": "在……期间",
+      "do": "做；用于构成疑问句或否定句",
+      "not": "不",
+      "know": "知道",
+      "it": "它",
+      "loves": "喜爱",
+      "gentle": "温和的",
+      "games": "游戏（复数）",
+      "fresh": "新鲜的",
+      "air": "空气；空中",
+      "opened": "开办了；打开了",
+      "two": "二",
+      "years": "年（复数）",
+      "worker": "工作人员",
+      "let": "让",
+      "come": "来",
+      "you": "你；你们",
+      "learn": "学习；了解到",
+      "may": "可能",
+      "need": "需要；需求",
+      "space": "空间",
+      "sit": "坐",
+      "on": "在……上；关于",
+      "grass": "草；草地",
+      "soon": "很快",
+      "brings": "带来",
+      "ball": "球",
+      "ready": "准备好的",
+      "game": "游戏",
+      "rain": "雨",
+      "falls": "落下",
+      "outside": "在外面",
+      "kitchen": "厨房",
+      "warm": "温热的",
+      "open": "打开；开着的",
+      "window": "窗户",
+      "some": "一些",
+      "put": "放",
+      "large": "大的",
+      "pot": "锅",
+      "cooker": "炉灶",
+      "sister": "姐妹",
+      "asks": "问",
+      "can": "可以；能够",
+      "add": "添加",
+      "carrots": "胡萝卜（复数）",
+      "yes": "是；可以",
+      "puts": "放（第三人称单数）",
+      "in": "在……里面",
+      "beans": "豆子（复数）",
+      "wash": "清洗",
+      "vegetables": "蔬菜（复数）",
+      "before": "在……之前",
+      "cooking": "烹饪",
+      "shelf": "搁板",
+      "holds": "放着；容纳",
+      "bowls": "碗（复数）",
+      "twenty": "二十",
+      "minutes": "分钟（复数）",
+      "taste": "品尝",
+      "soup": "汤",
+      "little": "少量的；a little 表示一点",
+      "salt": "盐",
+      "needs": "需要（第三人称单数）",
+      "nothing": "没有什么东西",
+      "else": "其他的",
+      "carry": "拿；端；搬",
+      "table": "桌子",
+      "where": "在……的地方",
+      "friends": "朋友们",
+      "waiting": "等待",
+      "simple": "简单的",
+      "food": "食物",
+      "share": "分享",
+      "visit": "拜访；去某处",
+      "library": "图书馆",
+      "near": "在……附近",
+      "write": "写",
+      "name": "名字",
+      "form": "表格",
+      "librarian": "图书管理员",
+      "what": "什么；所……的事物",
+      "want": "想要",
+      "read": "阅读（此处为原形）",
+      "choose": "选择",
+      "book": "书",
+      "life": "生活；生命",
+      "its": "它的",
+      "cover": "覆盖；包括",
+      "shows": "展示；呈现",
+      "bird": "鸟",
+      "flying": "飞翔",
+      "sea": "海",
+      "has": "有（第三人称单数）",
+      "page": "页",
+      "notes": "笔记",
+      "cannot": "不能",
+      "ideas": "想法（复数）",
+      "notebook": "笔记本",
+      "instead": "代替；而是",
+      "question": "问题",
+      "no": "没有",
+      "clear": "清楚的",
+      "finds": "找到",
+      "plan": "计划",
+      "next": "下一个的；接下来的",
+      "month": "月",
+      "neighbours": "邻居（复数）",
+      "talked": "谈论了",
+      "cleaning": "清理",
+      "park": "公园",
+      "turn": "转变；转动",
+      "into": "进入；变为",
+      "walk": "走",
+      "collect": "收集；捡拾",
+      "litter": "乱丢的垃圾",
+      "helps": "帮助",
+      "people": "人们",
+      "join": "参加",
+      "safe": "安全的",
+      "place": "地方",
+      "play": "玩耍；表演",
+      "sees": "看见",
+      "path": "小路；路线",
+      "stops": "停止；停下来",
+      "only": "仅仅",
+      "cat": "猫",
+      "he": "他",
+      "father": "父亲",
+      "him": "他（宾格）",
+      "still": "仍然；依然",
+      "pass": "经过",
+      "nobody": "没有人",
+      "gets": "变得；得到",
+      "work": "工作",
+      "slow": "缓慢的",
+      "stop": "停止；停下来",
+      "confuse": "使困惑；混淆",
+      "prescribe": "开处方；规定",
+      "reduction": "减少；降低",
+      "trillion": "万亿",
+      "intervention": "干预；介入",
+      "improve": "改善；提高",
+      "upstairs": "在楼上；楼上的",
+      "passion": "热爱；激情",
+      "depart": "离开；出发",
+      "simply": "仅仅；简单地",
+      "clinical": "临床的",
+      "whatever": "无论什么；任何事物",
+      "full": "满的；完整的",
+      "sensitive": "敏感的；体贴的",
+      "versus": "与……相比；对",
+      "steadily": "稳定地；持续地",
+      "response": "回应；反应",
+      "instead of": "代替；而不是",
+      "either": "两者中的任何一个；也（用于否定句）",
+      "your": "你的；你们的",
+      "allegedly": "据称；据说",
+      "alone": "独自；单独的",
+      "test": "测试；检验",
+      "suitable": "合适的",
+      "bury": "埋；掩埋",
+      "liable": "负有法律责任的；可能受……影响",
+      "unlike": "不像；与……不同",
+      "advertise": "做广告；宣传",
+      "intelligence": "智力；情报",
+      "clinic": "诊所",
+      "doctor": "医生",
+      "rest": "休息",
+      "early": "早期的；早地",
+      "health": "健康",
+      "pain": "疼痛",
+      "whose": "其；谁的",
+      "travel": "旅行",
+      "jokes": "开玩笑；笑话（复数）",
+      "cost": "花费；成本",
+      "dollars": "美元（复数）",
+      "guide": "指南；指导",
+      "quick": "迅速的",
+      "new": "新的",
+      "will": "将；会",
+      "everyone": "每个人",
+      "patient": "病人",
+      "result": "结果",
+      "report": "报告",
+      "compares": "比较",
+      "choice": "选择",
+      "facts": "事实（复数）",
+      "matter": "重要；事情",
+      "while": "当……时；而",
+      "moves": "移动；推进",
+      "use": "使用",
+      "whether": "是否",
+      "online": "在线的；在线地",
+      "service": "服务",
+      "company": "公司",
+      "tried": "尝试了",
+      "bad": "坏的",
+      "news": "新闻；消息",
+      "product": "产品",
+      "sold": "出售了",
+      "harm": "伤害",
+      "responsible": "负责的",
+      "family": "家庭",
+      "pet": "宠物",
+      "quiet": "安静的",
+      "if": "如果",
+      "signs": "标牌（复数）",
+      "careful": "谨慎的",
+      "without": "没有；不带",
+      "any": "任何的",
+      "does": "做（第三人称单数）",
+      "reads": "阅读（第三人称单数）",
+      "because": "因为",
+      "bring": "带来",
+      "clean": "干净的；清洁",
+      "smiles": "微笑（第三人称单数）",
+      "joke": "笑话；开玩笑",
+      "listens": "倾听（第三人称单数）",
+      "uses": "使用（第三人称单数）",
+      "as": "随着；作为",
+      "improves": "改善（第三人称单数）",
+      "team": "团队",
+      "accept": "接受",
+      "check": "检查",
+      "making": "制作；作出",
+      "say": "说",
+      "old": "旧的；年老的",
+      "animals": "动物（复数）",
+      "concession": "价格优惠；在费用上作出的让步",
+      "incidence": "发生率",
+      "disaster": "灾难",
+      "sheer": "纯粹的；十足的",
+      "brand": "品牌",
+      "physics": "物理学",
+      "endorse": "公开支持或推荐",
+      "prime": "首要的；最主要的",
+      "law": "法律",
+      "steal": "窃取；偷走",
+      "clothing": "衣物（不可数名词）",
+      "surge": "突然激增",
+      "warming": "变暖",
+      "base": "活动基地",
+      "cease": "停止",
+      "order": "顺序",
+      "heritage": "历史文化遗产",
+      "straightforward": "简明易懂的",
+      "demonstration": "演示",
+      "conviction": "坚定信念",
+      "interaction": "互动交流",
+      "flee": "逃离",
+      "revolutionary": "带来根本变革的",
+      "spine": "脊柱",
+      "coal": "煤",
+      "battle": "艰苦的斗争",
+      "designate": "正式指定",
+      "repair": "修复；修理",
+      "court": "球场",
+      "grace": "宽厚；从容得体",
+      "coastal": "沿海的",
+      "nurse": "护士",
+      "compared": "比较了",
+      "fever": "发热；发烧",
+      "villages": "村庄（复数）",
+      "higher": "更高的",
+      "figure": "数字；数值",
+      "came": "来到；来自（come的过去式）",
+      "from": "从；来自",
+      "village": "村庄",
+      "water": "水",
+      "local": "本地的",
+      "offered": "提供了；提出了",
+      "filters": "过滤器；净水器（复数）",
+      "price": "价格",
+      "was": "是；处于（be的过去式）",
+      "too": "太；也",
+      "high": "高的",
+      "asked": "请求了；询问了",
+      "explaining": "解释；说明（现在分词）",
+      "rather": "而是；相当",
+      "than": "比；与rather连用表示而不是",
+      "advertising": "广告宣传",
+      "should": "应当",
+      "sale": "销售；出售",
+      "volunteers": "志愿者（复数）",
+      "made": "使成为；制作了（make的过去式）",
+      "school": "学校",
+      "sorted": "分类整理了",
+      "donated": "捐赠的；捐赠了",
+      "size": "尺寸；尺码",
+      "demand": "需求",
+      "followed": "随后发生；跟随了",
+      "second": "第二次的；第二的",
+      "flood": "洪水",
+      "warning": "警告；预警",
+      "volunteer": "志愿者",
+      "blamed": "归咎于；责怪了",
+      "global": "全球的",
+      "danger": "危险",
+      "said": "说了（say的过去式）",
+      "single": "单一的；一次的",
+      "event": "事件；活动",
+      "could": "能够；可能",
+      "prove": "证明",
+      "long": "长的；长期的",
+      "term": "时期；期限",
+      "trend": "趋势",
+      "agreed": "同意了",
+      "outdoor": "户外的",
+      "deliveries": "配送；交付（复数）",
+      "roads": "道路（复数）",
+      "became": "变成；变得（become的过去式）",
+      "unsafe": "不安全的",
+      "science": "科学",
+      "fair": "展览会；集市",
+      "tested": "测试了",
+      "filter": "过滤器；净水器",
+      "front": "前面；in front of表示在……面前",
+      "visitors": "参观者（复数）",
+      "her": "她的；她（宾格）",
+      "concern": "关切；担心的事",
+      "worked": "运作了；工作了",
+      "safely": "安全地",
+      "wanted": "希望；想要（过去式）",
+      "refused": "拒绝了",
+      "recommend": "推荐",
+      "results": "结果（复数）",
+      "were": "是；处于（be的过去式）",
+      "checked": "检查了；核查过的",
+      "explained": "解释了",
+      "did": "做了；过去时助动词",
+      "allow": "允许",
+      "firm": "公司",
+      "team's": "团队的",
+      "design": "设计",
+      "manager": "经理",
+      "accepted": "接受了",
+      "decision": "决定",
+      "testing": "测试；检测",
+      "fee": "费用",
+      "measured": "测量了",
+      "leaks": "漏水；泄漏处（复数）",
+      "several": "几个；数次的",
+      "trials": "试验（复数）",
+      "trusting": "信任；相信（动名词）",
+      "successful": "成功的",
+      "used": "使用了；被使用的",
+      "reliable": "可靠的",
+      "confidence": "信心；自信",
+      "substitute": "替代品；代替者",
+      "evidence": "证据",
+      "museum": "博物馆",
+      "explain": "解释；说明",
+      "town's": "小镇的",
+      "industrial": "工业的",
+      "curator": "策展人；博物馆馆长",
+      "placed": "放置了",
+      "exhibits": "展品（复数）",
+      "wrote": "写了（write的过去式）",
+      "showed": "展示了",
+      "how": "如何；怎样",
+      "engine": "发动机",
+      "understand": "理解",
+      "workers": "工人（复数）",
+      "lives": "生活；生命（life的复数）",
+      "admire": "欣赏；钦佩",
+      "machines": "机器（复数）",
+      "encouraged": "鼓励了",
+      "through": "通过；穿过",
+      "recorded": "录制的；记录了",
+      "interviews": "访谈（复数）",
+      "miner": "矿工",
+      "described": "描述了",
+      "carrying": "搬运；携带（动名词）",
+      "strain": "压力；负担",
+      "recalled": "回忆起了",
+      "having": "有；与to连用表示不得不（动名词）",
+      "smoke": "烟雾",
+      "filled": "充满了",
+      "tunnel": "隧道；矿井巷道",
+      "engineer": "工程师",
+      "called": "称为；叫作",
+      "lifting": "提升；抬起（动名词）",
+      "system": "系统",
+      "changed": "改变了",
+      "completely": "完全地",
+      "remove": "消除；移走",
+      "months": "月份；数月（复数）",
+      "residents": "居民（复数）",
+      "faced": "面对了",
+      "save": "保住；拯救",
+      "public": "公众的；公众",
+      "basketball": "篮球",
+      "council": "议会；地方议事机构",
+      "decided": "决定了",
+      "project": "项目",
+      "leader": "负责人；领导者",
+      "damaged": "损坏的",
+      "surface": "表面；地面",
+      "former": "以前的；前任的",
+      "player": "运动员；球员",
+      "role": "角色；职责",
+      "even": "即使；甚至",
+      "criticised": "批评了",
+      "progress": "进度；进展",
+      "costs": "费用（复数）",
+      "calmly": "平静地",
+      "invited": "邀请了",
+      "them": "他们（宾格）",
+      "inspect": "检查；察看",
+      "student": "学生",
+      "lights": "照明灯（复数）",
+      "covered": "覆盖了",
+      "whole": "整个的",
+      "area": "区域；场地",
+      "safety": "安全",
+      "remained": "仍然是；保持了",
+      "coach": "教练",
+      "reminded": "提醒了",
+      "applied": "适用了；应用了",
+      "here": "在这里",
+      "equipment": "器材；设备",
+      "belonged": "属于（过去式）",
+      "community": "社区",
+      "interview": "访谈",
+      "spoke": "说；讲述（speak的过去式）",
+      "machine": "机器",
+      "reduced": "减少了",
+      "lift": "提升；抬起",
+      "hand": "手；by hand表示用手工",
+      "eased": "减轻了",
+      "pressure": "压力",
+      "dangerous": "危险的",
+      "once": "曾经；一旦",
+      "had": "有；与to连用表示不得不（have的过去式）",
+      "bell": "铃；警铃",
+      "between": "在……之间",
+      "interviewer": "访谈者",
+      "allowed": "允许了；使……成为可能",
+      "difficult": "困难的；艰难的",
+      "memory": "记忆",
+      "emerge": "浮现；显露",
+      "slowly": "缓慢地；逐渐地",
+      "later": "后来",
+      "planned": "计划了",
+      "sports": "体育运动的",
+      "beside": "在……旁边",
+      "mine": "矿井",
+      "against": "针对；与……对抗",
+      "neglect": "疏于照管；失修",
+      "living": "居住；生活（动名词）",
+      "nearby": "附近；在附近",
+      "would": "将会；愿意",
+      "record": "记录（动词）",
+      "figures": "数字；数值（复数）",
+      "openly": "公开地",
+      "proposal": "提案",
+      "failed": "未获通过；失败了",
+      "helped": "帮助了",
+      "prepare": "准备",
+      "better": "更好的",
+      "exchange": "交换；交换活动",
+      "many": "许多",
+      "reuse": "重复使用",
+      "things": "物品；事物（复数）",
+      "organisers": "组织者（复数）",
+      "linked": "联系了；关联了",
+      "claiming": "声称；宣称（动名词）",
+      "swap": "交换活动",
+      "solve": "解决",
+      "problem": "问题",
+      "accepting": "接收；接受（动名词）",
+      "items": "物品（复数）",
+      "storage": "储存；仓储",
+      "talks": "讲座；谈话（复数）",
+      "expert": "专家",
+      "repairs": "修补；修理（复数）",
+      "displayed": "展示了",
+      "photographs": "照片（复数）",
+      "showing": "展示；表明（现在分词）",
+      "earlier": "更早的；以前的",
+      "generations": "几代人；世代（复数）",
+      "cared": "爱惜；照料（过去式）",
+      "objects": "物品；物体（复数）",
+      "useful": "有用的",
+      "enough": "足够；足以",
+      "anyone": "任何人",
+      "remain": "保持；仍然是",
+      "abstract": "抽象的",
+      "idea": "想法",
+      "chronological": "按时间先后顺序的"
+    },
+    "lessons": [
+      {
+        "id": "oxford-2-301",
+        "title": "Clean Water After the Storm",
+        "subtitle": "风暴后的沿海救援",
+        "paragraphs": [
+          {
+            "en": "After a coastal disaster, a nurse compared the incidence of fever in two villages. The higher figure came from the village without clean water. A local brand offered water filters, but its price was too high. The nurse asked for a concession, explaining that sheer need, rather than advertising, should guide the sale.",
+            "zh": "沿海灾难（disaster）发生后，一名护士比较了两个村庄的发热发生率（incidence）。较高的数字来自没有清洁用水的村庄。一个本地品牌（brand）提出供应净水器，但价格太高。护士请求价格优惠（concession），解释说，销售应当由纯粹的（sheer）实际需求而非广告宣传来引导。",
+            "patterns": [
+              {
+                "expression": "the incidence of fever",
+                "meaning": "搭配：the incidence of + 疾病名，表示某种疾病的发生率。"
+              },
+              {
+                "expression": "asked for a concession",
+                "meaning": "搭配：ask for + a concession，表示请求对方作出让步或给予优惠。"
+              }
+            ]
+          },
+          {
+            "en": "Volunteers made a school their base and sorted donated clothing by size. A surge in demand followed a second flood warning. One volunteer blamed global warming for the danger, but the nurse said a single event could not prove a long-term trend. They agreed to cease outdoor deliveries when the roads became unsafe.",
+            "zh": "志愿者把一所学校作为基地（base），并按尺码整理捐赠衣物（clothing）。第二次洪水预警发布后，需求激增（surge）。一名志愿者把危险归因于全球变暖（warming），但护士说，单一事件不能证明长期趋势。他们同意在道路变得不安全时停止（cease）户外配送。",
+            "patterns": [
+              {
+                "expression": "a surge in demand",
+                "meaning": "搭配：a surge in + 名词，表示某种需求或数量突然大幅上升。"
+              },
+              {
+                "expression": "cease outdoor deliveries",
+                "meaning": "搭配：cease + 名词短语，表示停止某项活动，此处为停止户外配送。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "incidence",
+            "type": "inference",
+            "prompt": "What does the higher figure suggest?",
+            "options": [
+              "The filters had already solved every problem.",
+              "Fever was more common in the village without clean water.",
+              "Both villages had the same water supply.",
+              "The nurse only counted volunteers."
+            ],
+            "answer": 1,
+            "explanation": "较高的发热发生率出现在缺乏清洁用水的村庄，但文中没有据此证明唯一病因。"
+          },
+          {
+            "word": "concession",
+            "type": "context",
+            "prompt": "What was the nurse asking the supplier to do?",
+            "options": [
+              "Build another school.",
+              "Advertise more widely.",
+              "Offer a lower price.",
+              "Cancel all deliveries."
+            ],
+            "answer": 2,
+            "explanation": "护士认为价格过高，因此请求价格优惠。"
+          },
+          {
+            "word": "disaster",
+            "type": "reason",
+            "prompt": "Why did the volunteers organise emergency supplies?",
+            "options": [
+              "A severe coastal event had disrupted local life.",
+              "A new clothing shop wanted a celebration.",
+              "The villages were preparing for a sports event.",
+              "The school had ordered new uniforms."
+            ],
+            "answer": 0,
+            "explanation": "第一段的沿海灾难和第二段的洪水预警说明救援物资用于应对灾情。"
+          },
+          {
+            "word": "brand",
+            "type": "reference",
+            "prompt": "In the first paragraph, what does \"its price\" refer to?",
+            "options": [
+              "The cost of the school.",
+              "The price of donated clothes.",
+              "The cost of a weather warning.",
+              "The price charged by the local supplier for filters."
+            ],
+            "answer": 3,
+            "explanation": "its指代提供净水器的本地品牌，而不是学校或捐赠衣物。"
+          },
+          {
+            "word": "sheer",
+            "type": "paraphrase",
+            "prompt": "Which idea best describes the nurse's priority?",
+            "options": [
+              "Making the supplier famous.",
+              "Responding to urgent human need.",
+              "Increasing the price of every filter.",
+              "Choosing the most attractive advertisement."
+            ],
+            "answer": 1,
+            "explanation": "sheer need强调纯粹、迫切的实际需求，应优先于广告宣传。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-302",
+        "title": "A Fair Test of a New Filter",
+        "subtitle": "科学产品展与公平测试",
+        "paragraphs": [
+          {
+            "en": "At a science fair, a physics teacher tested a new water filter in front of visitors. Her prime concern was whether it worked safely. A company wanted her to endorse the product, but she refused to recommend it before the results were checked. She also explained that the law did not allow a firm to steal another team's design.",
+            "zh": "在一次科学展上，一名物理学（physics）教师当着参观者测试了一款新净水器。她首要的（prime）关切是产品能否安全工作。一家公司希望她为产品背书（endorse），但她拒绝在结果得到核查前推荐它。她还解释说，法律（law）不允许公司窃取（steal）其他团队的设计。",
+            "patterns": [
+              {
+                "expression": "Her prime concern",
+                "meaning": "搭配：one's prime concern，表示某人最主要或最优先考虑的问题。"
+              },
+              {
+                "expression": "allow a firm to steal",
+                "meaning": "句式：allow + 宾语 + to do，表示允许某人或机构做某事，此处用于否定。"
+              }
+            ]
+          },
+          {
+            "en": "The brand manager accepted her decision and offered a concession on the testing fee. The teacher measured the incidence of leaks across several trials instead of trusting one successful test. A filter used after a disaster must be reliable. She said that sheer confidence in a product was not a substitute for careful evidence.",
+            "zh": "品牌（brand）经理接受了她的决定，并在测试费用上作出让步（concession）。教师在多次试验中测量漏水的发生率（incidence），而不是相信一次成功的测试。灾难（disaster）后使用的净水器必须可靠。她说，对产品纯粹的（sheer）自信不能替代严谨证据。",
+            "patterns": [
+              {
+                "expression": "instead of trusting",
+                "meaning": "句式：instead of + 动名词，表示不做后面的事情而选择另一做法。"
+              },
+              {
+                "expression": "a substitute for careful evidence",
+                "meaning": "搭配：a substitute for + 名词，表示可以替代某物的东西。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "physics",
+            "type": "context",
+            "prompt": "What was the teacher doing at the fair?",
+            "options": [
+              "Selling clothes to visitors.",
+              "Explaining a product through a practical scientific test.",
+              "Giving a history lecture about a village.",
+              "Judging a dance performance."
+            ],
+            "answer": 1,
+            "explanation": "她在参观者面前测试净水器，是实际的科学演示与检验。"
+          },
+          {
+            "word": "endorse",
+            "type": "reason",
+            "prompt": "Why did she refuse the company's request at first?",
+            "options": [
+              "The manager had rejected every test.",
+              "She wanted a larger advertisement.",
+              "The results had not yet been checked.",
+              "The visitors had already left."
+            ],
+            "answer": 2,
+            "explanation": "她要求先核查测试结果，再考虑公开推荐产品。"
+          },
+          {
+            "word": "prime",
+            "type": "paraphrase",
+            "prompt": "Which question mattered most to the teacher?",
+            "options": [
+              "Does the product work safely?",
+              "Is the company name attractive?",
+              "Can visitors receive free clothes?",
+              "Will the fair last another week?"
+            ],
+            "answer": 0,
+            "explanation": "prime concern指首要关切，文中明确是产品能否安全工作。"
+          },
+          {
+            "word": "law",
+            "type": "inference",
+            "prompt": "What limit did the teacher place on the company's behaviour?",
+            "options": [
+              "It could only sell products at school.",
+              "It had to use a famous actor.",
+              "It could avoid all testing costs.",
+              "It had to respect another team's rights to its design."
+            ],
+            "answer": 3,
+            "explanation": "她指出法律不允许窃取其他团队的设计，强调尊重他人的设计权利。"
+          },
+          {
+            "word": "steal",
+            "type": "outcome",
+            "prompt": "What would happen if a firm took another team's design without permission?",
+            "options": [
+              "The design would become safer automatically.",
+              "It would act against the legal rule described by the teacher.",
+              "The testing fee would disappear.",
+              "Every visitor would receive a new filter."
+            ],
+            "answer": 1,
+            "explanation": "未经许可拿走他人设计属于文中所说的窃取行为，违反教师介绍的法律规则。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-303",
+        "title": "Making Industrial History Clear",
+        "subtitle": "工业遗产展的讲解设计",
+        "paragraphs": [
+          {
+            "en": "A museum wanted to explain the town's industrial heritage to young visitors. The curator placed the exhibits in chronological order and wrote a straightforward guide. A short demonstration showed how an early engine worked. Her conviction was that visitors should understand the workers' lives, not simply admire the old machines.",
+            "zh": "一家博物馆希望向年轻参观者介绍小镇的工业遗产（heritage）。策展人按时间顺序（order）摆放展品，并编写了一份简明易懂的（straightforward）指南。一场简短的演示（demonstration）展示了早期发动机如何工作。她坚定的信念（conviction）是，参观者应理解工人的生活，而不只是欣赏旧机器。",
+            "patterns": [
+              {
+                "expression": "in chronological order",
+                "meaning": "搭配：in chronological order，表示按照事件发生的先后顺序排列。"
+              },
+              {
+                "expression": "showed how an early engine worked",
+                "meaning": "句式：show + how引导的宾语从句，表示展示某物如何工作。"
+              }
+            ]
+          },
+          {
+            "en": "The next room encouraged interaction through recorded interviews. One miner described carrying coal and the strain on his spine. Another recalled having to flee when smoke filled a tunnel. An engineer called the new lifting system revolutionary because it changed the work completely. The interviews also made clear that new machines did not remove every danger.",
+            "zh": "下一个展厅通过录制的访谈鼓励互动（interaction）。一名矿工描述了搬运煤（coal）以及脊柱（spine）承受的压力。另一人回忆，烟雾充满巷道时，他不得不逃离（flee）。一名工程师把新的提升系统称为革命性的（revolutionary），因为它彻底改变了工作。访谈也明确表明，新机器并未消除一切危险。",
+            "patterns": [
+              {
+                "expression": "the strain on his spine",
+                "meaning": "搭配：the strain on + 身体部位或承受者，表示某处承受的压力或负担。"
+              },
+              {
+                "expression": "having to flee",
+                "meaning": "句式：have to + 动词原形，表示不得不做某事，此处在recall后用动名词形式。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "heritage",
+            "type": "context",
+            "prompt": "What was the exhibition mainly trying to explain?",
+            "options": [
+              "The town's future shopping centres.",
+              "The town's inherited industrial history and working life.",
+              "A list of modern sports rules.",
+              "The best route to a coastal hotel."
+            ],
+            "answer": 1,
+            "explanation": "industrial heritage指小镇传承下来的工业历史，展览同时介绍工人的生活。"
+          },
+          {
+            "word": "order",
+            "type": "reason",
+            "prompt": "Why did the curator arrange the exhibits by time?",
+            "options": [
+              "To keep the newest machine hidden.",
+              "To make every object look identical.",
+              "To help visitors follow historical change.",
+              "To avoid writing any explanations."
+            ],
+            "answer": 2,
+            "explanation": "按时间顺序排列有助于参观者理解历史变化，与简明指南相配合。"
+          },
+          {
+            "word": "straightforward",
+            "type": "paraphrase",
+            "prompt": "What kind of guide did the curator write?",
+            "options": [
+              "One that was clear and easy to follow.",
+              "One that deliberately hid the main facts.",
+              "One that only engineers could understand.",
+              "One that replaced all the interviews."
+            ],
+            "answer": 0,
+            "explanation": "straightforward在此表示说明简明、容易理解。"
+          },
+          {
+            "word": "demonstration",
+            "type": "reference",
+            "prompt": "What did the short activity in the first room show?",
+            "options": [
+              "How to buy a museum ticket.",
+              "How to clean a tunnel after a fire.",
+              "How to record a modern interview.",
+              "How an early engine operated."
+            ],
+            "answer": 3,
+            "explanation": "第一段明确说明演示展示了早期发动机的工作方式。"
+          },
+          {
+            "word": "conviction",
+            "type": "inference",
+            "prompt": "Which decision best fits the curator's belief?",
+            "options": [
+              "Removing every account of danger.",
+              "Including workers' personal experiences alongside machines.",
+              "Displaying machines without any explanation.",
+              "Replacing the museum with a shop."
+            ],
+            "answer": 1,
+            "explanation": "她坚信参观者应理解工人的生活，因此加入工人的个人经历最符合这一信念。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-304",
+        "title": "Reopening the Public Court",
+        "subtitle": "公共球场的修复与规则",
+        "paragraphs": [
+          {
+            "en": "For months, residents faced a battle to save their public basketball court. The council decided to designate a project leader and repair the damaged surface. A former player accepted the role with grace, even when neighbours criticised the slow progress. She explained the costs calmly and invited them to inspect the work.",
+            "zh": "几个月来，居民为保住公共篮球场（court）进行了一场艰苦斗争（battle）。市议会决定指定（designate）一名项目负责人，并修复（repair）受损的地面。一名前球员从容而宽厚地（grace）接受了这项工作，即使邻居批评进度缓慢，她仍保持体谅。她平静地解释费用，并邀请他们检查施工。",
+            "patterns": [
+              {
+                "expression": "a battle to save",
+                "meaning": "搭配：a battle to + 动词原形，表示为实现某个目标进行的艰苦斗争。"
+              },
+              {
+                "expression": "with grace",
+                "meaning": "搭配：with grace，表示以体谅、宽厚或优雅的态度行事，具体含义由语境决定。"
+              }
+            ]
+          },
+          {
+            "en": "A physics student checked whether the new lights covered the whole playing area. Safety remained the prime concern. The local coach agreed to endorse the plan after the checks. The leader reminded everyone that the law applied here too: nobody could steal equipment simply because the place belonged to the public.",
+            "zh": "一名物理学（physics）学生检查新照明能否覆盖整个运动区域。安全仍是首要的（prime）关切。当地教练同意在检查完成后支持（endorse）这项计划。负责人提醒所有人，法律（law）在这里同样适用：任何人都不能仅因为场地属于公众，就偷走（steal）器材。",
+            "patterns": [
+              {
+                "expression": "agreed to endorse the plan",
+                "meaning": "搭配：agree to + 动词原形，表示同意采取某项行动，此处为支持计划。"
+              },
+              {
+                "expression": "simply because the place belonged to the public",
+                "meaning": "句式：because + 原因状语从句，解释某个想法或行为所依据的理由。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "battle",
+            "type": "paraphrase",
+            "prompt": "What had residents been doing for months?",
+            "options": [
+              "Preparing for a military attack.",
+              "Working hard to prevent the loss of a shared sports space.",
+              "Trying to close every public building.",
+              "Training only professional players."
+            ],
+            "answer": 1,
+            "explanation": "battle在此比喻为保住公共场地进行的长期努力，而非军事战斗。"
+          },
+          {
+            "word": "designate",
+            "type": "context",
+            "prompt": "What did the council decide to do?",
+            "options": [
+              "Choose every visitor's team.",
+              "Remove the safety checks.",
+              "Officially appoint someone to lead the project.",
+              "Sell all the sports equipment."
+            ],
+            "answer": 2,
+            "explanation": "designate在此指正式指定一名项目负责人。"
+          },
+          {
+            "word": "repair",
+            "type": "outcome",
+            "prompt": "What was the work on the surface intended to achieve?",
+            "options": [
+              "Make the damaged playing area usable again.",
+              "Turn the area into a coal mine.",
+              "Prevent residents from inspecting the work.",
+              "Replace the leader with a machine."
+            ],
+            "answer": 0,
+            "explanation": "repair指修复损坏部分，使球场地面恢复可使用状态。"
+          },
+          {
+            "word": "court",
+            "type": "reference",
+            "prompt": "What does \"the place\" in the second paragraph refer to?",
+            "options": [
+              "The council office.",
+              "A private equipment shop.",
+              "A science classroom.",
+              "The public basketball area."
+            ],
+            "answer": 3,
+            "explanation": "第二段继续讨论公共篮球场，因此the place指该公共运动场地。"
+          },
+          {
+            "word": "grace",
+            "type": "inference",
+            "prompt": "How did the project leader respond to criticism?",
+            "options": [
+              "By refusing to speak to neighbours.",
+              "With patience and a willingness to explain.",
+              "By cancelling every safety check.",
+              "With a demand that nobody inspect the work."
+            ],
+            "answer": 1,
+            "explanation": "她保持冷静、解释费用并邀请检查，体现了面对批评时的体谅与宽厚。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-305",
+        "title": "A Miner's Story, A Shared Space",
+        "subtitle": "矿区记忆与社区修复",
+        "paragraphs": [
+          {
+            "en": "During a community interview, an old miner spoke about a revolutionary machine that reduced the need to lift coal by hand. It eased pressure on his spine, but work was still dangerous. He once had to flee a tunnel after a warning bell. The careful interaction between the interviewer and the miner allowed a difficult memory to emerge slowly.",
+            "zh": "在一次社区访谈中，一位老矿工讲述了一台革命性的（revolutionary）机器，它减少了人工搬煤（coal）的需要。机器减轻了他脊柱（spine）承受的压力，但工作仍然危险。一次警铃响起后，他不得不逃离（flee）巷道。访谈者与矿工之间谨慎而体贴的互动（interaction），让一段艰难的记忆逐渐浮现。",
+            "patterns": [
+              {
+                "expression": "reduced the need to lift coal",
+                "meaning": "句式：reduce the need to + 动词原形，表示减少进行某项行动的必要性。"
+              },
+              {
+                "expression": "between the interviewer and the miner",
+                "meaning": "搭配：between + 一方 + and + 另一方，表示两者之间的关系。"
+              }
+            ]
+          },
+          {
+            "en": "The group later planned to repair the sports court beside the old mine. Their battle was against years of neglect, not against the people living nearby. They would designate a volunteer to record costs and share the figures openly. When an early proposal failed, the miner accepted the decision with grace and helped prepare a better one.",
+            "zh": "后来，小组计划修复（repair）旧矿井旁的运动球场（court）。他们的斗争（battle）针对的是多年失修，而不是附近居民。他们将指定（designate）一名志愿者记录费用，并公开分享数字。一项早期提案未获通过时，矿工以宽厚（grace）的态度接受了决定，并帮助准备了更好的提案。",
+            "patterns": [
+              {
+                "expression": "against years of neglect",
+                "meaning": "搭配：a battle against + 名词，表示针对某种困难或问题进行的斗争。"
+              },
+              {
+                "expression": "helped prepare a better one",
+                "meaning": "句式：help + 动词原形，表示帮助做某事，此处省略了可选的to。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "revolutionary",
+            "type": "context",
+            "prompt": "Why did the miner describe the machine as important?",
+            "options": [
+              "It removed the need for all safety rules.",
+              "It fundamentally changed how heavy material was lifted.",
+              "It made every interview unnecessary.",
+              "It turned the mine into a sports shop."
+            ],
+            "answer": 1,
+            "explanation": "机器减少了人工搬煤的需要，带来了根本性的工作方式变化，但并未消除全部风险。"
+          },
+          {
+            "word": "spine",
+            "type": "reason",
+            "prompt": "Why did the machine make the miner's work physically easier?",
+            "options": [
+              "It made the warning bell louder.",
+              "It stopped the interview immediately.",
+              "It reduced the burden on his back.",
+              "It removed the need to share costs."
+            ],
+            "answer": 2,
+            "explanation": "spine指脊柱，减少搬运重物减轻了背部承受的压力。"
+          },
+          {
+            "word": "flee",
+            "type": "inference",
+            "prompt": "What does the response to the warning bell show?",
+            "options": [
+              "The miner had to leave a potentially dangerous place quickly.",
+              "The miner wanted to begin a game.",
+              "The interview had lasted too long.",
+              "The machine was being sold at a discount."
+            ],
+            "answer": 0,
+            "explanation": "flee表示迅速逃离危险场所，警铃使矿工离开了可能存在危险的巷道。"
+          },
+          {
+            "word": "coal",
+            "type": "reference",
+            "prompt": "What material had workers previously needed to lift by hand?",
+            "options": [
+              "Clean water.",
+              "Donated clothes.",
+              "New basketballs.",
+              "The fuel extracted from the mine."
+            ],
+            "answer": 3,
+            "explanation": "煤是从矿井开采的燃料，文中说新机器减少了人工搬煤的需要。"
+          },
+          {
+            "word": "interaction",
+            "type": "outcome",
+            "prompt": "What did the careful interview process make possible?",
+            "options": [
+              "An immediate end to every disagreement.",
+              "The gradual sharing of a painful personal memory.",
+              "The removal of every old machine.",
+              "A decision to keep all costs secret."
+            ],
+            "answer": 1,
+            "explanation": "谨慎、体贴的访谈交流使矿工逐渐讲出了艰难的个人经历。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-2-306",
+        "title": "A Practical Climate Event",
+        "subtitle": "社区气候行动与清晰表达",
+        "paragraphs": [
+          {
+            "en": "A community group used a library as its base for a clothing exchange. A surge in visitors showed that many people wanted to reuse things. The organisers linked the event to global warming without claiming that one swap could solve the problem. They agreed to cease accepting items once the storage room was full.",
+            "zh": "一个社区小组把图书馆作为基地（base），组织衣物（clothing）交换。访客激增（surge），说明许多人希望重复使用物品。组织者把活动与全球变暖（warming）联系起来，但没有声称一次交换活动就能解决问题。他们同意在储藏室装满后停止（cease）接收物品。",
+            "patterns": [
+              {
+                "expression": "a clothing exchange",
+                "meaning": "搭配：a clothing exchange，表示人们交换可继续使用的衣物的活动。"
+              },
+              {
+                "expression": "once the storage room was full",
+                "meaning": "句式：once + 从句，表示一旦达到某种条件，此处指储藏空间用尽。"
+              }
+            ]
+          },
+          {
+            "en": "The group put the talks in a clear order and invited a local expert to give a straightforward demonstration of simple repairs. They also displayed photographs of the town's heritage, showing how earlier generations cared for objects. Their conviction was that useful action should be clear enough for anyone to join, rather than remain an abstract idea.",
+            "zh": "小组按清晰的顺序（order）安排讲座，并邀请当地专家进行简明易懂的（straightforward）简单修补演示（demonstration）。他们还展示了小镇历史遗产（heritage）的照片，呈现前人如何爱惜物品。他们坚定的信念（conviction）是，有用的行动应该清楚到任何人都能参与，而不应停留在抽象想法上。",
+            "patterns": [
+              {
+                "expression": "clear enough for anyone to join",
+                "meaning": "句式：形容词 + enough for + 人 + to do，表示清楚到足以让某人做某事。"
+              },
+              {
+                "expression": "rather than remain an abstract idea",
+                "meaning": "句式：rather than + 动词原形，表示选择前面的行动而不是后面的状态。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "clothing",
+            "type": "context",
+            "prompt": "What were people exchanging at the event?",
+            "options": [
+              "Old engines from the mine.",
+              "Wearable items that could be used again.",
+              "Legal documents about land.",
+              "Scientific records of fever."
+            ],
+            "answer": 1,
+            "explanation": "clothing是衣物总称，交换活动旨在让这些物品继续被使用。"
+          },
+          {
+            "word": "surge",
+            "type": "inference",
+            "prompt": "What did the change in visitor numbers indicate?",
+            "options": [
+              "Nobody knew where the library was.",
+              "The organisers had cancelled all the talks.",
+              "Interest in reusing items was strong.",
+              "The storage room had no limits."
+            ],
+            "answer": 2,
+            "explanation": "访客突然增多说明人们对物品重复利用有明显兴趣。"
+          },
+          {
+            "word": "warming",
+            "type": "reason",
+            "prompt": "Why did the organisers avoid making a grand claim about the event?",
+            "options": [
+              "A single exchange could not solve a large climate problem by itself.",
+              "They wanted to hide the purpose of the event.",
+              "They believed old objects could never be useful.",
+              "They had no interest in the environment."
+            ],
+            "answer": 0,
+            "explanation": "文中明确说，他们没有声称一次衣物交换就能独自解决全球变暖问题。"
+          },
+          {
+            "word": "base",
+            "type": "reference",
+            "prompt": "Which place served as the group's centre for the activity?",
+            "options": [
+              "The damaged basketball area.",
+              "The coastal village without water.",
+              "The old mine tunnel.",
+              "The local library."
+            ],
+            "answer": 3,
+            "explanation": "第一段明确说社区小组以图书馆为活动基地。"
+          },
+          {
+            "word": "cease",
+            "type": "outcome",
+            "prompt": "What would the organisers do when the room was full?",
+            "options": [
+              "Accept unlimited extra items.",
+              "Stop taking in more things.",
+              "Cancel every future repair talk.",
+              "Move all the objects into the road."
+            ],
+            "answer": 1,
+            "explanation": "cease accepting items表示停止接收物品，触发条件是储藏室已满。"
+          }
+        ]
+      }
+    ]
+  },
+  "pronunciations": {
+    "this": {
+      "ipa": "/ðɪs/"
+    },
+    "afternoon": {
+      "ipa": "/ˌɑːftəˈnuːn/"
+    },
+    "i": {
+      "ipa": "/aɪ/"
+    },
+    "arrive": {
+      "ipa": "/əˈraɪv/"
+    },
+    "at": {
+      "ipa": "/æt/"
+    },
+    "the": {
+      "ipa": "/ðə/"
+    },
+    "airport": {
+      "ipa": "/ˈeəpɔːt/"
+    },
+    "with": {
+      "ipa": "/wɪð/"
+    },
+    "a": {
+      "ipa": "/ə; eɪ/"
+    },
+    "friend": {
+      "ipa": "/frend/"
+    },
+    "we": {
+      "ipa": "/wiː/"
+    },
+    "look": {
+      "ipa": "/lʊk/"
+    },
+    "screen": {
+      "ipa": "/skriːn/"
+    },
+    "above": {
+      "ipa": "/əˈbʌv/"
+    },
+    "desk": {
+      "ipa": "/desk/"
+    },
+    "and": {
+      "ipa": "/ænd/"
+    },
+    "ask": {
+      "ipa": "/ɑːsk/"
+    },
+    "about": {
+      "ipa": "/əˈbaʊt/"
+    },
+    "our": {
+      "ipa": "/aʊə/"
+    },
+    "flight": {
+      "ipa": "/flaɪt/"
+    },
+    "answer": {
+      "ipa": "/ˈɑːnsə/"
+    },
+    "is": {
+      "ipa": "/ɪz/"
+    },
+    "good": {
+      "ipa": "/ɡʊd/"
+    },
+    "have": {
+      "ipa": "/hæv/"
+    },
+    "time": {
+      "ipa": "/taɪm/"
+    },
+    "for": {
+      "ipa": "/fɔː/"
+    },
+    "tea": {
+      "ipa": "/tiː/"
+    },
+    "my": {
+      "ipa": "/maɪ/"
+    },
+    "checks": {
+      "ipa": "/tʃeks/"
+    },
+    "address": {
+      "ipa": "/əˈdres/"
+    },
+    "of": {
+      "ipa": "/ɒv/"
+    },
+    "hotel": {
+      "ipa": "/həʊˈtel/"
+    },
+    "again": {
+      "ipa": "/əˈɡen/"
+    },
+    "across": {
+      "ipa": "/əˈkrɒs/"
+    },
+    "room": {
+      "ipa": "/ruːm/"
+    },
+    "an": {
+      "ipa": "/æn/"
+    },
+    "actor": {
+      "ipa": "/ˈæktə/"
+    },
+    "actress": {
+      "ipa": "/ˈæktrəs/"
+    },
+    "are": {
+      "ipa": "/ɑː/"
+    },
+    "talking": {
+      "ipa": "/ˈtɔːkɪŋ/"
+    },
+    "to": {
+      "ipa": "/tuː/"
+    },
+    "children": {
+      "ipa": "/ˈtʃɪldrən/"
+    },
+    "saw": {
+      "ipa": "/sɔː/"
+    },
+    "their": {
+      "ipa": "/ðeə/"
+    },
+    "amazing": {
+      "ipa": "/əˈmeɪzɪŋ/"
+    },
+    "film": {
+      "ipa": "/fɪlm/"
+    },
+    "week": {
+      "ipa": "/wiːk/"
+    },
+    "ago": {
+      "ipa": "/əˈɡəʊ/"
+    },
+    "they": {
+      "ipa": "/ðeɪ/"
+    },
+    "also": {
+      "ipa": "/ˈɔːlsəʊ/"
+    },
+    "give": {
+      "ipa": "/ɡɪv/"
+    },
+    "advice": {
+      "ipa": "/ədˈvaɪs/"
+    },
+    "young": {
+      "ipa": "/jʌŋ/"
+    },
+    "fan": {
+      "ipa": "/fæn/"
+    },
+    "always": {
+      "ipa": "/ˈɔːlweɪz/"
+    },
+    "be": {
+      "ipa": "/biː/"
+    },
+    "kind": {
+      "ipa": "/kaɪnd/"
+    },
+    "after": {
+      "ipa": "/ˈɑːftə/"
+    },
+    "photo": {
+      "ipa": "/ˈfəʊtəʊ/"
+    },
+    "all": {
+      "ipa": "/ɔːl/"
+    },
+    "smile": {
+      "ipa": "/smaɪl/"
+    },
+    "agree": {
+      "ipa": "/əˈɡriː/"
+    },
+    "that": {
+      "ipa": "/ðæt/"
+    },
+    "lovely": {
+      "ipa": "/ˈlʌvli/"
+    },
+    "start": {
+      "ipa": "/stɑːt/"
+    },
+    "trip": {
+      "ipa": "/trɪp/"
+    },
+    "drama": {
+      "ipa": "/ˈdrɑːmə/"
+    },
+    "group": {
+      "ipa": "/ɡruːp/"
+    },
+    "meets": {
+      "ipa": "/miːts/"
+    },
+    "every": {
+      "ipa": "/ˈevri/"
+    },
+    "one": {
+      "ipa": "/wʌn/"
+    },
+    "age": {
+      "ipa": "/eɪdʒ/"
+    },
+    "but": {
+      "ipa": "/bʌt/"
+    },
+    "playing": {
+      "ipa": "/ˈpleɪɪŋ/"
+    },
+    "his": {
+      "ipa": "/hɪz/"
+    },
+    "mother": {
+      "ipa": "/ˈmʌðə/"
+    },
+    "adult": {
+      "ipa": "/ˈædʌlt/"
+    },
+    "today": {
+      "ipa": "/təˈdeɪ/"
+    },
+    "first": {
+      "ipa": "/fɜːst/"
+    },
+    "activity": {
+      "ipa": "/ækˈtɪvəti/"
+    },
+    "short": {
+      "ipa": "/ʃɔːt/"
+    },
+    "scene": {
+      "ipa": "/siːn/"
+    },
+    "lost": {
+      "ipa": "/lɒst/"
+    },
+    "bag": {
+      "ipa": "/bæɡ/"
+    },
+    "there": {
+      "ipa": "/ðeə/"
+    },
+    "plenty": {
+      "ipa": "/ˈplenti/"
+    },
+    "action": {
+      "ipa": "/ˈækʃən/"
+    },
+    "run": {
+      "ipa": "/rʌn/"
+    },
+    "stage": {
+      "ipa": "/steɪdʒ/"
+    },
+    "search": {
+      "ipa": "/sɜːtʃ/"
+    },
+    "under": {
+      "ipa": "/ˈʌndə/"
+    },
+    "chairs": {
+      "ipa": "/tʃeəz/"
+    },
+    "am": {
+      "ipa": "/æm/"
+    },
+    "afraid": {
+      "ipa": "/əˈfreɪd/"
+    },
+    "forgetting": {
+      "ipa": "/fəˈɡetɪŋ/"
+    },
+    "words": {
+      "ipa": "/wɜːdz/"
+    },
+    "teacher": {
+      "ipa": "/ˈtiːtʃə/"
+    },
+    "never": {
+      "ipa": "/ˈnevə/"
+    },
+    "angry": {
+      "ipa": "/ˈæŋɡri/"
+    },
+    "when": {
+      "ipa": "/wen/"
+    },
+    "make": {
+      "ipa": "/meɪk/"
+    },
+    "mistakes": {
+      "ipa": "/mɪˈsteɪks/"
+    },
+    "she": {
+      "ipa": "/ʃiː/"
+    },
+    "gives": {
+      "ipa": "/ɡɪvz/"
+    },
+    "us": {
+      "ipa": "/ʌs/"
+    },
+    "another": {
+      "ipa": "/əˈnʌðə/"
+    },
+    "chance": {
+      "ipa": "/tʃɑːns/"
+    },
+    "says": {
+      "ipa": "/sez/"
+    },
+    "take": {
+      "ipa": "/teɪk/"
+    },
+    "breath": {
+      "ipa": "/breθ/"
+    },
+    "try": {
+      "ipa": "/traɪ/"
+    },
+    "help": {
+      "ipa": "/help/"
+    },
+    "each": {
+      "ipa": "/iːtʃ/"
+    },
+    "other": {
+      "ipa": "/ˈʌðə/"
+    },
+    "show": {
+      "ipa": "/ʃəʊ/"
+    },
+    "feel": {
+      "ipa": "/fiːl/"
+    },
+    "small": {
+      "ipa": "/smɔːl/"
+    },
+    "animal": {
+      "ipa": "/ˈænɪməl/"
+    },
+    "waits": {
+      "ipa": "/weɪts/"
+    },
+    "by": {
+      "ipa": "/baɪ/"
+    },
+    "door": {
+      "ipa": "/dɔː/"
+    },
+    "shelter": {
+      "ipa": "/ˈʃeltə/"
+    },
+    "dog": {
+      "ipa": "/dɒɡ/"
+    },
+    "loud": {
+      "ipa": "/laʊd/"
+    },
+    "sounds": {
+      "ipa": "/saʊndz/"
+    },
+    "so": {
+      "ipa": "/səʊ/"
+    },
+    "keep": {
+      "ipa": "/kiːp/"
+    },
+    "voices": {
+      "ipa": "/ˈvɔɪsɪz/"
+    },
+    "low": {
+      "ipa": "/ləʊ/"
+    },
+    "must": {
+      "ipa": "/mʌst/"
+    },
+    "stay": {
+      "ipa": "/steɪ/"
+    },
+    "child": {
+      "ipa": "/tʃaɪld/"
+    },
+    "during": {
+      "ipa": "/ˈdjʊərɪŋ/"
+    },
+    "do": {
+      "ipa": "/duː/"
+    },
+    "not": {
+      "ipa": "/nɒt/"
+    },
+    "know": {
+      "ipa": "/nəʊ/"
+    },
+    "it": {
+      "ipa": "/ɪt/"
+    },
+    "loves": {
+      "ipa": "/lʌvz/"
+    },
+    "gentle": {
+      "ipa": "/ˈdʒentl/"
+    },
+    "games": {
+      "ipa": "/ɡeɪmz/"
+    },
+    "fresh": {
+      "ipa": "/freʃ/"
+    },
+    "air": {
+      "ipa": "/eə/"
+    },
+    "opened": {
+      "ipa": "/ˈəʊpənd/"
+    },
+    "two": {
+      "ipa": "/tuː/"
+    },
+    "years": {
+      "ipa": "/jɪəz/"
+    },
+    "worker": {
+      "ipa": "/ˈwɜːkə/"
+    },
+    "let": {
+      "ipa": "/let/"
+    },
+    "come": {
+      "ipa": "/kʌm/"
+    },
+    "you": {
+      "ipa": "/juː/"
+    },
+    "learn": {
+      "ipa": "/lɜːn/"
+    },
+    "may": {
+      "ipa": "/meɪ/"
+    },
+    "need": {
+      "ipa": "/niːd/"
+    },
+    "space": {
+      "ipa": "/speɪs/"
+    },
+    "sit": {
+      "ipa": "/sɪt/"
+    },
+    "on": {
+      "ipa": "/ɒn/"
+    },
+    "grass": {
+      "ipa": "/ɡrɑːs/"
+    },
+    "soon": {
+      "ipa": "/suːn/"
+    },
+    "brings": {
+      "ipa": "/brɪŋz/"
+    },
+    "ball": {
+      "ipa": "/bɔːl/"
+    },
+    "ready": {
+      "ipa": "/ˈredi/"
+    },
+    "game": {
+      "ipa": "/ɡeɪm/"
+    },
+    "rain": {
+      "ipa": "/reɪn/"
+    },
+    "falls": {
+      "ipa": "/fɔːlz/"
+    },
+    "outside": {
+      "ipa": "/ˌaʊtˈsaɪd/"
+    },
+    "kitchen": {
+      "ipa": "/ˈkɪtʃɪn/"
+    },
+    "warm": {
+      "ipa": "/wɔːm/"
+    },
+    "open": {
+      "ipa": "/ˈəʊpən/"
+    },
+    "window": {
+      "ipa": "/ˈwɪndəʊ/"
+    },
+    "some": {
+      "ipa": "/sʌm/"
+    },
+    "put": {
+      "ipa": "/pʊt/"
+    },
+    "large": {
+      "ipa": "/lɑːdʒ/"
+    },
+    "pot": {
+      "ipa": "/pɒt/"
+    },
+    "cooker": {
+      "ipa": "/ˈkʊkə/"
+    },
+    "sister": {
+      "ipa": "/ˈsɪstə/"
+    },
+    "asks": {
+      "ipa": "/ɑːsks/"
+    },
+    "can": {
+      "ipa": "/kæn/"
+    },
+    "add": {
+      "ipa": "/æd/"
+    },
+    "carrots": {
+      "ipa": "/ˈkærəts/"
+    },
+    "yes": {
+      "ipa": "/jes/"
+    },
+    "puts": {
+      "ipa": "/pʊts/"
+    },
+    "in": {
+      "ipa": "/ɪn/"
+    },
+    "beans": {
+      "ipa": "/biːnz/"
+    },
+    "wash": {
+      "ipa": "/wɒʃ/"
+    },
+    "vegetables": {
+      "ipa": "/ˈvedʒtəblz/"
+    },
+    "before": {
+      "ipa": "/bɪˈfɔː/"
+    },
+    "cooking": {
+      "ipa": "/ˈkʊkɪŋ/"
+    },
+    "shelf": {
+      "ipa": "/ʃelf/"
+    },
+    "holds": {
+      "ipa": "/həʊldz/"
+    },
+    "bowls": {
+      "ipa": "/bəʊlz/"
+    },
+    "twenty": {
+      "ipa": "/ˈtwenti/"
+    },
+    "minutes": {
+      "ipa": "/ˈmɪnɪts/"
+    },
+    "taste": {
+      "ipa": "/teɪst/"
+    },
+    "soup": {
+      "ipa": "/suːp/"
+    },
+    "little": {
+      "ipa": "/ˈlɪtl/"
+    },
+    "salt": {
+      "ipa": "/sɔːlt/"
+    },
+    "needs": {
+      "ipa": "/niːdz/"
+    },
+    "nothing": {
+      "ipa": "/ˈnʌθɪŋ/"
+    },
+    "else": {
+      "ipa": "/els/"
+    },
+    "carry": {
+      "ipa": "/ˈkæri/"
+    },
+    "table": {
+      "ipa": "/ˈteɪbl/"
+    },
+    "where": {
+      "ipa": "/weə/"
+    },
+    "friends": {
+      "ipa": "/frendz/"
+    },
+    "waiting": {
+      "ipa": "/ˈweɪtɪŋ/"
+    },
+    "simple": {
+      "ipa": "/ˈsɪmpl/"
+    },
+    "food": {
+      "ipa": "/fuːd/"
+    },
+    "share": {
+      "ipa": "/ʃeə/"
+    },
+    "visit": {
+      "ipa": "/ˈvɪzɪt/"
+    },
+    "library": {
+      "ipa": "/ˈlaɪbrəri/"
+    },
+    "near": {
+      "ipa": "/nɪə/"
+    },
+    "write": {
+      "ipa": "/raɪt/"
+    },
+    "name": {
+      "ipa": "/neɪm/"
+    },
+    "form": {
+      "ipa": "/fɔːm/"
+    },
+    "librarian": {
+      "ipa": "/laɪˈbreəriən/"
+    },
+    "what": {
+      "ipa": "/wɒt/"
+    },
+    "want": {
+      "ipa": "/wɒnt/"
+    },
+    "read": {
+      "ipa": "/riːd/"
+    },
+    "choose": {
+      "ipa": "/tʃuːz/"
+    },
+    "book": {
+      "ipa": "/bʊk/"
+    },
+    "life": {
+      "ipa": "/laɪf/"
+    },
+    "its": {
+      "ipa": "/ɪts/"
+    },
+    "cover": {
+      "ipa": "/ˈkʌvə/"
+    },
+    "shows": {
+      "ipa": "/ʃəʊz/"
+    },
+    "bird": {
+      "ipa": "/bɜːd/"
+    },
+    "flying": {
+      "ipa": "/ˈflaɪɪŋ/"
+    },
+    "sea": {
+      "ipa": "/siː/"
+    },
+    "has": {
+      "ipa": "/hæz/"
+    },
+    "page": {
+      "ipa": "/peɪdʒ/"
+    },
+    "notes": {
+      "ipa": "/nəʊts/"
+    },
+    "cannot": {
+      "ipa": "/ˈkænɒt/"
+    },
+    "ideas": {
+      "ipa": "/aɪˈdɪəz/"
+    },
+    "notebook": {
+      "ipa": "/ˈnəʊtbʊk/"
+    },
+    "instead": {
+      "ipa": "/ɪnˈsted/"
+    },
+    "question": {
+      "ipa": "/ˈkwestʃən/"
+    },
+    "no": {
+      "ipa": "/nəʊ/"
+    },
+    "clear": {
+      "ipa": "/klɪə/"
+    },
+    "finds": {
+      "ipa": "/faɪndz/"
+    },
+    "plan": {
+      "ipa": "/plæn/"
+    },
+    "next": {
+      "ipa": "/nekst/"
+    },
+    "month": {
+      "ipa": "/mʌnθ/"
+    },
+    "neighbours": {
+      "ipa": "/ˈneɪbəz/"
+    },
+    "talked": {
+      "ipa": "/tɔːkt/"
+    },
+    "cleaning": {
+      "ipa": "/ˈkliːnɪŋ/"
+    },
+    "park": {
+      "ipa": "/pɑːk/"
+    },
+    "turn": {
+      "ipa": "/tɜːn/"
+    },
+    "into": {
+      "ipa": "/ˈɪntə/"
+    },
+    "walk": {
+      "ipa": "/wɔːk/"
+    },
+    "collect": {
+      "ipa": "/kəˈlekt/"
+    },
+    "litter": {
+      "ipa": "/ˈlɪtə/"
+    },
+    "helps": {
+      "ipa": "/helps/"
+    },
+    "people": {
+      "ipa": "/ˈpiːpl/"
+    },
+    "join": {
+      "ipa": "/dʒɔɪn/"
+    },
+    "safe": {
+      "ipa": "/seɪf/"
+    },
+    "place": {
+      "ipa": "/pleɪs/"
+    },
+    "play": {
+      "ipa": "/pleɪ/"
+    },
+    "sees": {
+      "ipa": "/siːz/"
+    },
+    "path": {
+      "ipa": "/pɑːθ/"
+    },
+    "stops": {
+      "ipa": "/stɒps/"
+    },
+    "only": {
+      "ipa": "/ˈəʊnli/"
+    },
+    "cat": {
+      "ipa": "/kæt/"
+    },
+    "he": {
+      "ipa": "/hiː/"
+    },
+    "father": {
+      "ipa": "/ˈfɑːðə/"
+    },
+    "him": {
+      "ipa": "/hɪm/"
+    },
+    "still": {
+      "ipa": "/stɪl/"
+    },
+    "pass": {
+      "ipa": "/pɑːs/"
+    },
+    "nobody": {
+      "ipa": "/ˈnəʊbədi/"
+    },
+    "gets": {
+      "ipa": "/ɡets/"
+    },
+    "work": {
+      "ipa": "/wɜːk/"
+    },
+    "slow": {
+      "ipa": "/sləʊ/"
+    },
+    "stop": {
+      "ipa": "/stɒp/"
+    },
+    "confuse": {
+      "ipa": "/kənˈfjuːz/"
+    },
+    "prescribe": {
+      "ipa": "/prɪˈskraɪb/"
+    },
+    "reduction": {
+      "ipa": "/rɪˈdʌkʃən/"
+    },
+    "trillion": {
+      "ipa": "/ˈtrɪljən/"
+    },
+    "intervention": {
+      "ipa": "/ˌɪntəˈvenʃən/"
+    },
+    "improve": {
+      "ipa": "/ɪmˈpruːv/"
+    },
+    "upstairs": {
+      "ipa": "/ˌʌpˈsteəz/"
+    },
+    "passion": {
+      "ipa": "/ˈpæʃən/"
+    },
+    "depart": {
+      "ipa": "/dɪˈpɑːt/"
+    },
+    "simply": {
+      "ipa": "/ˈsɪmpli/"
+    },
+    "clinical": {
+      "ipa": "/ˈklɪnɪkəl/"
+    },
+    "whatever": {
+      "ipa": "/wɒtˈevə/"
+    },
+    "full": {
+      "ipa": "/fʊl/"
+    },
+    "sensitive": {
+      "ipa": "/ˈsensətɪv/"
+    },
+    "versus": {
+      "ipa": "/ˈvɜːsəs/"
+    },
+    "steadily": {
+      "ipa": "/ˈstedɪli/"
+    },
+    "response": {
+      "ipa": "/rɪˈspɒns/"
+    },
+    "instead of": {
+      "ipa": "/ɪnˈsted əv/"
+    },
+    "either": {
+      "ipa": "/ˈaɪðə/"
+    },
+    "your": {
+      "ipa": "/jɔː/"
+    },
+    "allegedly": {
+      "ipa": "/əˈledʒɪdli/"
+    },
+    "alone": {
+      "ipa": "/əˈləʊn/"
+    },
+    "test": {
+      "ipa": "/test/"
+    },
+    "suitable": {
+      "ipa": "/ˈsuːtəbl/"
+    },
+    "bury": {
+      "ipa": "/ˈberi/"
+    },
+    "liable": {
+      "ipa": "/ˈlaɪəbl/"
+    },
+    "unlike": {
+      "ipa": "/ʌnˈlaɪk/"
+    },
+    "advertise": {
+      "ipa": "/ˈædvətaɪz/"
+    },
+    "intelligence": {
+      "ipa": "/ɪnˈtelɪdʒəns/"
+    },
+    "clinic": {
+      "ipa": "/ˈklɪnɪk/"
+    },
+    "doctor": {
+      "ipa": "/ˈdɒktə/"
+    },
+    "rest": {
+      "ipa": "/rest/"
+    },
+    "early": {
+      "ipa": "/ˈɜːli/"
+    },
+    "health": {
+      "ipa": "/helθ/"
+    },
+    "pain": {
+      "ipa": "/peɪn/"
+    },
+    "whose": {
+      "ipa": "/huːz/"
+    },
+    "travel": {
+      "ipa": "/ˈtrævl/"
+    },
+    "jokes": {
+      "ipa": "/dʒəʊks/"
+    },
+    "cost": {
+      "ipa": "/kɒst/"
+    },
+    "dollars": {
+      "ipa": "/ˈdɒləz/"
+    },
+    "guide": {
+      "ipa": "/ɡaɪd/"
+    },
+    "quick": {
+      "ipa": "/kwɪk/"
+    },
+    "new": {
+      "ipa": "/njuː/"
+    },
+    "will": {
+      "ipa": "/wɪl/"
+    },
+    "everyone": {
+      "ipa": "/ˈevriwʌn/"
+    },
+    "patient": {
+      "ipa": "/ˈpeɪʃənt/"
+    },
+    "result": {
+      "ipa": "/rɪˈzʌlt/"
+    },
+    "report": {
+      "ipa": "/rɪˈpɔːt/"
+    },
+    "compares": {
+      "ipa": "/kəmˈpeəz/"
+    },
+    "choice": {
+      "ipa": "/tʃɔɪs/"
+    },
+    "facts": {
+      "ipa": "/fækts/"
+    },
+    "matter": {
+      "ipa": "/ˈmætə/"
+    },
+    "while": {
+      "ipa": "/waɪl/"
+    },
+    "moves": {
+      "ipa": "/muːvz/"
+    },
+    "use": {
+      "ipa": "/juːz/"
+    },
+    "whether": {
+      "ipa": "/ˈweðə/"
+    },
+    "online": {
+      "ipa": "/ˌɒnˈlaɪn/"
+    },
+    "service": {
+      "ipa": "/ˈsɜːvɪs/"
+    },
+    "company": {
+      "ipa": "/ˈkʌmpəni/"
+    },
+    "tried": {
+      "ipa": "/traɪd/"
+    },
+    "bad": {
+      "ipa": "/bæd/"
+    },
+    "news": {
+      "ipa": "/njuːz/"
+    },
+    "product": {
+      "ipa": "/ˈprɒdʌkt/"
+    },
+    "sold": {
+      "ipa": "/səʊld/"
+    },
+    "harm": {
+      "ipa": "/hɑːm/"
+    },
+    "responsible": {
+      "ipa": "/rɪˈspɒnsəbl/"
+    },
+    "family": {
+      "ipa": "/ˈfæməli/"
+    },
+    "pet": {
+      "ipa": "/pet/"
+    },
+    "quiet": {
+      "ipa": "/ˈkwaɪət/"
+    },
+    "if": {
+      "ipa": "/ɪf/"
+    },
+    "signs": {
+      "ipa": "/saɪnz/"
+    },
+    "careful": {
+      "ipa": "/ˈkeəfl/"
+    },
+    "without": {
+      "ipa": "/wɪˈðaʊt/"
+    },
+    "any": {
+      "ipa": "/ˈeni/"
+    },
+    "does": {
+      "ipa": "/dʌz/"
+    },
+    "reads": {
+      "ipa": "/riːdz/"
+    },
+    "because": {
+      "ipa": "/bɪˈkɒz/"
+    },
+    "bring": {
+      "ipa": "/brɪŋ/"
+    },
+    "clean": {
+      "ipa": "/kliːn/"
+    },
+    "smiles": {
+      "ipa": "/smaɪlz/"
+    },
+    "joke": {
+      "ipa": "/dʒəʊk/"
+    },
+    "listens": {
+      "ipa": "/ˈlɪsənz/"
+    },
+    "uses": {
+      "ipa": "/ˈjuːzɪz/"
+    },
+    "as": {
+      "ipa": "/æz/"
+    },
+    "improves": {
+      "ipa": "/ɪmˈpruːvz/"
+    },
+    "team": {
+      "ipa": "/tiːm/"
+    },
+    "accept": {
+      "ipa": "/əkˈsept/"
+    },
+    "check": {
+      "ipa": "/tʃek/"
+    },
+    "making": {
+      "ipa": "/ˈmeɪkɪŋ/"
+    },
+    "say": {
+      "ipa": "/seɪ/"
+    },
+    "old": {
+      "ipa": "/əʊld/"
+    },
+    "animals": {
+      "ipa": "/ˈænɪməlz/"
+    },
+    "concession": {
+      "ipa": "/kənˈseʃn/"
+    },
+    "incidence": {
+      "ipa": "/ˈɪnsɪdəns/"
+    },
+    "disaster": {
+      "ipa": "/dɪˈzɑːstə/"
+    },
+    "sheer": {
+      "ipa": "/ʃɪə/"
+    },
+    "brand": {
+      "ipa": "/brænd/"
+    },
+    "physics": {
+      "ipa": "/ˈfɪzɪks/"
+    },
+    "endorse": {
+      "ipa": "/ɪnˈdɔːs/"
+    },
+    "prime": {
+      "ipa": "/praɪm/"
+    },
+    "law": {
+      "ipa": "/lɔː/"
+    },
+    "steal": {
+      "ipa": "/stiːl/"
+    },
+    "clothing": {
+      "ipa": "/ˈkləʊðɪŋ/"
+    },
+    "surge": {
+      "ipa": "/sɜːdʒ/"
+    },
+    "warming": {
+      "ipa": "/ˈwɔːmɪŋ/"
+    },
+    "base": {
+      "ipa": "/beɪs/"
+    },
+    "cease": {
+      "ipa": "/siːs/"
+    },
+    "order": {
+      "ipa": "/ˈɔːdə/"
+    },
+    "heritage": {
+      "ipa": "/ˈherɪtɪdʒ/"
+    },
+    "straightforward": {
+      "ipa": "/ˌstreɪtˈfɔːwəd/"
+    },
+    "demonstration": {
+      "ipa": "/ˌdemənˈstreɪʃn/"
+    },
+    "conviction": {
+      "ipa": "/kənˈvɪkʃn/"
+    },
+    "interaction": {
+      "ipa": "/ˌɪntərˈækʃn/"
+    },
+    "flee": {
+      "ipa": "/fliː/"
+    },
+    "revolutionary": {
+      "ipa": "/ˌrevəˈluːʃənəri/"
+    },
+    "spine": {
+      "ipa": "/spaɪn/"
+    },
+    "coal": {
+      "ipa": "/kəʊl/"
+    },
+    "battle": {
+      "ipa": "/ˈbætl/"
+    },
+    "designate": {
+      "ipa": "/ˈdezɪɡneɪt/"
+    },
+    "repair": {
+      "ipa": "/rɪˈpeə/"
+    },
+    "court": {
+      "ipa": "/kɔːt/"
+    },
+    "grace": {
+      "ipa": "/ɡreɪs/"
+    },
+    "coastal": {
+      "ipa": "/ˈkəʊstl/"
+    },
+    "nurse": {
+      "ipa": "/nɜːs/"
+    },
+    "compared": {
+      "ipa": "/kəmˈpeəd/"
+    },
+    "fever": {
+      "ipa": "/ˈfiːvə/"
+    },
+    "villages": {
+      "ipa": "/ˈvɪlɪdʒɪz/"
+    },
+    "higher": {
+      "ipa": "/ˈhaɪə/"
+    },
+    "figure": {
+      "ipa": "/ˈfɪɡə/"
+    },
+    "came": {
+      "ipa": "/keɪm/"
+    },
+    "from": {
+      "ipa": "/frɒm/"
+    },
+    "village": {
+      "ipa": "/ˈvɪlɪdʒ/"
+    },
+    "water": {
+      "ipa": "/ˈwɔːtə/"
+    },
+    "local": {
+      "ipa": "/ˈləʊkl/"
+    },
+    "offered": {
+      "ipa": "/ˈɒfəd/"
+    },
+    "filters": {
+      "ipa": "/ˈfɪltəz/"
+    },
+    "price": {
+      "ipa": "/praɪs/"
+    },
+    "was": {
+      "ipa": "/wɒz/"
+    },
+    "too": {
+      "ipa": "/tuː/"
+    },
+    "high": {
+      "ipa": "/haɪ/"
+    },
+    "asked": {
+      "ipa": "/ɑːskt/"
+    },
+    "explaining": {
+      "ipa": "/ɪkˈspleɪnɪŋ/"
+    },
+    "rather": {
+      "ipa": "/ˈrɑːðə/"
+    },
+    "than": {
+      "ipa": "/ðæn/"
+    },
+    "advertising": {
+      "ipa": "/ˈædvətaɪzɪŋ/"
+    },
+    "should": {
+      "ipa": "/ʃʊd/"
+    },
+    "sale": {
+      "ipa": "/seɪl/"
+    },
+    "volunteers": {
+      "ipa": "/ˌvɒlənˈtɪəz/"
+    },
+    "made": {
+      "ipa": "/meɪd/"
+    },
+    "school": {
+      "ipa": "/skuːl/"
+    },
+    "sorted": {
+      "ipa": "/ˈsɔːtɪd/"
+    },
+    "donated": {
+      "ipa": "/dəʊˈneɪtɪd/"
+    },
+    "size": {
+      "ipa": "/saɪz/"
+    },
+    "demand": {
+      "ipa": "/dɪˈmɑːnd/"
+    },
+    "followed": {
+      "ipa": "/ˈfɒləʊd/"
+    },
+    "second": {
+      "ipa": "/ˈsekənd/"
+    },
+    "flood": {
+      "ipa": "/flʌd/"
+    },
+    "warning": {
+      "ipa": "/ˈwɔːnɪŋ/"
+    },
+    "volunteer": {
+      "ipa": "/ˌvɒlənˈtɪə/"
+    },
+    "blamed": {
+      "ipa": "/bleɪmd/"
+    },
+    "global": {
+      "ipa": "/ˈɡləʊbl/"
+    },
+    "danger": {
+      "ipa": "/ˈdeɪndʒə/"
+    },
+    "said": {
+      "ipa": "/sed/"
+    },
+    "single": {
+      "ipa": "/ˈsɪŋɡl/"
+    },
+    "event": {
+      "ipa": "/ɪˈvent/"
+    },
+    "could": {
+      "ipa": "/kʊd/"
+    },
+    "prove": {
+      "ipa": "/pruːv/"
+    },
+    "long": {
+      "ipa": "/lɒŋ/"
+    },
+    "term": {
+      "ipa": "/tɜːm/"
+    },
+    "trend": {
+      "ipa": "/trend/"
+    },
+    "agreed": {
+      "ipa": "/əˈɡriːd/"
+    },
+    "outdoor": {
+      "ipa": "/ˈaʊtdɔː/"
+    },
+    "deliveries": {
+      "ipa": "/dɪˈlɪvəriz/"
+    },
+    "roads": {
+      "ipa": "/rəʊdz/"
+    },
+    "became": {
+      "ipa": "/bɪˈkeɪm/"
+    },
+    "unsafe": {
+      "ipa": "/ʌnˈseɪf/"
+    },
+    "science": {
+      "ipa": "/ˈsaɪəns/"
+    },
+    "fair": {
+      "ipa": "/feə/"
+    },
+    "tested": {
+      "ipa": "/ˈtestɪd/"
+    },
+    "filter": {
+      "ipa": "/ˈfɪltə/"
+    },
+    "front": {
+      "ipa": "/frʌnt/"
+    },
+    "visitors": {
+      "ipa": "/ˈvɪzɪtəz/"
+    },
+    "her": {
+      "ipa": "/hɜː/"
+    },
+    "concern": {
+      "ipa": "/kənˈsɜːn/"
+    },
+    "worked": {
+      "ipa": "/wɜːkt/"
+    },
+    "safely": {
+      "ipa": "/ˈseɪfli/"
+    },
+    "wanted": {
+      "ipa": "/ˈwɒntɪd/"
+    },
+    "refused": {
+      "ipa": "/rɪˈfjuːzd/"
+    },
+    "recommend": {
+      "ipa": "/ˌrekəˈmend/"
+    },
+    "results": {
+      "ipa": "/rɪˈzʌlts/"
+    },
+    "were": {
+      "ipa": "/wɜː/"
+    },
+    "checked": {
+      "ipa": "/tʃekt/"
+    },
+    "explained": {
+      "ipa": "/ɪkˈspleɪnd/"
+    },
+    "did": {
+      "ipa": "/dɪd/"
+    },
+    "allow": {
+      "ipa": "/əˈlaʊ/"
+    },
+    "firm": {
+      "ipa": "/fɜːm/"
+    },
+    "team's": {
+      "ipa": "/tiːmz/"
+    },
+    "design": {
+      "ipa": "/dɪˈzaɪn/"
+    },
+    "manager": {
+      "ipa": "/ˈmænɪdʒə/"
+    },
+    "accepted": {
+      "ipa": "/əkˈseptɪd/"
+    },
+    "decision": {
+      "ipa": "/dɪˈsɪʒn/"
+    },
+    "testing": {
+      "ipa": "/ˈtestɪŋ/"
+    },
+    "fee": {
+      "ipa": "/fiː/"
+    },
+    "measured": {
+      "ipa": "/ˈmeʒəd/"
+    },
+    "leaks": {
+      "ipa": "/liːks/"
+    },
+    "several": {
+      "ipa": "/ˈsevrəl/"
+    },
+    "trials": {
+      "ipa": "/ˈtraɪəlz/"
+    },
+    "trusting": {
+      "ipa": "/ˈtrʌstɪŋ/"
+    },
+    "successful": {
+      "ipa": "/səkˈsesfl/"
+    },
+    "used": {
+      "ipa": "/juːzd/"
+    },
+    "reliable": {
+      "ipa": "/rɪˈlaɪəbl/"
+    },
+    "confidence": {
+      "ipa": "/ˈkɒnfɪdəns/"
+    },
+    "substitute": {
+      "ipa": "/ˈsʌbstɪtjuːt/"
+    },
+    "evidence": {
+      "ipa": "/ˈevɪdəns/"
+    },
+    "museum": {
+      "ipa": "/mjuˈziːəm/"
+    },
+    "explain": {
+      "ipa": "/ɪkˈspleɪn/"
+    },
+    "town's": {
+      "ipa": "/taʊnz/"
+    },
+    "industrial": {
+      "ipa": "/ɪnˈdʌstriəl/"
+    },
+    "curator": {
+      "ipa": "/kjʊəˈreɪtə/"
+    },
+    "placed": {
+      "ipa": "/pleɪst/"
+    },
+    "exhibits": {
+      "ipa": "/ɪɡˈzɪbɪts/"
+    },
+    "wrote": {
+      "ipa": "/rəʊt/"
+    },
+    "showed": {
+      "ipa": "/ʃəʊd/"
+    },
+    "how": {
+      "ipa": "/haʊ/"
+    },
+    "engine": {
+      "ipa": "/ˈendʒɪn/"
+    },
+    "understand": {
+      "ipa": "/ˌʌndəˈstænd/"
+    },
+    "workers": {
+      "ipa": "/ˈwɜːkəz/"
+    },
+    "lives": {
+      "ipa": "/laɪvz/"
+    },
+    "admire": {
+      "ipa": "/ədˈmaɪə/"
+    },
+    "machines": {
+      "ipa": "/məˈʃiːnz/"
+    },
+    "encouraged": {
+      "ipa": "/ɪnˈkʌrɪdʒd/"
+    },
+    "through": {
+      "ipa": "/θruː/"
+    },
+    "recorded": {
+      "ipa": "/rɪˈkɔːdɪd/"
+    },
+    "interviews": {
+      "ipa": "/ˈɪntəvjuːz/"
+    },
+    "miner": {
+      "ipa": "/ˈmaɪnə/"
+    },
+    "described": {
+      "ipa": "/dɪˈskraɪbd/"
+    },
+    "carrying": {
+      "ipa": "/ˈkæriɪŋ/"
+    },
+    "strain": {
+      "ipa": "/streɪn/"
+    },
+    "recalled": {
+      "ipa": "/rɪˈkɔːld/"
+    },
+    "having": {
+      "ipa": "/ˈhævɪŋ/"
+    },
+    "smoke": {
+      "ipa": "/sməʊk/"
+    },
+    "filled": {
+      "ipa": "/fɪld/"
+    },
+    "tunnel": {
+      "ipa": "/ˈtʌnl/"
+    },
+    "engineer": {
+      "ipa": "/ˌendʒɪˈnɪə/"
+    },
+    "called": {
+      "ipa": "/kɔːld/"
+    },
+    "lifting": {
+      "ipa": "/ˈlɪftɪŋ/"
+    },
+    "system": {
+      "ipa": "/ˈsɪstəm/"
+    },
+    "changed": {
+      "ipa": "/tʃeɪndʒd/"
+    },
+    "completely": {
+      "ipa": "/kəmˈpliːtli/"
+    },
+    "remove": {
+      "ipa": "/rɪˈmuːv/"
+    },
+    "months": {
+      "ipa": "/mʌnθs/"
+    },
+    "residents": {
+      "ipa": "/ˈrezɪdənts/"
+    },
+    "faced": {
+      "ipa": "/feɪst/"
+    },
+    "save": {
+      "ipa": "/seɪv/"
+    },
+    "public": {
+      "ipa": "/ˈpʌblɪk/"
+    },
+    "basketball": {
+      "ipa": "/ˈbɑːskɪtbɔːl/"
+    },
+    "council": {
+      "ipa": "/ˈkaʊnsl/"
+    },
+    "decided": {
+      "ipa": "/dɪˈsaɪdɪd/"
+    },
+    "project": {
+      "ipa": "/ˈprɒdʒekt/"
+    },
+    "leader": {
+      "ipa": "/ˈliːdə/"
+    },
+    "damaged": {
+      "ipa": "/ˈdæmɪdʒd/"
+    },
+    "surface": {
+      "ipa": "/ˈsɜːfɪs/"
+    },
+    "former": {
+      "ipa": "/ˈfɔːmə/"
+    },
+    "player": {
+      "ipa": "/ˈpleɪə/"
+    },
+    "role": {
+      "ipa": "/rəʊl/"
+    },
+    "even": {
+      "ipa": "/ˈiːvn/"
+    },
+    "criticised": {
+      "ipa": "/ˈkrɪtɪsaɪzd/"
+    },
+    "progress": {
+      "ipa": "/ˈprəʊɡres/"
+    },
+    "costs": {
+      "ipa": "/kɒsts/"
+    },
+    "calmly": {
+      "ipa": "/ˈkɑːmli/"
+    },
+    "invited": {
+      "ipa": "/ɪnˈvaɪtɪd/"
+    },
+    "them": {
+      "ipa": "/ðem/"
+    },
+    "inspect": {
+      "ipa": "/ɪnˈspekt/"
+    },
+    "student": {
+      "ipa": "/ˈstjuːdnt/"
+    },
+    "lights": {
+      "ipa": "/laɪts/"
+    },
+    "covered": {
+      "ipa": "/ˈkʌvəd/"
+    },
+    "whole": {
+      "ipa": "/həʊl/"
+    },
+    "area": {
+      "ipa": "/ˈeəriə/"
+    },
+    "safety": {
+      "ipa": "/ˈseɪfti/"
+    },
+    "remained": {
+      "ipa": "/rɪˈmeɪnd/"
+    },
+    "coach": {
+      "ipa": "/kəʊtʃ/"
+    },
+    "reminded": {
+      "ipa": "/rɪˈmaɪndɪd/"
+    },
+    "applied": {
+      "ipa": "/əˈplaɪd/"
+    },
+    "here": {
+      "ipa": "/hɪə/"
+    },
+    "equipment": {
+      "ipa": "/ɪˈkwɪpmənt/"
+    },
+    "belonged": {
+      "ipa": "/bɪˈlɒŋd/"
+    },
+    "community": {
+      "ipa": "/kəˈmjuːnəti/"
+    },
+    "interview": {
+      "ipa": "/ˈɪntəvjuː/"
+    },
+    "spoke": {
+      "ipa": "/spəʊk/"
+    },
+    "machine": {
+      "ipa": "/məˈʃiːn/"
+    },
+    "reduced": {
+      "ipa": "/rɪˈdjuːst/"
+    },
+    "lift": {
+      "ipa": "/lɪft/"
+    },
+    "hand": {
+      "ipa": "/hænd/"
+    },
+    "eased": {
+      "ipa": "/iːzd/"
+    },
+    "pressure": {
+      "ipa": "/ˈpreʃə/"
+    },
+    "dangerous": {
+      "ipa": "/ˈdeɪndʒərəs/"
+    },
+    "once": {
+      "ipa": "/wʌns/"
+    },
+    "had": {
+      "ipa": "/hæd/"
+    },
+    "bell": {
+      "ipa": "/bel/"
+    },
+    "between": {
+      "ipa": "/bɪˈtwiːn/"
+    },
+    "interviewer": {
+      "ipa": "/ˈɪntəvjuːə/"
+    },
+    "allowed": {
+      "ipa": "/əˈlaʊd/"
+    },
+    "difficult": {
+      "ipa": "/ˈdɪfɪkəlt/"
+    },
+    "memory": {
+      "ipa": "/ˈmeməri/"
+    },
+    "emerge": {
+      "ipa": "/ɪˈmɜːdʒ/"
+    },
+    "slowly": {
+      "ipa": "/ˈsləʊli/"
+    },
+    "later": {
+      "ipa": "/ˈleɪtə/"
+    },
+    "planned": {
+      "ipa": "/plænd/"
+    },
+    "sports": {
+      "ipa": "/spɔːts/"
+    },
+    "beside": {
+      "ipa": "/bɪˈsaɪd/"
+    },
+    "mine": {
+      "ipa": "/maɪn/"
+    },
+    "against": {
+      "ipa": "/əˈɡenst/"
+    },
+    "neglect": {
+      "ipa": "/nɪˈɡlekt/"
+    },
+    "living": {
+      "ipa": "/ˈlɪvɪŋ/"
+    },
+    "nearby": {
+      "ipa": "/ˌnɪəˈbaɪ/"
+    },
+    "would": {
+      "ipa": "/wʊd/"
+    },
+    "record": {
+      "ipa": "/rɪˈkɔːd/"
+    },
+    "figures": {
+      "ipa": "/ˈfɪɡəz/"
+    },
+    "openly": {
+      "ipa": "/ˈəʊpənli/"
+    },
+    "proposal": {
+      "ipa": "/prəˈpəʊzl/"
+    },
+    "failed": {
+      "ipa": "/feɪld/"
+    },
+    "helped": {
+      "ipa": "/helpt/"
+    },
+    "prepare": {
+      "ipa": "/prɪˈpeə/"
+    },
+    "better": {
+      "ipa": "/ˈbetə/"
+    },
+    "exchange": {
+      "ipa": "/ɪksˈtʃeɪndʒ/"
+    },
+    "many": {
+      "ipa": "/ˈmeni/"
+    },
+    "reuse": {
+      "ipa": "/ˌriːˈjuːz/"
+    },
+    "things": {
+      "ipa": "/θɪŋz/"
+    },
+    "organisers": {
+      "ipa": "/ˈɔːɡənaɪzəz/"
+    },
+    "linked": {
+      "ipa": "/lɪŋkt/"
+    },
+    "claiming": {
+      "ipa": "/ˈkleɪmɪŋ/"
+    },
+    "swap": {
+      "ipa": "/swɒp/"
+    },
+    "solve": {
+      "ipa": "/sɒlv/"
+    },
+    "problem": {
+      "ipa": "/ˈprɒbləm/"
+    },
+    "accepting": {
+      "ipa": "/əkˈseptɪŋ/"
+    },
+    "items": {
+      "ipa": "/ˈaɪtəmz/"
+    },
+    "storage": {
+      "ipa": "/ˈstɔːrɪdʒ/"
+    },
+    "talks": {
+      "ipa": "/tɔːks/"
+    },
+    "expert": {
+      "ipa": "/ˈekspɜːt/"
+    },
+    "repairs": {
+      "ipa": "/rɪˈpeəz/"
+    },
+    "displayed": {
+      "ipa": "/dɪˈspleɪd/"
+    },
+    "photographs": {
+      "ipa": "/ˈfəʊtəɡrɑːfs/"
+    },
+    "showing": {
+      "ipa": "/ˈʃəʊɪŋ/"
+    },
+    "earlier": {
+      "ipa": "/ˈɜːliə/"
+    },
+    "generations": {
+      "ipa": "/ˌdʒenəˈreɪʃnz/"
+    },
+    "cared": {
+      "ipa": "/keəd/"
+    },
+    "objects": {
+      "ipa": "/ˈɒbdʒɪkts/"
+    },
+    "useful": {
+      "ipa": "/ˈjuːsfl/"
+    },
+    "enough": {
+      "ipa": "/ɪˈnʌf/"
+    },
+    "anyone": {
+      "ipa": "/ˈeniwʌn/"
+    },
+    "remain": {
+      "ipa": "/rɪˈmeɪn/"
+    },
+    "abstract": {
+      "ipa": "/ˈæbstrækt/"
+    },
+    "idea": {
+      "ipa": "/aɪˈdɪə/"
+    },
+    "chronological": {
+      "ipa": "/ˌkrɒnəˈlɒdʒɪkl/"
+    }
+  }
+}

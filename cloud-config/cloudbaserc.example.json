@@ -1,0 +1,16 @@
+{
+  "envId": "YOUR_CLOUD_ENV_ID",
+  "functionRoot": "./cloudfunctions/.deploy",
+  "functions": [
+    {
+      "name": "study",
+      "type": "Event",
+      "runtime": "Nodejs20.19",
+      "handler": "index.main",
+      "timeout": 30,
+      "memorySize": 256,
+      "installDependency": true,
+      "ignore": ["node_modules", ".git", ".env", ".env.*", ".data"]
+    }
+  ]
+}

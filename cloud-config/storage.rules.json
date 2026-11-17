@@ -1,0 +1,4 @@
+{
+  "read": "/^audio\\//.test(resource.path)",
+  "write": false
+}

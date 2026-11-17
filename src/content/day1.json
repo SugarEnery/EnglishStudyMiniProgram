@@ -1,0 +1,2126 @@
+{
+  "day": 1,
+  "date": "2026-10-14",
+  "words": [
+    "investigate",
+    "recipient",
+    "pastor",
+    "bake",
+    "sake",
+    "sceptical",
+    "rose",
+    "nice",
+    "trade",
+    "establishment",
+    "vanish",
+    "superb",
+    "live",
+    "ongoing",
+    "consecutive",
+    "layer",
+    "system",
+    "mother",
+    "witness",
+    "exist",
+    "age",
+    "youngster",
+    "belief",
+    "instruct",
+    "creation",
+    "reproduce",
+    "tongue",
+    "rear",
+    "extraordinary",
+    "carbon"
+  ],
+  "content": {
+    "targets": {
+      "investigate": {
+        "ipa": "/ɪnˈvestɪɡeɪt/",
+        "meaning": "调查；研究",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "调查；研究"
+          }
+        ]
+      },
+      "recipient": {
+        "ipa": "/rɪˈsɪpiənt/",
+        "meaning": "接受者；收件人",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "接受者；收件人"
+          }
+        ]
+      },
+      "pastor": {
+        "ipa": "/ˈpɑːstə/",
+        "meaning": "牧师",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "牧师"
+          }
+        ]
+      },
+      "bake": {
+        "ipa": "/beɪk/",
+        "meaning": "烘烤",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "烘烤"
+          }
+        ]
+      },
+      "sake": {
+        "ipa": "/seɪk/",
+        "meaning": "缘故；目的（用于for the sake of等短语）",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "缘故；目的（用于for the sake of等短语）"
+          }
+        ]
+      },
+      "sceptical": {
+        "ipa": "/ˈskeptɪkl/",
+        "meaning": "持怀疑态度的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "持怀疑态度的"
+          }
+        ]
+      },
+      "rose": {
+        "ipa": "/rəʊz/",
+        "meaning": "玫瑰；玫瑰花",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "玫瑰；玫瑰花"
+          },
+          {
+            "pos": "动词过去式",
+            "meaning": "rise的过去式：上升；起身"
+          }
+        ]
+      },
+      "nice": {
+        "ipa": "/naɪs/",
+        "meaning": "友好的；令人愉快的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "友好的；令人愉快的"
+          }
+        ]
+      },
+      "trade": {
+        "ipa": "/treɪd/",
+        "meaning": "行业；贸易；交易",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "行业；贸易；交易"
+          },
+          {
+            "pos": "动词",
+            "meaning": "交易；买卖"
+          }
+        ]
+      },
+      "establishment": {
+        "ipa": "/ɪˈstæblɪʃmənt/",
+        "meaning": "机构；企业；营业场所；建立",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "机构；企业；营业场所；建立"
+          }
+        ]
+      },
+      "vanish": {
+        "ipa": "/ˈvænɪʃ/",
+        "meaning": "消失",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "消失"
+          }
+        ]
+      },
+      "superb": {
+        "ipa": "/suːˈpɜːb/",
+        "meaning": "极好的；出色的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "极好的；出色的"
+          }
+        ]
+      },
+      "live": {
+        "ipa": "/lɪv/",
+        "meaning": "住；生活；生存",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "住；生活；生存"
+          }
+        ]
+      },
+      "ongoing": {
+        "ipa": "/ˈɒnɡəʊɪŋ/",
+        "meaning": "持续进行的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "持续进行的"
+          }
+        ]
+      },
+      "consecutive": {
+        "ipa": "/kənˈsekjətɪv/",
+        "meaning": "连续的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "连续的"
+          }
+        ]
+      },
+      "layer": {
+        "ipa": "/ˈleɪə/",
+        "meaning": "层",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "层"
+          },
+          {
+            "pos": "动词",
+            "meaning": "分层放置"
+          }
+        ]
+      },
+      "system": {
+        "ipa": "/ˈsɪstəm/",
+        "meaning": "系统；体系",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "系统；体系"
+          }
+        ]
+      },
+      "mother": {
+        "ipa": "/ˈmʌðə/",
+        "meaning": "母亲",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "母亲"
+          },
+          {
+            "pos": "动词",
+            "meaning": "像母亲一样照顾"
+          }
+        ]
+      },
+      "witness": {
+        "ipa": "/ˈwɪtnəs/",
+        "meaning": "目击者；见证人",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "目击者；见证人"
+          },
+          {
+            "pos": "动词",
+            "meaning": "目击；见证"
+          }
+        ]
+      },
+      "exist": {
+        "ipa": "/ɪɡˈzɪst/",
+        "meaning": "存在",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "存在"
+          }
+        ]
+      },
+      "age": {
+        "ipa": "/eɪdʒ/",
+        "meaning": "年龄；时代",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "年龄；时代"
+          }
+        ]
+      },
+      "youngster": {
+        "ipa": "/ˈjʌŋstə/",
+        "meaning": "孩子；年轻人",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "孩子；年轻人"
+          }
+        ]
+      },
+      "belief": {
+        "ipa": "/bɪˈliːf/",
+        "meaning": "信念；看法",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "信念；看法"
+          }
+        ]
+      },
+      "instruct": {
+        "ipa": "/ɪnˈstrʌkt/",
+        "meaning": "指导；指示",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "指导；指示"
+          }
+        ]
+      },
+      "creation": {
+        "ipa": "/kriˈeɪʃn/",
+        "meaning": "创作；创造物；作品",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "创作；创造物；作品"
+          }
+        ]
+      },
+      "reproduce": {
+        "ipa": "/ˌriːprəˈdjuːs/",
+        "meaning": "复制；再现；繁殖",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "复制；再现；繁殖"
+          }
+        ]
+      },
+      "tongue": {
+        "ipa": "/tʌŋ/",
+        "meaning": "舌头；语言",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "舌头；语言"
+          }
+        ]
+      },
+      "rear": {
+        "ipa": "/rɪə/",
+        "meaning": "后部",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "后部"
+          },
+          {
+            "pos": "动词",
+            "meaning": "抚养；饲养"
+          },
+          {
+            "pos": "形容词",
+            "meaning": "后部的"
+          }
+        ]
+      },
+      "extraordinary": {
+        "ipa": "/ɪkˈstrɔːdɪnəri/",
+        "meaning": "非凡的；非同寻常的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "非凡的；非同寻常的"
+          }
+        ]
+      },
+      "carbon": {
+        "ipa": "/ˈkɑːbən/",
+        "meaning": "碳",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "碳"
+          }
+        ]
+      }
+    },
+    "dictionary": {
+      "investigate": "调查；研究",
+      "recipient": "接受者；收件人",
+      "pastor": "牧师",
+      "bake": "烘烤",
+      "sake": "缘故；目的（用于for the sake of等短语）",
+      "sceptical": "持怀疑态度的",
+      "rose": "玫瑰；玫瑰花",
+      "nice": "友好的；令人愉快的",
+      "trade": "行业；贸易；交易",
+      "establishment": "机构；企业；营业场所；建立",
+      "vanish": "消失",
+      "superb": "极好的；出色的",
+      "live": "住；生活；生存",
+      "ongoing": "持续进行的",
+      "consecutive": "连续的",
+      "layer": "层",
+      "system": "系统；体系",
+      "mother": "母亲",
+      "witness": "目击者；见证人",
+      "exist": "存在",
+      "age": "年龄；时代",
+      "youngster": "孩子；年轻人",
+      "belief": "信念；看法",
+      "instruct": "指导；指示",
+      "creation": "创作；创造物；作品",
+      "reproduce": "复制；再现；繁殖",
+      "tongue": "舌头；语言",
+      "rear": "后部",
+      "extraordinary": "非凡的；非同寻常的",
+      "carbon": "碳",
+      "a": "一；一个",
+      "asks": "问",
+      "us": "我们（宾格）",
+      "to": "到；向；用于连接动词不定式",
+      "cakes": "蛋糕（复数）",
+      "for": "为了；给；用于",
+      "small": "小的",
+      "local": "本地的",
+      "charity": "慈善机构；慈善",
+      "before": "在……之前",
+      "we": "我们",
+      "agree": "同意",
+      "how": "如何",
+      "the": "这；那（定冠词）",
+      "money": "钱；资金",
+      "will": "将；会",
+      "be": "是；成为",
+      "used": "被使用的；使用（use的过去分词）",
+      "each": "每个",
+      "receive": "收到；接受",
+      "food": "食物",
+      "box": "盒子；箱子",
+      "of": "……的",
+      "trust": "信任",
+      "ask": "询问",
+      "explain": "解释",
+      "its": "它的",
+      "costs": "费用；成本（复数）",
+      "one": "一个；一位",
+      "volunteer": "志愿者",
+      "is": "是；处于（be 的第三人称单数）",
+      "about": "关于；大约",
+      "plan": "计划",
+      "owner": "所有者；老板",
+      "nearby": "附近的；在附近",
+      "offers": "提供（第三人称单数）",
+      "free": "免费的；自由的",
+      "tables": "桌子（复数）",
+      "but": "但是",
+      "selling": "销售；卖（sell的现在分词）",
+      "not": "不",
+      "her": "她的；她（宾格）",
+      "usual": "通常的；惯常的",
+      "put": "放",
+      "on": "在……上；关于",
+      "table": "桌子",
+      "and": "和；并且",
+      "display": "展览；陈列柜",
+      "simple": "简单的",
+      "budget": "预算",
+      "reads": "阅读（第三人称单数）",
+      "it": "它",
+      "decides": "决定（decide的第三人称单数）",
+      "help": "帮助",
+      "my": "我的",
+      "helps": "帮助",
+      "build": "建造；建立",
+      "recording": "录音；录制",
+      "stories": "故事（复数）",
+      "near": "在……附近",
+      "old": "旧的；年老的",
+      "theatre": "剧院",
+      "many": "许多",
+      "memories": "记忆；回忆（复数）",
+      "may": "可能",
+      "if": "如果",
+      "nobody": "没有人",
+      "records": "记录（record的第三人称单数）",
+      "them": "他们；它们（宾格）",
+      "three": "三",
+      "evenings": "晚上（复数）",
+      "opening": "开幕；开业",
+      "describes": "描述（describe的第三人称单数）",
+      "what": "什么；所……的事物",
+      "happened": "发生了（happen的过去式）",
+      "there": "那里；there is 表示有",
+      "work": "工作",
+      "keep": "保持",
+      "separate": "单独的；分开的",
+      "background": "背景",
+      "sound": "声音",
+      "below": "在下面",
+      "voice": "人声；嗓音",
+      "so": "所以",
+      "listeners": "听众（复数）",
+      "can": "可以；能够",
+      "hear": "听见",
+      "words": "词语；台词",
+      "clearly": "清楚地",
+      "some": "一些",
+      "people": "人们",
+      "doubt": "怀疑",
+      "that": "那个；引导关系从句或宾语从句",
+      "an": "一个；一位",
+      "earlier": "更早的；更早地",
+      "search": "寻找",
+      "archive": "档案；档案库",
+      "asking": "询问；请求（ask的现在分词）",
+      "anyone": "任何人",
+      "tell": "告诉",
+      "same": "相同的",
+      "story": "故事",
+      "again": "再一次",
+      "at": "在（地点或时刻）；处于（某阶段）",
+      "any": "任何的",
+      "learn": "学习；了解到",
+      "make": "做；造成",
+      "leaf": "叶子",
+      "print": "印刷字体；印刷文本",
+      "our": "我们的",
+      "teacher": "老师",
+      "place": "地方",
+      "beneath": "在……下面",
+      "paper": "纸",
+      "rub": "摩擦；擦",
+      "gently": "轻轻地；温柔地",
+      "with": "有；和……一起",
+      "pencil": "铅笔",
+      "careful": "仔细的；周密的",
+      "observation": "观察",
+      "matters": "要紧；重要（第三人称单数）",
+      "more": "更多；更……",
+      "than": "比（引出比较对象）",
+      "expensive": "昂贵的",
+      "tools": "工具（复数）",
+      "begins": "开始（第三人称单数）",
+      "real": "真实的",
+      "try": "尝试",
+      "shape": "形状",
+      "every": "每一个",
+      "mark": "痕迹；标记",
+      "room": "房间",
+      "child": "孩子",
+      "notices": "注意到（notice的第三人称单数）",
+      "looks": "看起来（第三人称单数）",
+      "like": "像；喜欢",
+      "another": "另一个；再一个",
+      "pupil": "学生",
+      "uses": "使用（第三人称单数）",
+      "draw": "画",
+      "pattern": "图案；模式",
+      "different": "不同的",
+      "results": "结果；成果（复数）",
+      "are": "是；处于（be 的复数形式）",
+      "welcome": "受欢迎的；欢迎",
+      "observed": "观察到（observe的过去式）",
+      "new": "新的",
+      "in": "在……里面",
+      "street": "街道",
+      "sells": "出售（sell的第三人称单数）",
+      "bread": "面包",
+      "customers": "顾客（复数）",
+      "loves": "喜爱",
+      "she": "她",
+      "places": "放置（place的第三人称单数）",
+      "beside": "在……旁边",
+      "door": "门",
+      "neighbours": "邻居（复数）",
+      "remain": "仍然；保持",
+      "low": "低的；小声的",
+      "prices": "价格（复数）",
+      "by": "在……旁边",
+      "visiting": "参观；到访（visit的现在分词）",
+      "kitchen": "厨房",
+      "during": "在……期间",
+      "open": "打开；开着的",
+      "afternoon": "下午",
+      "explains": "解释（第三人称单数）",
+      "volunteers": "志愿者（复数）",
+      "early": "早期的；早地",
+      "morning": "早晨",
+      "organise": "组织；安排",
+      "deliveries": "配送；递送（复数）",
+      "told": "告诉（tell的过去式或过去分词）",
+      "which": "哪个；哪一个",
+      "ingredients": "配料；成分（复数）",
+      "safety": "安全",
+      "team": "团队",
+      "keeps": "保存；记录（第三人称单数）",
+      "written": "书面的；写（write的过去分词）",
+      "list": "清单",
+      "allergies": "过敏症（复数）",
+      "do": "做；用于构成疑问句或否定句",
+      "mean": "意味着；意思是",
+      "ignores": "忽视（ignore的第三人称单数）",
+      "care": "照料；细心",
+      "i": "我",
+      "pond": "池塘",
+      "has": "有（第三人称单数）",
+      "built": "建造（build的过去式或过去分词）",
+      "record": "记录（名词）",
+      "birds": "鸟（复数）",
+      "visit": "拜访；去某处",
+      "five": "五",
+      "mornings": "早晨（复数）",
+      "because": "因为",
+      "short": "短的",
+      "cannot": "不能",
+      "show": "显示；表明",
+      "whole": "整个的；全体",
+      "picture": "图片",
+      "change": "变化；改变",
+      "says": "说（第三人称单数）",
+      "once": "曾经；一次",
+      "nested": "筑巢（nest的过去式）",
+      "research": "研究",
+      "measure": "测量",
+      "thin": "薄的",
+      "ice": "冰",
+      "bank": "岸；银行",
+      "leave": "离开；留下",
+      "middle": "中间",
+      "alone": "独自；单独的",
+      "assume": "假定；认为",
+      "no": "没有",
+      "longer": "更长；no longer表示不再",
+      "here": "这里",
+      "simply": "仅仅；简单地",
+      "they": "他们；它们",
+      "from": "从；免受；表示来源",
+      "view": "视野；景色",
+      "while": "当……时；而",
+      "next": "下一个的；接下来的",
+      "give": "给予",
+      "better": "更好的；更适合的",
+      "evidence": "证据",
+      "school": "学校",
+      "air": "空气；空中",
+      "carry": "拿；端；搬",
+      "tiny": "微小的",
+      "particles": "颗粒；微粒（复数）",
+      "group": "团队；小组",
+      "model": "模型",
+      "invisible": "看不见的",
+      "process": "过程",
+      "use": "使用",
+      "clear": "清楚的；透明的",
+      "everyone": "每个人",
+      "watch": "观看；观察",
+      "happens": "发生（happen的第三人称单数）",
+      "inside": "在里面；内部",
+      "card": "卡片",
+      "dust": "粉尘；灰尘",
+      "already": "已经",
+      "fixed": "固定好的；固定（fix的过去分词）",
+      "never": "从不",
+      "or": "或者",
+      "breathe": "呼吸",
+      "does": "做（第三人称单数）",
+      "detail": "细节",
+      "black": "黑色的",
+      "marks": "印迹；痕迹（复数）",
+      "discuss": "讨论",
+      "where": "在……的地方",
+      "travel": "旅行"
+    },
+    "lessons": [
+      {
+        "id": "oxford-1-301",
+        "title": "A Cake Sale with a Clear Purpose",
+        "subtitle": "社区义卖 · 让捐款去向清清楚楚",
+        "paragraphs": [
+          {
+            "en": "A pastor asks us to bake cakes for a small local charity. Before we agree, we investigate how the money will be used. Each recipient will receive a food box. For the sake of trust, we ask the charity to explain its costs.",
+            "zh": "一位牧师（pastor）请我们烤（bake）蛋糕，为一家本地小型慈善机构筹款。答应之前，我们调查（investigate）这笔钱的用途。每位受助人（recipient）将收到一个食品箱。为了（sake）建立信任，我们请机构说明开支。",
+            "patterns": [
+              {
+                "expression": "how the money will be used",
+                "meaning": "句式：how引导宾语从句，使用陈述语序，表示这笔钱将如何使用。"
+              },
+              {
+                "expression": "For the sake of trust",
+                "meaning": "搭配：for the sake of加名词，表示为了某人、某事或某种目的。"
+              }
+            ]
+          },
+          {
+            "en": "One volunteer is sceptical about the plan. A nice owner of a nearby establishment offers free tables, but selling cakes is not her usual trade. We put a rose on each table and display a simple budget. The volunteer reads it and decides to help.",
+            "zh": "一位志愿者对计划持怀疑态度（sceptical）。附近一家店铺（establishment）的好心（nice）老板愿意免费提供桌子，但卖蛋糕并不是她通常从事的行业（trade）。我们在每张桌上放一朵玫瑰（rose），并展示一份简单的预算。志愿者读过后，决定帮忙。",
+            "patterns": [
+              {
+                "expression": "is sceptical about the plan",
+                "meaning": "搭配：be sceptical about加名词，表示对某事的真实性或可行性持怀疑态度。"
+              },
+              {
+                "expression": "decides to help",
+                "meaning": "句式：decide to do something表示决定做某事，to后接动词原形。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "investigate",
+            "type": "reason",
+            "prompt": "Why do the volunteers ask how the money will be used?",
+            "options": [
+              "To choose a different cake colour.",
+              "To understand the charity before agreeing to help.",
+              "To stop people buying food.",
+              "To close the nearby shop."
+            ],
+            "answer": 1,
+            "explanation": "他们在答应前调查资金用途，是为了了解慈善机构，而不是改变蛋糕颜色或阻止购买食品。"
+          },
+          {
+            "word": "recipient",
+            "type": "context",
+            "prompt": "Who will receive a food box?",
+            "options": [
+              "The person receiving support from the charity.",
+              "Every owner of a table.",
+              "Only the cake makers.",
+              "Anyone who sells roses."
+            ],
+            "answer": 0,
+            "explanation": "recipient在此指接受慈善援助的人，原文明说每位受助者会收到食品箱。"
+          },
+          {
+            "word": "pastor",
+            "type": "context",
+            "prompt": "What does the pastor ask the group to do?",
+            "options": [
+              "Buy a new building.",
+              "Write a book about flowers.",
+              "Make cakes for a charity sale.",
+              "Refuse all free tables."
+            ],
+            "answer": 2,
+            "explanation": "牧师请大家烤蛋糕帮助慈善机构筹款。"
+          },
+          {
+            "word": "bake",
+            "type": "outcome",
+            "prompt": "What product will the volunteers prepare for the sale?",
+            "options": [
+              "Food boxes bought from a shop.",
+              "Painted tables.",
+              "Printed budgets for sale.",
+              "Cakes cooked in an oven."
+            ],
+            "answer": 3,
+            "explanation": "bake cakes指用烤箱烤制蛋糕；其他物品不是他们制作出售的食品。"
+          },
+          {
+            "word": "sake",
+            "type": "paraphrase",
+            "prompt": "What does For the sake of trust explain?",
+            "options": [
+              "How many tables are needed.",
+              "The purpose of asking for clear costs.",
+              "The location of the bakery.",
+              "The price of each rose."
+            ],
+            "answer": 1,
+            "explanation": "for the sake of trust交代要求公开开支的目的：建立信任。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-302",
+        "title": "A Sound Archive for the Town",
+        "subtitle": "声音档案 · 保存居民的真实回忆",
+        "paragraphs": [
+          {
+            "en": "My mother helps build a system for recording local stories. We live near a superb old theatre, but many memories of it may vanish if nobody records them. For three consecutive evenings, a witness to its opening describes what happened there.",
+            "zh": "我母亲（mother）帮忙建立一个记录本地故事的系统（system）。我们住（live）在一座极好的（superb）老剧院附近，但如果没人记录，许多相关记忆可能消失（vanish）。连续（consecutive）三个晚上，一位见证人（witness）讲述剧院开幕时的情况。",
+            "patterns": [
+              {
+                "expression": "if nobody records them",
+                "meaning": "句式：if引导条件状语从句，表示如果没有人把这些记忆记录下来。"
+              },
+              {
+                "expression": "describes what happened there",
+                "meaning": "句式：what引导宾语从句，表示描述那里发生的事情，从句保持陈述语序。"
+              }
+            ]
+          },
+          {
+            "en": "The recording work is ongoing. We keep a separate layer of background sound below each voice so listeners can hear the words clearly. Some people doubt that an earlier recording can exist, so we search the archive before asking anyone to tell the same story again.",
+            "zh": "录音工作仍在进行中（ongoing）。我们把一层（layer）单独的背景音放在每个人声之下，让听众听清话语。有人怀疑更早的录音是否存在（exist），所以我们先查找档案，再请人重新讲述同一个故事。",
+            "patterns": [
+              {
+                "expression": "so listeners can hear the words clearly",
+                "meaning": "句式：so加主语和can do，交代这样安排带来的结果：听众能够听清话语。"
+              },
+              {
+                "expression": "before asking anyone",
+                "meaning": "句式：before后可接动名词短语，表示在请任何人做某事之前。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "vanish",
+            "type": "context",
+            "prompt": "What might vanish if the stories are not recorded?",
+            "options": [
+              "The recording equipment.",
+              "All the theatre seats.",
+              "Memories about the old theatre.",
+              "The town itself."
+            ],
+            "answer": 2,
+            "explanation": "原文说可能消失的是关于剧院的记忆，不是设备、座椅或城镇。"
+          },
+          {
+            "word": "superb",
+            "type": "inference",
+            "prompt": "How does the narrator describe the old theatre?",
+            "options": [
+              "As an excellent place.",
+              "As a dangerous road.",
+              "As a place nobody remembers.",
+              "As a new sound system."
+            ],
+            "answer": 0,
+            "explanation": "superb表达很高的评价，说明叙述者认为剧院非常好。"
+          },
+          {
+            "word": "live",
+            "type": "context",
+            "prompt": "Where is the narrator's home?",
+            "options": [
+              "Inside the archive.",
+              "Far from the town.",
+              "At the theatre entrance.",
+              "Near the old theatre."
+            ],
+            "answer": 3,
+            "explanation": "live near表示住在附近，原文明确住在老剧院附近。"
+          },
+          {
+            "word": "ongoing",
+            "type": "paraphrase",
+            "prompt": "Which statement describes the recording work?",
+            "options": [
+              "It has never started.",
+              "It is still in progress.",
+              "It finished many years ago.",
+              "It only happens by accident."
+            ],
+            "answer": 1,
+            "explanation": "ongoing指工作仍在持续进行，并没有结束。"
+          },
+          {
+            "word": "consecutive",
+            "type": "context",
+            "prompt": "When does the witness describe the opening?",
+            "options": [
+              "On three unrelated dates.",
+              "Only after a long holiday.",
+              "On three evenings in a row.",
+              "Once every three years."
+            ],
+            "answer": 2,
+            "explanation": "three consecutive evenings表示连续三个晚上，中间没有间隔其他晚上。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-303",
+        "title": "A Print Made from Fallen Leaves",
+        "subtitle": "美术工坊 · 从观察到创作",
+        "paragraphs": [
+          {
+            "en": "At any age, a youngster can learn to make a leaf print. Our teacher will instruct us to place a leaf beneath paper and rub it gently with a pencil. Her belief is that careful observation matters more than expensive tools. Each creation begins with a real leaf.",
+            "zh": "无论年龄（age）大小，一个孩子（youngster）都可以学习制作树叶拓印。老师会指导（instruct）我们把叶子放在纸下面，再用铅笔轻轻摩擦。她的信念（belief）是，认真观察比昂贵工具更重要。每件作品（creation）都从一片真实的叶子开始。",
+            "patterns": [
+              {
+                "expression": "instruct us to place a leaf",
+                "meaning": "句式：instruct somebody to do something表示指导某人做某事。"
+              },
+              {
+                "expression": "matters more than expensive tools",
+                "meaning": "句式：matter more than加比较对象，表示比另一事物更重要。"
+              }
+            ]
+          },
+          {
+            "en": "We try to reproduce the shape, not every mark on the leaf. At the rear of the room, a child notices that a leaf looks like a tongue. Another pupil uses a carbon pencil to draw an extraordinary pattern. Different results are welcome if we can explain what we observed.",
+            "zh": "我们尝试再现（reproduce）叶子的形状，而不是每一道纹路。在房间后部（rear），一个孩子发现一片叶子看起来像舌头（tongue）。另一位学生用碳（carbon）铅笔画出非同寻常的（extraordinary）图案。只要能说明自己的观察结果，不同的作品都受到欢迎。",
+            "patterns": [
+              {
+                "expression": "looks like a tongue",
+                "meaning": "搭配：look like加名词，表示外观看起来像某人或某物。"
+              },
+              {
+                "expression": "if we can explain",
+                "meaning": "句式：if引导条件状语从句，表示在能够解释观察结果的条件下。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "age",
+            "type": "inference",
+            "prompt": "Who can learn the activity according to the opening sentence?",
+            "options": [
+              "Only adults with expensive tools.",
+              "People of different ages.",
+              "Only pupils who already draw perfectly.",
+              "Only the oldest person in the room."
+            ],
+            "answer": 1,
+            "explanation": "at any age表示任何年龄都可学习，并不限制为成年人或已有绘画能力的人。"
+          },
+          {
+            "word": "youngster",
+            "type": "context",
+            "prompt": "Who is the youngster in this setting?",
+            "options": [
+              "A type of leaf.",
+              "The owner of the room.",
+              "A child or young person learning the activity.",
+              "An expensive drawing tool."
+            ],
+            "answer": 2,
+            "explanation": "youngster指孩子或年轻人，此处是参加学习的孩子。"
+          },
+          {
+            "word": "belief",
+            "type": "paraphrase",
+            "prompt": "What does the teacher consider most important?",
+            "options": [
+              "Careful observation rather than expensive tools.",
+              "Buying a different pencil for every line.",
+              "Making every print exactly the same.",
+              "Hiding the real leaf."
+            ],
+            "answer": 0,
+            "explanation": "老师认为认真观察比昂贵工具重要。"
+          },
+          {
+            "word": "instruct",
+            "type": "context",
+            "prompt": "What will the teacher do?",
+            "options": [
+              "Sell the finished prints.",
+              "Replace all the leaves.",
+              "Tell the pupils to leave.",
+              "Explain how to place the leaf and rub the paper."
+            ],
+            "answer": 3,
+            "explanation": "instruct us to表示指导大家完成具体操作。"
+          },
+          {
+            "word": "creation",
+            "type": "reference",
+            "prompt": "What does Each creation refer to here?",
+            "options": [
+              "Every classroom rule.",
+              "Each piece of art made in the activity.",
+              "The age of each pupil.",
+              "The price of each tool."
+            ],
+            "answer": 1,
+            "explanation": "creation在美术活动中指制作出来的作品。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-304",
+        "title": "A Bakery Opens Its Books",
+        "subtitle": "街区面包店 · 用透明经营赢得信任",
+        "paragraphs": [
+          {
+            "en": "A new establishment in our street sells bread. Its owner is nice to customers and loves her trade. She places a rose beside the door, but some neighbours remain sceptical about the low prices. We investigate by visiting the kitchen during an open afternoon.",
+            "zh": "我们街上一家新店铺（establishment）出售面包。老板待顾客友好（nice），也热爱自己的行业（trade）。她在门旁放了一朵玫瑰（rose），但有些邻居仍对低价持怀疑态度（sceptical）。我们在开放参观的下午到厨房调查（investigate）。",
+            "patterns": [
+              {
+                "expression": "is nice to customers",
+                "meaning": "搭配：be nice to somebody表示对某人友好，to后接所对待的人。"
+              },
+              {
+                "expression": "by visiting the kitchen",
+                "meaning": "句式：by加动名词，表示通过某种行动实现目的，这里是通过参观了解情况。"
+              }
+            ]
+          },
+          {
+            "en": "The owner explains that volunteers bake bread early each morning. A pastor helps organise deliveries, and every recipient is told which ingredients are used. For the sake of safety, the team keeps a written list of food allergies. Low prices do not mean that the team ignores care.",
+            "zh": "老板解释说，志愿者每天清晨烤制（bake）面包。一位牧师（pastor）帮助组织配送，每位领取者（recipient）都会被告知所用的配料。为了（sake）安全，团队保留一份书面的食物过敏清单。低价并不意味着团队忽视细心照料。",
+            "patterns": [
+              {
+                "expression": "is told which ingredients are used",
+                "meaning": "句式：be told加宾语从句，表示被告知某事；从句用陈述语序。"
+              },
+              {
+                "expression": "do not mean that",
+                "meaning": "句式：do not mean that加从句，表示某种情况并不意味着另一种情况。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "sceptical",
+            "type": "reason",
+            "prompt": "Why do some neighbours visit the kitchen?",
+            "options": [
+              "They have doubts about the low prices.",
+              "They want to remove the rose.",
+              "They need to cancel all deliveries.",
+              "They already know every recipe."
+            ],
+            "answer": 0,
+            "explanation": "邻居对低价心存怀疑，所以到厨房了解实际情况。"
+          },
+          {
+            "word": "rose",
+            "type": "context",
+            "prompt": "What does the owner put beside the door?",
+            "options": [
+              "A list of customers.",
+              "A delivery van.",
+              "A flower.",
+              "An oven."
+            ],
+            "answer": 2,
+            "explanation": "rose在此指玫瑰花，老板把它放在门旁。"
+          },
+          {
+            "word": "nice",
+            "type": "inference",
+            "prompt": "What can we infer about the owner's treatment of customers?",
+            "options": [
+              "She refuses to speak to them.",
+              "She treats them kindly.",
+              "She asks them to bake every loaf.",
+              "She hides all ingredients from them."
+            ],
+            "answer": 1,
+            "explanation": "be nice to customers表示待顾客友好。"
+          },
+          {
+            "word": "trade",
+            "type": "context",
+            "prompt": "What does her trade refer to?",
+            "options": [
+              "A flower beside the door.",
+              "An afternoon visit.",
+              "A list of allergies.",
+              "The business of making and selling bread."
+            ],
+            "answer": 3,
+            "explanation": "trade在此指她从事的面包经营行业，不是门边的花或过敏清单。"
+          },
+          {
+            "word": "establishment",
+            "type": "paraphrase",
+            "prompt": "Which phrase best describes the new establishment?",
+            "options": [
+              "A business selling bread in the street.",
+              "A written safety rule.",
+              "A group of doubtful customers.",
+              "A charity delivery route."
+            ],
+            "answer": 0,
+            "explanation": "establishment在这里是营业场所，即街上的面包店。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-305",
+        "title": "The Pond Monitoring Project",
+        "subtitle": "社区池塘 · 连续观察水中变化",
+        "paragraphs": [
+          {
+            "en": "My mother and I live beside a pond. A superb volunteer team has built a system to record birds there. We visit on five consecutive mornings because one short visit cannot show the whole picture. A witness to an earlier change says that many small birds once nested nearby.",
+            "zh": "我母亲（mother）和我住（live）在池塘边。一支出色的（superb）志愿者队伍建立了记录鸟类的系统（system）。我们连续（consecutive）五个早晨到访，因为一次短暂观察无法呈现全貌。一位见证人（witness）说，许多小鸟曾在附近筑巢。",
+            "patterns": [
+              {
+                "expression": "cannot show the whole picture",
+                "meaning": "搭配：show the whole picture表示呈现事情的全貌，这里说明一次观察的局限。"
+              },
+              {
+                "expression": "says that many small birds once nested nearby",
+                "meaning": "句式：say后接that引导的宾语从句，表示转述某人所说的情况。"
+              }
+            ]
+          },
+          {
+            "en": "The research is ongoing. We measure a thin layer of ice near the bank and leave the middle of the pond alone. We do not assume that birds no longer exist here simply because they vanish from view for a while. The next visit may give us better evidence.",
+            "zh": "研究仍在进行中（ongoing）。我们测量岸边一层（layer）薄冰，不去干扰池塘中央。鸟暂时从视野中消失（vanish），我们不会仅凭这一点就认为它们不再存在（exist）于这里。下次观察也许会提供更好的证据。",
+            "patterns": [
+              {
+                "expression": "vanish from view",
+                "meaning": "搭配：vanish from view表示从视野中消失，不等于已经不再存在。"
+              },
+              {
+                "expression": "may give us better evidence",
+                "meaning": "句式：may加动词原形表示可能性，give somebody something表示给某人某物。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "layer",
+            "type": "context",
+            "prompt": "What do the volunteers measure near the bank?",
+            "options": [
+              "The height of a building.",
+              "A thin covering of ice.",
+              "The length of every bird.",
+              "A line of delivery boxes."
+            ],
+            "answer": 1,
+            "explanation": "layer在此指覆盖在水面上的薄冰层。"
+          },
+          {
+            "word": "system",
+            "type": "reason",
+            "prompt": "Why has the team built a recording system?",
+            "options": [
+              "To stop all birds visiting.",
+              "To sell the pond.",
+              "To keep information about birds at the pond.",
+              "To avoid making further visits."
+            ],
+            "answer": 2,
+            "explanation": "系统用于记录池塘鸟类信息，而不是驱鸟或停止观察。"
+          },
+          {
+            "word": "mother",
+            "type": "context",
+            "prompt": "Who visits the pond with the narrator?",
+            "options": [
+              "The narrator's mother.",
+              "The theatre owner.",
+              "A food recipient.",
+              "A drawing teacher."
+            ],
+            "answer": 0,
+            "explanation": "首句明确是叙述者和母亲住在池塘边，并共同参加观察。"
+          },
+          {
+            "word": "witness",
+            "type": "inference",
+            "prompt": "Why might the earlier witness be useful to the project?",
+            "options": [
+              "The witness can promise that no bird will leave.",
+              "The witness owns every bird.",
+              "The witness can replace all present observations.",
+              "The witness can describe a change observed in the past."
+            ],
+            "answer": 3,
+            "explanation": "见证人能提供过去亲眼见到的变化，但不能保证鸟不离开或替代全部当前观察。"
+          },
+          {
+            "word": "exist",
+            "type": "reason",
+            "prompt": "Why does the team avoid saying that birds no longer exist there?",
+            "options": [
+              "The project has already ended.",
+              "Not seeing birds briefly is not enough evidence.",
+              "Ice proves that all birds are present.",
+              "Every bird can always be seen from the bank."
+            ],
+            "answer": 1,
+            "explanation": "短暂看不见鸟，不足以证明鸟已不存在；文末强调需要更多证据。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-1-306",
+        "title": "A Model That Makes Pollution Visible",
+        "subtitle": "科学模型 · 用简单材料解释污染",
+        "paragraphs": [
+          {
+            "en": "A youngster of school age asks how air can carry tiny particles. Our teacher will instruct the group to build a model. Her belief is that a simple creation can help explain an invisible process. We use a clear box so everyone can watch what happens inside.",
+            "zh": "一个学龄（age）孩子（youngster）问，空气怎样携带微小颗粒。指导老师将指导（instruct）大家搭建模型。她的信念（belief）是，一件简单的创作（creation）就能帮助解释看不见的过程。我们使用透明盒子，让大家看到内部发生的变化。",
+            "patterns": [
+              {
+                "expression": "so everyone can watch",
+                "meaning": "句式：so加主语和can do，表示这样的安排让每个人能够观察。"
+              },
+              {
+                "expression": "what happens inside",
+                "meaning": "句式：what引导宾语从句，表示内部发生的事情，使用陈述语序。"
+              }
+            ]
+          },
+          {
+            "en": "At the rear of the box, we place a card with carbon dust already fixed to it. We never put the dust near our tongue or breathe it in. The model does not reproduce every detail of real air, but its extraordinary black marks help us discuss where particles may travel.",
+            "zh": "我们在盒子后部（rear）放一张已经固定好碳（carbon）粉的卡片。我们绝不把粉末放到舌头（tongue）附近，也不吸入它。这个模型并不能再现（reproduce）真实空气的每个细节，但它非同寻常的（extraordinary）黑色印迹帮助我们讨论颗粒可能流向哪里。",
+            "patterns": [
+              {
+                "expression": "breathe it in",
+                "meaning": "搭配：breathe something in表示把某物吸入呼吸道，代词宾语放在动词与in之间。"
+              },
+              {
+                "expression": "does not reproduce every detail",
+                "meaning": "句式：not加every表示并非每一个都如此，这里指模型不能再现全部细节。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "reproduce",
+            "type": "paraphrase",
+            "prompt": "What limitation does the model have?",
+            "options": [
+              "It cannot show every detail of real air.",
+              "It cannot be seen through the box.",
+              "It always gives a complete picture of pollution.",
+              "It contains every particle found outdoors."
+            ],
+            "answer": 0,
+            "explanation": "原文明说模型不能再现真实空气的全部细节。"
+          },
+          {
+            "word": "tongue",
+            "type": "reason",
+            "prompt": "Why is the tongue mentioned in the instructions?",
+            "options": [
+              "To describe the colour of the card.",
+              "To compare two languages.",
+              "To count the pupils.",
+              "To explain that dust must be kept away from the mouth."
+            ],
+            "answer": 3,
+            "explanation": "这里的tongue是身体部位，提醒不能让粉末接近口腔。"
+          },
+          {
+            "word": "rear",
+            "type": "context",
+            "prompt": "Where is the card placed?",
+            "options": [
+              "Outside the school.",
+              "At the back of the box.",
+              "On every pupil's desk.",
+              "Under the instructor's tongue."
+            ],
+            "answer": 1,
+            "explanation": "rear在此指盒子的后部。"
+          },
+          {
+            "word": "extraordinary",
+            "type": "inference",
+            "prompt": "What makes the black marks useful in the lesson?",
+            "options": [
+              "They prove that the model is perfect.",
+              "They replace the need for any explanation.",
+              "Their striking appearance helps start a discussion about particles.",
+              "They show that all air is black."
+            ],
+            "answer": 2,
+            "explanation": "显眼的黑色印迹帮助讨论颗粒运动，并不证明模型完美或所有空气都是黑的。"
+          },
+          {
+            "word": "carbon",
+            "type": "context",
+            "prompt": "What material has been fixed to the card?",
+            "options": [
+              "A form of carbon dust.",
+              "Fresh bread.",
+              "Rose petals.",
+              "A layer of pond ice."
+            ],
+            "answer": 0,
+            "explanation": "卡片上固定的是碳粉，其他材料没有用于这个模型。"
+          }
+        ]
+      }
+    ]
+  },
+  "pronunciations": {
+    "investigate": {
+      "ipa": "/ɪnˈvestɪɡeɪt/"
+    },
+    "recipient": {
+      "ipa": "/rɪˈsɪpiənt/"
+    },
+    "pastor": {
+      "ipa": "/ˈpɑːstə/"
+    },
+    "bake": {
+      "ipa": "/beɪk/"
+    },
+    "sake": {
+      "ipa": "/seɪk/"
+    },
+    "sceptical": {
+      "ipa": "/ˈskeptɪkl/"
+    },
+    "rose": {
+      "ipa": "/rəʊz/"
+    },
+    "nice": {
+      "ipa": "/naɪs/"
+    },
+    "trade": {
+      "ipa": "/treɪd/"
+    },
+    "establishment": {
+      "ipa": "/ɪˈstæblɪʃmənt/"
+    },
+    "vanish": {
+      "ipa": "/ˈvænɪʃ/"
+    },
+    "superb": {
+      "ipa": "/suːˈpɜːb/"
+    },
+    "live": {
+      "ipa": "/lɪv/"
+    },
+    "ongoing": {
+      "ipa": "/ˈɒnɡəʊɪŋ/"
+    },
+    "consecutive": {
+      "ipa": "/kənˈsekjətɪv/"
+    },
+    "layer": {
+      "ipa": "/ˈleɪə/"
+    },
+    "system": {
+      "ipa": "/ˈsɪstəm/"
+    },
+    "mother": {
+      "ipa": "/ˈmʌðə/"
+    },
+    "witness": {
+      "ipa": "/ˈwɪtnəs/"
+    },
+    "exist": {
+      "ipa": "/ɪɡˈzɪst/"
+    },
+    "age": {
+      "ipa": "/eɪdʒ/"
+    },
+    "youngster": {
+      "ipa": "/ˈjʌŋstə/"
+    },
+    "belief": {
+      "ipa": "/bɪˈliːf/"
+    },
+    "instruct": {
+      "ipa": "/ɪnˈstrʌkt/"
+    },
+    "creation": {
+      "ipa": "/kriˈeɪʃn/"
+    },
+    "reproduce": {
+      "ipa": "/ˌriːprəˈdjuːs/"
+    },
+    "tongue": {
+      "ipa": "/tʌŋ/"
+    },
+    "rear": {
+      "ipa": "/rɪə/"
+    },
+    "extraordinary": {
+      "ipa": "/ɪkˈstrɔːdɪnəri/"
+    },
+    "carbon": {
+      "ipa": "/ˈkɑːbən/"
+    },
+    "a": {
+      "ipa": "/ə; eɪ/"
+    },
+    "asks": {
+      "ipa": "/ɑːsks/"
+    },
+    "us": {
+      "ipa": "/ʌs/"
+    },
+    "to": {
+      "ipa": "/tuː/"
+    },
+    "cakes": {
+      "ipa": "/keɪks/"
+    },
+    "for": {
+      "ipa": "/fɔː/"
+    },
+    "small": {
+      "ipa": "/smɔːl/"
+    },
+    "local": {
+      "ipa": "/ˈləʊkəl/"
+    },
+    "charity": {
+      "ipa": "/ˈtʃærəti/"
+    },
+    "before": {
+      "ipa": "/bɪˈfɔː/"
+    },
+    "we": {
+      "ipa": "/wiː/"
+    },
+    "agree": {
+      "ipa": "/əˈɡriː/"
+    },
+    "how": {
+      "ipa": "/haʊ/"
+    },
+    "the": {
+      "ipa": "/ðə/"
+    },
+    "money": {
+      "ipa": "/ˈmʌni/"
+    },
+    "will": {
+      "ipa": "/wɪl/"
+    },
+    "be": {
+      "ipa": "/biː/"
+    },
+    "used": {
+      "ipa": "/juːzd/"
+    },
+    "each": {
+      "ipa": "/iːtʃ/"
+    },
+    "receive": {
+      "ipa": "/rɪˈsiːv/"
+    },
+    "food": {
+      "ipa": "/fuːd/"
+    },
+    "box": {
+      "ipa": "/bɒks/"
+    },
+    "of": {
+      "ipa": "/ɒv/"
+    },
+    "trust": {
+      "ipa": "/trʌst/"
+    },
+    "ask": {
+      "ipa": "/ɑːsk/"
+    },
+    "explain": {
+      "ipa": "/ɪkˈspleɪn/"
+    },
+    "its": {
+      "ipa": "/ɪts/"
+    },
+    "costs": {
+      "ipa": "/kɒsts/"
+    },
+    "one": {
+      "ipa": "/wʌn/"
+    },
+    "volunteer": {
+      "ipa": "/ˌvɒlənˈtɪə/"
+    },
+    "is": {
+      "ipa": "/ɪz/"
+    },
+    "about": {
+      "ipa": "/əˈbaʊt/"
+    },
+    "plan": {
+      "ipa": "/plæn/"
+    },
+    "owner": {
+      "ipa": "/ˈəʊnə/"
+    },
+    "nearby": {
+      "ipa": "/ˌnɪəˈbaɪ/"
+    },
+    "offers": {
+      "ipa": "/ˈɒfəz/"
+    },
+    "free": {
+      "ipa": "/friː/"
+    },
+    "tables": {
+      "ipa": "/ˈteɪblz/"
+    },
+    "but": {
+      "ipa": "/bʌt/"
+    },
+    "selling": {
+      "ipa": "/ˈselɪŋ/"
+    },
+    "not": {
+      "ipa": "/nɒt/"
+    },
+    "her": {
+      "ipa": "/hɜː/"
+    },
+    "usual": {
+      "ipa": "/ˈjuːʒuəl/"
+    },
+    "put": {
+      "ipa": "/pʊt/"
+    },
+    "on": {
+      "ipa": "/ɒn/"
+    },
+    "table": {
+      "ipa": "/ˈteɪbl/"
+    },
+    "and": {
+      "ipa": "/ænd/"
+    },
+    "display": {
+      "ipa": "/dɪˈspleɪ/"
+    },
+    "simple": {
+      "ipa": "/ˈsɪmpl/"
+    },
+    "budget": {
+      "ipa": "/ˈbʌdʒɪt/"
+    },
+    "reads": {
+      "ipa": "/riːdz/"
+    },
+    "it": {
+      "ipa": "/ɪt/"
+    },
+    "decides": {
+      "ipa": "/dɪˈsaɪdz/"
+    },
+    "help": {
+      "ipa": "/help/"
+    },
+    "my": {
+      "ipa": "/maɪ/"
+    },
+    "helps": {
+      "ipa": "/helps/"
+    },
+    "build": {
+      "ipa": "/bɪld/"
+    },
+    "recording": {
+      "ipa": "/rɪˈkɔːdɪŋ/"
+    },
+    "stories": {
+      "ipa": "/ˈstɔːriz/"
+    },
+    "near": {
+      "ipa": "/nɪə/"
+    },
+    "old": {
+      "ipa": "/əʊld/"
+    },
+    "theatre": {
+      "ipa": "/ˈθɪətə/"
+    },
+    "many": {
+      "ipa": "/ˈmeni/"
+    },
+    "memories": {
+      "ipa": "/ˈmeməriz/"
+    },
+    "may": {
+      "ipa": "/meɪ/"
+    },
+    "if": {
+      "ipa": "/ɪf/"
+    },
+    "nobody": {
+      "ipa": "/ˈnəʊbədi/"
+    },
+    "records": {
+      "ipa": "/rɪˈkɔːdz/"
+    },
+    "them": {
+      "ipa": "/ðem/"
+    },
+    "three": {
+      "ipa": "/θriː/"
+    },
+    "evenings": {
+      "ipa": "/ˈiːvnɪŋz/"
+    },
+    "opening": {
+      "ipa": "/ˈəʊpənɪŋ/"
+    },
+    "describes": {
+      "ipa": "/dɪˈskraɪbz/"
+    },
+    "what": {
+      "ipa": "/wɒt/"
+    },
+    "happened": {
+      "ipa": "/ˈhæpənd/"
+    },
+    "there": {
+      "ipa": "/ðeə/"
+    },
+    "work": {
+      "ipa": "/wɜːk/"
+    },
+    "keep": {
+      "ipa": "/kiːp/"
+    },
+    "separate": {
+      "ipa": "/ˈseprət/"
+    },
+    "background": {
+      "ipa": "/ˈbækɡraʊnd/"
+    },
+    "sound": {
+      "ipa": "/saʊnd/"
+    },
+    "below": {
+      "ipa": "/bɪˈləʊ/"
+    },
+    "voice": {
+      "ipa": "/vɔɪs/"
+    },
+    "so": {
+      "ipa": "/səʊ/"
+    },
+    "listeners": {
+      "ipa": "/ˈlɪsənəz/"
+    },
+    "can": {
+      "ipa": "/kæn/"
+    },
+    "hear": {
+      "ipa": "/hɪə/"
+    },
+    "words": {
+      "ipa": "/wɜːdz/"
+    },
+    "clearly": {
+      "ipa": "/ˈklɪəli/"
+    },
+    "some": {
+      "ipa": "/sʌm/"
+    },
+    "people": {
+      "ipa": "/ˈpiːpl/"
+    },
+    "doubt": {
+      "ipa": "/daʊt/"
+    },
+    "that": {
+      "ipa": "/ðæt/"
+    },
+    "an": {
+      "ipa": "/æn/"
+    },
+    "earlier": {
+      "ipa": "/ˈɜːliə/"
+    },
+    "search": {
+      "ipa": "/sɜːtʃ/"
+    },
+    "archive": {
+      "ipa": "/ˈɑːkaɪv/"
+    },
+    "asking": {
+      "ipa": "/ˈɑːskɪŋ/"
+    },
+    "anyone": {
+      "ipa": "/ˈeniwʌn/"
+    },
+    "tell": {
+      "ipa": "/tel/"
+    },
+    "same": {
+      "ipa": "/seɪm/"
+    },
+    "story": {
+      "ipa": "/ˈstɔːri/"
+    },
+    "again": {
+      "ipa": "/əˈɡen/"
+    },
+    "at": {
+      "ipa": "/æt/"
+    },
+    "any": {
+      "ipa": "/ˈeni/"
+    },
+    "learn": {
+      "ipa": "/lɜːn/"
+    },
+    "make": {
+      "ipa": "/meɪk/"
+    },
+    "leaf": {
+      "ipa": "/liːf/"
+    },
+    "print": {
+      "ipa": "/prɪnt/"
+    },
+    "our": {
+      "ipa": "/aʊə/"
+    },
+    "teacher": {
+      "ipa": "/ˈtiːtʃə/"
+    },
+    "place": {
+      "ipa": "/pleɪs/"
+    },
+    "beneath": {
+      "ipa": "/bɪˈniːθ/"
+    },
+    "paper": {
+      "ipa": "/ˈpeɪpə/"
+    },
+    "rub": {
+      "ipa": "/rʌb/"
+    },
+    "gently": {
+      "ipa": "/ˈdʒentli/"
+    },
+    "with": {
+      "ipa": "/wɪð/"
+    },
+    "pencil": {
+      "ipa": "/ˈpensl/"
+    },
+    "careful": {
+      "ipa": "/ˈkeəfl/"
+    },
+    "observation": {
+      "ipa": "/ˌɒbzəˈveɪʃn/"
+    },
+    "matters": {
+      "ipa": "/ˈmætəz/"
+    },
+    "more": {
+      "ipa": "/mɔː/"
+    },
+    "than": {
+      "ipa": "/ðən/"
+    },
+    "expensive": {
+      "ipa": "/ɪkˈspensɪv/"
+    },
+    "tools": {
+      "ipa": "/tuːlz/"
+    },
+    "begins": {
+      "ipa": "/bɪˈɡɪnz/"
+    },
+    "real": {
+      "ipa": "/rɪəl/"
+    },
+    "try": {
+      "ipa": "/traɪ/"
+    },
+    "shape": {
+      "ipa": "/ʃeɪp/"
+    },
+    "every": {
+      "ipa": "/ˈevri/"
+    },
+    "mark": {
+      "ipa": "/mɑːk/"
+    },
+    "room": {
+      "ipa": "/ruːm/"
+    },
+    "child": {
+      "ipa": "/tʃaɪld/"
+    },
+    "notices": {
+      "ipa": "/ˈnəʊtɪsɪz/"
+    },
+    "looks": {
+      "ipa": "/lʊks/"
+    },
+    "like": {
+      "ipa": "/laɪk/"
+    },
+    "another": {
+      "ipa": "/əˈnʌðə/"
+    },
+    "pupil": {
+      "ipa": "/ˈpjuːpl/"
+    },
+    "uses": {
+      "ipa": "/ˈjuːzɪz/"
+    },
+    "draw": {
+      "ipa": "/drɔː/"
+    },
+    "pattern": {
+      "ipa": "/ˈpætn/"
+    },
+    "different": {
+      "ipa": "/ˈdɪfrənt/"
+    },
+    "results": {
+      "ipa": "/rɪˈzʌlts/"
+    },
+    "are": {
+      "ipa": "/ɑː/"
+    },
+    "welcome": {
+      "ipa": "/ˈwelkəm/"
+    },
+    "observed": {
+      "ipa": "/əbˈzɜːvd/"
+    },
+    "new": {
+      "ipa": "/njuː/"
+    },
+    "in": {
+      "ipa": "/ɪn/"
+    },
+    "street": {
+      "ipa": "/striːt/"
+    },
+    "sells": {
+      "ipa": "/selz/"
+    },
+    "bread": {
+      "ipa": "/bred/"
+    },
+    "customers": {
+      "ipa": "/ˈkʌstəməz/"
+    },
+    "loves": {
+      "ipa": "/lʌvz/"
+    },
+    "she": {
+      "ipa": "/ʃiː/"
+    },
+    "places": {
+      "ipa": "/ˈpleɪsɪz/"
+    },
+    "beside": {
+      "ipa": "/bɪˈsaɪd/"
+    },
+    "door": {
+      "ipa": "/dɔː/"
+    },
+    "neighbours": {
+      "ipa": "/ˈneɪbəz/"
+    },
+    "remain": {
+      "ipa": "/rɪˈmeɪn/"
+    },
+    "low": {
+      "ipa": "/ləʊ/"
+    },
+    "prices": {
+      "ipa": "/ˈpraɪsɪz/"
+    },
+    "by": {
+      "ipa": "/baɪ/"
+    },
+    "visiting": {
+      "ipa": "/ˈvɪzɪtɪŋ/"
+    },
+    "kitchen": {
+      "ipa": "/ˈkɪtʃɪn/"
+    },
+    "during": {
+      "ipa": "/ˈdjʊərɪŋ/"
+    },
+    "open": {
+      "ipa": "/ˈəʊpən/"
+    },
+    "afternoon": {
+      "ipa": "/ˌɑːftəˈnuːn/"
+    },
+    "explains": {
+      "ipa": "/ɪkˈspleɪnz/"
+    },
+    "volunteers": {
+      "ipa": "/ˌvɒlənˈtɪəz/"
+    },
+    "early": {
+      "ipa": "/ˈɜːli/"
+    },
+    "morning": {
+      "ipa": "/ˈmɔːnɪŋ/"
+    },
+    "organise": {
+      "ipa": "/ˈɔːɡənaɪz/"
+    },
+    "deliveries": {
+      "ipa": "/dɪˈlɪvəriz/"
+    },
+    "told": {
+      "ipa": "/təʊld/"
+    },
+    "which": {
+      "ipa": "/wɪtʃ/"
+    },
+    "ingredients": {
+      "ipa": "/ɪnˈɡriːdiənts/"
+    },
+    "safety": {
+      "ipa": "/ˈseɪfti/"
+    },
+    "team": {
+      "ipa": "/tiːm/"
+    },
+    "keeps": {
+      "ipa": "/kiːps/"
+    },
+    "written": {
+      "ipa": "/ˈrɪtn/"
+    },
+    "list": {
+      "ipa": "/lɪst/"
+    },
+    "allergies": {
+      "ipa": "/ˈælədʒiz/"
+    },
+    "do": {
+      "ipa": "/duː/"
+    },
+    "mean": {
+      "ipa": "/miːn/"
+    },
+    "ignores": {
+      "ipa": "/ɪɡˈnɔːz/"
+    },
+    "care": {
+      "ipa": "/keə/"
+    },
+    "i": {
+      "ipa": "/aɪ/"
+    },
+    "pond": {
+      "ipa": "/pɒnd/"
+    },
+    "has": {
+      "ipa": "/hæz/"
+    },
+    "built": {
+      "ipa": "/bɪlt/"
+    },
+    "record": {
+      "ipa": "/ˈrekɔːd/"
+    },
+    "birds": {
+      "ipa": "/bɜːdz/"
+    },
+    "visit": {
+      "ipa": "/ˈvɪzɪt/"
+    },
+    "five": {
+      "ipa": "/faɪv/"
+    },
+    "mornings": {
+      "ipa": "/ˈmɔːnɪŋz/"
+    },
+    "because": {
+      "ipa": "/bɪˈkɒz/"
+    },
+    "short": {
+      "ipa": "/ʃɔːt/"
+    },
+    "cannot": {
+      "ipa": "/ˈkænɒt/"
+    },
+    "show": {
+      "ipa": "/ʃəʊ/"
+    },
+    "whole": {
+      "ipa": "/həʊl/"
+    },
+    "picture": {
+      "ipa": "/ˈpɪktʃə/"
+    },
+    "change": {
+      "ipa": "/tʃeɪndʒ/"
+    },
+    "says": {
+      "ipa": "/sez/"
+    },
+    "once": {
+      "ipa": "/wʌns/"
+    },
+    "nested": {
+      "ipa": "/ˈnestɪd/"
+    },
+    "research": {
+      "ipa": "/rɪˈsɜːtʃ/"
+    },
+    "measure": {
+      "ipa": "/ˈmeʒə/"
+    },
+    "thin": {
+      "ipa": "/θɪn/"
+    },
+    "ice": {
+      "ipa": "/aɪs/"
+    },
+    "bank": {
+      "ipa": "/bæŋk/"
+    },
+    "leave": {
+      "ipa": "/liːv/"
+    },
+    "middle": {
+      "ipa": "/ˈmɪdl/"
+    },
+    "alone": {
+      "ipa": "/əˈləʊn/"
+    },
+    "assume": {
+      "ipa": "/əˈsjuːm/"
+    },
+    "no": {
+      "ipa": "/nəʊ/"
+    },
+    "longer": {
+      "ipa": "/ˈlɒŋɡə/"
+    },
+    "here": {
+      "ipa": "/hɪə/"
+    },
+    "simply": {
+      "ipa": "/ˈsɪmpli/"
+    },
+    "they": {
+      "ipa": "/ðeɪ/"
+    },
+    "from": {
+      "ipa": "/frəm/"
+    },
+    "view": {
+      "ipa": "/vjuː/"
+    },
+    "while": {
+      "ipa": "/waɪl/"
+    },
+    "next": {
+      "ipa": "/nekst/"
+    },
+    "give": {
+      "ipa": "/ɡɪv/"
+    },
+    "better": {
+      "ipa": "/ˈbetə/"
+    },
+    "evidence": {
+      "ipa": "/ˈevɪdəns/"
+    },
+    "school": {
+      "ipa": "/skuːl/"
+    },
+    "air": {
+      "ipa": "/eə/"
+    },
+    "carry": {
+      "ipa": "/ˈkæri/"
+    },
+    "tiny": {
+      "ipa": "/ˈtaɪni/"
+    },
+    "particles": {
+      "ipa": "/ˈpɑːtɪklz/"
+    },
+    "group": {
+      "ipa": "/ɡruːp/"
+    },
+    "model": {
+      "ipa": "/ˈmɒdl/"
+    },
+    "invisible": {
+      "ipa": "/ɪnˈvɪzəbl/"
+    },
+    "process": {
+      "ipa": "/ˈprəʊses/"
+    },
+    "use": {
+      "ipa": "/juːz/"
+    },
+    "clear": {
+      "ipa": "/klɪə/"
+    },
+    "everyone": {
+      "ipa": "/ˈevriwʌn/"
+    },
+    "watch": {
+      "ipa": "/wɒtʃ/"
+    },
+    "happens": {
+      "ipa": "/ˈhæpənz/"
+    },
+    "inside": {
+      "ipa": "/ˌɪnˈsaɪd/"
+    },
+    "card": {
+      "ipa": "/kɑːd/"
+    },
+    "dust": {
+      "ipa": "/dʌst/"
+    },
+    "already": {
+      "ipa": "/ɔːlˈredi/"
+    },
+    "fixed": {
+      "ipa": "/fɪkst/"
+    },
+    "never": {
+      "ipa": "/ˈnevə/"
+    },
+    "or": {
+      "ipa": "/ɔː/"
+    },
+    "breathe": {
+      "ipa": "/briːð/"
+    },
+    "does": {
+      "ipa": "/dʌz/"
+    },
+    "detail": {
+      "ipa": "/ˈdiːteɪl/"
+    },
+    "black": {
+      "ipa": "/blæk/"
+    },
+    "marks": {
+      "ipa": "/mɑːks/"
+    },
+    "discuss": {
+      "ipa": "/dɪˈskʌs/"
+    },
+    "where": {
+      "ipa": "/weə/"
+    },
+    "travel": {
+      "ipa": "/ˈtrævl/"
+    }
+  }
+}

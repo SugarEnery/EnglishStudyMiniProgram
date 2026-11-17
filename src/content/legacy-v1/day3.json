@@ -1,0 +1,2118 @@
+{
+  "day": 3,
+  "date": "2026-10-16",
+  "words": [
+    "protection",
+    "execute",
+    "old-fashioned",
+    "timber",
+    "significantly",
+    "natural",
+    "actually",
+    "via",
+    "magnificent",
+    "father",
+    "see",
+    "beneath",
+    "kid",
+    "else",
+    "absorb",
+    "presumably",
+    "daily",
+    "though",
+    "its",
+    "ourselves",
+    "formerly",
+    "billion",
+    "obviously",
+    "difficulty",
+    "least",
+    "gather",
+    "worthy",
+    "enough",
+    "beside",
+    "within"
+  ],
+  "content": {
+    "targets": {
+      "protection": {
+        "ipa": "/prəˈtekʃən/",
+        "meaning": "保护；防护",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "保护；防护；保护措施"
+          }
+        ]
+      },
+      "execute": {
+        "ipa": "/ˈeksɪkjuːt/",
+        "meaning": "执行；实施",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "执行（计划、命令）；完成（动作）；处决"
+          }
+        ]
+      },
+      "old-fashioned": {
+        "ipa": "/ˌəʊld ˈfæʃənd/",
+        "meaning": "老式的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "老式的；过时的；守旧的"
+          }
+        ]
+      },
+      "timber": {
+        "ipa": "/ˈtɪmbə/",
+        "meaning": "木材",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "木材；用材林木"
+          }
+        ]
+      },
+      "significantly": {
+        "ipa": "/sɪɡˈnɪfɪkəntli/",
+        "meaning": "显著地",
+        "senses": [
+          {
+            "pos": "副词",
+            "meaning": "显著地；意味深长地"
+          }
+        ]
+      },
+      "natural": {
+        "ipa": "/ˈnætʃərəl/",
+        "meaning": "天然的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "天然的；自然的；天生的；正常的"
+          },
+          {
+            "pos": "名词",
+            "meaning": "天生擅长某事的人；本位音"
+          }
+        ]
+      },
+      "actually": {
+        "ipa": "/ˈæktʃuəli/",
+        "meaning": "实际上",
+        "senses": [
+          {
+            "pos": "副词",
+            "meaning": "实际上；确实；（纠正或补充说法时）其实"
+          }
+        ]
+      },
+      "via": {
+        "ipa": "/ˈvaɪə/",
+        "meaning": "通过；经由",
+        "senses": [
+          {
+            "pos": "介词",
+            "meaning": "经由（某地）；通过（某种渠道）"
+          }
+        ]
+      },
+      "magnificent": {
+        "ipa": "/mæɡˈnɪfɪsənt/",
+        "meaning": "壮丽的；极好的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "壮丽的；宏伟的；极好的"
+          }
+        ]
+      },
+      "father": {
+        "ipa": "/ˈfɑːðə/",
+        "meaning": "父亲",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "父亲；创始人；（称呼神父）神父"
+          },
+          {
+            "pos": "动词",
+            "meaning": "成为……的父亲；创立或提出"
+          }
+        ]
+      },
+      "see": {
+        "ipa": "/siː/",
+        "meaning": "看见；查看",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "看见；明白；会见；查看"
+          },
+          {
+            "pos": "名词",
+            "meaning": "主教教区；主教职位"
+          }
+        ]
+      },
+      "beneath": {
+        "ipa": "/bɪˈniːθ/",
+        "meaning": "在……下面",
+        "senses": [
+          {
+            "pos": "介词",
+            "meaning": "在……下面；不值得（某人）做"
+          },
+          {
+            "pos": "副词",
+            "meaning": "在下面；在下方"
+          }
+        ]
+      },
+      "kid": {
+        "ipa": "/kɪd/",
+        "meaning": "孩子",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "孩子；小山羊"
+          },
+          {
+            "pos": "动词",
+            "meaning": "开玩笑；欺骗"
+          }
+        ]
+      },
+      "else": {
+        "ipa": "/els/",
+        "meaning": "其他；另外",
+        "senses": [
+          {
+            "pos": "副词",
+            "meaning": "其他；另外（常接在不定代词或疑问词之后）"
+          }
+        ]
+      },
+      "absorb": {
+        "ipa": "/əbˈzɔːb/",
+        "meaning": "吸收",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "吸收（液体、热等）；理解并记住；吸引全部注意力；承担（费用）"
+          }
+        ]
+      },
+      "presumably": {
+        "ipa": "/prɪˈzjuːməbli/",
+        "meaning": "大概；想必",
+        "senses": [
+          {
+            "pos": "副词",
+            "meaning": "大概；想必；据推测"
+          }
+        ]
+      },
+      "daily": {
+        "ipa": "/ˈdeɪli/",
+        "meaning": "每日的；每天",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "每日的；日常的"
+          },
+          {
+            "pos": "副词",
+            "meaning": "每天；每日"
+          },
+          {
+            "pos": "名词",
+            "meaning": "日报"
+          }
+        ]
+      },
+      "though": {
+        "ipa": "/ðəʊ/",
+        "meaning": "虽然；不过",
+        "senses": [
+          {
+            "pos": "连词",
+            "meaning": "虽然；尽管"
+          },
+          {
+            "pos": "副词",
+            "meaning": "不过；可是（常用于句末）"
+          }
+        ]
+      },
+      "its": {
+        "ipa": "/ɪts/",
+        "meaning": "它的",
+        "senses": [
+          {
+            "pos": "限定词",
+            "meaning": "它的（用于名词前，不等于it is）"
+          }
+        ]
+      },
+      "ourselves": {
+        "ipa": "/aʊəˈselvz/",
+        "meaning": "我们自己",
+        "senses": [
+          {
+            "pos": "代词",
+            "meaning": "我们自己；（强调）我们亲自"
+          }
+        ]
+      },
+      "formerly": {
+        "ipa": "/ˈfɔːməli/",
+        "meaning": "以前；从前",
+        "senses": [
+          {
+            "pos": "副词",
+            "meaning": "以前；从前"
+          }
+        ]
+      },
+      "billion": {
+        "ipa": "/ˈbɪljən/",
+        "meaning": "十亿",
+        "senses": [
+          {
+            "pos": "数词",
+            "meaning": "十亿（现代英国英语及国际通用用法）"
+          }
+        ]
+      },
+      "obviously": {
+        "ipa": "/ˈɒbviəsli/",
+        "meaning": "显然",
+        "senses": [
+          {
+            "pos": "副词",
+            "meaning": "显然；明显地"
+          }
+        ]
+      },
+      "difficulty": {
+        "ipa": "/ˈdɪfɪkəlti/",
+        "meaning": "困难",
+        "senses": [
+          {
+            "pos": "名词",
+            "meaning": "困难；难度；难事；困境（常用复数）"
+          }
+        ]
+      },
+      "least": {
+        "ipa": "/liːst/",
+        "meaning": "最少；至少（at least）",
+        "senses": [
+          {
+            "pos": "限定词",
+            "meaning": "（不可数事物）最少的"
+          },
+          {
+            "pos": "代词",
+            "meaning": "最少量；最小程度"
+          },
+          {
+            "pos": "副词",
+            "meaning": "最少；最不（little的最高级）"
+          }
+        ]
+      },
+      "gather": {
+        "ipa": "/ˈɡæðə/",
+        "meaning": "聚集；收集",
+        "senses": [
+          {
+            "pos": "动词",
+            "meaning": "聚集；收集；推断；逐渐增加"
+          }
+        ]
+      },
+      "worthy": {
+        "ipa": "/ˈwɜːði/",
+        "meaning": "值得的",
+        "senses": [
+          {
+            "pos": "形容词",
+            "meaning": "值得……的；值得尊敬的"
+          },
+          {
+            "pos": "名词",
+            "meaning": "要人；知名人士（常含诙谐意味）"
+          }
+        ]
+      },
+      "enough": {
+        "ipa": "/ɪˈnʌf/",
+        "meaning": "足够的；足够地",
+        "senses": [
+          {
+            "pos": "限定词",
+            "meaning": "足够的"
+          },
+          {
+            "pos": "代词",
+            "meaning": "足够的数量"
+          },
+          {
+            "pos": "副词",
+            "meaning": "足够地；相当地"
+          }
+        ]
+      },
+      "beside": {
+        "ipa": "/bɪˈsaɪd/",
+        "meaning": "在……旁边",
+        "senses": [
+          {
+            "pos": "介词",
+            "meaning": "在……旁边；与……相比"
+          }
+        ]
+      },
+      "within": {
+        "ipa": "/wɪˈðɪn/",
+        "meaning": "在……之内",
+        "senses": [
+          {
+            "pos": "介词",
+            "meaning": "在（时间、范围或距离）之内"
+          },
+          {
+            "pos": "副词",
+            "meaning": "在内部；在里面"
+          }
+        ]
+      }
+    },
+    "dictionary": {
+      "a": "一；一个",
+      "about": "关于；大约",
+      "absorb": "吸收",
+      "activity": "活动",
+      "actually": "实际上",
+      "adds": "添加（第三人称单数）",
+      "after": "在……之后",
+      "against": "抵御；防止",
+      "ago": "……以前",
+      "am": "是；处于（与 I 连用的 be）",
+      "amount": "数量（水等不可数事物的量）",
+      "an": "一个；一位",
+      "and": "和；并且",
+      "another": "另一个；再一个",
+      "answer": "答案；回答",
+      "any": "任何的",
+      "application": "申请；申请材料",
+      "apply": "涂抹；应用",
+      "arrive": "到达",
+      "asks": "问",
+      "at": "在（地点或时刻）；处于（某阶段）",
+      "based": "以……为基础（base的过去分词）",
+      "beautiful": "漂亮的",
+      "before": "在……之前",
+      "begins": "开始（第三人称单数）",
+      "bench": "长凳",
+      "beneath": "在……下面",
+      "beside": "在……旁边",
+      "better": "更好的；更适合的",
+      "billion": "十亿",
+      "both": "两个都；两者都",
+      "brings": "带来",
+      "budget": "预算",
+      "building": "建筑物",
+      "but": "但是",
+      "calls": "称为；评价为（第三人称单数）",
+      "can": "可以；能够",
+      "careful": "仔细的；周密的",
+      "carefully": "仔细地；认真地",
+      "chance": "机会",
+      "check": "检查",
+      "choose": "选择",
+      "cleaning": "清理",
+      "clear": "清楚的；透明的",
+      "cloth": "布",
+      "cloths": "布块（复数）",
+      "colour": "颜色",
+      "community": "社区",
+      "company": "公司",
+      "cost": "花费；成本",
+      "daily": "每日的；每天",
+      "damaged": "损坏（damage的过去分词）",
+      "dark": "颜色深的",
+      "decision": "决定",
+      "difficulty": "困难",
+      "display": "展览；陈列柜",
+      "doors": "门（复数）",
+      "drawing": "图画；图纸",
+      "dry": "干燥的",
+      "else": "其他；另外",
+      "email": "电子邮件",
+      "empty": "空的",
+      "enough": "足够的；足够地",
+      "enters": "进入（第三人称单数）",
+      "evening": "傍晚；晚上",
+      "everyone": "每个人",
+      "execute": "执行；实施",
+      "explain": "解释",
+      "explains": "解释（第三人称单数）",
+      "family": "家庭",
+      "fancy": "花哨的",
+      "fashioned": "塑造成……样式的（此处为old-fashioned的组成部分）",
+      "father": "父亲",
+      "finish": "完成",
+      "first": "第一；最初",
+      "floor": "地板",
+      "for": "为了；给；用于",
+      "forecast": "预报；被预报（动词过去分词与名词同形）",
+      "formed": "形成（form的过去式）",
+      "formerly": "以前；从前",
+      "from": "从；免受；表示来源",
+      "garden": "花园",
+      "gardener": "园丁",
+      "gather": "聚集；收集",
+      "gets": "变得；得到",
+      "glass": "玻璃",
+      "grants": "资助款（复数）",
+      "grows": "成长；生长（第三人称单数）",
+      "guess": "猜测",
+      "guide": "讲解员；导览员",
+      "hall": "礼堂；大厅",
+      "has": "有（第三人称单数）",
+      "have": "有",
+      "heating": "供暖",
+      "help": "帮助",
+      "helps": "帮助",
+      "history": "历史",
+      "holds": "放着；容纳",
+      "how": "如何",
+      "i": "我",
+      "in": "在……里面",
+      "information": "信息",
+      "into": "进入；变为",
+      "invites": "邀请（第三人称单数）",
+      "is": "是；处于（be 的第三人称单数）",
+      "it": "它",
+      "its": "它的",
+      "just": "仅仅；只是",
+      "keep": "保持",
+      "keeping": "保留（keep的动名词）",
+      "keeps": "保存；记录（第三人称单数）",
+      "kid": "孩子",
+      "label": "标签",
+      "labels": "标签（复数）",
+      "large": "大的",
+      "least": "最少；至少（at least）",
+      "leaves": "叶子（leaf的复数）",
+      "leg": "腿；凳腿",
+      "letters": "信（复数）",
+      "library": "图书馆",
+      "light": "光；阳光",
+      "local": "本地的",
+      "long": "漫长的",
+      "look": "看",
+      "looks": "看起来（第三人称单数）",
+      "made": "制作（make的过去分词）",
+      "magnificent": "壮丽的；极好的",
+      "main": "主要的",
+      "make": "做；造成",
+      "makes": "使；让（第三人称单数）",
+      "many": "许多",
+      "matters": "要紧；重要（第三人称单数）",
+      "meals": "餐；用餐（复数）",
+      "minutes": "分钟（复数）",
+      "more": "更多；更……",
+      "museum": "博物馆；科学馆",
+      "must": "必须",
+      "my": "我的",
+      "natural": "天然的",
+      "need": "需要",
+      "needs": "需要（第三人称单数）",
+      "new": "新的",
+      "nobody": "没有人",
+      "not": "不",
+      "obviously": "显然",
+      "of": "……的",
+      "offer": "主动提出；提供",
+      "offers": "提供（第三人称单数）",
+      "oil": "油；木材养护油",
+      "old": "旧的；年老的",
+      "old-fashioned": "老式的",
+      "older": "年龄更大的；更老的",
+      "on": "在……上；关于",
+      "one": "一个；一位",
+      "only": "仅仅",
+      "open": "打开；开着的",
+      "order": "订购",
+      "our": "我们的",
+      "ourselves": "我们自己",
+      "patient": "耐心的",
+      "photograph": "照片",
+      "picture": "图片",
+      "plan": "计划",
+      "points": "指向（第三人称单数）",
+      "pounds": "英镑（复数）",
+      "prediction": "预测",
+      "presumably": "大概；想必",
+      "print": "印刷字体；印刷文本",
+      "project": "项目",
+      "promises": "承诺（第三人称单数）",
+      "protection": "保护；防护",
+      "public": "公共的",
+      "puts": "放（第三人称单数）",
+      "questions": "问题（复数）",
+      "quiet": "安静的",
+      "rain": "雨",
+      "rather": "（rather than）而不是",
+      "read": "阅读（此处为原形）",
+      "readers": "读者（复数）",
+      "reading": "阅读；读（read的动名词）",
+      "record": "记录（名词）",
+      "reduce": "减少",
+      "reminds": "使想起（第三人称单数）",
+      "repair": "修理；修缮",
+      "repairs": "修理工作（复数）",
+      "replace": "替换",
+      "result": "结果",
+      "rocks": "岩石（复数）",
+      "roof": "屋顶",
+      "room": "房间",
+      "roots": "根（复数）",
+      "runs": "开展；运营（第三人称单数）",
+      "safer": "更安全的",
+      "school": "学校",
+      "science": "科学",
+      "seat": "座位；凳面",
+      "second": "第二的",
+      "see": "看见；查看",
+      "send": "发送",
+      "she": "她",
+      "shop": "商店",
+      "short": "短的",
+      "should": "应该；按预期会",
+      "show": "显示；表明",
+      "significantly": "显著地",
+      "signs": "标牌（复数）",
+      "simple": "简单的",
+      "sister": "姐妹",
+      "small": "小的",
+      "smooth": "光滑的；使光滑",
+      "so": "所以",
+      "soil": "土壤",
+      "solid": "结实的；实心的",
+      "some": "一些",
+      "space": "空间",
+      "speak": "发言；说话",
+      "stand": "站立",
+      "stays": "停留；保持（第三人称单数）",
+      "story": "故事",
+      "suggest": "提出；建议",
+      "support": "支持",
+      "surface": "表面",
+      "table": "桌子",
+      "talk": "讲座；讲话",
+      "team": "团队",
+      "tell": "告诉",
+      "ten": "十",
+      "test": "测试；检验",
+      "than": "比（引出比较对象）",
+      "thanks": "感谢",
+      "that": "那个；引导关系从句或宾语从句",
+      "the": "这；那（定冠词）",
+      "their": "他们的",
+      "then": "然后",
+      "there": "那里；there is 表示有",
+      "thicker": "更厚的",
+      "this": "这；这个",
+      "though": "虽然；不过",
+      "timber": "木材",
+      "time": "时间",
+      "to": "到；向；用于连接动词不定式",
+      "today": "今天",
+      "top": "顶部；表面",
+      "town": "镇；城镇",
+      "tray": "托盘",
+      "tree": "树",
+      "turn": "转变；转动",
+      "two": "二",
+      "up": "向上",
+      "us": "我们（宾格）",
+      "useful": "有用的；实用的",
+      "via": "通过；经由",
+      "village": "村庄",
+      "visit": "拜访；去某处",
+      "visitors": "参观者（复数）",
+      "volunteer": "志愿者",
+      "want": "想要",
+      "was": "过去是（be的过去式）",
+      "water": "水",
+      "we": "我们",
+      "weather": "天气",
+      "weeks": "星期；周（复数）",
+      "what": "什么；所……的事物",
+      "whether": "是否",
+      "which": "哪个；哪一个",
+      "why": "为什么",
+      "will": "将；会",
+      "winter": "冬天",
+      "with": "有；和……一起",
+      "within": "在……之内",
+      "wood": "木头；木材",
+      "work": "工作",
+      "workshop": "工坊；修理间",
+      "worth": "价值为……的",
+      "worthy": "值得的",
+      "years": "年（复数）"
+    },
+    "lessons": [
+      {
+        "id": "oxford-3-1",
+        "title": "A Hall for the Village",
+        "subtitle": "修缮礼堂 · 让旧建筑重新服务社区",
+        "paragraphs": [
+          {
+            "en": "My father helps repair an old-fashioned village hall. The timber floor needs protection from rain, so the team will execute a careful repair plan before winter. Better doors should significantly reduce the amount of water that enters the building.",
+            "zh": "我父亲（father）帮忙修缮一座老式的（old-fashioned）乡村礼堂。木材（timber）铺成的地板需要防雨保护（protection），所以团队将在冬天前执行（execute）一项周密的修缮计划。更好的门应该能显著地（significantly）减少进入建筑的雨水量。",
+            "patterns": [
+              {
+                "expression": "protection from rain",
+                "meaning": "搭配：protection from加危险来源，表示免受某种危害的保护。"
+              },
+              {
+                "expression": "reduce the amount of water",
+                "meaning": "句式：reduce the amount of加不可数名词，表示减少某物的量。"
+              }
+            ]
+          },
+          {
+            "en": "We order natural wood oil via a local shop. The colour on the label looks dark, but the oil is actually clear. After work, we stand in the empty hall and look up at the magnificent roof. The repairs will keep a useful public space open.",
+            "zh": "我们通过（via）一家本地商店订购天然的（natural）木油。标签上的颜色看起来很深，但木油实际上（actually）是透明的。工作结束后，我们站在空荡荡的礼堂里，抬头看那壮丽的（magnificent）屋顶。修缮将使一处实用的公共空间保持开放。",
+            "patterns": [
+              {
+                "expression": "look up at",
+                "meaning": "搭配：look up at加名词，表示抬头看某人或某物。"
+              },
+              {
+                "expression": "keep a useful public space open",
+                "meaning": "句式：keep加宾语和形容词，表示使宾语保持某种状态。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "protection",
+            "type": "reason",
+            "prompt": "Why does the floor need protection?",
+            "options": [
+              "Visitors have lost their shoes.",
+              "Rain can enter the building.",
+              "The hall has no lights.",
+              "The team wants a darker floor."
+            ],
+            "answer": 1,
+            "explanation": "地板需要防雨，后文也说明换门是为了减少进水。其他选项都不是文中的原因。"
+          },
+          {
+            "word": "execute",
+            "type": "context",
+            "prompt": "What will the team do when it executes the repair plan?",
+            "options": [
+              "Hide the plan from the village.",
+              "Describe a different building.",
+              "Carry out the planned repairs.",
+              "Wait until winter has ended."
+            ],
+            "answer": 2,
+            "explanation": "execute在此指把修缮计划付诸实施，而不是隐藏计划、换对象或拖到冬天后。"
+          },
+          {
+            "word": "old-fashioned",
+            "type": "inference",
+            "prompt": "What does the description of the hall suggest?",
+            "options": [
+              "It has a traditional style.",
+              "It was built yesterday.",
+              "It is a shop for clothes.",
+              "It can never be repaired."
+            ],
+            "answer": 0,
+            "explanation": "old-fashioned说明建筑样式传统老旧，不等于刚建好、服装店或无法修复。"
+          },
+          {
+            "word": "timber",
+            "type": "context",
+            "prompt": "Which material makes up the floor?",
+            "options": [
+              "Glass.",
+              "Stone.",
+              "Plastic.",
+              "Wood."
+            ],
+            "answer": 3,
+            "explanation": "timber表示用作建材的木材；原文明确说timber floor。"
+          },
+          {
+            "word": "significantly",
+            "type": "outcome",
+            "prompt": "What change does the team expect from the better doors?",
+            "options": [
+              "A small change that nobody can notice.",
+              "A large reduction in incoming water.",
+              "More visitors during every storm.",
+              "A complete change in the roof colour."
+            ],
+            "answer": 1,
+            "explanation": "significantly reduce表示雨水进入量会明显下降，并非微小变化；文中没有保证游客数或屋顶颜色变化。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-2",
+        "title": "A Small Water Experiment",
+        "subtitle": "周末科学馆 · 亲手观察材料吸水",
+        "paragraphs": [
+          {
+            "en": "At the science museum, we see a tray beneath a glass table. A kid asks why one dry cloth can absorb more water than another. A guide puts both cloths in the tray and invites us to make a prediction before she adds any water.",
+            "zh": "在科学馆，我们看见（see）玻璃桌下面（beneath）有一个托盘。一个孩子（kid）问，为什么一块干布能比另一块吸收（absorb）更多水。讲解员把两块布放入托盘，并请我们在她加水之前作出预测。",
+            "patterns": [
+              {
+                "expression": "asks why",
+                "meaning": "句式：ask后接why引导的宾语从句，询问原因，从句用陈述语序。"
+              },
+              {
+                "expression": "invites us to make a prediction",
+                "meaning": "句式：invite somebody to do something，表示邀请某人做某事。"
+              }
+            ]
+          },
+          {
+            "en": "The museum runs this activity daily. Though the first cloth looks thicker, its surface is smooth and water stays on top. The second cloth is presumably better for cleaning, but we test it ourselves rather than guess. Nobody else needs to tell us which cloth holds more water.",
+            "zh": "科学馆每天（daily）开展这项活动。虽然（though）第一块布看起来更厚，但它的（its）表面光滑，水留在上面。第二块布大概（presumably）更适合清洁，但我们自己（ourselves）动手测试，而不是猜测。不需要其他人（else）告诉我们哪块布能容纳更多水。",
+            "patterns": [
+              {
+                "expression": "rather than guess",
+                "meaning": "句式：rather than连接并列动词，表示选择做前一件事而非猜测。"
+              },
+              {
+                "expression": "needs to tell us",
+                "meaning": "句式：need to do something表示需要做某事，to后接动词原形。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "see",
+            "type": "context",
+            "prompt": "What do the visitors notice below the table?",
+            "options": [
+              "A cleaning cupboard.",
+              "A tray.",
+              "A wet coat.",
+              "A broken glass."
+            ],
+            "answer": 1,
+            "explanation": "see在此是亲眼看见，所见物体为桌下的托盘，其他物体未出现。"
+          },
+          {
+            "word": "beneath",
+            "type": "paraphrase",
+            "prompt": "Which sentence describes the position of the tray?",
+            "options": [
+              "The tray is outside the museum.",
+              "The tray is inside a cloth.",
+              "The tray is below the glass table.",
+              "The tray is above the guide."
+            ],
+            "answer": 2,
+            "explanation": "beneath表示在下方，等同于此处的below；不是在馆外、布内或讲解员头上。"
+          },
+          {
+            "word": "kid",
+            "type": "reason",
+            "prompt": "What does the child want to understand?",
+            "options": [
+              "Why the museum closes early.",
+              "Why glass is always blue.",
+              "Why guides wear thick coats.",
+              "Why cloths can take in different amounts of water."
+            ],
+            "answer": 3,
+            "explanation": "孩子提问的核心是两块布吸水量为何不同，其他问题都不在文本中。"
+          },
+          {
+            "word": "else",
+            "type": "inference",
+            "prompt": "Why is another person not needed to identify the better cloth?",
+            "options": [
+              "The visitors can compare the test results themselves.",
+              "Both cloths are already dry again.",
+              "The guide has cancelled the activity.",
+              "The museum has only one cloth."
+            ],
+            "answer": 0,
+            "explanation": "他们亲自测试并比较吸水量，因此不用别人代为判断；并非取消实验或只有一块布。"
+          },
+          {
+            "word": "absorb",
+            "type": "context",
+            "prompt": "What happens when a cloth absorbs water?",
+            "options": [
+              "The water turns into glass.",
+              "The water enters the cloth.",
+              "The cloth gives out more water than it receives.",
+              "The water leaves the museum."
+            ],
+            "answer": 1,
+            "explanation": "absorb在实验里是把水吸入材料内部，其他选项改变了实验过程或对象。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-3",
+        "title": "A Room for Everyone",
+        "subtitle": "社区项目 · 为共享阅览室申请资助",
+        "paragraphs": [
+          {
+            "en": "A room beside our library was formerly a shop. We want to turn it into a quiet reading space. A company worth a billion pounds offers small community grants, so we gather letters from local readers. The application must arrive within two weeks.",
+            "zh": "我们图书馆旁边（beside）的一间房以前（formerly）是一家商店。我们想把它改造成安静的阅览空间。一家价值十亿（billion）英镑的公司提供小额社区资助，因此我们收集（gather）本地读者的来信。申请必须在两周之内（within）送达。",
+            "patterns": [
+              {
+                "expression": "turn it into",
+                "meaning": "搭配：turn A into B表示把A变成B，into后接结果事物。"
+              },
+              {
+                "expression": "within two weeks",
+                "meaning": "搭配：within加时间段，表示不超过该时间段的期限。"
+              }
+            ]
+          },
+          {
+            "en": "The main difficulty is the cost of heating. We obviously need a clear budget, not just a beautiful drawing. At least ten readers offer to help. Their letters show that the project is worthy of support, and we have enough time to finish the application carefully.",
+            "zh": "主要困难（difficulty）是供暖费用。显然（obviously），我们需要一份清晰的预算，而不仅是一张漂亮的图纸。至少（least）十位读者表示愿意帮忙。他们的信表明这个项目值得（worthy）支持，而且我们有足够的（enough）时间认真完成申请。",
+            "patterns": [
+              {
+                "expression": "worthy of support",
+                "meaning": "搭配：be worthy of加名词或动名词，表示值得得到某种对待。"
+              },
+              {
+                "expression": "enough time to finish",
+                "meaning": "句式：enough加名词再接to do，表示有足够的某物来做某事。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "formerly",
+            "type": "context",
+            "prompt": "What was the room used for in the past?",
+            "options": [
+              "A shop.",
+              "A railway station.",
+              "A heating factory.",
+              "A company office."
+            ],
+            "answer": 0,
+            "explanation": "formerly指从前，房间以前是商店，其他用途没有依据。"
+          },
+          {
+            "word": "billion",
+            "type": "inference",
+            "prompt": "What can we infer about the company from its stated value?",
+            "options": [
+              "It gives every reader a billion pounds.",
+              "It owns only one small room.",
+              "It has a very high financial value.",
+              "It has already paid all heating costs."
+            ],
+            "answer": 2,
+            "explanation": "十亿英镑的公司估值说明价值很高，不代表资助金额为十亿或已付供暖费。"
+          },
+          {
+            "word": "obviously",
+            "type": "reason",
+            "prompt": "Why do the applicants need more than a beautiful drawing?",
+            "options": [
+              "They want to hide the room.",
+              "They must explain the heating cost in a budget.",
+              "The company refuses all written applications.",
+              "The readers want a larger shop."
+            ],
+            "answer": 1,
+            "explanation": "obviously强调预算必要；供暖是主要开支难题，漂亮图纸不能说明费用。"
+          },
+          {
+            "word": "difficulty",
+            "type": "context",
+            "prompt": "Which problem still needs careful planning?",
+            "options": [
+              "Choosing the colour of every book.",
+              "Finding a new company name.",
+              "Making readers write longer letters.",
+              "Paying for heating."
+            ],
+            "answer": 3,
+            "explanation": "文中main difficulty直接指供暖费用，其他事项未被列为困难。"
+          },
+          {
+            "word": "least",
+            "type": "paraphrase",
+            "prompt": "What does At least ten readers offer to help tell us?",
+            "options": [
+              "Exactly nine readers will help.",
+              "No reader has agreed to help.",
+              "Ten or more readers have offered help.",
+              "Fewer than ten letters exist in the town."
+            ],
+            "answer": 2,
+            "explanation": "at least ten表示人数下限为十，允许超过十，不等于少于十或无人帮忙。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-4",
+        "title": "A Bench with a History",
+        "subtitle": "家庭修理 · 留住旧木凳的故事",
+        "paragraphs": [
+          {
+            "en": "My father brings an old-fashioned bench into the workshop. The seat is made of solid timber, but rain has damaged one leg. We choose a natural oil for protection against water. First, we need to execute a simple plan: replace the leg, smooth the seat, and then apply the oil.",
+            "zh": "我父亲（father）把一张老式的（old-fashioned）长凳搬进工坊。凳面由结实的木材（timber）制成，但雨水损坏了一条凳腿。我们选择一种天然的（natural）油，作为防水保护（protection）。首先，我们需要执行（execute）一个简单的计划：换掉凳腿、打磨凳面，然后涂油。",
+            "patterns": [
+              {
+                "expression": "is made of solid timber",
+                "meaning": "句式：be made of加材料，表示制成物仍能看出原材料。"
+              },
+              {
+                "expression": "protection against water",
+                "meaning": "搭配：protection against加危险来源，表示抵御某种危害的防护。"
+              }
+            ]
+          },
+          {
+            "en": "The new leg makes the bench significantly safer. I send a photograph to my sister via email. She calls the result magnificent and asks whether the bench is new. I explain that it is actually older than I am. Keeping it reminds us of many family meals in the garden.",
+            "zh": "新凳腿让长凳显著地（significantly）更安全。我通过（via）电子邮件给姐姐发去一张照片。她说成果极好（magnificent），并问长凳是不是新的。我解释说，它实际上（actually）比我还年长。保留它，让我们想起许多次在花园里的家庭聚餐。",
+            "patterns": [
+              {
+                "expression": "asks whether",
+                "meaning": "句式：ask后接whether引导的宾语从句，表示询问是否如此。"
+              },
+              {
+                "expression": "reminds us of",
+                "meaning": "搭配：remind somebody of something，表示使某人想起某事。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "natural",
+            "type": "context",
+            "prompt": "What does natural describe in the workshop?",
+            "options": [
+              "The age of the email.",
+              "The source or character of the oil.",
+              "The height of the sister.",
+              "The number of family meals."
+            ],
+            "answer": 1,
+            "explanation": "natural修饰oil，说明所选木油的天然属性，不是在描述邮件、人物或聚餐次数。"
+          },
+          {
+            "word": "actually",
+            "type": "paraphrase",
+            "prompt": "Which sentence best corrects the sister's first impression?",
+            "options": [
+              "The bench has never been used.",
+              "The bench belongs to a shop.",
+              "The bench is old despite its fresh appearance.",
+              "The bench was delivered this morning."
+            ],
+            "answer": 2,
+            "explanation": "actually引出纠正：看起来像新凳子，其实比叙述者还老。"
+          },
+          {
+            "word": "via",
+            "type": "context",
+            "prompt": "How does the sister receive the photograph?",
+            "options": [
+              "Through email.",
+              "By collecting it from the workshop.",
+              "In a newspaper.",
+              "Inside a bottle of oil."
+            ],
+            "answer": 0,
+            "explanation": "via email表示通过邮件这一渠道传送，并非亲取、报纸或油瓶。"
+          },
+          {
+            "word": "magnificent",
+            "type": "inference",
+            "prompt": "How does the sister feel about the finished bench?",
+            "options": [
+              "She thinks it should be thrown away.",
+              "She cannot see the photograph.",
+              "She is worried about its colour.",
+              "She is very impressed by the result."
+            ],
+            "answer": 3,
+            "explanation": "magnificent表达强烈赞赏，随后误以为是新凳子也支持这一判断。"
+          },
+          {
+            "word": "father",
+            "type": "reason",
+            "prompt": "Why do the narrator and the father keep the bench?",
+            "options": [
+              "It can send emails for them.",
+              "It connects them with family memories.",
+              "It is lighter than any new bench.",
+              "It has never stood outdoors."
+            ],
+            "answer": 1,
+            "explanation": "末句说明长凳唤起花园聚餐的记忆；文中没有比较重量，也明确凳腿曾受雨损。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-5",
+        "title": "Learning in the Garden",
+        "subtitle": "屋顶花园 · 一起观察植物成长",
+        "paragraphs": [
+          {
+            "en": "We visit a roof garden to see how a small tree grows. A kid points to the soil beneath its leaves. The gardener explains that roots absorb water from the soil. She asks what else a tree needs, and we suggest light and space.",
+            "zh": "我们来到屋顶花园，看看（see）一棵小树如何成长。一个孩子（kid）指着它的（its）叶子下面（beneath）的土壤。园丁解释，根会从土壤中吸收（absorb）水分。她问，一棵树还（else）需要什么，我们提出阳光和空间。",
+            "patterns": [
+              {
+                "expression": "points to the soil",
+                "meaning": "搭配：point to加名词，表示用手指向某人、某物或某处。"
+              },
+              {
+                "expression": "absorb water from the soil",
+                "meaning": "搭配：absorb A from B表示从B中吸收A，from后接来源。"
+              }
+            ]
+          },
+          {
+            "en": "The gardener keeps a daily record of the weather. Though rain is forecast, the soil is dry today. Presumably the tree will need water before evening, but we check the soil ourselves first. This helps us make a decision based on what is there, not only on the forecast.",
+            "zh": "园丁每天（daily）记录天气。虽然（though）预报有雨，今天的土壤却是干的。想必（presumably）树在傍晚前会需要水，但我们先亲自（ourselves）检查土壤。这帮助我们根据实际情况作决定，而不只依靠预报。",
+            "patterns": [
+              {
+                "expression": "based on",
+                "meaning": "搭配：be based on加名词或从句，表示以某事作为依据。"
+              },
+              {
+                "expression": "make a decision",
+                "meaning": "搭配：make a decision表示作出决定，decision前通常用不定冠词。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "presumably",
+            "type": "context",
+            "prompt": "What does Presumably show about the need for water?",
+            "options": [
+              "It is an absolute fact already measured.",
+              "It is a rule about every tree in winter.",
+              "It is a reasonable expectation that still needs checking.",
+              "It is the name of the weather record."
+            ],
+            "answer": 2,
+            "explanation": "presumably表示有根据的推测，接着检查土壤说明尚需核实，并非已经测定的绝对事实。"
+          },
+          {
+            "word": "daily",
+            "type": "context",
+            "prompt": "How often does the gardener record the weather?",
+            "options": [
+              "Once a month.",
+              "Every day.",
+              "Only when visitors arrive.",
+              "Every ten years."
+            ],
+            "answer": 1,
+            "explanation": "daily record表示每天记录，不是按月、只在来客时或十年一次。"
+          },
+          {
+            "word": "though",
+            "type": "paraphrase",
+            "prompt": "Which contrast is described in the second paragraph?",
+            "options": [
+              "The garden is large but the roof is small.",
+              "The tree is old but the gardener is young.",
+              "The leaves are wet but the roots are absent.",
+              "Rain is expected, yet the soil is dry now."
+            ],
+            "answer": 3,
+            "explanation": "Though连接预报有雨与眼下土壤干燥的对比，其他对比均未提及。"
+          },
+          {
+            "word": "its",
+            "type": "reference",
+            "prompt": "What does its refer to in beneath its leaves?",
+            "options": [
+              "The small tree.",
+              "The child.",
+              "The weather record.",
+              "The whole building."
+            ],
+            "answer": 0,
+            "explanation": "its leaves指小树的叶子，前文small tree是清楚的指代对象。"
+          },
+          {
+            "word": "ourselves",
+            "type": "reason",
+            "prompt": "Why do the visitors check the soil themselves?",
+            "options": [
+              "To avoid seeing the tree.",
+              "To replace every weather record.",
+              "To decide from direct evidence whether water is needed.",
+              "To prove that forecasts are always wrong."
+            ],
+            "answer": 2,
+            "explanation": "亲自检查是为了依据实际土壤情况决定是否浇水，不是断言所有预报都错。"
+          }
+        ]
+      },
+      {
+        "id": "oxford-3-6",
+        "title": "An Evening at the Museum",
+        "subtitle": "地方博物馆 · 设计清楚易懂的展览",
+        "paragraphs": [
+          {
+            "en": "The town museum was formerly a school. In one room, visitors gather beside a display about rocks that formed more than a billion years ago. A volunteer explains the long history with a short picture story. We have enough time to read it before the evening talk begins.",
+            "zh": "镇上的博物馆以前（formerly）是一所学校。一个展厅里，参观者聚集（gather）在介绍十亿（billion）多年前形成的岩石的展柜旁边（beside）。一位志愿者用简短的连环图讲解这段漫长的历史。晚间讲座开始前，我们有足够的（enough）时间读完它。",
+            "patterns": [
+              {
+                "expression": "more than a billion years ago",
+                "meaning": "句式：more than加数量表示超过，时间段后加ago表示距今多久。"
+              },
+              {
+                "expression": "before the evening talk begins",
+                "meaning": "句式：before引导时间状语从句，表示在后面的事件发生之前。"
+              }
+            ]
+          },
+          {
+            "en": "Some visitors have difficulty reading small labels, so the museum offers large print. Obviously, clear information matters more than fancy signs. The volunteer promises to answer questions within ten minutes. Everyone gets at least one chance to speak, and the patient volunteer is worthy of our thanks.",
+            "zh": "一些参观者阅读小标签有困难（difficulty），所以博物馆提供大字版本。显然（obviously），清晰的信息比花哨的标牌更重要。这位志愿者承诺在十分钟内（within）回答问题。每个人至少（least）有一次发言机会，而这位耐心的志愿者值得（worthy）我们感谢。",
+            "patterns": [
+              {
+                "expression": "have difficulty reading",
+                "meaning": "句式：have difficulty doing something表示做某事有困难，后接动名词。"
+              },
+              {
+                "expression": "promises to answer questions",
+                "meaning": "句式：promise to do something表示承诺做某事，to后接动词原形。"
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "word": "gather",
+            "type": "context",
+            "prompt": "What are the visitors doing beside the rock display?",
+            "options": [
+              "Gathering money for a school.",
+              "Coming together in the same place.",
+              "Collecting all the rocks to take home.",
+              "Writing labels in secret."
+            ],
+            "answer": 1,
+            "explanation": "gather在此是不及物的聚集，描述人们来到同一展柜旁，未说募款或带走展品。"
+          },
+          {
+            "word": "worthy",
+            "type": "reason",
+            "prompt": "Why does the narrator say the volunteer is worthy of thanks?",
+            "options": [
+              "The volunteer makes everyone buy a rock.",
+              "The volunteer removes all questions.",
+              "The volunteer patiently helps people understand and participate.",
+              "The volunteer owns the old school."
+            ],
+            "answer": 2,
+            "explanation": "志愿者用图讲解、照顾阅读困难并让人人发言，体现耐心帮助，因此值得感谢。"
+          },
+          {
+            "word": "enough",
+            "type": "outcome",
+            "prompt": "What can the visitors do before the talk starts?",
+            "options": [
+              "Finish reading the short picture story.",
+              "Study every rock in the world.",
+              "Rebuild the former school.",
+              "Leave before they see any display."
+            ],
+            "answer": 0,
+            "explanation": "enough time明确表示有时间在讲座前读完简短故事，并未承诺完成其他大任务。"
+          },
+          {
+            "word": "beside",
+            "type": "context",
+            "prompt": "Where do the visitors stand in relation to the display?",
+            "options": [
+              "On top of it.",
+              "Inside the rocks.",
+              "Far outside the museum.",
+              "Next to it."
+            ],
+            "answer": 3,
+            "explanation": "beside在此表示在展柜旁边，即next to，并非上方、岩石内部或馆外。"
+          },
+          {
+            "word": "within",
+            "type": "paraphrase",
+            "prompt": "What does the volunteer promise about answering questions?",
+            "options": [
+              "Every answer will take exactly one hour.",
+              "Answers will be given without a wait longer than ten minutes.",
+              "Only ten visitors may ask questions.",
+              "Questions can only be asked next week."
+            ],
+            "answer": 1,
+            "explanation": "within ten minutes限定不超过十分钟的时间上限；没有规定恰好一小时、十人或下周。"
+          }
+        ]
+      }
+    ]
+  },
+  "pronunciations": {
+    "a": {
+      "ipa": "/ə; eɪ/"
+    },
+    "about": {
+      "ipa": "/əˈbaʊt/"
+    },
+    "absorb": {
+      "ipa": "/əbˈzɔːb/"
+    },
+    "activity": {
+      "ipa": "/ækˈtɪvəti/"
+    },
+    "actually": {
+      "ipa": "/ˈæktʃuəli/"
+    },
+    "adds": {
+      "ipa": "/ædz/"
+    },
+    "after": {
+      "ipa": "/ˈɑːftə/"
+    },
+    "against": {
+      "ipa": "/əˈɡenst/"
+    },
+    "ago": {
+      "ipa": "/əˈɡəʊ/"
+    },
+    "am": {
+      "ipa": "/æm/"
+    },
+    "amount": {
+      "ipa": "/əˈmaʊnt/"
+    },
+    "an": {
+      "ipa": "/æn/"
+    },
+    "and": {
+      "ipa": "/ænd/"
+    },
+    "another": {
+      "ipa": "/əˈnʌðə/"
+    },
+    "answer": {
+      "ipa": "/ˈɑːnsə/"
+    },
+    "any": {
+      "ipa": "/ˈeni/"
+    },
+    "application": {
+      "ipa": "/ˌæplɪˈkeɪʃən/"
+    },
+    "apply": {
+      "ipa": "/əˈplaɪ/"
+    },
+    "arrive": {
+      "ipa": "/əˈraɪv/"
+    },
+    "asks": {
+      "ipa": "/ɑːsks/"
+    },
+    "at": {
+      "ipa": "/æt/"
+    },
+    "based": {
+      "ipa": "/beɪst/"
+    },
+    "beautiful": {
+      "ipa": "/ˈbjuːtɪfl/"
+    },
+    "before": {
+      "ipa": "/bɪˈfɔː/"
+    },
+    "begins": {
+      "ipa": "/bɪˈɡɪnz/"
+    },
+    "bench": {
+      "ipa": "/bentʃ/"
+    },
+    "beneath": {
+      "ipa": "/bɪˈniːθ/"
+    },
+    "beside": {
+      "ipa": "/bɪˈsaɪd/"
+    },
+    "better": {
+      "ipa": "/ˈbetə/"
+    },
+    "billion": {
+      "ipa": "/ˈbɪljən/"
+    },
+    "both": {
+      "ipa": "/bəʊθ/"
+    },
+    "brings": {
+      "ipa": "/brɪŋz/"
+    },
+    "budget": {
+      "ipa": "/ˈbʌdʒɪt/"
+    },
+    "building": {
+      "ipa": "/ˈbɪldɪŋ/"
+    },
+    "but": {
+      "ipa": "/bʌt/"
+    },
+    "calls": {
+      "ipa": "/kɔːlz/"
+    },
+    "can": {
+      "ipa": "/kæn/"
+    },
+    "careful": {
+      "ipa": "/ˈkeəfl/"
+    },
+    "carefully": {
+      "ipa": "/ˈkeəfəli/"
+    },
+    "chance": {
+      "ipa": "/tʃɑːns/"
+    },
+    "check": {
+      "ipa": "/tʃek/"
+    },
+    "choose": {
+      "ipa": "/tʃuːz/"
+    },
+    "cleaning": {
+      "ipa": "/ˈkliːnɪŋ/"
+    },
+    "clear": {
+      "ipa": "/klɪə/"
+    },
+    "cloth": {
+      "ipa": "/klɒθ/"
+    },
+    "cloths": {
+      "ipa": "/klɒθs/"
+    },
+    "colour": {
+      "ipa": "/ˈkʌlə/"
+    },
+    "community": {
+      "ipa": "/kəˈmjuːnəti/"
+    },
+    "company": {
+      "ipa": "/ˈkʌmpəni/"
+    },
+    "cost": {
+      "ipa": "/kɒst/"
+    },
+    "daily": {
+      "ipa": "/ˈdeɪli/"
+    },
+    "damaged": {
+      "ipa": "/ˈdæmɪdʒd/"
+    },
+    "dark": {
+      "ipa": "/dɑːk/"
+    },
+    "decision": {
+      "ipa": "/dɪˈsɪʒən/"
+    },
+    "difficulty": {
+      "ipa": "/ˈdɪfɪkəlti/"
+    },
+    "display": {
+      "ipa": "/dɪˈspleɪ/"
+    },
+    "doors": {
+      "ipa": "/dɔːz/"
+    },
+    "drawing": {
+      "ipa": "/ˈdrɔːɪŋ/"
+    },
+    "dry": {
+      "ipa": "/draɪ/"
+    },
+    "else": {
+      "ipa": "/els/"
+    },
+    "email": {
+      "ipa": "/ˈiːmeɪl/"
+    },
+    "empty": {
+      "ipa": "/ˈempti/"
+    },
+    "enough": {
+      "ipa": "/ɪˈnʌf/"
+    },
+    "enters": {
+      "ipa": "/ˈentəz/"
+    },
+    "evening": {
+      "ipa": "/ˈiːvnɪŋ/"
+    },
+    "everyone": {
+      "ipa": "/ˈevriwʌn/"
+    },
+    "execute": {
+      "ipa": "/ˈeksɪkjuːt/"
+    },
+    "explain": {
+      "ipa": "/ɪkˈspleɪn/"
+    },
+    "explains": {
+      "ipa": "/ɪkˈspleɪnz/"
+    },
+    "family": {
+      "ipa": "/ˈfæməli/"
+    },
+    "fancy": {
+      "ipa": "/ˈfænsi/"
+    },
+    "fashioned": {
+      "ipa": "/ˈfæʃənd/"
+    },
+    "father": {
+      "ipa": "/ˈfɑːðə/"
+    },
+    "finish": {
+      "ipa": "/ˈfɪnɪʃ/"
+    },
+    "first": {
+      "ipa": "/fɜːst/"
+    },
+    "floor": {
+      "ipa": "/flɔː/"
+    },
+    "for": {
+      "ipa": "/fɔː/"
+    },
+    "forecast": {
+      "ipa": "/ˈfɔːkɑːst/"
+    },
+    "formed": {
+      "ipa": "/fɔːmd/"
+    },
+    "formerly": {
+      "ipa": "/ˈfɔːməli/"
+    },
+    "from": {
+      "ipa": "/frəm/"
+    },
+    "garden": {
+      "ipa": "/ˈɡɑːdn/"
+    },
+    "gardener": {
+      "ipa": "/ˈɡɑːdnə/"
+    },
+    "gather": {
+      "ipa": "/ˈɡæðə/"
+    },
+    "gets": {
+      "ipa": "/ɡets/"
+    },
+    "glass": {
+      "ipa": "/ɡlɑːs/"
+    },
+    "grants": {
+      "ipa": "/ɡrɑːnts/"
+    },
+    "grows": {
+      "ipa": "/ɡrəʊz/"
+    },
+    "guess": {
+      "ipa": "/ɡes/"
+    },
+    "guide": {
+      "ipa": "/ɡaɪd/"
+    },
+    "hall": {
+      "ipa": "/hɔːl/"
+    },
+    "has": {
+      "ipa": "/hæz/"
+    },
+    "have": {
+      "ipa": "/hæv/"
+    },
+    "heating": {
+      "ipa": "/ˈhiːtɪŋ/"
+    },
+    "help": {
+      "ipa": "/help/"
+    },
+    "helps": {
+      "ipa": "/helps/"
+    },
+    "history": {
+      "ipa": "/ˈhɪstri/"
+    },
+    "holds": {
+      "ipa": "/həʊldz/"
+    },
+    "how": {
+      "ipa": "/haʊ/"
+    },
+    "i": {
+      "ipa": "/aɪ/"
+    },
+    "in": {
+      "ipa": "/ɪn/"
+    },
+    "information": {
+      "ipa": "/ˌɪnfəˈmeɪʃən/"
+    },
+    "into": {
+      "ipa": "/ˈɪntə/"
+    },
+    "invites": {
+      "ipa": "/ɪnˈvaɪts/"
+    },
+    "is": {
+      "ipa": "/ɪz/"
+    },
+    "it": {
+      "ipa": "/ɪt/"
+    },
+    "its": {
+      "ipa": "/ɪts/"
+    },
+    "just": {
+      "ipa": "/dʒʌst/"
+    },
+    "keep": {
+      "ipa": "/kiːp/"
+    },
+    "keeping": {
+      "ipa": "/ˈkiːpɪŋ/"
+    },
+    "keeps": {
+      "ipa": "/kiːps/"
+    },
+    "kid": {
+      "ipa": "/kɪd/"
+    },
+    "label": {
+      "ipa": "/ˈleɪbl/"
+    },
+    "labels": {
+      "ipa": "/ˈleɪblz/"
+    },
+    "large": {
+      "ipa": "/lɑːdʒ/"
+    },
+    "least": {
+      "ipa": "/liːst/"
+    },
+    "leaves": {
+      "ipa": "/liːvz/"
+    },
+    "leg": {
+      "ipa": "/leɡ/"
+    },
+    "letters": {
+      "ipa": "/ˈletəz/"
+    },
+    "library": {
+      "ipa": "/ˈlaɪbrəri/"
+    },
+    "light": {
+      "ipa": "/laɪt/"
+    },
+    "local": {
+      "ipa": "/ˈləʊkəl/"
+    },
+    "long": {
+      "ipa": "/lɒŋ/"
+    },
+    "look": {
+      "ipa": "/lʊk/"
+    },
+    "looks": {
+      "ipa": "/lʊks/"
+    },
+    "made": {
+      "ipa": "/meɪd/"
+    },
+    "magnificent": {
+      "ipa": "/mæɡˈnɪfɪsənt/"
+    },
+    "main": {
+      "ipa": "/meɪn/"
+    },
+    "make": {
+      "ipa": "/meɪk/"
+    },
+    "makes": {
+      "ipa": "/meɪks/"
+    },
+    "many": {
+      "ipa": "/ˈmeni/"
+    },
+    "matters": {
+      "ipa": "/ˈmætəz/"
+    },
+    "meals": {
+      "ipa": "/miːlz/"
+    },
+    "minutes": {
+      "ipa": "/ˈmɪnɪts/"
+    },
+    "more": {
+      "ipa": "/mɔː/"
+    },
+    "museum": {
+      "ipa": "/mjuˈziːəm/"
+    },
+    "must": {
+      "ipa": "/mʌst/"
+    },
+    "my": {
+      "ipa": "/maɪ/"
+    },
+    "natural": {
+      "ipa": "/ˈnætʃərəl/"
+    },
+    "need": {
+      "ipa": "/niːd/"
+    },
+    "needs": {
+      "ipa": "/niːdz/"
+    },
+    "new": {
+      "ipa": "/njuː/"
+    },
+    "nobody": {
+      "ipa": "/ˈnəʊbədi/"
+    },
+    "not": {
+      "ipa": "/nɒt/"
+    },
+    "obviously": {
+      "ipa": "/ˈɒbviəsli/"
+    },
+    "of": {
+      "ipa": "/ɒv/"
+    },
+    "offer": {
+      "ipa": "/ˈɒfə/"
+    },
+    "offers": {
+      "ipa": "/ˈɒfəz/"
+    },
+    "oil": {
+      "ipa": "/ɔɪl/"
+    },
+    "old": {
+      "ipa": "/əʊld/"
+    },
+    "old-fashioned": {
+      "ipa": "/ˌəʊld ˈfæʃənd/"
+    },
+    "older": {
+      "ipa": "/ˈəʊldə/"
+    },
+    "on": {
+      "ipa": "/ɒn/"
+    },
+    "one": {
+      "ipa": "/wʌn/"
+    },
+    "only": {
+      "ipa": "/ˈəʊnli/"
+    },
+    "open": {
+      "ipa": "/ˈəʊpən/"
+    },
+    "order": {
+      "ipa": "/ˈɔːdə/"
+    },
+    "our": {
+      "ipa": "/aʊə/"
+    },
+    "ourselves": {
+      "ipa": "/aʊəˈselvz/"
+    },
+    "patient": {
+      "ipa": "/ˈpeɪʃənt/"
+    },
+    "photograph": {
+      "ipa": "/ˈfəʊtəɡrɑːf/"
+    },
+    "picture": {
+      "ipa": "/ˈpɪktʃə/"
+    },
+    "plan": {
+      "ipa": "/plæn/"
+    },
+    "points": {
+      "ipa": "/pɔɪnts/"
+    },
+    "pounds": {
+      "ipa": "/paʊndz/"
+    },
+    "prediction": {
+      "ipa": "/prɪˈdɪkʃən/"
+    },
+    "presumably": {
+      "ipa": "/prɪˈzjuːməbli/"
+    },
+    "print": {
+      "ipa": "/prɪnt/"
+    },
+    "project": {
+      "ipa": "/ˈprɒdʒekt/"
+    },
+    "promises": {
+      "ipa": "/ˈprɒmɪsɪz/"
+    },
+    "protection": {
+      "ipa": "/prəˈtekʃən/"
+    },
+    "public": {
+      "ipa": "/ˈpʌblɪk/"
+    },
+    "puts": {
+      "ipa": "/pʊts/"
+    },
+    "questions": {
+      "ipa": "/ˈkwestʃənz/"
+    },
+    "quiet": {
+      "ipa": "/ˈkwaɪət/"
+    },
+    "rain": {
+      "ipa": "/reɪn/"
+    },
+    "rather": {
+      "ipa": "/ˈrɑːðə/"
+    },
+    "read": {
+      "ipa": "/riːd/"
+    },
+    "readers": {
+      "ipa": "/ˈriːdəz/"
+    },
+    "reading": {
+      "ipa": "/ˈriːdɪŋ/"
+    },
+    "record": {
+      "ipa": "/ˈrekɔːd/"
+    },
+    "reduce": {
+      "ipa": "/rɪˈdjuːs/"
+    },
+    "reminds": {
+      "ipa": "/rɪˈmaɪndz/"
+    },
+    "repair": {
+      "ipa": "/rɪˈpeə/"
+    },
+    "repairs": {
+      "ipa": "/rɪˈpeəz/"
+    },
+    "replace": {
+      "ipa": "/rɪˈpleɪs/"
+    },
+    "result": {
+      "ipa": "/rɪˈzʌlt/"
+    },
+    "rocks": {
+      "ipa": "/rɒks/"
+    },
+    "roof": {
+      "ipa": "/ruːf/"
+    },
+    "room": {
+      "ipa": "/ruːm/"
+    },
+    "roots": {
+      "ipa": "/ruːts/"
+    },
+    "runs": {
+      "ipa": "/rʌnz/"
+    },
+    "safer": {
+      "ipa": "/ˈseɪfə/"
+    },
+    "school": {
+      "ipa": "/skuːl/"
+    },
+    "science": {
+      "ipa": "/ˈsaɪəns/"
+    },
+    "seat": {
+      "ipa": "/siːt/"
+    },
+    "second": {
+      "ipa": "/ˈsekənd/"
+    },
+    "see": {
+      "ipa": "/siː/"
+    },
+    "send": {
+      "ipa": "/send/"
+    },
+    "she": {
+      "ipa": "/ʃiː/"
+    },
+    "shop": {
+      "ipa": "/ʃɒp/"
+    },
+    "short": {
+      "ipa": "/ʃɔːt/"
+    },
+    "should": {
+      "ipa": "/ʃʊd/"
+    },
+    "show": {
+      "ipa": "/ʃəʊ/"
+    },
+    "significantly": {
+      "ipa": "/sɪɡˈnɪfɪkəntli/"
+    },
+    "signs": {
+      "ipa": "/saɪnz/"
+    },
+    "simple": {
+      "ipa": "/ˈsɪmpl/"
+    },
+    "sister": {
+      "ipa": "/ˈsɪstə/"
+    },
+    "small": {
+      "ipa": "/smɔːl/"
+    },
+    "smooth": {
+      "ipa": "/smuːð/"
+    },
+    "so": {
+      "ipa": "/səʊ/"
+    },
+    "soil": {
+      "ipa": "/sɔɪl/"
+    },
+    "solid": {
+      "ipa": "/ˈsɒlɪd/"
+    },
+    "some": {
+      "ipa": "/sʌm/"
+    },
+    "space": {
+      "ipa": "/speɪs/"
+    },
+    "speak": {
+      "ipa": "/spiːk/"
+    },
+    "stand": {
+      "ipa": "/stænd/"
+    },
+    "stays": {
+      "ipa": "/steɪz/"
+    },
+    "story": {
+      "ipa": "/ˈstɔːri/"
+    },
+    "suggest": {
+      "ipa": "/səˈdʒest/"
+    },
+    "support": {
+      "ipa": "/səˈpɔːt/"
+    },
+    "surface": {
+      "ipa": "/ˈsɜːfɪs/"
+    },
+    "table": {
+      "ipa": "/ˈteɪbl/"
+    },
+    "talk": {
+      "ipa": "/tɔːk/"
+    },
+    "team": {
+      "ipa": "/tiːm/"
+    },
+    "tell": {
+      "ipa": "/tel/"
+    },
+    "ten": {
+      "ipa": "/ten/"
+    },
+    "test": {
+      "ipa": "/test/"
+    },
+    "than": {
+      "ipa": "/ðən/"
+    },
+    "thanks": {
+      "ipa": "/θæŋks/"
+    },
+    "that": {
+      "ipa": "/ðæt/"
+    },
+    "the": {
+      "ipa": "/ðə/"
+    },
+    "their": {
+      "ipa": "/ðeə/"
+    },
+    "then": {
+      "ipa": "/ðen/"
+    },
+    "there": {
+      "ipa": "/ðeə/"
+    },
+    "thicker": {
+      "ipa": "/ˈθɪkə/"
+    },
+    "this": {
+      "ipa": "/ðɪs/"
+    },
+    "though": {
+      "ipa": "/ðəʊ/"
+    },
+    "timber": {
+      "ipa": "/ˈtɪmbə/"
+    },
+    "time": {
+      "ipa": "/taɪm/"
+    },
+    "to": {
+      "ipa": "/tuː/"
+    },
+    "today": {
+      "ipa": "/təˈdeɪ/"
+    },
+    "top": {
+      "ipa": "/tɒp/"
+    },
+    "town": {
+      "ipa": "/taʊn/"
+    },
+    "tray": {
+      "ipa": "/treɪ/"
+    },
+    "tree": {
+      "ipa": "/triː/"
+    },
+    "turn": {
+      "ipa": "/tɜːn/"
+    },
+    "two": {
+      "ipa": "/tuː/"
+    },
+    "up": {
+      "ipa": "/ʌp/"
+    },
+    "us": {
+      "ipa": "/ʌs/"
+    },
+    "useful": {
+      "ipa": "/ˈjuːsfl/"
+    },
+    "via": {
+      "ipa": "/ˈvaɪə/"
+    },
+    "village": {
+      "ipa": "/ˈvɪlɪdʒ/"
+    },
+    "visit": {
+      "ipa": "/ˈvɪzɪt/"
+    },
+    "visitors": {
+      "ipa": "/ˈvɪzɪtəz/"
+    },
+    "volunteer": {
+      "ipa": "/ˌvɒlənˈtɪə/"
+    },
+    "want": {
+      "ipa": "/wɒnt/"
+    },
+    "was": {
+      "ipa": "/wəz/"
+    },
+    "water": {
+      "ipa": "/ˈwɔːtə/"
+    },
+    "we": {
+      "ipa": "/wiː/"
+    },
+    "weather": {
+      "ipa": "/ˈweðə/"
+    },
+    "weeks": {
+      "ipa": "/wiːks/"
+    },
+    "what": {
+      "ipa": "/wɒt/"
+    },
+    "whether": {
+      "ipa": "/ˈweðə/"
+    },
+    "which": {
+      "ipa": "/wɪtʃ/"
+    },
+    "why": {
+      "ipa": "/waɪ/"
+    },
+    "will": {
+      "ipa": "/wɪl/"
+    },
+    "winter": {
+      "ipa": "/ˈwɪntə/"
+    },
+    "with": {
+      "ipa": "/wɪð/"
+    },
+    "within": {
+      "ipa": "/wɪˈðɪn/"
+    },
+    "wood": {
+      "ipa": "/wʊd/"
+    },
+    "work": {
+      "ipa": "/wɜːk/"
+    },
+    "workshop": {
+      "ipa": "/ˈwɜːkʃɒp/"
+    },
+    "worth": {
+      "ipa": "/wɜːθ/"
+    },
+    "worthy": {
+      "ipa": "/ˈwɜːði/"
+    },
+    "years": {
+      "ipa": "/jɪəz/"
+    }
+  }
+}
