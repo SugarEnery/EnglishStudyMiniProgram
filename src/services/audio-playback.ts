@@ -8,9 +8,9 @@ export function createAudioPlayback(resolve:(key:string)=>Promise<string>,create
   void resolve(key).then(url=>{
    if(generation!==attempt)return;
    const current=createPlayer();player=current;playingChange=onPlayingChange;
-   current.onError(()=>{if(player!==current)return;stop();onError('英式音频加载失败，请检查音频服务');});
+   current.onError(()=>{if(player!==current)return;stop();onError('音频加载失败，请检查音频服务');});
    current.onEnded(()=>{if(player===current)stop();});current.src=url;current.play();onPlayingChange?.(true);
-  }).catch(error=>{if(generation!==attempt)return;stop();onError(error instanceof Error?error.message:'英式音频读取失败');});
+  }).catch(error=>{if(generation!==attempt)return;stop();onError(error instanceof Error?error.message:'音频读取失败');});
  }
  return {stop,play};
 }

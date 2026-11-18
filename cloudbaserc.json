@@ -17,6 +17,33 @@
         ".env.*",
         ".data"
       ]
+    },
+    {
+      "name": "daily-content",
+      "type": "Event",
+      "runtime": "Nodejs20.19",
+      "handler": "index.main",
+      "timeout": 120,
+      "memorySize": 256,
+      "installDependency": true,
+      "envVariables": {
+        "DAILY_AI_MODEL": "hy4",
+        "DAILY_TTS_VOICE_TYPE": "101050"
+      },
+      "triggers": [
+        {
+          "name": "generate-next-day-at-3am",
+          "type": "timer",
+          "config": "0 0 3 * * * *"
+        }
+      ],
+      "ignore": [
+        "node_modules",
+        ".git",
+        ".env",
+        ".env.*",
+        ".data"
+      ]
     }
   ]
 }

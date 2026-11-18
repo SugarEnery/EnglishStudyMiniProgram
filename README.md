@@ -14,6 +14,7 @@ npm ci
 npm run typecheck
 npm test
 npm run build:cloud
+npm run build:daily-cloud
 npm run build:weapp
 ```
 
@@ -32,7 +33,7 @@ npm run build:weapp
 
 使用微信原生tabBar，首次打开进入首页；原`pages/index/index`保留为学习页。四页共用同一会话和记录。切换底部菜单保留未提交答案，换账号会清空原答题界面；已提交结果从该账号的事件恢复。
 
-首页每日一句按北京时间每天自动切换，英文、译文和英式音频来自同一条已发布内容；同一天刷新保持不变，新增课程会自动加入轮换。
+首页每日一句从云端读取当天发布内容。独立`daily-content`云函数每天凌晨3点使用CloudBase `hy4`生成原创英文和中文译文，再调用腾讯云TTS生成英文MP3；三项全部成功后才写入`daily_sentences`。首页读取失败会明确提示并允许重试，不显示旧内容冒充当天内容。
 
 ## 两种记录方式
 
@@ -63,6 +64,10 @@ npm run build:weapp
 ## 后端与部署
 
 见 [后端接口说明](server/README.md) 与 [上线清单](docs/wechat-release.md)。后端使用Node内置HTTP服务和串行原子文件存储，不需要改现有数据库。首版仅支持单进程，部署时使用持久磁盘、私有权限和HTTPS反向代理。正式多实例或数据库迁移需另行确认设计。
+
+云开发每日内容上线时，先执行`npm run build:cloud`和`npm run build:daily-cloud`。在微信开发者工具中重新部署`study-v2`，再创建并部署`daily-content`，将其超时设为120秒并上传目录内`config.json`触发器。控制台必须确认触发器对应北京时间凌晨3点；首次手动调用会幂等生成今天和明天。
+
+`daily-content`的语音合成使用仅授权`tts:TextToVoice`的子用户密钥：在云函数环境变量中填写`DAILY_TTS_SECRET_ID`和`DAILY_TTS_SECRET_KEY`。不要覆盖平台的`TENCENTCLOUD_*`临时凭证，不要将密钥写入代码或小程序端。
 
 npm run server 自动加载存在的私有 .env；生产环境也可直接注入变量。`.env.example`仅作配置示例。`WX_APP_SECRET`仅交给后端，禁止出现在编译常量、客户端、日志和版本库。`MINIAPP_API_BASE`仅是公开接口地址。
 

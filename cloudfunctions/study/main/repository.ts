@@ -1,4 +1,4 @@
-export const collections={sessions:'wordscape_sessions',events:'wordscape_events',plans:'wordscape_plans',profiles:'wordscape_profiles'} as const;
+export const collections={sessions:'wordscape_sessions',events:'wordscape_events',plans:'wordscape_plans',profiles:'wordscape_profiles',dailySentences:'daily_sentences'} as const;
 export type Collection=typeof collections[keyof typeof collections];
 export type Document=Record<string,unknown>;
 export interface Transaction{

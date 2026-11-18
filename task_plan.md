@@ -45,6 +45,16 @@
 
 用户确认先完成计划设置，无AI服务，自动生成短文测验暂不实施。
 
+## 2026-11-18首页每日全新内容
+
+| files | action | verify | done |
+|---|---|---|---|
+| shared、cloudfunctions/daily-content | hy4生成严格中英内容，腾讯云TTS生成MP3，完整后发布 | 格式、重复、音频头、幂等 | 已完成 |
+| cloudfunctions/study、services | 匿名只读当天内容及固定音频 | 不接受任意fileID，不影响登录 | 已完成 |
+| pages/home | 加载云端当天内容及明确失败重试 | 英文、译文、音频同源 | 已完成 |
+| cloudbaserc、build scripts | 独立函数、凌晨3点触发及部署产物 | 双函数打包、触发配置 | 本地完成，待云端部署 |
+| tests、docs、dist | 回归、Review、构建与记录 | 测试、类型、云包、微信构建 | 已完成 |
+
 ```mermaid
 flowchart LR
  A[选择每日10至80词] --> B[预览天数与完成日期]

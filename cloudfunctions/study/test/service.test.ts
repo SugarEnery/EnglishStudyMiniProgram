@@ -6,6 +6,7 @@ import {createStudyService} from '../main/service';
 import {collections,type Repository,type Transaction,type Collection,type Document,type Storage} from '../main/repository';
 import {courseCatalog} from '../../../src/shared/course-catalog';
 import type {StudyEvent} from '../../../src/shared/study-types';
+import {today} from '../../../src/shared/daily-plan';
 
 // 仅测试内的内存事务端口；生产入口始终绑定微信SDK，不开放测试登录。
 class MemoryRepository implements Repository{
@@ -84,6 +85,12 @@ test('公开课程音频只允许固定目录MP3，不依赖登录会话',async(
  const response=await f.call('/api/audio','GET',{path},undefined,'visitor');assert.equal(response.statusCode,200);assert.deepEqual(response.data,{base64:bytes.toString('base64')});assert.equal(f.downloaded.at(-1),fileID);
  assert.equal((await f.call('/api/audio','GET',{path:'/avatars/private.png'})).statusCode,400);assert.equal((await f.call('/api/audio','GET',{path:'/audio/en-GB/v1/../private.mp3'})).statusCode,400);
  f.uploads.set(fileID,Buffer.from('not-mp3'));assert.equal((await f.call('/api/audio','GET',{path})).statusCode,500);
+});
+test('每日内容和音频匿名只读且不接受客户端文件标识',async()=>{
+ const f=setup();const date=today();const fileID='cloud://test/daily-sentences/'+date+'/audio.mp3';const bytes=Buffer.concat([Buffer.from('ID3'),Buffer.alloc(128)]);f.uploads.set(fileID,bytes);
+ f.repository.put(collections.dailySentences,date,{date,english:'A careful learner notices one useful detail and applies it during an ordinary conversation.',chinese:'一位认真的学习者发现一个有用的细节，并把它运用到日常对话中。',audioVersion:'a'.repeat(64),audioFileID:fileID,contentHash:'b'.repeat(64),status:'published',generatedAt:Date.now(),model:'hy4',voiceType:101050});
+ const content=await f.call('/api/daily-sentence','GET',{},undefined,'visitor');assert.equal(content.statusCode,200);assert.deepEqual(content.data,{date,english:'A careful learner notices one useful detail and applies it during an ordinary conversation.',chinese:'一位认真的学习者发现一个有用的细节，并把它运用到日常对话中。',audioVersion:'a'.repeat(64)});
+ const audio=await f.call('/api/daily-sentence/audio','GET',{date},undefined,'visitor');assert.equal(audio.statusCode,200);assert.deepEqual(audio.data,{base64:bytes.toString('base64')});assert.equal((await f.call('/api/daily-sentence/audio','GET',{date,fileID:'cloud://private/other'})).statusCode,400);assert.equal((await f.call('/api/daily-sentence/audio','GET',{date:'2020-01-01'})).statusCode,409);
 });
 test('损坏的持久资料与分页越界明确500，不替换或截断原数据',async()=>{
  const f=setup();const token=await f.login();const corrupt={nickName:123};f.repository.put(collections.profiles,owner('user-a'),corrupt);assert.equal((await f.call('/api/profile','GET',{},token)).statusCode,500);assert.deepEqual(f.repository.rows.get(collections.profiles+':'+owner('user-a')),corrupt);

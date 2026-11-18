@@ -22,6 +22,8 @@ flowchart TD
 | src/services/study | 记录模式、接口、读取与保存 |
 | src/services/audio-option、audio | iPhone静音开关策略、音频地址解析及统一播放入口 |
 | src/shared/daily-sentence | 从已发布课程生成每日内容池并按自然日期稳定选择 |
+| src/shared/daily-content、src/services/daily-content | 校验并读取云端当天英文、译文和音频版本 |
+| cloudfunctions/daily-content | hy4生文、腾讯云TTS、幂等锁、完整校验和最终发布 |
 | src/shared/daily-*、lexical、oxford-wordlist | 原站同源课程类型、规划、词边界和校验 |
 | src/shared/study-types、study-schema | 客户端和服务端共同事件合同及校验 |
 | src/shared/progress | 已完成日期、最新测验和收藏状态 |

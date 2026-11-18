@@ -9,6 +9,12 @@ export {audioLocation} from './audio-location';
 const ensureAudioOption=createAudioOptionSetup(()=>Taro.getSystemInfoSync().platform,option=>Taro.setInnerAudioOption(option));
 async function resolveAudio(key:string){
  await ensureAudioOption();
+ const daily=/^daily:(\d{4}-\d{2}-\d{2})$/.exec(key);
+ if(daily){
+  const result=await request<{base64:string}>('/api/daily-sentence/audio','GET',{date:daily[1]},'');
+  if(!/^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/.test(result.base64)||!result.base64||result.base64.length>700000)throw Error('今日音频数据格式无效');
+  const filePath=`${Taro.env.USER_DATA_PATH}/daily-${daily[1]}.mp3`;await new Promise<void>((resolve,reject)=>Taro.getFileSystemManager().writeFile({filePath,data:result.base64,encoding:'base64',success:()=>resolve(),fail:()=>reject(Error('今日音频写入本机失败'))}));return filePath;
+ }
  const audio=(manifest as Record<string,{path:string;available:boolean}>)[key];
  if(!audio?.available)throw Error('此条英式MP3尚未制作，暂时无法播放');
  if(CLOUD_BACKEND)ensureCloud();

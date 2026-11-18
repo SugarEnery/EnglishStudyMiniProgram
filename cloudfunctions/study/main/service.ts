@@ -7,6 +7,7 @@ import {includesWord} from '../../../src/shared/lexical';
 import {eventSchema,studyEventSchema} from '../../../src/shared/study-schema';
 import {profileUpdateSchema} from '../../../src/shared/profile-schema';
 import {personalPlanSchema,createPersonalPlanSchema,updatePersonalPlanSchema} from '../../../src/shared/personal-plan';
+import {dailyContentSchema} from '../../../src/shared/daily-content';
 import {collections,type Repository,type Transaction,type Storage} from './repository';
 import {normalizeAvatar,validateStoredAvatar} from './image';
 import {CloudError} from './errors';
@@ -20,6 +21,7 @@ const legacyProfileSchema=z.object({nickName:z.string().max(40),avatarVersion:ow
 const profileSchema=legacyProfileSchema.extend({userId:userIdSchema}).strict();
 const eventRowSchema=z.object({owner:ownerSchema,sequence:z.number().int().positive().max(100000),event:studyEventSchema}).strict();
 const planRowSchema=z.object({owner:ownerSchema,plan:personalPlanSchema}).strict();
+const dailyContentRowSchema=dailyContentSchema.extend({audioFileID:z.string().regex(/^cloud:\/\//),contentHash:ownerSchema,status:z.literal('published'),generatedAt:z.number().finite(),model:z.string().min(1),voiceType:z.number().int().positive()}).strict();
 const cursorSchema=z.object({owner:ownerSchema,sequence:z.number().int().positive().max(100000)}).strict();
 const requestSchema=z.object({path:z.string().min(1).max(160),method:z.enum(['GET','POST','PUT']),data:z.unknown().optional(),token:z.string().optional()}).strict();
 const userIdFor=(owner:string)=>`WS-${hash(`wordscape-user-id:v1:${owner}`).slice(0,16).toUpperCase()}`;
@@ -46,6 +48,12 @@ export function createStudyService(repository:Repository,storage:Storage,options
    const key=tokenKey(token);return repository.transaction(async tx=>{const raw=await tx.get(collections.sessions,key);if(raw&&stored(sessionSchema,raw).owner!==owner)throw new CloudError(401,'微信身份与登录会话不一致');z.object({}).strict().parse(data??{});if(raw)await tx.remove(collections.sessions,key);return {ok:true};});
   }
   if(path==='/api/days'&&method==='GET'){z.object({}).strict().parse(data??{});return {days:courseCatalog.map(course=>({day:course.day,date:course.date,words:course.words.length,targetWords:[...course.words]})),plan};}
+  if(path==='/api/daily-sentence'&&method==='GET')return repository.transaction(async tx=>{z.object({}).strict().parse(data??{});const date=today();const raw=await tx.get(collections.dailySentences,date);if(!raw)throw new CloudError(404,'今日内容尚未生成');const row=stored(dailyContentRowSchema,raw);return dailyContentSchema.parse({date:row.date,english:row.english,chinese:row.chinese,audioVersion:row.audioVersion});});
+  if(path==='/api/daily-sentence/audio'&&method==='GET'){
+   const input=z.object({date:z.string()}).strict().parse(data);const date=today();if(input.date!==date)throw new CloudError(409,'日期已变化，请刷新首页');const fileID=await repository.transaction(async tx=>{const raw=await tx.get(collections.dailySentences,date);if(!raw)throw new CloudError(404,'今日音频尚未生成');return stored(dailyContentRowSchema,raw).audioFileID;});let bytes:Buffer;
+   try{bytes=await storage.download(fileID);}catch(error){options.reportError?.(error);throw new CloudError(503,'今日音频读取失败，请稍后重试');}
+   if(!bytes.length||bytes.length>512*1024||(bytes.subarray(0,3).toString('ascii')!=='ID3'&&!(bytes[0]===0xff&&(bytes[1]&0xe0)===0xe0)))throw Error('今日音频文件格式无效');return {base64:bytes.toString('base64')};
+  }
   if(/^\/api\/days\/[1-9]\d*$/.test(path)&&method==='GET'){z.object({}).strict().parse(data??{});const course=courseCatalog.find(course=>course.day===Number(path.split('/').pop()));if(!course)throw new CloudError(404,'当天课程尚未发布');return course;}
   if(path==='/api/audio'&&method==='GET'){
    const input=z.object({path:z.string().regex(/^\/audio\/en-GB\/v[1-9]\d*\/[a-f0-9]{64}\.mp3$/)}).strict().parse(data);let bytes:Buffer;
