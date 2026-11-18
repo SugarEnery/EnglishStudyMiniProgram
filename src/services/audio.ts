@@ -3,9 +3,12 @@ import manifest from '../content/audio.json';
 import {ensureCloud} from './cloud';
 import {audioLocation} from './audio-location';
 import {createAudioPlayback} from './audio-playback';
+import {createAudioOptionSetup} from './audio-option';
 import {request} from './study';
 export {audioLocation} from './audio-location';
+const ensureAudioOption=createAudioOptionSetup(()=>Taro.getSystemInfoSync().platform,option=>Taro.setInnerAudioOption(option));
 async function resolveAudio(key:string){
+ await ensureAudioOption();
  const audio=(manifest as Record<string,{path:string;available:boolean}>)[key];
  if(!audio?.available)throw Error('此条英式MP3尚未制作，暂时无法播放');
  if(CLOUD_BACKEND)ensureCloud();

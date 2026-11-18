@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {cloudEnvironmentId,sessionStorageKey,responseData,readCloudEvents,SessionExpiredError} from '../src/services/cloud-protocol';
 import {audioLocation} from '../src/services/audio-location';
 import {createAudioPlayback,type AudioPlayer} from '../src/services/audio-playback';
+import {createAudioOptionSetup} from '../src/services/audio-option';
 const event=(index:number)=>({id:`00000000-0000-4000-8000-${String(index).padStart(12,'0')}`,day:1,lessonId:'oxford-1-301',type:'read',createdAt:'2026-11-06T01:00:00.000Z'});
 test('缺少云环境明确失败，会话按环境和后端隔离',()=>{
  assert.throws(()=>cloudEnvironmentId(''),/尚未配置云开发环境/);assert.throws(()=>cloudEnvironmentId(' env '),/首尾空格/);assert.equal(cloudEnvironmentId('env-1'),'env-1');
@@ -35,4 +36,15 @@ test('等待音频文件时停止，旧结果返回后不会发声或再报旧�
 });
 test('连续播放只保留最后一次，当前真实错误仍上报',async()=>{
  const pending=new Map<string,(value:string)=>void>();const log:string[]=[];const errors:string[]=[];const playback=createAudioPlayback(key=>key==='broken'?Promise.reject(Error('文件缺失')):new Promise(resolve=>pending.set(key,resolve)),()=>player(log));playback.play('first',message=>errors.push(message));playback.play('second',message=>errors.push(message));pending.get('second')!('https://audio.example/second.mp3');pending.get('first')!('https://audio.example/first.mp3');await tick();assert.deepEqual(log,['play']);playback.play('broken',message=>errors.push(message));await tick();assert.deepEqual(log,['play','stop','destroy']);assert.deepEqual(errors,['文件缺失']);
+});
+test('播放状态在开始、自然结束和停止时准确切换',async()=>{
+ let ended=()=>{};const states:boolean[]=[];const log:string[]=[];const playback=createAudioPlayback(async()=>'/audio.mp3',()=>({src:'',stop:()=>log.push('stop'),destroy:()=>log.push('destroy'),play:()=>log.push('play'),onError:()=>{},onEnded:callback=>{ended=callback;}}));
+ playback.play('sentence',()=>{},playing=>states.push(playing));await tick();assert.deepEqual(states,[true]);ended();assert.deepEqual(states,[true,false]);assert.deepEqual(log,['play','stop','destroy']);
+});
+test('iPhone音频明确关闭静音开关限制，成功只设置一次且失败可重试',async()=>{
+ const options:{obeyMuteSwitch:false}[]=[];const ensure=createAudioOptionSetup(()=>'ios',async option=>{options.push(option);});await ensure();await ensure();assert.deepEqual(options,[{obeyMuteSwitch:false}]);
+ let attempts=0;const retry=createAudioOptionSetup(()=>'ios',async()=>{if(++attempts===1)throw Error('system');});await assert.rejects(retry(),/无法启用iPhone静音模式音频播放/);await retry();assert.equal(attempts,2);
+});
+test('开发工具和非iPhone平台不设置iOS静音选项',async()=>{
+ let calls=0;for(const platform of ['devtools','android','windows'])await createAudioOptionSetup(()=>platform,async()=>{calls+=1;})();assert.equal(calls,0);
 });

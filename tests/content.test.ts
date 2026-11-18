@@ -8,6 +8,7 @@ import {readingParts,includesWord} from '../src/shared/lexical';
 import audio from '../src/content/audio.json';
 import catalogDays from '../src/content/catalog.json';
 import {courseCatalog} from '../src/shared/course-catalog';
+import {dailySentence,dailySentenceCount} from '../src/shared/daily-sentence';
 for(const day of catalogDays)test(`第${day}天课程完整且来源可追溯`,async()=>{
  const local=await readFile(new URL(`../src/content/day${day}.json`,import.meta.url),'utf8');
  {const provenance=JSON.parse(await readFile(new URL('../docs/content-provenance.json',import.meta.url),'utf8'));assert.equal(createHash('sha256').update(local).digest('hex'),provenance[`day${day}.json`]);}
@@ -18,7 +19,10 @@ for(const day of catalogDays)test(`第${day}天课程完整且来源可追溯`,a
 });
 test('全量随机计划覆盖全部词且无重复',()=>{assert.equal(planWords.length,plan.totalWords);assert.equal(new Set(planWords.map(w=>w.word)).size,plan.totalWords);assert.equal(wordsForDay(2).length,30);});
 test('词组保持完整且不误匹配词内片段',()=>{assert.ok(readingParts('An ice cream and a T-shirt.', ['ice cream','t-shirt']).includes('ice cream'));assert.equal(includesWord('Another answer','an'),false);});
-test('共享逻辑与网站逐字节一致',async()=>{for(const file of ['daily-types.ts','daily-validation.ts','lexical.ts','oxford-wordlist.json'])assert.equal(await readFile(new URL('../src/shared/'+file,import.meta.url),'utf8'),await readFile(new URL('../../wordscape/lib/'+file,import.meta.url),'utf8'));});
+test('共享逻辑与已记录的网站来源一致',async()=>{const provenance=JSON.parse(await readFile(new URL('../docs/content-provenance.json',import.meta.url),'utf8'));for(const file of ['daily-types.ts','daily-validation.ts','lexical.ts','oxford-wordlist.json']){const local=await readFile(new URL('../src/shared/'+file,import.meta.url));assert.equal(createHash('sha256').update(local).digest('hex'),provenance[file]);}});
+test('每日一句同日固定、隔日更新且音频来自真实清单',()=>{
+ assert.equal(dailySentenceCount,36);const first=dailySentence('2026-11-18');const same=dailySentence('2026-11-18');const next=dailySentence('2026-11-19');assert.deepEqual(first,same);assert.notEqual(first.audioKey,next.audioKey);assert.ok(first.en&&first.zh);assert.ok(audio[first.audioKey as keyof typeof audio]?.available);assert.ok(audio[next.audioKey as keyof typeof audio]?.available);assert.throws(()=>dailySentence('2026-02-30'),/日期无效/);
+});
 
 test('本机和服务端使用相同的已发布课程目录',()=>{assert.deepEqual(courseCatalog.map(course=>course.day),catalogDays);});
 for(const day of catalogDays)test(`第${day}天随机课程满足双段短文、词性、复现和英文理解测验要求`,()=>{
