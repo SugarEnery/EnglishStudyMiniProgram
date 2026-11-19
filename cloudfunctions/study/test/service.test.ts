@@ -7,6 +7,7 @@ import {collections,type Repository,type Transaction,type Collection,type Docume
 import {courseCatalog} from '../../../src/shared/course-catalog';
 import type {StudyEvent} from '../../../src/shared/study-types';
 import {today} from '../../../src/shared/daily-plan';
+import {includesWord} from '../../../src/shared/lexical';
 
 // 仅测试内的内存事务端口；生产入口始终绑定微信SDK，不开放测试登录。
 class MemoryRepository implements Repository{
@@ -26,6 +27,15 @@ function setup(){
  return {repository,uploads,downloaded,service,call,login,expire:()=>{now+=8*86400000;}};
 }
 const lesson=courseCatalog[0].content.lessons[0];
+test('云回忆记录文本判分、目标词验证、幂等与账号隔离',async()=>{
+ const f=setup();const token=await f.login();const course=courseCatalog[0];const word=course.words.find(word=>lesson.paragraphs.some(p=>includesWord(p.en,word)))!;
+ const input={id:randomUUID(),day:course.day,lessonId:lesson.id,type:'recall',word,answerText:' '+word.toUpperCase()+' '};
+ const response=await f.call('/api/events','POST',input,token);assert.equal(response.statusCode,200);assert.deepEqual((response.data as {event:StudyEvent}).event.answers,[1]);assert.equal((response.data as {event:StudyEvent}).event.score,1);
+ assert.deepEqual(await f.call('/api/events','POST',input,token),response);assert.equal((await f.call('/api/events','POST',{...input,answerText:''},token)).statusCode,409);
+ const wrong=await f.call('/api/events','POST',{...input,id:randomUUID(),answerText:''},token);assert.deepEqual((wrong.data as {event:StudyEvent}).event.answers,[0]);
+ assert.equal((await f.call('/api/events','POST',{...input,id:randomUUID(),answers:[1]},token)).statusCode,400);assert.equal((await f.call('/api/events','POST',{...input,id:randomUUID(),score:1},token)).statusCode,400);assert.equal((await f.call('/api/events','POST',{...input,id:randomUUID(),word:'not-a-target'},token)).statusCode,400);
+ const b=await f.login('user-b');assert.deepEqual((await f.call('/api/events','GET',{},b,'user-b')).data,{events:[],nextCursor:null});
+});
 const reading=()=>({id:randomUUID(),day:courseCatalog[0].day,lessonId:lesson.id,type:'read' as const});
 const owner=(id:string)=>createHash('sha256').update(id).digest('hex');
 test('身份只来自微信上下文，跨用户会话不可用；注销幂等且不影响其他会话',async()=>{

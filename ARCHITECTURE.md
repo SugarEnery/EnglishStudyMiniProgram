@@ -1,5 +1,7 @@
 # 小程序结构
 
+单词巩固：`src/components/WordReview.tsx`负责按天回忆、揭晓、错词队列；`src/shared/recall.ts`统一验证目标词与规范化判分。recall事件沿现有session→study服务→本机/云端保存，独立于read/quiz完成规则。
+
 ```mermaid
 flowchart TD
  A[网站的已验证课程与计划] -->|构建时同步 不改原站| B[小程序课程包]

@@ -12,7 +12,7 @@ function setup(){
   login:async()=>({token:next.repeat(64),expiresAt:new Date(now+86400000).toISOString()}),
   days:async()=>[{day:1,date:'2026-10-14',words:30},{day:2,date:'2026-10-15',words:30}],
   events:async(mode,token)=>{if(unavailable)throw Error('网络失败');if(mode==='wechat'&&failed)throw Error('候选账号请求失败');if(mode==='wechat'&&rejected)throw new Expired();return [entry(mode==='local'?'guest':token!.slice(0,1))];},
-  save:async(mode,input,_lesson,known,token)=>{saves++;if(mode==='wechat'&&rejected)throw new Expired();return [...known,entry(input.id+(mode==='wechat'?token!.slice(0,1):''))];},isExpired:error=>error instanceof Expired,
+  save:async(mode,input,_lesson,known,token)=>{saves++;if(mode==='wechat'&&rejected)throw new Expired();return [...known,entry(input.id)];},isExpired:error=>error instanceof Expired,
  };
  class Expired extends Error{}
  return {deps,create:()=>createSessionController(deps),stored:()=>stored,active:()=>active,setNext:(value:string)=>{next=value;},fail:()=>{failed=true;},offline:()=>{unavailable=true;},online:()=>{unavailable=false;},expire:()=>{now+=2*86400000;},reject:()=>{rejected=true;},saves:()=>saves,setStored:(value:unknown)=>{stored=value;}};
@@ -20,7 +20,7 @@ function setup(){
 test('跨页面订阅即时同步保存，游客记录不自动上传，注销恢复原游客记录',async()=>{
  const fixture=setup();const session=fixture.create();await session.initialize();let updates=0;const unsubscribe=session.subscribe(()=>{updates++;});
  assert.equal(session.getSnapshot().events[0].id,'guest');await session.login();assert.deepEqual(session.getSnapshot().events.map(e=>e.id),['a']);assert.equal(fixture.saves(),0);
- await session.record({id:'saved',day:1,lessonId:lesson.id,type:'read'},lesson);assert.equal(session.getSnapshot().events.at(-1)?.id,'saveda');assert.ok(updates>0);unsubscribe();
+ const saved=await session.record({id:'saved',day:1,lessonId:lesson.id,type:'read'},lesson);assert.equal(saved.id,'saved');assert.equal(session.getSnapshot().events.at(-1)?.id,'saved');assert.ok(updates>0);unsubscribe();
  await session.logout();assert.equal(session.getSnapshot().mode,'local');assert.equal(session.getSnapshot().events[0].id,'guest');assert.equal(fixture.active(),'');
 });
 test('切换账号失败时旧账号、token及事件原子保持，成功后整体替换',async()=>{

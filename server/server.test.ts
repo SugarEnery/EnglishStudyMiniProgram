@@ -6,6 +6,7 @@ import { join } from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { StudyService, wechatExchange } from './service';
 import { loadCourses, createApi } from './index';
+import {includesWord} from '../src/shared/lexical';
 
 const courses = await loadCourses();
 async function setup() {
@@ -15,6 +16,13 @@ async function setup() {
   return { file, service: new StudyService(file, courses, async code => code) };
 }
 const reading = () => ({ id: randomUUID(), day: 1, lessonId: courses[0].content.lessons[0].id, type: 'read' as const });
+test('回忆评分来自文本，空答案记错，拒绝自报与跨情境且重试幂等',async()=>{
+ const {service}=await setup();const {token}=await service.login({code:'recall-user'});const course=courses[0];const lesson=course.content.lessons[0];const word=course.words.find(word=>lesson.paragraphs.some(p=>includesWord(p.en,word)))!;
+ const input={id:randomUUID(),day:course.day,lessonId:lesson.id,type:'recall' as const,word,answerText:' '+word.toUpperCase()+' '};
+ const first=await service.saveEvent(token,input);assert.equal(first.event.score,1);assert.deepEqual(first.event.answers,[1]);assert.deepEqual(await service.saveEvent(token,input),first);assert.equal((await service.events(token)).events.length,1);
+ await assert.rejects(service.saveEvent(token,{...input,answerText:''}),/编号/);assert.equal((await service.saveEvent(token,{...input,id:randomUUID(),answerText:''})).event.score,0);
+ await assert.rejects(async()=>service.saveEvent(token,{...input,id:randomUUID(),answers:[1]}),/自报/);await assert.rejects(async()=>service.saveEvent(token,{...input,id:randomUUID(),word:'not-a-target'}),/目标|属于/);
+});
 
 test('用户记录隔离，重复提交幂等，冲突拒绝', async () => {
   const { service, file } = await setup();

@@ -6,6 +6,7 @@ import { tokens, type DailyBatch } from '../src/shared/daily-types';
 import { includesWord } from '../src/shared/lexical';
 import type { StudyEvent } from '../src/shared/study-types';
 import { eventSchema, studyEventsSchema } from '../src/shared/study-schema';
+import {scoreRecall,comparableEvent} from '../src/shared/recall';
 export type { StudyEvent } from '../src/shared/study-types';
 export { eventSchema } from '../src/shared/study-schema';
 
@@ -89,7 +90,10 @@ export class StudyService {
     const course = this.courses.find(c => c.day === event.day);
     const lesson = course?.content.lessons.find(l => l.id === event.lessonId);
     if (!course || !lesson) throw new ApiError(400, '学习日或情境不存在');
-    if (event.type === 'quiz') {
+    let recall:{answers:number[];score:number}|undefined;
+    if(event.type==='recall'){try{recall=scoreRecall(event,course);}catch(error){throw new ApiError(400,(error as Error).message);}}
+    else if (event.answerText!==undefined)throw new ApiError(400,'此记录类型不接受回忆作答文本');
+    else if (event.type === 'quiz') {
       if (!event.answers || event.answers.length !== lesson.questions.length || event.word !== undefined || event.favorite !== undefined) throw new ApiError(400, '测验答案数量或字段无效');
     } else if (event.type === 'favorite') {
       const vocabulary = new Set(lesson.paragraphs.flatMap(p => tokens(p.en)));
@@ -101,11 +105,12 @@ export class StudyService {
       const existing = events.find(e => e.id === event.id);
       if (existing) {
         const { createdAt: _, score: __, ...original } = existing;
-        if (JSON.stringify(original) !== JSON.stringify(event)) throw new ApiError(409, '记录编号已被其他内容使用');
+        if (JSON.stringify(comparableEvent(original)) !== JSON.stringify(comparableEvent(event))) throw new ApiError(409, '记录编号已被其他内容使用');
         return { event: existing };
       }
       if (events.length >= 100000) throw new ApiError(413, '个人学习记录已达首版容量上限，请联系维护者');
       const saved: StudyEvent = { ...event, createdAt: new Date().toISOString() };
+      if(recall)Object.assign(saved,recall);
       if (event.type === 'quiz') saved.score = event.answers!.filter((answer, index) => answer === lesson.questions[index].answer).length;
       events.push(saved);
       state.users[user] = events;

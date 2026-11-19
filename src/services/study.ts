@@ -7,7 +7,8 @@ import type {DailyBatch} from '../shared/daily-types';
 import {studyEventsSchema} from '../shared/study-schema';
 export {completed,favorites,latestQuiz} from '../shared/progress';
 import type {EventInput,StudyEvent,DaySummary,SessionResponse} from '../shared/study-types';
-import {studyEventSchema} from '../shared/study-schema';
+import {studyEventSchema,eventSchema} from '../shared/study-schema';
+import {scoreRecall,comparableEvent} from '../shared/recall';
 export type {EventInput,StudyEvent,DaySummary} from '../shared/study-types';
 export type Mode='local'|'wechat';
 const localBatches=courseCatalog;
@@ -57,9 +58,17 @@ export async function events(mode:Mode,credential=token):Promise<StudyEvent[]>{
  const result=studyEventsSchema.safeParse(saved);if(!result.success)throw Error('本机学习记录格式错误，已停止读取以保护原记录');return result.data;
 }
 export async function save(mode:Mode,input:EventInput,lesson:DailyBatch['content']['lessons'][number],known:StudyEvent[],credential=token):Promise<StudyEvent[]>{
+ input=eventSchema.parse(input);
  if(mode==='wechat'){const response=await request<{event:StudyEvent}>('/api/events','POST',input,credential);const event=studyEventSchema.parse(response.event);return [...known.filter(e=>e.id!==event.id),event];}
  const all=await events(mode);
+ const course=localBatches.find(course=>course.day===input.day);
+ if(input.type==='recall'&&(!course||input.lessonId!==lesson.id))throw Error('回忆课程或情境不存在');
+ const recall=input.type==='recall'?scoreRecall(input,course!):undefined;
+ const existing=all.find(event=>event.id===input.id);
+ if(existing){const {createdAt:_,score:__,...original}=existing;if(JSON.stringify(comparableEvent(original))!==JSON.stringify(comparableEvent(input)))throw Error('记录编号已被其他内容使用');return all;}
  const event:StudyEvent={...input,createdAt:new Date().toISOString()};
+ if(recall)Object.assign(event,recall);
  if(input.type==='quiz')event.score=lesson.questions.filter((q,i)=>q.answer===input.answers?.[i]).length;
- all.push(event);Taro.setStorageSync(localKey,all);return all;
+ if(all.length>=100000)throw Error('个人学习记录已达到容量上限');
+ const saved=studyEventSchema.parse(event);all.push(saved);Taro.setStorageSync(localKey,all);return all;
 }

@@ -98,16 +98,17 @@ export function createSessionController(deps:SessionDependencies){
   const next={...saved,selectedDay:day,reviewingCourse:undefined};deps.write(next);saved=next;publish({selectedDay:day,reviewingCourse:false});
  });}
  async function openReview(day:number){await operation(async()=>{if(!snapshot.ready||!snapshot.days.some(item=>item.day===day))throw Error('原课程尚未发布');const next={...saved,selectedDay:day,reviewingCourse:true};deps.write(next);saved=next;publish({selectedDay:day,reviewingCourse:true});});}
- async function record(input:EventInput,lesson:Lesson){await operation(async()=>{
+ async function record(input:EventInput,lesson:Lesson){let savedEvent:StudyEvent|undefined;await operation(async()=>{
   if(restored)credential();if(!snapshot.ready||!restored)throw Error('学习记录尚未初始化');
   if(!snapshot.days.some(day=>day.day===input.day)||input.lessonId!==lesson.id)throw Error('学习记录与课程不一致');
   if(saved.mode==='wechat'&&snapshot.plan&&!snapshot.reviewingCourse){const course=snapshot.days.find(day=>day.day===input.day)!;if(!course.targetWords||!matchesPlanDay(snapshot.plan,input.day,course.targetWords))throw Error('本日课程与计划词表不一致，暂不能保存为计划进度');}
-  const key=JSON.stringify([input.day,input.lessonId,input.type,input.word??null,input.favorite??null,input.answers??null]);
+  const key=JSON.stringify([input.day,input.lessonId,input.type,input.word??null,input.favorite??null,input.answers??null,input.answerText??null]);
   const attempt=pendingRecords.get(key)??input;pendingRecords.set(key,attempt);
   const events=await deps.save(saved.mode,attempt,lesson,snapshot.events,saved.credential?.token);
+  savedEvent=events.find(event=>event.id===attempt.id);if(!savedEvent)throw Error('保存响应缺少本次学习记录');
   for(const [pendingKey,event] of pendingRecords)if(event.day===input.day&&event.lessonId===input.lessonId&&event.type===input.type&&event.word===input.word)pendingRecords.delete(pendingKey);
   publish({events});
- },true);}
+ },true);if(!savedEvent)throw Error('本次学习记录未保存');return savedEvent;}
  async function startPlan(wordsPerDay:number,startedOn?:string){await operation(async()=>{
   if(!snapshot.ready||!restored)throw Error('请先等学习信息读取完成');
   const token=credential();const parsed=dailyWordCountSchema.safeParse(wordsPerDay);if(!parsed.success)throw Error('每日词数须为10至80之间的整数');

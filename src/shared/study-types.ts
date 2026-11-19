@@ -2,10 +2,11 @@ export type EventInput = {
   id: string;
   day: number;
   lessonId: string;
-  type: 'read' | 'quiz' | 'favorite';
+  type: 'read' | 'quiz' | 'favorite' | 'recall';
   word?: string;
   favorite?: boolean;
   answers?: number[];
+  answerText?: string;
 };
 export type StudyEvent = EventInput & { createdAt: string; score?: number };
 export type DaySummary = { day: number; date: string; words: number; targetWords?:string[] };

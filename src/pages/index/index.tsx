@@ -9,6 +9,7 @@ import type {DailyBatch} from '../../shared/daily-types';
 import * as study from '../../services/study';
 import {playAudio,stopAudio} from '../../services/audio';
 import {session,useStudySession} from '../../services/session';
+import WordReview from '../../components/WordReview';
 
 type Lookup={word:string;meaning:string;ipa:string;lessonId:string};
 const TRIAL_INTRO_KEY='wordscape:trial-intro:v1';
@@ -92,9 +93,15 @@ function LearningContent({account,visit}:{account:ReturnType<typeof useStudySess
   </>}
   {course&&<>
    <View className='stats'><Text>{course.words.length} 个新词</Text><Text>{course.content.lessons.length} 个情境</Text><Text>{study.completed(course,all)?'本日已完成 ✓':'循序渐进'}</Text></View>
-   <View className='card word-list'><Text className='title'>本日新词</Text>{course.words.map(word=><Text key={word} className='word-chip' onClick={()=>showWord(word)}>{word}</Text>)}</View>
+   {tab!=='单词巩固'&&<View className='card word-list'><Text className='title'>本日新词</Text>{course.words.map(word=><Text key={word} className='word-chip' onClick={()=>showWord(word)}>{word}</Text>)}</View>}
   </>}
-  {account.ready&&<View className='row tabs'>{['情境练习','生词本','学习历史'].map(t=><Button key={t} size='mini' className={t===tab?'active':''} onClick={()=>{stopAudio();setTab(t);}}>{t}</Button>)}</View>}
+  {account.ready&&<View className='row tabs'>{['情境练习','单词巩固','生词本','学习历史'].map(t=><Button key={t} size='mini' className={t===tab?'active':''} onClick={()=>{stopAudio();setTab(t);}}>{t}</Button>)}</View>}
+  {course&&tab==='单词巩固'&&!archived&&<WordReview key={course.day+':'+course.words.join(',')} course={course} events={all} busy={busy} save={async(word,answerText)=>{
+   const source=course.content.lessons.find(item=>item.paragraphs.some(p=>includesWord(p.en,word)));if(!source)throw Error('目标词缺少对应情境');
+   const event=await session.record({id:study.newId(),day:course.day,lessonId:source.id,type:'recall',word,answerText},source);
+   if(event.score===undefined)throw Error('巩固评分没有返回');return event.score;
+  }}/>}
+  {course&&tab==='情境练习'&&study.completed(course,all)&&<View className='card'><Text className='title'>短文学完了，巩固一下今日单词</Text><Button onClick={()=>{stopAudio();setTab('单词巩固');}}>开始巩固</Button></View>}
    {course&&tab==='情境练习'&&lesson&&<>
     <ScrollView scrollX className='lesson-scroll'><View className='lesson-list'>{course.content.lessons.map((l,i)=><Button key={l.id} size='mini' disabled={busy} className={i===lessonIndex?'active':''} onClick={()=>chooseLesson(i)}>{i+1}. {l.subtitle}</Button>)}</View></ScrollView>
     <View className='card'><Text className='title'>{lesson.title}</Text><Text className='muted'>点击英文词查看本段词义和音标</Text>
@@ -104,7 +111,7 @@ function LearningContent({account,visit}:{account:ReturnType<typeof useStudySess
     <View className='card'><Text className='title'>英文理解测验</Text>{lesson.questions.map((q,i)=><View key={i} className='question'><Text className='quiz-prompt'>{i+1}. {q.prompt}</Text>{q.options.map((o,j)=>{const result=submitted?(j===q.answer?'correct':answers[i]===j?'wrong':''):'';return <Button key={j} disabled={busy||submitted||archived} className={`option ${answers[i]===j?'chosen':''} ${result}`} onClick={()=>{const copy=answers.slice();copy[i]=j;setAnswers(copy);}}>{String.fromCharCode(65+j)}. {o}</Button>;})}{submitted&&<Text className='translation'>{answers[i]===q.answer?'✓ 正确':'正确答案：'+String.fromCharCode(65+q.answer)} · {q.explanation}</Text>}</View>)}<Button disabled={busy||submitted||archived} onClick={()=>void run(async()=>{if(lesson.questions.some((_,i)=>!Number.isInteger(answers[i])))throw Error('请答完所有题再提交');await record('quiz',{answers});setSubmitted(true);})}>{submitted?'已提交并保存':'提交测验'}</Button>{submitted&&!archived&&<Button onClick={()=>{setAnswers([]);setSubmitted(false);}}>重新练习</Button>}</View>
    </>}
    {tab==='生词本'&&<View className='card'><Text className='title'>已收藏 {saved.length} 词</Text>{!saved.length&&<Text className='muted'>阅读时点击英文词即可收藏。</Text>}{saved.map(e=><View key={e.day+':'+e.word} className='row'><Text>{e.word} · 第{e.day}天</Text><Button size='mini' disabled={busy} onClick={()=>void run(async()=>{const previous=legacyCourseFor(e.day,e.lessonId);if(previous){const index=previous.content.lessons.findIndex(l=>l.id===e.lessonId);setArchived(true);setCourse(previous);setLessonIndex(index);restore(previous,index,all);setError('');}else if(course&&!archived&&e.day===course.day){const i=course.content.lessons.findIndex(l=>l.id===e.lessonId);if(i<0)throw Error('收藏对应情境不存在');chooseLesson(i);}else{pendingLesson.current=e.lessonId;try{await session.openReview(e.day);setReload(value=>value+1);}catch(e){pendingLesson.current=undefined;throw e;}}setTab('情境练习');})}>回到情境</Button></View>)}</View>}
-   {tab==='学习历史'&&<View className='card'><Text className='title'>学习历史</Text>{!all.length&&<Text className='muted'>还没有学习记录。</Text>}{[...all].reverse().filter(e=>e.type!=='favorite').map(e=><View key={e.id} className='history'>第{e.day}天 · {e.lessonId} · {e.type==='read'?'阅读完成':`测验 ${e.score}/${e.answers?.length}`}<Text className='muted'>{new Date(e.createdAt).toLocaleString()}</Text></View>)}</View>}
+   {tab==='学习历史'&&<View className='card'><Text className='title'>学习历史</Text>{!all.length&&<Text className='muted'>还没有学习记录。</Text>}{[...all].reverse().filter(e=>e.type!=='favorite').map(e=><View key={e.id} className='history'>第{e.day}天 · {e.type==='recall'?`${e.word} · 单词巩固${e.score===1?'正确':'待复习'}`:e.lessonId+' · '+(e.type==='read'?'阅读完成':`测验 ${e.score}/${e.answers?.length}`)}<Text className='muted'>{new Date(e.createdAt).toLocaleString()}</Text></View>)}</View>}
   {lookup&&course&&<View className='overlay'><View className='dialog'><Text className='heading'>{lookup.word}</Text><Text>{lookup.ipa}</Text><Text className='title'>本段含义</Text><Text>{lookup.meaning}</Text>{course.content.targets[lookup.word]&&<><Text className='title'>目标词释义</Text><Text>{course.content.targets[lookup.word].meaning}</Text>{course.content.targets[lookup.word].senses?.map(s=><Text key={s.pos+s.meaning}>{s.pos}：{s.meaning}</Text>)}</>}<Button onClick={()=>{setLookupError('');playAudio(`word:${lookup.word}`,message=>reportAudioError(message,setLookupError));}}>播放单词英式发音</Button>{lookupError&&<Text className='error'>{lookupError}</Text>}<Button disabled={busy||archived} onClick={()=>void run(()=>record('favorite',{word:lookup.word,favorite:!selectedSaved,lessonId:lookup.lessonId}),setLookupError)}>{selectedSaved?'取消收藏':'收藏生词'}</Button><Button disabled={busy} onClick={()=>{setLookup(undefined);setLookupError('');stopAudio();}}>关闭</Button></View></View>}
  </View>;
 }
