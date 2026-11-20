@@ -1,5 +1,7 @@
 # 小程序结构
 
+第1天双测验：questions保留原阅读题，contextQuestions保存情景辨词。ContextQuizModule.tsx独立恢复新版答卷，ContextQuiz.tsx负责逐题交互；学习页切换模块，quizVersion区分判分和记录。完成任意一种测验均计入原进度。
+
 单词巩固：`src/components/WordReview.tsx`负责按天回忆、揭晓、错词队列；`src/shared/recall.ts`统一验证目标词与规范化判分。recall事件沿现有session→study服务→本机/云端保存，独立于read/quiz完成规则。
 
 ```mermaid

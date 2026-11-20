@@ -69,6 +69,11 @@ test('测验评分与课程验证在服务器完成，失败不写事件',async(
  const f=setup();const token=await f.login();assert.equal((await f.call('/api/events','POST',{...reading(),day:999},token)).statusCode,400);assert.equal((await f.call('/api/events','POST',{...reading(),type:'quiz',answers:[0]},token)).statusCode,400);
  const result=await f.call('/api/events','POST',{...reading(),type:'quiz',answers:lesson.questions.map(question=>question.answer)},token);assert.equal(result.statusCode,200);assert.equal((result.data as {event:StudyEvent}).event.score,lesson.questions.length);
 });
+test('云端接受两套测验并保留独立版本',async()=>{
+ const f=setup();const token=await f.login();
+ for(const quizVersion of [undefined,'context-v1'] as const){const questions=quizVersion?lesson.contextQuestions!:lesson.questions;const input={...reading(),type:'quiz',...(quizVersion?{quizVersion}:{}),answers:questions.map(q=>q.answer)};const result=await f.call('/api/events','POST',input,token);assert.equal(result.statusCode,200);const event=(result.data as {event:StudyEvent}).event;assert.equal(event.score,5);assert.equal(event.quizVersion,quizVersion);assert.deepEqual(await f.call('/api/events','POST',input,token),result);}
+ const rows=(await f.call('/api/events','GET',{},token)).data as {events:StudyEvent[]};assert.equal(rows.events.length,2);
+});
 test('计划创建与修改事务幂等，未知计划和未来日期拒绝，账户之间无数据串用',async()=>{
  const f=setup();const token=await f.login();const input={id:randomUUID(),wordsPerDay:10,startedOn:'2026-10-15'};
  const responses=await Promise.all([f.call('/api/plan','POST',input,token),f.call('/api/plan','POST',input,token)]);assert.ok(responses.every(response=>response.statusCode===200));assert.deepEqual(responses[0].data,responses[1].data);

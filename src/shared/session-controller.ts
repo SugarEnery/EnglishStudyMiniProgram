@@ -102,7 +102,7 @@ export function createSessionController(deps:SessionDependencies){
   if(restored)credential();if(!snapshot.ready||!restored)throw Error('学习记录尚未初始化');
   if(!snapshot.days.some(day=>day.day===input.day)||input.lessonId!==lesson.id)throw Error('学习记录与课程不一致');
   if(saved.mode==='wechat'&&snapshot.plan&&!snapshot.reviewingCourse){const course=snapshot.days.find(day=>day.day===input.day)!;if(!course.targetWords||!matchesPlanDay(snapshot.plan,input.day,course.targetWords))throw Error('本日课程与计划词表不一致，暂不能保存为计划进度');}
-  const key=JSON.stringify([input.day,input.lessonId,input.type,input.word??null,input.favorite??null,input.answers??null,input.answerText??null]);
+  const key=JSON.stringify([input.day,input.lessonId,input.type,input.word??null,input.favorite??null,input.answers??null,input.answerText??null,input.quizVersion??null]);
   const attempt=pendingRecords.get(key)??input;pendingRecords.set(key,attempt);
   const events=await deps.save(saved.mode,attempt,lesson,snapshot.events,saved.credential?.token);
   savedEvent=events.find(event=>event.id===attempt.id);if(!savedEvent)throw Error('保存响应缺少本次学习记录');

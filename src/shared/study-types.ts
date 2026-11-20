@@ -7,6 +7,7 @@ export type EventInput = {
   favorite?: boolean;
   answers?: number[];
   answerText?: string;
+  quizVersion?: 'context-v1';
 };
 export type StudyEvent = EventInput & { createdAt: string; score?: number };
 export type DaySummary = { day: number; date: string; words: number; targetWords?:string[] };

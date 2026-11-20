@@ -10,6 +10,7 @@ import * as study from '../../services/study';
 import {playAudio,stopAudio} from '../../services/audio';
 import {session,useStudySession} from '../../services/session';
 import WordReview from '../../components/WordReview';
+import ContextQuizModule from '../../components/ContextQuizModule';
 
 type Lookup={word:string;meaning:string;ipa:string;lessonId:string};
 const TRIAL_INTRO_KEY='wordscape:trial-intro:v1';
@@ -30,6 +31,7 @@ function LearningContent({account,visit}:{account:ReturnType<typeof useStudySess
  const mode=account.mode,list=mode==='local'?account.days.slice(0,3):account.calendarDays,all=account.events;
  const [course,setCourse]=useState<DailyBatch>();
  const [archived,setArchived]=useState(false);
+ const [quizModule,setQuizModule]=useState<'reading'|'context'>('reading');
  const [lessonIndex,setLessonIndex]=useState(0);const [tab,setTab]=useState('情境练习');
  const [revealed,setRevealed]=useState<number[]>([]);const [answers,setAnswers]=useState<number[]>([]);const [submitted,setSubmitted]=useState(false);
  const [lookup,setLookup]=useState<Lookup>();const [lookupError,setLookupError]=useState('');const [error,setError]=useState('');const [working,setWorking]=useState(false);
@@ -40,7 +42,7 @@ function LearningContent({account,visit}:{account:ReturnType<typeof useStudySess
  const calendarDate=(account.reviewingCourse?account.days:list).find(day=>day.day===account.selectedDay)?.date;
  useEffect(()=>{if(calendarDate)setMonth(calendarDate.slice(0,7));},[calendarDate]);
  function restore(b:DailyBatch,index:number,records:study.StudyEvent[]){
-  const last=study.latestQuiz(records,b.day,b.content.lessons[index].id);
+  const last=study.latestQuiz(records.filter(e=>!e.quizVersion),b.day,b.content.lessons[index].id);
   restoredQuizId.current=last?.id;setAnswers(last?.answers||[]);setSubmitted(Boolean(last));setRevealed([]);setLookup(undefined);setLookupError('');stopAudio();
  }
  async function run(action:()=>Promise<void>,report:(message:string)=>void=setError){if(lock.current||busy)return;lock.current=true;setWorking(true);report('');try{await action();}catch(e){report(e instanceof Error?e.message:'操作失败，请查看开发者工具中的错误信息');}finally{lock.current=false;setWorking(false);}}
@@ -57,7 +59,7 @@ function LearningContent({account,visit}:{account:ReturnType<typeof useStudySess
   }).catch(e=>{if(active){pendingLesson.current=undefined;setError(e instanceof Error?e.message:'课程加载失败');}}).finally(()=>{if(active)setWorking(false);});
   return ()=>{active=false;stopAudio();};
  },[account.ready,account.selectedDay,reload,account.reviewingCourse,account.plan?.id,account.plan?.startedOn,account.plan?.wordsPerDay]);
- useEffect(()=>{if(course&&study.latestQuiz(all,course.day,course.content.lessons[lessonIndex].id)?.id!==restoredQuizId.current)restore(course,lessonIndex,all);},[visit,all,course,lessonIndex]);
+ useEffect(()=>{if(course&&study.latestQuiz(all.filter(e=>!e.quizVersion),course.day,course.content.lessons[lessonIndex].id)?.id!==restoredQuizId.current)restore(course,lessonIndex,all);},[visit,all,course,lessonIndex]);
  useEffect(()=>stopAudio,[]);
  async function record(type:study.EventInput['type'],extra:Partial<study.EventInput>={}){
   if(archived)throw Error('旧课程仅供回看，请返回随机课程继续学习');
@@ -65,7 +67,7 @@ function LearningContent({account,visit}:{account:ReturnType<typeof useStudySess
   const input:study.EventInput={...extra,id:study.newId(),day:course.day,lessonId:extra.lessonId??lesson.id,type};
   const sourceLesson=course.content.lessons.find(item=>item.id===input.lessonId);
   if(!sourceLesson)throw Error('记录对应情境不存在');
-  await session.record(input,sourceLesson);if(type==='quiz')restoredQuizId.current=input.id;
+  const savedEvent=await session.record(input,sourceLesson);if(type==='quiz'&&!input.quizVersion)restoredQuizId.current=savedEvent.id;
  }
  function chooseLesson(index:number){if(busy||!course)return;setLessonIndex(index);restore(course,index,all);}
  function showWord(raw:string){if(!course)return;const word=normalizeWord(raw);const meaning=course.content.dictionary[word]||course.content.targets[word]?.meaning;
@@ -108,10 +110,11 @@ function LearningContent({account,visit}:{account:ReturnType<typeof useStudySess
      {lesson.paragraphs.map((p,i)=><View key={i} className='paragraph'><View className='english'>{readingParts(p.en,course.words).map((part,j)=>/^[a-z]/i.test(part)?<Text key={j} className={course.words.includes(normalizeWord(part))?'target':''} onClick={()=>showWord(part)}>{part}</Text>:<Text key={j}>{part}</Text>)}</View><Button size='mini' onClick={()=>playAudio(`paragraph:${lesson.id}:${i}`,reportAudioError)}>播放整段英式发音</Button><Button size='mini' onClick={()=>setRevealed(revealed.includes(i)?revealed.filter(x=>x!==i):[...revealed,i])}>{revealed.includes(i)?'隐藏译文':'查看译文'}</Button>{revealed.includes(i)&&<Text className='translation'>{p.zh}</Text>}<View className='patterns'>{p.patterns.map(pattern=><View key={pattern.expression}><Text className='pattern'>{pattern.expression}</Text><Text className='muted'>{pattern.meaning}</Text></View>)}</View></View>)}
      <Button disabled={busy||archived} onClick={()=>void run(()=>record('read'))}>{all.some(e=>e.day===course.day&&e.lessonId===lesson.id&&e.type==='read')?'已读完 ✓':'标记读完'}</Button>
     </View>
-    <View className='card'><Text className='title'>英文理解测验</Text>{lesson.questions.map((q,i)=><View key={i} className='question'><Text className='quiz-prompt'>{i+1}. {q.prompt}</Text>{q.options.map((o,j)=>{const result=submitted?(j===q.answer?'correct':answers[i]===j?'wrong':''):'';return <Button key={j} disabled={busy||submitted||archived} className={`option ${answers[i]===j?'chosen':''} ${result}`} onClick={()=>{const copy=answers.slice();copy[i]=j;setAnswers(copy);}}>{String.fromCharCode(65+j)}. {o}</Button>;})}{submitted&&<Text className='translation'>{answers[i]===q.answer?'✓ 正确':'正确答案：'+String.fromCharCode(65+q.answer)} · {q.explanation}</Text>}</View>)}<Button disabled={busy||submitted||archived} onClick={()=>void run(async()=>{if(lesson.questions.some((_,i)=>!Number.isInteger(answers[i])))throw Error('请答完所有题再提交');await record('quiz',{answers});setSubmitted(true);})}>{submitted?'已提交并保存':'提交测验'}</Button>{submitted&&!archived&&<Button onClick={()=>{setAnswers([]);setSubmitted(false);}}>重新练习</Button>}</View>
+    {lesson.contextQuestions&&!archived&&<><Text className='muted'>选择一种测验完成即可，两种答题记录分别保存。</Text><View className='row tabs'><Button className={quizModule==='reading'?'active':''} disabled={busy} onClick={()=>setQuizModule('reading')}>英文理解测验</Button><Button className={quizModule==='context'?'active':''} disabled={busy} onClick={()=>setQuizModule('context')}>情景辨词</Button></View><View style={{display:quizModule==='context'?'block':'none'}}><ContextQuizModule key={course.day+':'+lesson.id} lesson={lesson} event={study.latestQuiz(all.filter(e=>e.quizVersion==='context-v1'),course.day,lesson.id)} busy={busy} save={async contextAnswers=>{let saved=false;await run(async()=>{await record('quiz',{answers:contextAnswers,quizVersion:'context-v1'});saved=true;});return saved;}}/></View></>}
+    {(!lesson.contextQuestions||archived||quizModule==='reading')&&<View className='card'><Text className='title'>英文理解测验</Text>{lesson.questions.map((q,i)=><View key={i} className='question'><Text className='quiz-prompt'>{i+1}. {q.prompt}</Text>{q.options.map((o,j)=>{const result=submitted?(j===q.answer?'correct':answers[i]===j?'wrong':''):'';return <Button key={j} disabled={busy||submitted||archived} className={`option ${answers[i]===j?'chosen':''} ${result}`} onClick={()=>{const copy=answers.slice();copy[i]=j;setAnswers(copy);}}>{String.fromCharCode(65+j)}. {o}</Button>;})}{submitted&&<Text className='translation'>{answers[i]===q.answer?'✓ 正确':'正确答案：'+String.fromCharCode(65+q.answer)} · {q.explanation}</Text>}</View>)}<Button disabled={busy||submitted||archived} onClick={()=>void run(async()=>{if(lesson.questions.some((_,i)=>!Number.isInteger(answers[i])))throw Error('请答完所有题再提交');await record('quiz',{answers});setSubmitted(true);})}>{submitted?'已提交并保存':'提交测验'}</Button>{submitted&&!archived&&<Button onClick={()=>{setAnswers([]);setSubmitted(false);}}>重新练习</Button>}</View>}
    </>}
    {tab==='生词本'&&<View className='card'><Text className='title'>已收藏 {saved.length} 词</Text>{!saved.length&&<Text className='muted'>阅读时点击英文词即可收藏。</Text>}{saved.map(e=><View key={e.day+':'+e.word} className='row'><Text>{e.word} · 第{e.day}天</Text><Button size='mini' disabled={busy} onClick={()=>void run(async()=>{const previous=legacyCourseFor(e.day,e.lessonId);if(previous){const index=previous.content.lessons.findIndex(l=>l.id===e.lessonId);setArchived(true);setCourse(previous);setLessonIndex(index);restore(previous,index,all);setError('');}else if(course&&!archived&&e.day===course.day){const i=course.content.lessons.findIndex(l=>l.id===e.lessonId);if(i<0)throw Error('收藏对应情境不存在');chooseLesson(i);}else{pendingLesson.current=e.lessonId;try{await session.openReview(e.day);setReload(value=>value+1);}catch(e){pendingLesson.current=undefined;throw e;}}setTab('情境练习');})}>回到情境</Button></View>)}</View>}
-   {tab==='学习历史'&&<View className='card'><Text className='title'>学习历史</Text>{!all.length&&<Text className='muted'>还没有学习记录。</Text>}{[...all].reverse().filter(e=>e.type!=='favorite').map(e=><View key={e.id} className='history'>第{e.day}天 · {e.type==='recall'?`${e.word} · 单词巩固${e.score===1?'正确':'待复习'}`:e.lessonId+' · '+(e.type==='read'?'阅读完成':`测验 ${e.score}/${e.answers?.length}`)}<Text className='muted'>{new Date(e.createdAt).toLocaleString()}</Text></View>)}</View>}
+   {tab==='学习历史'&&<View className='card'><Text className='title'>学习历史</Text>{!all.length&&<Text className='muted'>还没有学习记录。</Text>}{[...all].reverse().filter(e=>e.type!=='favorite').map(e=><View key={e.id} className='history'>第{e.day}天 · {e.type==='recall'?`${e.word} · 单词巩固${e.score===1?'正确':'待复习'}`:e.lessonId+' · '+(e.type==='read'?'阅读完成':`${e.quizVersion==='context-v1'?'情景辨词':'英文理解测验'} ${e.score}/${e.answers?.length}`)}<Text className='muted'>{new Date(e.createdAt).toLocaleString()}</Text></View>)}</View>}
   {lookup&&course&&<View className='overlay'><View className='dialog'><Text className='heading'>{lookup.word}</Text><Text>{lookup.ipa}</Text><Text className='title'>本段含义</Text><Text>{lookup.meaning}</Text>{course.content.targets[lookup.word]&&<><Text className='title'>目标词释义</Text><Text>{course.content.targets[lookup.word].meaning}</Text>{course.content.targets[lookup.word].senses?.map(s=><Text key={s.pos+s.meaning}>{s.pos}：{s.meaning}</Text>)}</>}<Button onClick={()=>{setLookupError('');playAudio(`word:${lookup.word}`,message=>reportAudioError(message,setLookupError));}}>播放单词英式发音</Button>{lookupError&&<Text className='error'>{lookupError}</Text>}<Button disabled={busy||archived} onClick={()=>void run(()=>record('favorite',{word:lookup.word,favorite:!selectedSaved,lessonId:lookup.lessonId}),setLookupError)}>{selectedSaved?'取消收藏':'收藏生词'}</Button><Button disabled={busy} onClick={()=>{setLookup(undefined);setLookupError('');stopAudio();}}>关闭</Button></View></View>}
  </View>;
 }

@@ -752,6 +752,73 @@
             "answer": 1,
             "explanation": "for the sake of trust交代要求公开开支的目的：建立信任。"
           }
+        ],
+        "contextQuestions": [
+          {
+            "word": "investigate",
+            "type": "reason",
+            "prompt": "notice侧重注意到，investigate侧重查明情况。哪句话正确使用investigate表达“追查原因”，而不只是发现异常？",
+            "options": [
+              "I investigated a leak by simply noticing a wet floor and walking away.",
+              "We investigated the leak by checking the pipes to find its cause.",
+              "I investigated that the floor was wet, but checked nothing.",
+              "We investigated the noise by ignoring it completely."
+            ],
+            "answer": 1,
+            "explanation": "investigate是主动调查以查明情况；检查管道追查漏水原因符合。notice只是注意到，发现后离开或完全忽视不算调查。"
+          },
+          {
+            "word": "recipient",
+            "type": "context",
+            "prompt": "“Mia sends a card to Ben.” 谁是这张卡的recipient？",
+            "options": [
+              "Ben.",
+              "Mia.",
+              "The printing machine.",
+              "The delivery van."
+            ],
+            "answer": 0,
+            "explanation": "recipient是接收者；Ben收到卡片，Mia是寄出者。"
+          },
+          {
+            "word": "pastor",
+            "type": "context",
+            "prompt": "“Lena works as a pastor.” 哪项工作最符合pastor这个身份？",
+            "options": [
+              "Repairing cars.",
+              "Flying planes.",
+              "Leading a church service.",
+              "Delivering letters."
+            ],
+            "answer": 2,
+            "explanation": "pastor指牧师，其工作包括带领教会礼拜，不是修车、驾驶飞机或送信。"
+          },
+          {
+            "word": "bake",
+            "type": "outcome",
+            "prompt": "食谱写着：“Bake the bread.” 应采用哪种做法？",
+            "options": [
+              "Cook it in hot water.",
+              "Cook it in a frying pan.",
+              "Cook it over a direct flame.",
+              "Cook it in an oven."
+            ],
+            "answer": 3,
+            "explanation": "bake是用烤箱等的干热烘烤，区别于水煮、煎和直接火烤。"
+          },
+          {
+            "word": "sake",
+            "type": "paraphrase",
+            "prompt": "“For the sake of safety, keep the door clear.” for the sake of safety表达什么目的？",
+            "options": [
+              "To ignore possible danger.",
+              "To keep people safe.",
+              "To make the doorway smaller.",
+              "To avoid helping anyone."
+            ],
+            "answer": 1,
+            "explanation": "for the sake of表示为了某种目的；这里是为了保障安全。"
+          }
         ]
       },
       {
@@ -853,6 +920,73 @@
             ],
             "answer": 2,
             "explanation": "three consecutive evenings表示连续三个晚上，中间没有间隔其他晚上。"
+          }
+        ],
+        "contextQuestions": [
+          {
+            "word": "vanish",
+            "type": "context",
+            "prompt": "“The mist will vanish when the sun comes out.” 哪项最接近vanish的意思？",
+            "options": [
+              "Appear.",
+              "Stay.",
+              "Disappear.",
+              "Grow thicker."
+            ],
+            "answer": 2,
+            "explanation": "vanish表示消失；雾散去，而不是出现、停留或变浓。"
+          },
+          {
+            "word": "superb",
+            "type": "inference",
+            "prompt": "尝过饭菜后，Jo说：“The meal is superb.” Jo怎样评价这顿饭？",
+            "options": [
+              "It is excellent.",
+              "It is terrible.",
+              "It is only average.",
+              "It is hardly edible."
+            ],
+            "answer": 0,
+            "explanation": "superb表示极好、出色，评价明显高于一般或勉强能吃。"
+          },
+          {
+            "word": "live",
+            "type": "context",
+            "prompt": "“They live near the station.” live在这里说明什么？",
+            "options": [
+              "They are visiting the area once.",
+              "They are passing through the area.",
+              "They are working there for one day.",
+              "Their home is near the station."
+            ],
+            "answer": 3,
+            "explanation": "live在这里是居住，不是短暂游览、路过或工作一天。"
+          },
+          {
+            "word": "ongoing",
+            "type": "paraphrase",
+            "prompt": "“The repairs are ongoing.” 哪个改写准确？",
+            "options": [
+              "The repairs will start next week.",
+              "The repairs are still in progress.",
+              "The repairs have finished.",
+              "The repairs have stopped permanently."
+            ],
+            "answer": 1,
+            "explanation": "ongoing表示仍在持续进行，不是尚未开始、已经结束或永久停止。"
+          },
+          {
+            "word": "consecutive",
+            "type": "context",
+            "prompt": "需要连续三天签到。哪一组日期满足three consecutive days？",
+            "options": [
+              "Monday, Wednesday, Friday.",
+              "Tuesday, Thursday, Saturday.",
+              "Monday, Tuesday, Wednesday.",
+              "Monday, Tuesday, Thursday."
+            ],
+            "answer": 2,
+            "explanation": "consecutive表示连续、没有间隔；周一、周二、周三符合要求。"
           }
         ]
       },
@@ -956,6 +1090,73 @@
             "answer": 1,
             "explanation": "creation在美术活动中指制作出来的作品。"
           }
+        ],
+        "contextQuestions": [
+          {
+            "word": "age",
+            "type": "context",
+            "prompt": "“The form asks for your age.” 应填写哪项信息？",
+            "options": [
+              "Where you live.",
+              "How old you are.",
+              "What you do for work.",
+              "How tall you are."
+            ],
+            "answer": 1,
+            "explanation": "age在这里是年龄，不是住址、职业或身高。"
+          },
+          {
+            "word": "youngster",
+            "type": "context",
+            "prompt": "“A youngster joins the club.” youngster最可能指谁？",
+            "options": [
+              "A retired adult.",
+              "A middle-aged adult.",
+              "A child or young person.",
+              "The club itself."
+            ],
+            "answer": 2,
+            "explanation": "youngster指孩子或年轻人，不是中老年人，也不是俱乐部这个场所。"
+          },
+          {
+            "word": "belief",
+            "type": "paraphrase",
+            "prompt": "“It is her belief that practice matters.” 哪个改写最准确？",
+            "options": [
+              "She thinks practice is important.",
+              "She thinks practice is useless.",
+              "She has no view on practice.",
+              "She only asks who is practising."
+            ],
+            "answer": 0,
+            "explanation": "belief是相信的看法；这里表示她认为练习很重要，不等于已经证明这一看法。"
+          },
+          {
+            "word": "instruct",
+            "type": "context",
+            "prompt": "新员工需要学习安全操作。哪句话使用instruct表达了实际的指导行为？",
+            "options": [
+              "The worker was instructed, but nobody gave him any directions.",
+              "The trainer instructed the worker by hiding every safety rule.",
+              "The trainer instructed the worker by refusing to explain the steps.",
+              "The trainer instructed the worker in how to stop the machine safely."
+            ],
+            "answer": 3,
+            "explanation": "instruct强调给予指导或操作说明；教新员工安全停机符合，隐瞒规则、拒绝说明或完全没有指导不符合。"
+          },
+          {
+            "word": "creation",
+            "type": "reference",
+            "prompt": "“This vase is her latest creation.” creation在这里指什么？",
+            "options": [
+              "The shop where she works.",
+              "The vase she has made.",
+              "The tool she used.",
+              "The person who bought it."
+            ],
+            "answer": 1,
+            "explanation": "creation在这里是创作出来的作品，指她做的花瓶，不是商店、工具或买家。"
+          }
         ]
       },
       {
@@ -1057,6 +1258,73 @@
             ],
             "answer": 0,
             "explanation": "establishment在这里是营业场所，即街上的面包店。"
+          }
+        ],
+        "contextQuestions": [
+          {
+            "word": "sceptical",
+            "type": "reason",
+            "prompt": "广告说一种面霜一夜见效，Chen is sceptical。哪种反应最符合sceptical？",
+            "options": [
+              "I doubt it. What evidence is there?",
+              "I know for certain that it is false.",
+              "I fully believe it.",
+              "I do not understand the words."
+            ],
+            "answer": 0,
+            "explanation": "sceptical表示怀疑、想看证据，区别于完全相信、断定虚假或没听懂。"
+          },
+          {
+            "word": "rose",
+            "type": "context",
+            "prompt": "“She put a rose in the vase.” rose在这句话里是什么？",
+            "options": [
+              "A rise in price.",
+              "An action of standing up.",
+              "A flower.",
+              "A kind of container."
+            ],
+            "answer": 2,
+            "explanation": "a rose在这里是名词，指玫瑰花；不是rise的过去式。"
+          },
+          {
+            "word": "nice",
+            "type": "inference",
+            "prompt": "想真诚称赞一个人友善，哪句话使用nice最合适？",
+            "options": [
+              "It was nice of her to insult the new student.",
+              "It was nice of her to help the new student.",
+              "It was nice of her to steal his phone.",
+              "It was nice of her to spread lies about him."
+            ],
+            "answer": 1,
+            "explanation": "nice在这里称赞行为友善；帮助新同学符合，侮辱、偷窃或散布谎言都不符合这种真诚称赞。"
+          },
+          {
+            "word": "trade",
+            "type": "context",
+            "prompt": "“She learned the plumbing trade.” trade在这里指什么？",
+            "options": [
+              "A single exchange of goods.",
+              "The price of a product.",
+              "A journey to another country.",
+              "A skilled job or occupation."
+            ],
+            "answer": 3,
+            "explanation": "trade在这里指水管维修这类有专门技能的职业，不是一次交易或商品价格。"
+          },
+          {
+            "word": "establishment",
+            "type": "context",
+            "prompt": "“This establishment serves breakfast from seven.” establishment在这里指什么？",
+            "options": [
+              "A business such as a café.",
+              "The act of setting something up.",
+              "A customer’s meal.",
+              "A rule about breakfast."
+            ],
+            "answer": 0,
+            "explanation": "establishment在这里是营业场所，例如咖啡馆，不是“建立”这个过程。"
           }
         ]
       },
@@ -1160,6 +1428,73 @@
             "answer": 1,
             "explanation": "短暂看不见鸟，不足以证明鸟已不存在；文末强调需要更多证据。"
           }
+        ],
+        "contextQuestions": [
+          {
+            "word": "layer",
+            "type": "context",
+            "prompt": "“Spread a thin layer of paint on the wood.” layer表示什么？",
+            "options": [
+              "The colour of the paint.",
+              "A covering of paint on the surface.",
+              "A tool for painting.",
+              "The inside of the wood."
+            ],
+            "answer": 1,
+            "explanation": "layer是一层覆盖物；这里指木头表面的一层漆，不是颜色或工具。"
+          },
+          {
+            "word": "system",
+            "type": "reason",
+            "prompt": "“We need a better system for booking rooms.” 哪项是在改进这里的system？",
+            "options": [
+              "Paint the walls blue.",
+              "Buy softer chairs.",
+              "Set shared rules for requests and confirmations.",
+              "Move one desk nearer the door."
+            ],
+            "answer": 2,
+            "explanation": "system在这里是预订流程体系；统一申请和确认规则是在改进体系，装修或挪家具不是。"
+          },
+          {
+            "word": "mother",
+            "type": "context",
+            "prompt": "填入常用亲属称谓：“My father and my ____ are my parents.”",
+            "options": [
+              "mother",
+              "aunt",
+              "sister",
+              "daughter"
+            ],
+            "answer": 0,
+            "explanation": "mother是母亲，与father（父亲）一起构成这里的parents（父母）。"
+          },
+          {
+            "word": "witness",
+            "type": "inference",
+            "prompt": "“A witness saw the cyclist fall.” witness在这里的关键特征是什么？",
+            "options": [
+              "The person caused the fall.",
+              "The person treated the cyclist.",
+              "The person heard a rumour later.",
+              "The person saw the event happen."
+            ],
+            "answer": 3,
+            "explanation": "witness是目击者，亲眼看到事件发生，不一定是肇事者或救治者。"
+          },
+          {
+            "word": "exist",
+            "type": "reason",
+            "prompt": "“The original map no longer exists.” 哪种情况符合no longer exists？",
+            "options": [
+              "The map is locked in a drawer.",
+              "The map has been destroyed and is no longer there.",
+              "The map has been moved to another room.",
+              "The map is present but not on display."
+            ],
+            "answer": 1,
+            "explanation": "exist表示存在；被毁且不复存在符合句意，藏起、移走或不展出都不等于不存在。"
+          }
         ]
       },
       {
@@ -1261,6 +1596,73 @@
             ],
             "answer": 0,
             "explanation": "卡片上固定的是碳粉，其他材料没有用于这个模型。"
+          }
+        ],
+        "contextQuestions": [
+          {
+            "word": "reproduce",
+            "type": "paraphrase",
+            "prompt": "“The printer can reproduce the drawing.” 哪个改写最接近？",
+            "options": [
+              "It can make a copy of the drawing.",
+              "It can erase the drawing.",
+              "It can hide the drawing.",
+              "It can price the drawing."
+            ],
+            "answer": 0,
+            "explanation": "reproduce在这里指复制、再现图画，不是擦除、藏起或定价。"
+          },
+          {
+            "word": "tongue",
+            "type": "context",
+            "prompt": "“The soup touched the tip of my tongue.” tongue在这里指什么？",
+            "options": [
+              "The edge of a bowl.",
+              "A language I speak.",
+              "A part of a shoe.",
+              "A body part inside the mouth."
+            ],
+            "answer": 3,
+            "explanation": "tongue在这里是口中的舌头，不是语言或鞋舌。"
+          },
+          {
+            "word": "rear",
+            "type": "context",
+            "prompt": "“Use the rear entrance, not the front one.” rear在这里表示什么？",
+            "options": [
+              "At the side.",
+              "At the back.",
+              "At the top.",
+              "At the front."
+            ],
+            "answer": 1,
+            "explanation": "rear表示后部的，与front（前部的）相对。"
+          },
+          {
+            "word": "extraordinary",
+            "type": "inference",
+            "prompt": "想称赞一项远超平常水平的能力，哪句话使用extraordinary最合适？",
+            "options": [
+              "Her ordinary ability to remember one digit is extraordinary.",
+              "His completely average results are extraordinary because they are average.",
+              "Her extraordinary memory lets her recall hundreds of names after one meeting.",
+              "This entirely usual ability is extraordinary because nothing about it is unusual."
+            ],
+            "answer": 2,
+            "explanation": "extraordinary在称赞能力时表示非凡、远超平常；见一面记住数百个名字符合，普通或平均水平本身不符合。"
+          },
+          {
+            "word": "carbon",
+            "type": "context",
+            "prompt": "“Carbon dust left a black mark.” carbon指哪类物质？",
+            "options": [
+              "The chemical element C.",
+              "A plastic material.",
+              "A salt used in cooking.",
+              "A type of glass."
+            ],
+            "answer": 0,
+            "explanation": "carbon是化学元素碳，符号C；不指塑料、食盐或玻璃。"
           }
         ]
       }

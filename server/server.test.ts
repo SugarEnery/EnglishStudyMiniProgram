@@ -16,6 +16,16 @@ async function setup() {
   return { file, service: new StudyService(file, courses, async code => code) };
 }
 const reading = () => ({ id: randomUUID(), day: 1, lessonId: courses[0].content.lessons[0].id, type: 'read' as const });
+test('两套题分别按对应答案评分并独立保存',async()=>{
+ const copied=structuredClone(courses);const lesson=copied[0].content.lessons[0];
+ lesson.contextQuestions![0].answer=(lesson.questions[0].answer+1)%4;
+ const folder=await mkdtemp(join(tmpdir(),'miniapp-dual-quiz-'));const service=new StudyService(join(folder,'state.json'),copied,async code=>code);const {token}=await service.login({code:'dual-quiz'});
+ const base={...reading(),type:'quiz' as const,answers:lesson.questions.map(q=>q.answer)};
+ assert.equal((await service.saveEvent(token,base)).event.score,5);
+ assert.equal((await service.saveEvent(token,{...base,id:randomUUID(),quizVersion:'context-v1'})).event.score,4);
+ assert.equal((await service.saveEvent(token,{...base,id:randomUUID(),quizVersion:'context-v1',answers:lesson.contextQuestions!.map(q=>q.answer)})).event.score,5);
+ const events=(await service.events(token)).events;assert.equal(events.length,3);assert.equal(events[0].quizVersion,undefined);assert.equal(events[1].quizVersion,'context-v1');
+});
 test('回忆评分来自文本，空答案记错，拒绝自报与跨情境且重试幂等',async()=>{
  const {service}=await setup();const {token}=await service.login({code:'recall-user'});const course=courses[0];const lesson=course.content.lessons[0];const word=course.words.find(word=>lesson.paragraphs.some(p=>includesWord(p.en,word)))!;
  const input={id:randomUUID(),day:course.day,lessonId:lesson.id,type:'recall' as const,word,answerText:' '+word.toUpperCase()+' '};

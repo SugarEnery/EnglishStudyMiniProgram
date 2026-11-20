@@ -130,6 +130,12 @@ test('保存超时后重试相同操作复用记录编号，避免重复历史',
  await assert.rejects(session.record({id:'first',day:1,lessonId:lesson.id,type:'read'},lesson),/超时/);await session.record({id:'retry',day:1,lessonId:lesson.id,type:'read'},lesson);assert.deepEqual(ids,['first','first']);
  await session.record({id:'next',day:1,lessonId:lesson.id,type:'read'},lesson);assert.equal(ids.at(-1),'next');
 });
+test('新版题目不复用旧版本答卷的待重试编号',async()=>{
+ const fixture=setup();const session=fixture.create();await session.initialize();const ids:string[]=[];
+ fixture.deps.save=async(_mode,input,_lesson,known)=>{ids.push(input.id);if(ids.length===1)throw Error('响应超时');return [...known,entry(input.id)];};
+ await assert.rejects(session.record({id:'legacy-quiz',day:1,lessonId:lesson.id,type:'quiz',answers:[0]},lesson));
+ await session.record({id:'context-quiz',day:1,lessonId:lesson.id,type:'quiz',answers:[0],quizVersion:'context-v1'},lesson);assert.deepEqual(ids,['legacy-quiz','context-quiz']);
+});
 test('本机三天试学不受旧本机计划限制，微信计划仍严格匹配课程',async()=>{
  const fixture=setup();fixture.deps.loadPlan=async()=>({id:'9856ad24-d1ec-4a7c-863d-f3c0d518b38f',wordsPerDay:15,startedOn:'2026-10-21',version:'personal-v1'});const session=fixture.create();await session.initialize();await assert.rejects(session.selectDay(2));
  await session.openReview(2);assert.equal(session.getSnapshot().selectedDay,2);assert.equal(session.getSnapshot().reviewingCourse,true);const resumed=fixture.create();await resumed.initialize();assert.equal(resumed.getSnapshot().reviewingCourse,true);assert.equal(resumed.getSnapshot().selectedDay,2);

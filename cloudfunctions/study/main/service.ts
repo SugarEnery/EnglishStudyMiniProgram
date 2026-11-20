@@ -6,6 +6,7 @@ import {tokens} from '../../../src/shared/daily-types';
 import {includesWord} from '../../../src/shared/lexical';
 import {eventSchema,studyEventSchema} from '../../../src/shared/study-schema';
 import {scoreRecall,comparableEvent} from '../../../src/shared/recall';
+import {quizQuestions} from '../../../src/shared/quiz-questions';
 import {profileUpdateSchema} from '../../../src/shared/profile-schema';
 import {personalPlanSchema,createPersonalPlanSchema,updatePersonalPlanSchema} from '../../../src/shared/personal-plan';
 import {dailyContentSchema} from '../../../src/shared/daily-content';
@@ -73,16 +74,17 @@ export function createStudyService(repository:Repository,storage:Storage,options
   }
   if(path==='/api/events'&&method==='POST')return authenticated(owner,token,async tx=>{
    const event=eventSchema.parse(data);const course=courseCatalog.find(course=>course.day===event.day);const lesson=course?.content.lessons.find(lesson=>lesson.id===event.lessonId);if(!course||!lesson)throw new CloudError(400,'学习日或情境不存在');
+   const questions=event.type==='quiz'?quizQuestions(lesson,event.quizVersion):[];
    let recall:{answers:number[];score:number}|undefined;
    if(event.type==='recall'){try{recall=scoreRecall(event,course);}catch(error){throw new CloudError(400,(error as Error).message);}}
    else if(event.answerText!==undefined)throw new CloudError(400,'此记录类型不接受回忆作答文本');
-   else if(event.type==='quiz'){if(!event.answers||event.answers.length!==lesson.questions.length||event.word!==undefined||event.favorite!==undefined)throw new CloudError(400,'测验答案数量或字段无效');}
+   else if(event.type==='quiz'){if(!event.answers||event.answers.length!==questions.length||event.word!==undefined||event.favorite!==undefined)throw new CloudError(400,'测验答案数量或字段无效');}
    else if(event.type==='favorite'){const vocabulary=new Set(lesson.paragraphs.flatMap(paragraph=>tokens(paragraph.en)));if(!event.word||!course.content.dictionary[event.word]||(!vocabulary.has(event.word)&&!lesson.paragraphs.some(paragraph=>includesWord(paragraph.en,event.word!)))||event.favorite===undefined||event.answers!==undefined)throw new CloudError(400,'收藏单词或字段无效');}
    else if(event.word!==undefined||event.favorite!==undefined||event.answers!==undefined)throw new CloudError(400,'阅读记录字段无效');
    const id=`${owner}_${event.id}`;const existing=await tx.get(collections.events,id);
    if(existing){const row=stored(eventRowSchema,existing);if(row.owner!==owner)throw Error('云端事件归属错误');const {createdAt:_,score:__,...original}=row.event;if(JSON.stringify(comparableEvent(original))!==JSON.stringify(comparableEvent(event)))throw new CloudError(409,'记录编号已被其他内容使用');return {event:row.event};}
    const info=await profile(tx,owner);if(info.eventCount>=100000)throw new CloudError(413,'个人学习记录已达到容量上限');
-   const saved=studyEventSchema.parse({...event,createdAt:new Date(now()).toISOString(),...(event.type==='quiz'?{score:event.answers!.filter((answer,index)=>answer===lesson.questions[index].answer).length}:{}),...recall});
+   const saved=studyEventSchema.parse({...event,createdAt:new Date(now()).toISOString(),...(event.type==='quiz'?{score:event.answers!.filter((answer,index)=>answer===questions[index].answer).length}:{}),...recall});
    await tx.set(collections.profiles,owner,{...info,eventCount:info.eventCount+1});await tx.set(collections.events,id,{owner,sequence:info.eventCount+1,event:saved});return {event:saved};
   });
   if(path==='/api/profile'&&(method==='GET'||method==='POST'))return authenticated(owner,token,async tx=>{const info=await profile(tx,owner);if(method==='POST'){const patch=profileUpdateSchema.parse(data);Object.assign(info,patch);await tx.set(collections.profiles,owner,info);}else z.object({}).strict().parse(data??{});return publicProfile(info);});

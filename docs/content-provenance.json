@@ -1,10 +1,15 @@
 {
-  "daily-types.ts": "85ad9cc318d09fec3ef23a9e8123d11f4e93bb19d4044fcca39a8a336aa187cf",
+  "daily-validation.ts": "c385a6b57e2897a070dd577b83ba7ab9bf7e951eb98b2a02f8a6143cbdd72a17",
+  "adaptations": {
+    "daily-validation.ts": "2026-11-19小程序独立调整：第1天情景辨词试版允许中文说明，原来源SHA256为6ac3cf5dd3330ca7b9a91ebb8cf42859b8efb5286c873d0756a1f04bd9e8c169",
+    "day1.json": "2026-11-19原理解测验完整保留，新增contextQuestions情景辨词30题",
+    "daily-types.ts": "2026-11-19新增可选contextQuestions独立题集"
+  },
+  "daily-types.ts": "bbfb84fec3b6738f15bad71a614f2ffe77235fdbe3354ab7db5ec7a5871013f6",
   "daily-plan.ts": "d46afd1b176ba8835afaaa55549abcf0fb7fd6e137740c3d83ccb144daadd788",
-  "daily-validation.ts": "6ac3cf5dd3330ca7b9a91ebb8cf42859b8efb5286c873d0756a1f04bd9e8c169",
   "lexical.ts": "e2a3b78c45b1170126caf5b81f2e8018ead9bc0fa0a72e69ad176c170453609b",
   "oxford-wordlist.json": "2db9ec87f565ebc9377eab08f256c58283f0274f2ec91235f3309f9950ea609d",
-  "day1.json": "282720168540167a755dd2001c23b918187d1725d95648db16aac817c09907f8",
+  "day1.json": "74a184609ba77b3454a3043730c0d461f09f1b191cb69fa63eb18ede4cce8559",
   "day2.json": "0be3ba52eedc376191f756262b466c63a8b95fffb45e63c40527ffdca240e61d",
   "day3.json": "0fd4e67a3c6e5b45aaf8935f74da432e89c452cafd9b66592c82017803fe30cf",
   "legacy-v1/day1.json": "4a1f2e1607d407cf1a3d33e1dcac1221fe92109fc2d04555d14c746ddf3c7a46",

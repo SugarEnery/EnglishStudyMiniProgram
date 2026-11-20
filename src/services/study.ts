@@ -9,6 +9,7 @@ export {completed,favorites,latestQuiz} from '../shared/progress';
 import type {EventInput,StudyEvent,DaySummary,SessionResponse} from '../shared/study-types';
 import {studyEventSchema,eventSchema} from '../shared/study-schema';
 import {scoreRecall,comparableEvent} from '../shared/recall';
+import {quizQuestions} from '../shared/quiz-questions';
 export type {EventInput,StudyEvent,DaySummary} from '../shared/study-types';
 export type Mode='local'|'wechat';
 const localBatches=courseCatalog;
@@ -68,7 +69,11 @@ export async function save(mode:Mode,input:EventInput,lesson:DailyBatch['content
  if(existing){const {createdAt:_,score:__,...original}=existing;if(JSON.stringify(comparableEvent(original))!==JSON.stringify(comparableEvent(input)))throw Error('记录编号已被其他内容使用');return all;}
  const event:StudyEvent={...input,createdAt:new Date().toISOString()};
  if(recall)Object.assign(event,recall);
- if(input.type==='quiz')event.score=lesson.questions.filter((q,i)=>q.answer===input.answers?.[i]).length;
+ if(input.type==='quiz'){
+  const questions=quizQuestions(lesson,input.quizVersion);
+  if(!input.answers||input.answers.length!==questions.length)throw Error('测验答案数量无效');
+  event.score=questions.filter((q,i)=>q.answer===input.answers?.[i]).length;
+ }
  if(all.length>=100000)throw Error('个人学习记录已达到容量上限');
  const saved=studyEventSchema.parse(event);all.push(saved);Taro.setStorageSync(localKey,all);return all;
 }
